@@ -1,0 +1,11 @@
+﻿contract_field,specification_requirement,status
+Objective/task semantics,"Observed analytics versus future/unknown target, entity, metric, dimensional unit and decision utility.",Required design definition; no runtime pipeline implemented
+Authorized source bindings,Source version/hash and actual field/position references from discovered schema; allowed projections and use scope.,Required design definition; no runtime pipeline implemented
+Semantic/target version,"Owner-approved outcome equation, identity/record grain, reporting unit/currency/sign and effective approval version.",Required design definition; no runtime pipeline implemented
+Time/population contract,"Event/available/as-of roles, cutoff t, H, lookback, calendar, eligibility, exposure, completeness and maturity/censoring.",Required design definition; no runtime pipeline implemented
+Representation/quality contract,Approved parsing/normalization/optional/duplicate/treatment policy plus unresolved-record and collision semantics.,Required design definition; no runtime pipeline implemented
+Relation/grain contract,"Exact scoped/temporal keys, cardinality, null/unmatched behavior, allowed grain change and measure-conservation expectation.",Required design definition; no runtime pipeline implemented
+Feature/input contract,"Required roles, cutoff availability, fit scope, transform artifact and final model schema; no feature computations here.",Required design definition; no runtime pipeline implemented
+Model capability metadata,"Task/target compatibility, trained domain/history/entities/H, units, preprocessing and schema versions, evaluation and uncertainty limits.",Required design definition; no runtime pipeline implemented
+Structured external request/result,Integration-neutral contract for the other developer: objective/entity/metric/time/H/grain/constraints and result status/evidence/lineage; no question catalogue.,Required design definition; no runtime pipeline implemented
+Release and audit contract,"Approved owner/rule references, counts/lineage/exception reports, immutable inputs, reproducible derivative versions and explicit execution permission.",Required design definition; no runtime pipeline implemented

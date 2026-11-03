@@ -1,0 +1,41 @@
+test_unseen_invoice_forecast_uses_all_compatible_actual_models (tests.test_dynamic_business_query.DynamicBusinessQueryTests.test_unseen_invoice_forecast_uses_all_compatible_actual_models) ... FAIL
+test_plan_is_reproducible_and_includes_dataset_and_model_hashes (tests.test_dynamic_business_query.DynamicBusinessQueryTests.test_plan_is_reproducible_and_includes_dataset_and_model_hashes) ... FAIL
+test_dependency_mismatch_blocks_before_unpickling (tests.test_dynamic_business_query.DynamicBusinessQueryTests.test_dependency_mismatch_blocks_before_unpickling) ... FAIL
+test_fresh_process_uses_same_entry_point_and_json_output (tests.test_dynamic_business_query.DynamicBusinessQueryTests.test_fresh_process_uses_same_entry_point_and_json_output) ... FAIL
+
+======================================================================
+FAIL: test_unseen_invoice_forecast_uses_all_compatible_actual_models (tests.test_dynamic_business_query.DynamicBusinessQueryTests.test_unseen_invoice_forecast_uses_all_compatible_actual_models)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\Aroha_Files\NOP_Project\tests\test_dynamic_business_query.py", line 29, in test_unseen_invoice_forecast_uses_all_compatible_actual_models
+    self.assertEqual(len(response["predictions"]), 2)
+AssertionError: 3 != 2
+
+======================================================================
+FAIL: test_plan_is_reproducible_and_includes_dataset_and_model_hashes (tests.test_dynamic_business_query.DynamicBusinessQueryTests.test_plan_is_reproducible_and_includes_dataset_and_model_hashes)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\Aroha_Files\NOP_Project\tests\test_dynamic_business_query.py", line 118, in test_plan_is_reproducible_and_includes_dataset_and_model_hashes
+    self.assertEqual(len(first["plan"]["models"]), 2)
+AssertionError: 3 != 2
+
+======================================================================
+FAIL: test_dependency_mismatch_blocks_before_unpickling (tests.test_dynamic_business_query.DynamicBusinessQueryTests.test_dependency_mismatch_blocks_before_unpickling)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\Aroha_Files\NOP_Project\tests\test_dynamic_business_query.py", line 127, in test_dependency_mismatch_blocks_before_unpickling
+    self.assertEqual(len(result["model_failures"]), 2)
+AssertionError: 3 != 2
+
+======================================================================
+FAIL: test_fresh_process_uses_same_entry_point_and_json_output (tests.test_dynamic_business_query.DynamicBusinessQueryTests.test_fresh_process_uses_same_entry_point_and_json_output)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\Aroha_Files\NOP_Project\tests\test_dynamic_business_query.py", line 149, in test_fresh_process_uses_same_entry_point_and_json_output
+    self.assertEqual(len(result["predictions"]), 2)
+AssertionError: 3 != 2
+
+----------------------------------------------------------------------
+Ran 4 tests in 26.019s
+
+FAILED (failures=4)

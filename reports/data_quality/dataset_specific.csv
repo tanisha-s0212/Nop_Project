@@ -1,0 +1,10 @@
+﻿file,worksheet,column,finding,affected_records,recommended_resolution,raw_values_and_counts,proposed_interpretation
+Exchange Rate 1.xlsx,INR to JPY,preamble,Explicit synthetic-data marker in source title,7,Confirm the intended use and whether synthetic scope extends to other files.,,
+Exchange Rate.xlsx,INR to JPY,preamble,Explicit synthetic-data marker in source title,22,Confirm the intended use and whether synthetic scope extends to other files.,,
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),document totals,Document totals may repeat on line-level rows; no unvalidated line-to-document total summation applied,6,"Confirm document series, fiscal scope and line grain before document reconciliation.",,
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),document totals,Document totals may repeat on line-level rows; no unvalidated line-to-document total summation applied,276,"Confirm document series, fiscal scope and line grain before document reconciliation.",,
+GSTR1_Invoice.csv,(CSV table),document totals,Document totals may repeat on line-level rows; no unvalidated line-to-document total summation applied,337,"Confirm document series, fiscal scope and line grain before document reconciliation.",,
+Sales Invoice Details 1.xlsx,Sheet1,document totals,Document totals may repeat on line-level rows; no unvalidated line-to-document total summation applied,100183,"Confirm document series, fiscal scope and line grain before document reconciliation.",,
+Sales Invoice Details.xlsx,Sheet1,document totals,Document totals may repeat on line-level rows; no unvalidated line-to-document total summation applied,337,"Confirm document series, fiscal scope and line grain before document reconciliation.",,
+Sales_Order_Data_202609.xlsx,Customer list,preamble,Explicit synthetic-data marker in source title,43,Confirm the intended use and whether synthetic scope extends to other files.,,
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,<blank column 1>,Header is blank; data exists,33,Ask source owner for the field definition; retain positional label until approved.,"{""NOPJ"": 33}",Agency/source marker is plausible from neighboring PTC_NOPI Sales agency column; unconfirmed

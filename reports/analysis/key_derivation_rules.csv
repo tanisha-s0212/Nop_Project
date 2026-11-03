@@ -1,0 +1,6 @@
+﻿table,diagnostic_key,rule,scope_uncertainty
+Exchange Rate 1.xlsx :: INR to JPY,@explicit_month_period,Native month or explicit YYYY-MM / English named month only; no transaction date parsing,Fiscal period start/end applicability and synthetic rates require confirmation
+Exchange Rate.xlsx :: INR to JPY,@explicit_month_period,Native month or explicit YYYY-MM / English named month only; no transaction date parsing,Fiscal period start/end applicability and synthetic rates require confirmation
+GSTR1_Credit_Debit_Note 1.csv :: (CSV table),@scoped_note,Doc_Series_Prefix + Doc_Series_Suffix + CreditDebitNote_Number; suffix already contains CN/DN and period,Verify series versus suffix and document type consistency; not a declared business key
+GSTR1_Credit_Debit_Note 2.csv :: (CSV table),@scoped_note,Doc_Series_Prefix + Doc_Series_Suffix + CreditDebitNote_Number; suffix already contains CN/DN and period,Verify series versus suffix and document type consistency; not a declared business key
+GSTR1_Invoice.csv :: (CSV table),@scoped_invoice,Doc_Series_Prefix + Doc_Series + Invoice_Number + Doc_Series_Suffix; blanks allowed only in suffix,Observed prefix/series reconstruction only; issuer and fiscal scope need owner confirmation

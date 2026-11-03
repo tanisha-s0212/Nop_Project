@@ -1,0 +1,74 @@
+{
+  "rows": 165,
+  "columns": [
+    "source_row",
+    "document_id",
+    "event_date",
+    "quantity",
+    "item_code",
+    "target_value"
+  ],
+  "dtypes": {
+    "source_row": "int64",
+    "document_id": "str",
+    "event_date": "str",
+    "quantity": "int64",
+    "item_code": "str",
+    "target_value": "int64"
+  },
+  "missing_or_blank": {
+    "source_row": 0,
+    "document_id": 0,
+    "event_date": 0,
+    "quantity": 0,
+    "item_code": 0,
+    "target_value": 0
+  },
+  "references": 111,
+  "references_with_multiple_rows": 35,
+  "max_rows_per_reference": 3,
+  "duplicate_source_rows": 0,
+  "duplicate_document_item_excess_rows": 0,
+  "exact_duplicate_rows": 0,
+  "duplicate_rows_excluding_lineage": 0,
+  "items": 92,
+  "items_seen_once": 48,
+  "max_item_months": 4,
+  "median_item_months": 1.0,
+  "date_start": "2025-12-22",
+  "date_end": "2026-09-13",
+  "observed_dates": 77,
+  "observed_months": 10,
+  "monthly_rows": {
+    "2025-12": 14,
+    "2026-01": 26,
+    "2026-02": 16,
+    "2026-03": 23,
+    "2026-04": 16,
+    "2026-05": 23,
+    "2026-06": 23,
+    "2026-07": 17,
+    "2026-08": 6,
+    "2026-09": 1
+  },
+  "target_summary": {
+    "count": 165.0,
+    "mean": 243653.27272727274,
+    "std": 412891.3951492684,
+    "min": 3375.0,
+    "25%": 43200.0,
+    "50%": 116640.0,
+    "75%": 229500.0,
+    "max": 2310000.0
+  },
+  "quantity_summary": {
+    "count": 165.0,
+    "mean": 3.484848484848485,
+    "std": 2.885214750019909,
+    "min": 1.0,
+    "25%": 1.0,
+    "50%": 2.0,
+    "75%": 5.0,
+    "max": 10.0
+  }
+}

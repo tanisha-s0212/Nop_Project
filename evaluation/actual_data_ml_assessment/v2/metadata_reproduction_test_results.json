@@ -1,0 +1,11 @@
+{
+  "tests": [
+    "tests.test_ml_assessment_v2.MLAssessmentV2Tests.test_reproduction_uses_an_unused_version_and_preserves_registered_artifacts",
+    "tests.test_ml_assessment_v2.MLAssessmentV2Tests.test_monthly_baseline_reproduction_preserves_evaluation_and_input_contract"
+  ],
+  "tests_run": 2,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "successful": true
+}

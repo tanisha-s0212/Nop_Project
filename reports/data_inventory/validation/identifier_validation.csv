@@ -1,0 +1,136 @@
+﻿file,worksheet,column_number,column_name,initially_flagged,semantic_role,data_rows,null_or_blank_rows,nulls_on_nonempty_rows,entirely_empty_data_rows,nonblank_rows,distinct_nonblank_values,duplicate_value_groups,duplicate_excess_rows,rows_with_duplicated_values,full_nonblank_column_unique,unique_and_no_nulls,empirical_primary_key_candidate,primary_key_confirmed
+Customer Master Report 1.xlsx,Sheet1,1,#,True,row ordinal; not a business primary key,40,0,0,0,40,40,0,0,0,True,True,False,False
+Customer Master Report 1.xlsx,Sheet1,2,CUSTOMER CODE,True,entity/document reference; candidate only,40,0,0,0,40,40,0,0,0,True,True,True,False
+Customer Master Report 1.xlsx,Sheet1,3,CUSTOMER NAME,True,measure/descriptive attribute; sampled uniqueness is insufficient,40,0,0,0,40,40,0,0,0,True,True,False,False
+Customer Master Report 1.xlsx,Sheet1,7,MOBILE PHONE,True,contact/location/bank attribute; uniqueness does not establish a primary key,40,0,0,0,40,40,0,0,0,True,True,False,False
+Customer Master Report 1.xlsx,Sheet1,8,Fax Number,True,contact/location/bank attribute; uniqueness does not establish a primary key,40,40,40,0,0,0,0,0,0,False,False,False,False
+Customer Master Report 1.xlsx,Sheet1,15,ADDRESS 2,True,measure/descriptive attribute; sampled uniqueness is insufficient,40,0,0,0,40,40,0,0,0,True,True,False,False
+Customer Master Report 1.xlsx,Sheet1,20,ZIP CODE,True,contact/location/bank attribute; uniqueness does not establish a primary key,40,0,0,0,40,40,0,0,0,True,True,False,False
+Customer Master Report 1.xlsx,Sheet1,23,STREET NO.,True,contact/location/bank attribute; uniqueness does not establish a primary key,40,40,40,0,0,0,0,0,0,False,False,False,False
+Customer Master Report 1.xlsx,Sheet1,24,BUILDING/FLOOR/ROOM,True,measure/descriptive attribute; sampled uniqueness is insufficient,40,0,0,0,40,40,0,0,0,True,True,False,False
+Customer Master Report 1.xlsx,Sheet1,25,GSTIN,True,party/tax identifier; business semantics need confirmation,40,8,8,0,32,32,0,0,0,True,False,False,False
+Customer Master Report 1.xlsx,Sheet1,27,BANK CODE,True,contact/location/bank attribute; uniqueness does not establish a primary key,40,0,0,0,40,1,1,39,40,False,False,False,False
+Customer Master Report 1.xlsx,Sheet1,28,ACCOUNT NO.,True,contact/location/bank attribute; uniqueness does not establish a primary key,40,40,40,0,0,0,0,0,0,False,False,False,False
+Customer Master Report 1.xlsx,Sheet1,31,SWIFT CODE / IFS CODE,True,contact/location/bank attribute; uniqueness does not establish a primary key,40,40,40,0,0,0,0,0,0,False,False,False,False
+Customer Master Report 1.xlsx,Sheet1,32,PAN NO.,True,party/tax identifier; business semantics need confirmation,40,8,8,0,32,32,0,0,0,True,False,False,False
+Customer Master Report 2.xlsx,Sheet1,1,#,True,row ordinal; not a business primary key,5015,3,0,3,5012,5012,0,0,0,True,False,False,False
+Customer Master Report 2.xlsx,Sheet1,2,CUSTOMER CODE,True,entity/document reference; candidate only,5015,3,0,3,5012,4997,15,15,30,False,False,False,False
+Customer Master Report 2.xlsx,Sheet1,8,Fax Number,True,contact/location/bank attribute; uniqueness does not establish a primary key,5015,5015,5012,3,0,0,0,0,0,False,False,False,False
+Customer Master Report 2.xlsx,Sheet1,20,ZIP CODE,True,contact/location/bank attribute; uniqueness does not establish a primary key,5015,3,0,3,5012,4991,21,21,42,False,False,False,False
+Customer Master Report 2.xlsx,Sheet1,23,STREET NO.,True,contact/location/bank attribute; uniqueness does not establish a primary key,5015,5015,5012,3,0,0,0,0,0,False,False,False,False
+Customer Master Report 2.xlsx,Sheet1,25,GSTIN,False,party/tax identifier; business semantics need confirmation,5015,729,726,3,4286,4120,17,166,183,False,False,False,False
+Customer Master Report 2.xlsx,Sheet1,27,BANK CODE,True,contact/location/bank attribute; uniqueness does not establish a primary key,5015,3,0,3,5012,1,1,5011,5012,False,False,False,False
+Customer Master Report 2.xlsx,Sheet1,28,ACCOUNT NO.,True,contact/location/bank attribute; uniqueness does not establish a primary key,5015,5015,5012,3,0,0,0,0,0,False,False,False,False
+Customer Master Report 2.xlsx,Sheet1,31,SWIFT CODE / IFS CODE,True,contact/location/bank attribute; uniqueness does not establish a primary key,5015,5015,5012,3,0,0,0,0,0,False,False,False,False
+Customer Master Report 2.xlsx,Sheet1,32,PAN NO.,True,party/tax identifier; business semantics need confirmation,5015,890,887,3,4125,4114,11,11,22,False,False,False,False
+Exchange Rate 1.xlsx,INR to JPY,1,Rate Month  ,True,date/period attribute; not established as a primary key,7,0,0,0,7,7,0,0,0,True,True,False,False
+Exchange Rate 1.xlsx,INR to JPY,2,Start Date,True,date/period attribute; not established as a primary key,7,0,0,0,7,7,0,0,0,True,True,False,False
+Exchange Rate 1.xlsx,INR to JPY,3,End Date,True,date/period attribute; not established as a primary key,7,0,0,0,7,7,0,0,0,True,True,False,False
+Exchange Rate 1.xlsx,INR to JPY,6,Exchange Rate (1 INR = ? JPY),True,measure/descriptive attribute; sampled uniqueness is insufficient,7,0,0,0,7,7,0,0,0,True,True,False,False
+Exchange Rate.xlsx,INR to JPY,1,Rate Month,True,date/period attribute; not established as a primary key,22,0,0,0,22,22,0,0,0,True,True,False,False
+Exchange Rate.xlsx,INR to JPY,2,Start Date,True,date/period attribute; not established as a primary key,22,0,0,0,22,22,0,0,0,True,True,False,False
+Exchange Rate.xlsx,INR to JPY,3,End Date,True,date/period attribute; not established as a primary key,22,0,0,0,22,22,0,0,0,True,True,False,False
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),2,CreditDebitNote_Number,False,entity/document reference; candidate only,6,0,0,0,6,3,3,3,6,False,False,False,False
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),5,Invoice_Number,False,entity/document reference; candidate only,6,0,0,0,6,6,0,0,0,True,True,True,False
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),7,Customer_Shipping/Billing_GSTIN,False,party/tax identifier; business semantics need confirmation,6,0,0,0,6,4,1,2,3,False,False,False,False
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),12,HSN_SAC_code,False,classification code; not a row identifier,6,0,0,0,6,4,2,2,4,False,False,False,False
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),29,Original_CreditDebitNote_Number,False,entity/document reference; candidate only,6,6,6,0,0,0,0,0,0,False,False,False,False
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),30,Original_Customer_Billing_GSTIN,False,party/tax identifier; business semantics need confirmation,6,0,0,0,6,4,1,2,3,False,False,False,False
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),31,Supplier_GSTIN,False,party/tax identifier; business semantics need confirmation,6,0,0,0,6,1,1,5,6,False,False,False,False
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),40,Location_State_Code,False,classification code; not a row identifier,6,0,0,0,6,1,1,5,6,False,False,False,False
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),49,Port_Code,False,classification code; not a row identifier,6,6,6,0,0,0,0,0,0,False,False,False,False
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),56,Shipping_Bill_No,False,entity/document reference; candidate only,6,6,6,0,0,0,0,0,0,False,False,False,False
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),58,GSTIN_As_per_Billing_Address,False,party/tax identifier; business semantics need confirmation,6,0,0,0,6,1,1,5,6,False,False,False,False
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),59,Customer_Bill_To_GSTIN,False,party/tax identifier; business semantics need confirmation,6,0,0,0,6,4,1,2,3,False,False,False,False
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),2,CreditDebitNote_Number,False,entity/document reference; candidate only,279,3,0,3,276,229,43,47,90,False,False,False,False
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),5,Invoice_Number,False,entity/document reference; candidate only,279,3,0,3,276,249,24,27,51,False,False,False,False
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),7,Customer_Shipping/Billing_GSTIN,False,party/tax identifier; business semantics need confirmation,279,49,46,3,230,147,51,83,134,False,False,False,False
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),12,HSN_SAC_code,False,classification code; not a row identifier,279,3,0,3,276,6,5,270,275,False,False,False,False
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),29,Original_CreditDebitNote_Number,False,entity/document reference; candidate only,279,279,276,3,0,0,0,0,0,False,False,False,False
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),30,Original_Customer_Billing_GSTIN,False,party/tax identifier; business semantics need confirmation,279,49,46,3,230,147,51,83,134,False,False,False,False
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),31,Supplier_GSTIN,False,party/tax identifier; business semantics need confirmation,279,3,0,3,276,1,1,275,276,False,False,False,False
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),40,Location_State_Code,False,classification code; not a row identifier,279,3,0,3,276,1,1,275,276,False,False,False,False
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),49,Port_Code,False,classification code; not a row identifier,279,279,276,3,0,0,0,0,0,False,False,False,False
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),56,Shipping_Bill_No,False,entity/document reference; candidate only,279,279,276,3,0,0,0,0,0,False,False,False,False
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),58,GSTIN_As_per_Billing_Address,False,party/tax identifier; business semantics need confirmation,279,3,0,3,276,1,1,275,276,False,False,False,False
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),59,Customer_Bill_To_GSTIN,False,party/tax identifier; business semantics need confirmation,279,49,46,3,230,147,51,83,134,False,False,False,False
+GSTR1_Invoice.csv,(CSV table),2,Invoice_Number,False,entity/document reference; candidate only,337,0,0,0,337,178,86,159,245,False,False,False,False
+GSTR1_Invoice.csv,(CSV table),5,Customer_Shipping/Billing_GSTIN,False,party/tax identifier; business semantics need confirmation,337,59,59,0,278,32,32,246,278,False,False,False,False
+GSTR1_Invoice.csv,(CSV table),10,HSN_SAC_code,False,classification code; not a row identifier,337,0,0,0,337,6,6,331,337,False,False,False,False
+GSTR1_Invoice.csv,(CSV table),28,Original_Invoice_Number,False,entity/document reference; candidate only,337,337,337,0,0,0,0,0,0,False,False,False,False
+GSTR1_Invoice.csv,(CSV table),29,Original_Customer_Billing_GSTIN,False,party/tax identifier; business semantics need confirmation,337,59,59,0,278,32,32,246,278,False,False,False,False
+GSTR1_Invoice.csv,(CSV table),30,GSTIN_eCommerce,False,party/tax identifier; business semantics need confirmation,337,337,337,0,0,0,0,0,0,False,False,False,False
+GSTR1_Invoice.csv,(CSV table),32,AdvanceReceipt_Document_Number,False,entity/document reference; candidate only,337,337,337,0,0,0,0,0,0,False,False,False,False
+GSTR1_Invoice.csv,(CSV table),35,Shipping_Bill_Number,False,entity/document reference; candidate only,337,337,337,0,0,0,0,0,0,False,False,False,False
+GSTR1_Invoice.csv,(CSV table),38,Supplier_GSTIN,False,party/tax identifier; business semantics need confirmation,337,0,0,0,337,1,1,336,337,False,False,False,False
+GSTR1_Invoice.csv,(CSV table),45,Location_State_Code,False,classification code; not a row identifier,337,0,0,0,337,1,1,336,337,False,False,False,False
+GSTR1_Invoice.csv,(CSV table),54,Port_Code,False,classification code; not a row identifier,337,337,337,0,0,0,0,0,0,False,False,False,False
+GSTR1_Invoice.csv,(CSV table),60,GSTIN_As_per_Billing_Address,False,party/tax identifier; business semantics need confirmation,337,0,0,0,337,1,1,336,337,False,False,False,False
+GSTR1_Invoice.csv,(CSV table),61,Customer_Bill_To_GSTIN,False,party/tax identifier; business semantics need confirmation,337,59,59,0,278,32,32,246,278,False,False,False,False
+Inventory Audit Report as on 200327.xlsx,Sheet1,1,#,True,row ordinal; not a business primary key,108129,5,0,5,108124,108124,0,0,0,True,False,False,False
+Inventory Audit Report as on 200327.xlsx,Sheet1,2, Item No. ,True,entity/document reference; candidate only,108129,103119,103114,5,5010,5010,0,0,0,True,False,False,False
+Inventory Audit Report as on 200327.xlsx,Sheet1,3,Description,True,measure/descriptive attribute; sampled uniqueness is insufficient,108129,103119,103114,5,5010,5010,0,0,0,True,False,False,False
+Inventory Audit Report as on 200327.xlsx,Sheet1,6,Document,False,entity/document reference; candidate only,108129,5015,5010,5,103114,92102,6000,11012,17012,False,False,False,False
+Inventory Audit Report as on 200926 1.xlsx,Sheet1,1,#,True,row ordinal; not a business primary key,162,0,0,0,162,162,0,0,0,True,True,False,False
+Inventory Audit Report as on 200926 1.xlsx,Sheet1,2,Item No.,True,entity/document reference; candidate only,162,110,110,0,52,52,0,0,0,True,False,False,False
+Inventory Audit Report as on 200926 1.xlsx,Sheet1,3,Description,True,measure/descriptive attribute; sampled uniqueness is insufficient,162,110,110,0,52,52,0,0,0,True,False,False,False
+Inventory Audit Report as on 200926 1.xlsx,Sheet1,6,Document,False,entity/document reference; candidate only,162,52,52,0,110,47,10,63,73,False,False,False,False
+Inventory Audit Report as on 200926.xlsx,Sheet1,1,#,True,row ordinal; not a business primary key,162,0,0,0,162,162,0,0,0,True,True,False,False
+Inventory Audit Report as on 200926.xlsx,Sheet1,2,Item No.,True,entity/document reference; candidate only,162,110,110,0,52,52,0,0,0,True,False,False,False
+Inventory Audit Report as on 200926.xlsx,Sheet1,3,Description,True,measure/descriptive attribute; sampled uniqueness is insufficient,162,110,110,0,52,52,0,0,0,True,False,False,False
+Inventory Audit Report as on 200926.xlsx,Sheet1,6,Document,False,entity/document reference; candidate only,162,52,52,0,110,47,10,63,73,False,False,False,False
+Item Master Lists 1.xlsx,Item Lists,1,#,True,row ordinal; not a business primary key,150,0,0,0,150,150,0,0,0,True,True,False,False
+Item Master Lists 1.xlsx,Item Lists,2,Item No.,True,entity/document reference; candidate only,150,0,0,0,150,150,0,0,0,True,True,True,False
+Item Master Lists 1.xlsx,Item Lists,3,Item Description,True,measure/descriptive attribute; sampled uniqueness is insufficient,150,0,0,0,150,150,0,0,0,True,True,False,False
+Item Master Lists 1.xlsx,Item Lists,8,foreign Code,True,entity/document reference; candidate only,150,47,47,0,103,103,0,0,0,True,False,False,False
+Item Master Lists 1.xlsx,Item Lists,11,HSN Code,True,classification code; not a row identifier,150,0,0,0,150,7,7,143,150,False,False,False,False
+Item Master Lists 2.xlsx,Item Lists,1,#,True,row ordinal; not a business primary key,5015,3,0,3,5012,5012,0,0,0,True,False,False,False
+Item Master Lists 2.xlsx,Item Lists,2,Item No.,True,entity/document reference; candidate only,5015,3,0,3,5012,5000,12,12,24,False,False,False,False
+Item Master Lists 2.xlsx,Item Lists,8,foreign Code,True,entity/document reference; candidate only,5015,2072,2069,3,2943,2938,5,5,10,False,False,False,False
+Item Master Lists 2.xlsx,Item Lists,11,HSN Code,True,classification code; not a row identifier,5015,3,0,3,5012,9,9,5003,5012,False,False,False,False
+Sales Invoice Details 1.xlsx,Sheet1,1,#,True,row ordinal; not a business primary key,100188,5,0,5,100183,100183,0,0,0,True,False,False,False
+Sales Invoice Details 1.xlsx,Sheet1,4,SO Num,True,entity/document reference; candidate only,100188,5,0,5,100183,29412,23289,70771,94060,False,False,False,False
+Sales Invoice Details 1.xlsx,Sheet1,5,Customer Ref. No.,True,entity/document reference; candidate only,100188,5,0,5,100183,8675,8423,91508,99931,False,False,False,False
+Sales Invoice Details 1.xlsx,Sheet1,7,Invoice Num,True,entity/document reference; candidate only,100188,5,0,5,100183,35683,24867,64500,89367,False,False,False,False
+Sales Invoice Details 1.xlsx,Sheet1,14,Part Code SAP Code,True,entity/document reference; candidate only,100188,946,941,5,99242,7339,4695,91903,96598,False,False,False,False
+Sales Invoice Details 1.xlsx,Sheet1,15,Item Foreign Code,True,entity/document reference; candidate only,100188,30696,30691,5,69492,4651,3200,64841,68041,False,False,False,False
+Sales Invoice Details 1.xlsx,Sheet1,17,HSN Code,True,classification code; not a row identifier,100188,790,785,5,99398,11,11,99387,99398,False,False,False,False
+Sales Invoice Details 1.xlsx,Sheet1,18,SAC Code,True,classification code; not a row identifier,100188,99247,99242,5,941,1,1,940,941,False,False,False,False
+Sales Invoice Details 1.xlsx,Sheet1,39,Customer Shipping GSTIN,False,party/tax identifier; business semantics need confirmation,100188,17319,17314,5,82869,3427,3217,79442,82659,False,False,False,False
+Sales Invoice Details 1.xlsx,Sheet1,40,Customer Billing GSTIN,False,party/tax identifier; business semantics need confirmation,100188,17319,17314,5,82869,4955,3534,77914,81448,False,False,False,False
+Sales Invoice Details.xlsx,Sheet1,1,#,True,row ordinal; not a business primary key,337,0,0,0,337,337,0,0,0,True,True,False,False
+Sales Invoice Details.xlsx,Sheet1,4,SO Num,True,entity/document reference; candidate only,337,0,0,0,337,209,86,128,214,False,False,False,False
+Sales Invoice Details.xlsx,Sheet1,5,Customer Ref. No.,True,entity/document reference; candidate only,337,0,0,0,337,208,87,129,216,False,False,False,False
+Sales Invoice Details.xlsx,Sheet1,7,Invoice Num,True,entity/document reference; candidate only,337,0,0,0,337,234,70,103,173,False,False,False,False
+Sales Invoice Details.xlsx,Sheet1,14,Part Code SAP Code,True,entity/document reference; candidate only,337,14,14,0,323,109,90,214,304,False,False,False,False
+Sales Invoice Details.xlsx,Sheet1,15,Item Foreign Code,True,entity/document reference; candidate only,337,59,59,0,278,94,77,184,261,False,False,False,False
+Sales Invoice Details.xlsx,Sheet1,17,HSN Code,True,classification code; not a row identifier,337,14,14,0,323,5,5,318,323,False,False,False,False
+Sales Invoice Details.xlsx,Sheet1,18,SAC Code,True,classification code; not a row identifier,337,323,323,0,14,1,1,13,14,False,False,False,False
+Sales Invoice Details.xlsx,Sheet1,39,Customer Shipping GSTIN,False,party/tax identifier; business semantics need confirmation,337,59,59,0,278,32,32,246,278,False,False,False,False
+Sales Invoice Details.xlsx,Sheet1,40,Customer Billing GSTIN,False,party/tax identifier; business semantics need confirmation,337,59,59,0,278,32,32,246,278,False,False,False,False
+Sales Order Report 1.xlsx,Sheet1,1,#,True,row ordinal; not a business primary key,1098,0,0,0,1098,1098,0,0,0,True,True,False,False
+Sales Order Report 1.xlsx,Sheet1,2,Customer Code,True,entity/document reference; candidate only,1098,0,0,0,1098,40,40,1058,1098,False,False,False,False
+Sales Order Report 1.xlsx,Sheet1,5,Contact Number,True,contact/location/bank attribute; uniqueness does not establish a primary key,1098,0,0,0,1098,40,40,1058,1098,False,False,False,False
+Sales Order Report 1.xlsx,Sheet1,6,Customer Ref No,True,entity/document reference; candidate only,1098,0,0,0,1098,703,265,395,660,False,False,False,False
+Sales Order Report 1.xlsx,Sheet1,7,SO No,True,entity/document reference; candidate only,1098,0,0,0,1098,299,284,799,1083,False,False,False,False
+Sales Order Report 1.xlsx,Sheet1,11,Item No,True,entity/document reference; candidate only,1098,36,36,0,1062,120,120,942,1062,False,False,False,False
+Sales Order Report 1.xlsx,Sheet1,12,BP Catalog No,True,entity/document reference; candidate only,1098,1098,1098,0,0,0,0,0,0,False,False,False,False
+Sales Order Report 2.xlsx,Sheet1,1,#,True,row ordinal; not a business primary key,100286,6,0,6,100280,100280,0,0,0,True,False,False,False
+Sales Order Report 2.xlsx,Sheet1,2, Customer Code ,True,entity/document reference; candidate only,100286,6,0,6,100280,6795,4674,93485,98159,False,False,False,False
+Sales Order Report 2.xlsx,Sheet1,5,Contact Number,True,contact/location/bank attribute; uniqueness does not establish a primary key,100286,330,324,6,99956,4288,4044,95668,99712,False,False,False,False
+Sales Order Report 2.xlsx,Sheet1,6,Customer Ref No,True,entity/document reference; candidate only,100286,6,0,6,100280,8760,8533,91520,100053,False,False,False,False
+Sales Order Report 2.xlsx,Sheet1,7,SO No,True,entity/document reference; candidate only,100286,6,0,6,100280,32234,24943,68046,92989,False,False,False,False
+Sales Order Report 2.xlsx,Sheet1,11,Item No,True,entity/document reference; candidate only,100286,1027,1021,6,99259,7363,4690,91896,96586,False,False,False,False
+Sales Order Report 2.xlsx,Sheet1,12,BP Catalog No,True,entity/document reference; candidate only,100286,100286,100280,6,0,0,0,0,0,False,False,False,False
+Sales_Order_Data_202609.xlsx,Customer list,1,S.No,True,row ordinal; not a business primary key,43,0,0,0,43,43,0,0,0,True,True,False,False
+Sales_Order_Data_202609.xlsx,Customer list,2,Customer Code,True,entity/document reference; candidate only,43,40,40,0,3,3,0,0,0,True,False,False,False
+Sales_Order_Data_202609.xlsx,Customer list,3,Customer Name,True,measure/descriptive attribute; sampled uniqueness is insufficient,43,0,0,0,43,43,0,0,0,True,True,False,False
+Sales_Order_Data_202609.xlsx,Customer list,4,BP_CODE,True,entity/document reference; candidate only,43,6,6,0,37,37,0,0,0,True,False,False,False
+Sales_Order_Data_202609.xlsx,Country master,1,Code,True,entity/document reference; candidate only,11,0,0,0,11,11,0,0,0,True,True,True,False
+Sales_Order_Data_202609.xlsx,Country master,2,Country Name,True,measure/descriptive attribute; sampled uniqueness is insufficient,11,0,0,0,11,11,0,0,0,True,True,False,False
+Sales_Order_Data_202609.xlsx,Country master,3,Japanese country name,True,measure/descriptive attribute; sampled uniqueness is insufficient,11,0,0,0,11,11,0,0,0,True,True,False,False
+Sales_Order_Data_202609.xlsx,Country master,4,通称,True,measure/descriptive attribute; sampled uniqueness is insufficient,11,0,0,0,11,11,0,0,0,True,True,False,False
+Sales_Order_Data_202609.xlsx,PTC_NOPI,2,Product code,True,entity/document reference; candidate only,60,0,0,0,60,60,0,0,0,True,True,True,False
+Sales_Order_Data_202609.xlsx,PTC_NOPI,3,Product name,True,measure/descriptive attribute; sampled uniqueness is insufficient,60,0,0,0,60,60,0,0,0,True,True,False,False
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,2,Product code,True,entity/document reference; candidate only,33,0,0,0,33,33,0,0,0,True,True,True,False
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,3,Product name,True,measure/descriptive attribute; sampled uniqueness is insufficient,33,0,0,0,33,33,0,0,0,True,True,False,False

@@ -1,0 +1,907 @@
+{
+  "assessment_date": "2026-11-02",
+  "source_files": 17,
+  "source_tables": 20,
+  "schema_columns": 521,
+  "date_fields": 37,
+  "identifier_candidates": 135,
+  "illustrative_assessments": 13,
+  "capability_families": 10,
+  "issue_entries_carried_forward": 424,
+  "preserved_inputs": 115,
+  "all_inputs_unchanged": true,
+  "prediction_targets_generated": 0,
+  "models_trained": 0,
+  "source_joins_performed": 0,
+  "prediction_engine_implemented": false,
+  "read_or_validation_failures": 0,
+  "classification_counts": {
+    "Not Currently Feasible": 7,
+    "Feasible with Conditions": 6
+  },
+  "checks": [
+    {
+      "test": "All prior artifacts match assessment baseline",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Validated evidence scope",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source file census unchanged",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source matches validated source hash: Customer Master Report 1.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source matches validated source hash: Customer Master Report 2.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source matches validated source hash: Exchange Rate 1.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source matches validated source hash: Exchange Rate.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source matches validated source hash: GSTR1_Credit_Debit_Note 1.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source matches validated source hash: GSTR1_Credit_Debit_Note 2.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source matches validated source hash: GSTR1_Invoice.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source matches validated source hash: Inventory Audit Report as on 200327.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source matches validated source hash: Inventory Audit Report as on 200926 1.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source matches validated source hash: Inventory Audit Report as on 200926.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source matches validated source hash: Item Master Lists 1.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source matches validated source hash: Item Master Lists 2.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source matches validated source hash: Sales Invoice Details 1.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source matches validated source hash: Sales Invoice Details.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source matches validated source hash: Sales Order Report 1.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source matches validated source hash: Sales Order Report 2.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source matches validated source hash: Sales_Order_Data_202609.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Shape/columns Prior workbook/CSV inventory_validation_evidence.xlsx/header_validation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Shape/columns Prior workbook/CSV inventory_validation_evidence.xlsx/column_validation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Shape/columns Prior workbook/CSV identifier_relationship_matrix.xlsx/identifier_profiles",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Shape/columns Prior workbook/CSV identifier_relationship_matrix.xlsx/relationship_candidates",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Shape/columns Prior workbook/CSV dataset_granularity_report.xlsx/dataset_granularity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Shape/columns Prior workbook/CSV dataset_granularity_report.xlsx/document_context",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Reviewed reference nonempty: inventory_validation_report.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Reviewed reference nonempty: data_quality_report.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Reviewed reference nonempty: dataset_relationship_report.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Reviewed reference nonempty: logical_business_model.mmd",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Logical diagram readable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Date token counts reconcile Exchange Rate 1.xlsx/Rate Month  ",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Date token counts reconcile Exchange Rate 1.xlsx/Start Date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Date token counts reconcile Exchange Rate 1.xlsx/End Date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Date token counts reconcile Exchange Rate.xlsx/Rate Month",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Date token counts reconcile Exchange Rate.xlsx/Start Date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Date token counts reconcile Exchange Rate.xlsx/End Date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Date token counts reconcile GSTR1_Credit_Debit_Note 1.csv/CreditDebitNote_Date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Date token counts reconcile GSTR1_Credit_Debit_Note 1.csv/Invoice_Date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Date token counts reconcile GSTR1_Credit_Debit_Note 1.csv/Original_CreditDebitNote_Date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Date token counts reconcile GSTR1_Credit_Debit_Note 1.csv/Revision_Month",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Date token counts reconcile GSTR1_Credit_Debit_Note 1.csv/Shipping_Bill_Date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Date token counts reconcile GSTR1_Credit_Debit_Note 2.csv/CreditDebitNote_Date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Date token counts reconcile GSTR1_Credit_Debit_Note 2.csv/Invoice_Date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Date token counts reconcile GSTR1_Credit_Debit_Note 2.csv/Original_CreditDebitNote_Date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Date token counts reconcile GSTR1_Credit_Debit_Note 2.csv/Revision_Month",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Date token counts reconcile GSTR1_Credit_Debit_Note 2.csv/Shipping_Bill_Date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Date token counts reconcile GSTR1_Invoice.csv/Invoice_Date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Date token counts reconcile GSTR1_Invoice.csv/Original_Invoice_Date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Date token counts reconcile GSTR1_Invoice.csv/AdvanceReceipt_Date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Date token counts reconcile GSTR1_Invoice.csv/Shipping_Bill_Date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Date token counts reconcile GSTR1_Invoice.csv/Revision_Month",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Date token counts reconcile Inventory Audit Report as on 200327.xlsx/System Date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Date token counts reconcile Inventory Audit Report as on 200327.xlsx/Posting Date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Date token counts reconcile Inventory Audit Report as on 200926 1.xlsx/System Date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Date token counts reconcile Inventory Audit Report as on 200926 1.xlsx/Posting Date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Date token counts reconcile Inventory Audit Report as on 200926.xlsx/System Date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Date token counts reconcile Inventory Audit Report as on 200926.xlsx/Posting Date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Date token counts reconcile Item Master Lists 1.xlsx/Date of Udate",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Date token counts reconcile Item Master Lists 2.xlsx/Date of Udate",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Date token counts reconcile Sales Invoice Details 1.xlsx/SO Date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Date token counts reconcile Sales Invoice Details 1.xlsx/ Invoice Date ",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Date token counts reconcile Sales Invoice Details.xlsx/SO Date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Date token counts reconcile Sales Invoice Details.xlsx/Invoice Date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Date token counts reconcile Sales Order Report 1.xlsx/Posting Date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Date token counts reconcile Sales Order Report 1.xlsx/Delivery Date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Date token counts reconcile Sales Order Report 2.xlsx/Posting Date  ",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Date token counts reconcile Sales Order Report 2.xlsx/Delivery Date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Unresolved dates preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "As-of partitions conserve explicit dates",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent source row count Sales Order Report 1.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent document context Sales Order Report 1.xlsx/Customer Code",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent document context Sales Order Report 1.xlsx/Customer Ref No",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent document context Sales Order Report 1.xlsx/Posting Date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent document context Sales Order Report 1.xlsx/Status",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent source row count Sales Invoice Details.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent document context Sales Invoice Details.xlsx/Customer Billing Name",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent document context Sales Invoice Details.xlsx/Invoice Date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent document context Sales Invoice Details.xlsx/Invoice Total Include GST",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent document context Sales Invoice Details.xlsx/SO Num",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Every example has traceable actual columns",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior issue register preserved in full",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "All sources, previous reports, notebooks and implementations unchanged",
+      "passed": true,
+      "detail": "115"
+    },
+    {
+      "test": "Shape/columns New CSV source_grain_evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Shape/columns New CSV schema_evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Shape/columns New CSV measure_evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Shape/columns New CSV identifier_evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Shape/columns New CSV financial_rule_evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Shape/columns New CSV categorical_evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Shape/columns New CSV document_context_evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Shape/columns New CSV source_authority",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Shape/columns New CSV source_authenticity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Shape/columns New CSV historical_date_coverage",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Shape/columns New CSV date_coverage_diagnostics",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Shape/columns New CSV independent_grain_probes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Shape/columns New CSV assessment_examples",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Shape/columns New CSV target_source_bindings",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Shape/columns New CSV data_requirements",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Shape/columns New CSV outcome_availability_audit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Shape/columns New CSV reusable_capability_assessment",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Shape/columns New CSV architecture_requirements",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Shape/columns New CSV target_contract_requirements",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Shape/columns New CSV unresolved_issue_summary",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Shape/columns New CSV unresolved_issue_dependencies",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Shape/columns New CSV relationship_dependency_evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Shape/columns New CSV leakage_and_validation_controls",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Shape/columns New CSV propensity_outcome_audit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Shape/columns New CSV preserved_input_integrity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "New workbook sheet manifest prediction_target_mapping.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Shape/columns New Excel assessment_examples",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Shape/columns New Excel target_source_bindings",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Shape/columns New Excel historical_date_coverage",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Shape/columns New Excel reusable_capability_assessment",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Shape/columns New Excel source_grain_evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Shape/columns New Excel independent_grain_probes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Shape/columns New Excel measure_evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Shape/columns New Excel identifier_evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Shape/columns New Excel relationship_dependency_evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Shape/columns New Excel financial_rule_evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Shape/columns New Excel categorical_evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Shape/columns New Excel document_context_evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "New workbook sheet manifest prediction_data_requirements.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Shape/columns New Excel data_requirements",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Shape/columns New Excel outcome_availability_audit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Shape/columns New Excel architecture_requirements",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Shape/columns New Excel target_contract_requirements",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Shape/columns New Excel propensity_outcome_audit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Shape/columns New Excel leakage_and_validation_controls",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Shape/columns New Excel unresolved_issue_dependencies",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Shape/columns New Excel unresolved_issue_summary",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Shape/columns New Excel source_authority",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Shape/columns New Excel source_authenticity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Shape/columns New Excel preserved_input_integrity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Shape/columns New Excel schema_evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Shape/columns New Excel date_coverage_diagnostics",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "All sources, previous reports, notebooks and implementations unchanged",
+      "passed": true,
+      "detail": "115"
+    }
+  ],
+  "export_checks": [
+    {
+      "workbook": "prediction_target_mapping.xlsx",
+      "sheet": "assessment_examples",
+      "evidence_csv": "feasibility_evidence/assessment_examples.csv",
+      "rows": 13,
+      "columns": 23,
+      "complete_cell_content_verified": true
+    },
+    {
+      "workbook": "prediction_target_mapping.xlsx",
+      "sheet": "target_source_bindings",
+      "evidence_csv": "feasibility_evidence/target_source_bindings.csv",
+      "rows": 118,
+      "columns": 19,
+      "complete_cell_content_verified": true
+    },
+    {
+      "workbook": "prediction_target_mapping.xlsx",
+      "sheet": "historical_date_coverage",
+      "evidence_csv": "feasibility_evidence/historical_date_coverage.csv",
+      "rows": 37,
+      "columns": 31,
+      "complete_cell_content_verified": true
+    },
+    {
+      "workbook": "prediction_target_mapping.xlsx",
+      "sheet": "reusable_capability_assessment",
+      "evidence_csv": "feasibility_evidence/reusable_capability_assessment.csv",
+      "rows": 10,
+      "columns": 5,
+      "complete_cell_content_verified": true
+    },
+    {
+      "workbook": "prediction_target_mapping.xlsx",
+      "sheet": "source_grain_evidence",
+      "evidence_csv": "feasibility_evidence/source_grain_evidence.csv",
+      "rows": 20,
+      "columns": 11,
+      "complete_cell_content_verified": true
+    },
+    {
+      "workbook": "prediction_target_mapping.xlsx",
+      "sheet": "independent_grain_probes",
+      "evidence_csv": "feasibility_evidence/independent_grain_probes.csv",
+      "rows": 8,
+      "columns": 8,
+      "complete_cell_content_verified": true
+    },
+    {
+      "workbook": "prediction_target_mapping.xlsx",
+      "sheet": "measure_evidence",
+      "evidence_csv": "feasibility_evidence/measure_evidence.csv",
+      "rows": 114,
+      "columns": 26,
+      "complete_cell_content_verified": true
+    },
+    {
+      "workbook": "prediction_target_mapping.xlsx",
+      "sheet": "identifier_evidence",
+      "evidence_csv": "feasibility_evidence/identifier_evidence.csv",
+      "rows": 135,
+      "columns": 26,
+      "complete_cell_content_verified": true
+    },
+    {
+      "workbook": "prediction_target_mapping.xlsx",
+      "sheet": "relationship_dependency_evidenc",
+      "evidence_csv": "feasibility_evidence/relationship_dependency_evidence.csv",
+      "rows": 148,
+      "columns": 38,
+      "complete_cell_content_verified": true
+    },
+    {
+      "workbook": "prediction_target_mapping.xlsx",
+      "sheet": "financial_rule_evidence",
+      "evidence_csv": "feasibility_evidence/financial_rule_evidence.csv",
+      "rows": 35,
+      "columns": 15,
+      "complete_cell_content_verified": true
+    },
+    {
+      "workbook": "prediction_target_mapping.xlsx",
+      "sheet": "categorical_evidence",
+      "evidence_csv": "feasibility_evidence/categorical_evidence.csv",
+      "rows": 902,
+      "columns": 6,
+      "complete_cell_content_verified": true
+    },
+    {
+      "workbook": "prediction_target_mapping.xlsx",
+      "sheet": "document_context_evidence",
+      "evidence_csv": "feasibility_evidence/document_context_evidence.csv",
+      "rows": 27,
+      "columns": 7,
+      "complete_cell_content_verified": true
+    },
+    {
+      "workbook": "prediction_data_requirements.xlsx",
+      "sheet": "data_requirements",
+      "evidence_csv": "feasibility_evidence/data_requirements.csv",
+      "rows": 29,
+      "columns": 7,
+      "complete_cell_content_verified": true
+    },
+    {
+      "workbook": "prediction_data_requirements.xlsx",
+      "sheet": "outcome_availability_audit",
+      "evidence_csv": "feasibility_evidence/outcome_availability_audit.csv",
+      "rows": 8,
+      "columns": 5,
+      "complete_cell_content_verified": true
+    },
+    {
+      "workbook": "prediction_data_requirements.xlsx",
+      "sheet": "architecture_requirements",
+      "evidence_csv": "feasibility_evidence/architecture_requirements.csv",
+      "rows": 10,
+      "columns": 5,
+      "complete_cell_content_verified": true
+    },
+    {
+      "workbook": "prediction_data_requirements.xlsx",
+      "sheet": "target_contract_requirements",
+      "evidence_csv": "feasibility_evidence/target_contract_requirements.csv",
+      "rows": 18,
+      "columns": 3,
+      "complete_cell_content_verified": true
+    },
+    {
+      "workbook": "prediction_data_requirements.xlsx",
+      "sheet": "propensity_outcome_audit",
+      "evidence_csv": "feasibility_evidence/propensity_outcome_audit.csv",
+      "rows": 6,
+      "columns": 4,
+      "complete_cell_content_verified": true
+    },
+    {
+      "workbook": "prediction_data_requirements.xlsx",
+      "sheet": "leakage_and_validation_controls",
+      "evidence_csv": "feasibility_evidence/leakage_and_validation_controls.csv",
+      "rows": 11,
+      "columns": 5,
+      "complete_cell_content_verified": true
+    },
+    {
+      "workbook": "prediction_data_requirements.xlsx",
+      "sheet": "unresolved_issue_dependencies",
+      "evidence_csv": "feasibility_evidence/unresolved_issue_dependencies.csv",
+      "rows": 424,
+      "columns": 15,
+      "complete_cell_content_verified": true
+    },
+    {
+      "workbook": "prediction_data_requirements.xlsx",
+      "sheet": "unresolved_issue_summary",
+      "evidence_csv": "feasibility_evidence/unresolved_issue_summary.csv",
+      "rows": 9,
+      "columns": 6,
+      "complete_cell_content_verified": true
+    },
+    {
+      "workbook": "prediction_data_requirements.xlsx",
+      "sheet": "source_authority",
+      "evidence_csv": "feasibility_evidence/source_authority.csv",
+      "rows": 7,
+      "columns": 4,
+      "complete_cell_content_verified": true
+    },
+    {
+      "workbook": "prediction_data_requirements.xlsx",
+      "sheet": "source_authenticity",
+      "evidence_csv": "feasibility_evidence/source_authenticity.csv",
+      "rows": 5,
+      "columns": 6,
+      "complete_cell_content_verified": true
+    },
+    {
+      "workbook": "prediction_data_requirements.xlsx",
+      "sheet": "preserved_input_integrity",
+      "evidence_csv": "feasibility_evidence/preserved_input_integrity.csv",
+      "rows": 115,
+      "columns": 4,
+      "complete_cell_content_verified": true
+    },
+    {
+      "workbook": "prediction_data_requirements.xlsx",
+      "sheet": "schema_evidence",
+      "evidence_csv": "feasibility_evidence/schema_evidence.csv",
+      "rows": 521,
+      "columns": 9,
+      "complete_cell_content_verified": true
+    },
+    {
+      "workbook": "prediction_data_requirements.xlsx",
+      "sheet": "date_coverage_diagnostics",
+      "evidence_csv": "feasibility_evidence/date_coverage_diagnostics.csv",
+      "rows": 143,
+      "columns": 6,
+      "complete_cell_content_verified": true
+    }
+  ],
+  "limitation": "Conditional classifications are not approval or model readiness; histories/cohorts/horizons require business evidence."
+}

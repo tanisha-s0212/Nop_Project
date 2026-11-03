@@ -1,0 +1,6 @@
+test_selected_forecast_rejects_measure_and_dataset_overrides (tests.test_dynamic_business_query.DynamicBusinessQueryTests.test_selected_forecast_rejects_measure_and_dataset_overrides) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.029s
+
+OK

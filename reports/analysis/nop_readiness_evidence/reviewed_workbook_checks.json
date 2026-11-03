@@ -1,0 +1,368 @@
+[
+  {
+    "workbook": "reports/analysis/initial_prediction_readiness_checklist.xlsx",
+    "sheets": [
+      {
+        "name": "prediction_candidates",
+        "rows": 4,
+        "columns": 7
+      },
+      {
+        "name": "decision_questions",
+        "rows": 18,
+        "columns": 14
+      },
+      {
+        "name": "readiness_checklist",
+        "rows": 16,
+        "columns": 12
+      },
+      {
+        "name": "rule_relevance",
+        "rows": 37,
+        "columns": 15
+      },
+      {
+        "name": "source_field_evidence",
+        "rows": 21,
+        "columns": 8
+      },
+      {
+        "name": "technical_observations",
+        "rows": 8,
+        "columns": 7
+      },
+      {
+        "name": "decision_response_log",
+        "rows": 18,
+        "columns": 12
+      },
+      {
+        "name": "preserved_input_integrity",
+        "rows": 182,
+        "columns": 4
+      }
+    ],
+    "recorded_approval_flags": 0,
+    "confirmed_decisions": 0,
+    "decision_id_status_and_approval_flags_match_csv": true
+  },
+  {
+    "workbook": "reports/analysis/business_rule_register.xlsx",
+    "sheets": [
+      {
+        "name": "business_rules",
+        "rows": 37,
+        "columns": 11
+      },
+      {
+        "name": "table_preparation_requirements",
+        "rows": 21,
+        "columns": 19
+      },
+      {
+        "name": "column_preparation_requirements",
+        "rows": 522,
+        "columns": 12
+      },
+      {
+        "name": "prior_requirements",
+        "rows": 30,
+        "columns": 7
+      },
+      {
+        "name": "date_evidence",
+        "rows": 38,
+        "columns": 31
+      },
+      {
+        "name": "identifier_evidence",
+        "rows": 136,
+        "columns": 26
+      }
+    ],
+    "business_rule_count": 36,
+    "approved_business_definition_count": 0,
+    "correction_authorized_count": 0
+  },
+  {
+    "workbook": "reports/analysis/data_cleaning_specification.xlsx",
+    "sheets": [
+      {
+        "name": "issue_treatment_specification",
+        "rows": 425,
+        "columns": 23
+      },
+      {
+        "name": "cleaning_methods",
+        "rows": 20,
+        "columns": 9
+      },
+      {
+        "name": "treatment_coverage_summary",
+        "rows": 26,
+        "columns": 4
+      },
+      {
+        "name": "duplicate_count_evidence",
+        "rows": 48,
+        "columns": 9
+      },
+      {
+        "name": "financial_evidence",
+        "rows": 36,
+        "columns": 15
+      }
+    ]
+  },
+  {
+    "workbook": "reports/analysis/training_dataset_blueprint.xlsx",
+    "sheets": [
+      {
+        "name": "dataset_blueprints",
+        "rows": 11,
+        "columns": 13
+      },
+      {
+        "name": "source_view_evidence",
+        "rows": 21,
+        "columns": 8
+      },
+      {
+        "name": "blueprint_source_evidence",
+        "rows": 96,
+        "columns": 12
+      },
+      {
+        "name": "document_context_evidence",
+        "rows": 28,
+        "columns": 7
+      },
+      {
+        "name": "join_dependency_register",
+        "rows": 149,
+        "columns": 42
+      },
+      {
+        "name": "join_safeguards",
+        "rows": 11,
+        "columns": 3
+      },
+      {
+        "name": "release_gates",
+        "rows": 10,
+        "columns": 5
+      },
+      {
+        "name": "backend_component_contracts",
+        "rows": 15,
+        "columns": 6
+      },
+      {
+        "name": "generic_contract_fields",
+        "rows": 11,
+        "columns": 3
+      },
+      {
+        "name": "reviewed_artifacts",
+        "rows": 128,
+        "columns": 5
+      },
+      {
+        "name": "preserved_input_integrity",
+        "rows": 151,
+        "columns": 4
+      }
+    ]
+  },
+  {
+    "workbook": "reports/analysis/prediction_target_mapping.xlsx",
+    "sheets": [
+      {
+        "name": "assessment_examples",
+        "rows": 14,
+        "columns": 23
+      },
+      {
+        "name": "target_source_bindings",
+        "rows": 119,
+        "columns": 19
+      },
+      {
+        "name": "historical_date_coverage",
+        "rows": 38,
+        "columns": 31
+      },
+      {
+        "name": "reusable_capability_assessment",
+        "rows": 11,
+        "columns": 5
+      },
+      {
+        "name": "source_grain_evidence",
+        "rows": 21,
+        "columns": 11
+      },
+      {
+        "name": "independent_grain_probes",
+        "rows": 9,
+        "columns": 8
+      },
+      {
+        "name": "measure_evidence",
+        "rows": 115,
+        "columns": 26
+      },
+      {
+        "name": "identifier_evidence",
+        "rows": 136,
+        "columns": 26
+      },
+      {
+        "name": "relationship_dependency_evidenc",
+        "rows": 149,
+        "columns": 38
+      },
+      {
+        "name": "financial_rule_evidence",
+        "rows": 36,
+        "columns": 15
+      },
+      {
+        "name": "categorical_evidence",
+        "rows": 903,
+        "columns": 6
+      },
+      {
+        "name": "document_context_evidence",
+        "rows": 28,
+        "columns": 7
+      }
+    ]
+  },
+  {
+    "workbook": "reports/analysis/identifier_relationship_matrix.xlsx",
+    "sheets": [
+      {
+        "name": "identifier_profiles",
+        "rows": 136,
+        "columns": 26
+      },
+      {
+        "name": "identifier_formats",
+        "rows": 146,
+        "columns": 4
+      },
+      {
+        "name": "composite_keys",
+        "rows": 39,
+        "columns": 16
+      },
+      {
+        "name": "key_derivation_rules",
+        "rows": 6,
+        "columns": 4
+      },
+      {
+        "name": "key_scope_checks",
+        "rows": 3,
+        "columns": 5
+      },
+      {
+        "name": "relationship_candidates",
+        "rows": 149,
+        "columns": 37
+      },
+      {
+        "name": "identifier_match_detail",
+        "rows": 313,
+        "columns": 10
+      },
+      {
+        "name": "controlled_join_validation",
+        "rows": 70,
+        "columns": 22
+      },
+      {
+        "name": "join_financial_effects",
+        "rows": 531,
+        "columns": 17
+      },
+      {
+        "name": "source_overlap",
+        "rows": 10,
+        "columns": 11
+      },
+      {
+        "name": "attribute_conflicts",
+        "rows": 34,
+        "columns": 14
+      },
+      {
+        "name": "source_authenticity",
+        "rows": 6,
+        "columns": 6
+      },
+      {
+        "name": "authority_assessment",
+        "rows": 8,
+        "columns": 4
+      },
+      {
+        "name": "quality_carry_forward",
+        "rows": 10,
+        "columns": 5
+      },
+      {
+        "name": "prior_issue_register",
+        "rows": 425,
+        "columns": 14
+      },
+      {
+        "name": "prior_matching_coverage",
+        "rows": 102,
+        "columns": 21
+      },
+      {
+        "name": "prior_duplicate_analysis",
+        "rows": 48,
+        "columns": 9
+      },
+      {
+        "name": "prior_financial_exceptions",
+        "rows": 36,
+        "columns": 15
+      },
+      {
+        "name": "protected_file_integrity",
+        "rows": 75,
+        "columns": 4
+      }
+    ]
+  },
+  {
+    "workbook": "reports/analysis/dataset_granularity_report.xlsx",
+    "sheets": [
+      {
+        "name": "dataset_granularity",
+        "rows": 21,
+        "columns": 11
+      },
+      {
+        "name": "document_context",
+        "rows": 28,
+        "columns": 7
+      },
+      {
+        "name": "inventory_row_shapes",
+        "rows": 13,
+        "columns": 5
+      },
+      {
+        "name": "service_indicators",
+        "rows": 5,
+        "columns": 7
+      }
+    ]
+  }
+]

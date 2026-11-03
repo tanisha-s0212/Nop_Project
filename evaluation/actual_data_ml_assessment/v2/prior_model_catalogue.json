@@ -1,0 +1,363 @@
+{
+  "catalogue_version": "1.0.0",
+  "created_at_utc": "2026-11-03T15:36:58.845815+00:00",
+  "models": [
+    {
+      "model_id": "nop-domestic-confirmed-date-line-value-ridge_regression-v1.0.0",
+      "model_version": "1.0.0",
+      "origin": "newly_trained_this_task",
+      "business_target": "The native numeric Taxable Value cell on one source detail row marked Domestic and G, from a reference whose detail rows share one consistent unambiguous day-first date. The task is offline estimation of this stored line-level field in unspecified source amount units.",
+      "dataset": {
+        "dataset_id": "nop-domestic-confirmed-date-line-value",
+        "version": "1.0.0",
+        "sha256": "c177d1d76b8695ea41c88995b0782ad2a37545321df419ed30e758341fb8dd8e",
+        "path": "data/nop_domestic_invoice_line_value/v1/observations.csv"
+      },
+      "training_observations": 135,
+      "training_independent_groups": 90,
+      "eligible_observations": 165,
+      "algorithm": "ridge_regression",
+      "test_metrics": {
+        "mae": 140357.11343784712,
+        "rmse": 250029.5562584521,
+        "r2": -0.0538590772447074,
+        "smape_percent": 73.08699042516409,
+        "observations": 30,
+        "independent_groups": 21,
+        "document_macro_mae": 125635.7614364234
+      },
+      "baseline_comparison": {
+        "constant_training_median": {
+          "mae": 148474.16666666666,
+          "rmse": 264424.7639137328,
+          "r2": -0.17870219129913645,
+          "smape_percent": 81.91106044581944,
+          "observations": 30,
+          "independent_groups": 21,
+          "document_macro_mae": 106747.61904761905
+        },
+        "quantity_scaled_item_median": {
+          "mae": 72255.5,
+          "rmse": 190675.2915987019,
+          "r2": 0.3871013301491346,
+          "smape_percent": 31.287140173289295,
+          "observations": 30,
+          "independent_groups": 21,
+          "document_macro_mae": 56477.4007936508
+        }
+      },
+      "artifact_path": "models/business_regression/nop_domestic_invoice_line_value/v1/ridge_regression.joblib",
+      "metadata_path": "models/business_regression/nop_domestic_invoice_line_value/v1/ridge_regression.metadata.json",
+      "prediction_interface": "prediction.tabular_regression.predict_tabular_regression(input_data, model_path=...)",
+      "inference_adapter": "tabular_regression_v1",
+      "status": "exploratory; not preferred to the predefined item/quantity baseline",
+      "business_approved": false,
+      "fresh_process_verified": true,
+      "limitations": [
+        "Exploratory offline field estimation only; no business-approved price, revenue, profit or demand prediction.",
+        "Unresolved-date references, exports and services are excluded; the selected population is not representative of all NOP activity.",
+        "Item-code identity is scoped to one source field; unseen codes have no learned product effect.",
+        "Source amount units and physical quantity units are not independently approved; no aggregation or unit conversion is performed.",
+        "The chronological holdout is small and irregularly sampled; prospective business performance is unknown."
+      ]
+    },
+    {
+      "model_id": "nop-domestic-confirmed-date-line-value-random_forest-v1.0.0",
+      "model_version": "1.0.0",
+      "origin": "newly_trained_this_task",
+      "business_target": "The native numeric Taxable Value cell on one source detail row marked Domestic and G, from a reference whose detail rows share one consistent unambiguous day-first date. The task is offline estimation of this stored line-level field in unspecified source amount units.",
+      "dataset": {
+        "dataset_id": "nop-domestic-confirmed-date-line-value",
+        "version": "1.0.0",
+        "sha256": "c177d1d76b8695ea41c88995b0782ad2a37545321df419ed30e758341fb8dd8e",
+        "path": "data/nop_domestic_invoice_line_value/v1/observations.csv"
+      },
+      "training_observations": 135,
+      "training_independent_groups": 90,
+      "eligible_observations": 165,
+      "algorithm": "random_forest",
+      "test_metrics": {
+        "mae": 179683.2888085809,
+        "rmse": 306937.26924016164,
+        "r2": -0.5881776876176321,
+        "smape_percent": 73.13232893950308,
+        "observations": 30,
+        "independent_groups": 21,
+        "document_macro_mae": 155652.32994582955
+      },
+      "baseline_comparison": {
+        "constant_training_median": {
+          "mae": 148474.16666666666,
+          "rmse": 264424.7639137328,
+          "r2": -0.17870219129913645,
+          "smape_percent": 81.91106044581944,
+          "observations": 30,
+          "independent_groups": 21,
+          "document_macro_mae": 106747.61904761905
+        },
+        "quantity_scaled_item_median": {
+          "mae": 72255.5,
+          "rmse": 190675.2915987019,
+          "r2": 0.3871013301491346,
+          "smape_percent": 31.287140173289295,
+          "observations": 30,
+          "independent_groups": 21,
+          "document_macro_mae": 56477.4007936508
+        }
+      },
+      "artifact_path": "models/business_regression/nop_domestic_invoice_line_value/v1/random_forest.joblib",
+      "metadata_path": "models/business_regression/nop_domestic_invoice_line_value/v1/random_forest.metadata.json",
+      "prediction_interface": "prediction.tabular_regression.predict_tabular_regression(input_data, model_path=...)",
+      "inference_adapter": "tabular_regression_v1",
+      "status": "exploratory; not preferred to the predefined item/quantity baseline",
+      "business_approved": false,
+      "fresh_process_verified": true,
+      "limitations": [
+        "Exploratory offline field estimation only; no business-approved price, revenue, profit or demand prediction.",
+        "Unresolved-date references, exports and services are excluded; the selected population is not representative of all NOP activity.",
+        "Item-code identity is scoped to one source field; unseen codes have no learned product effect.",
+        "Source amount units and physical quantity units are not independently approved; no aggregation or unit conversion is performed.",
+        "The chronological holdout is small and irregularly sampled; prospective business performance is unknown."
+      ]
+    },
+    {
+      "model_id": "nop-confirmed-date-invoice-count-exploratory-linear_regression",
+      "model_version": "0.1.0-exploratory",
+      "origin": "preexisting_preserved",
+      "business_target": "Count distinct Invoice Num references in the source workbook whose every detail row has one consistent, unambiguously day-first Invoice Date, grouped by observed calendar month.",
+      "dataset": {
+        "dataset_id": "nop-confirmed-date-invoice-count-exploratory",
+        "version": "1.0.0",
+        "sha256": "807bb312577bb595cdb22d28dd227c0fc23e52898ab42dbe73b99f7d4f444b95",
+        "path": "data/nop_confirmed_date_invoice_count_exploratory.csv"
+      },
+      "training_observations": 8,
+      "evaluation_training_observations": 5,
+      "eligible_observations": 8,
+      "algorithm": "linear_regression",
+      "test_metrics": {
+        "mae": 8.600000000000001,
+        "rmse": 9.57078889120432,
+        "r2": -4.725000000000001,
+        "smape_percent": 56.53235653235654,
+        "observations": 2,
+        "independent_groups": 2,
+        "document_macro_mae": 8.600000000000001
+      },
+      "baseline_comparison": {
+        "mae": 7.0,
+        "rmse": 8.06225774829855,
+        "r2": -3.0625,
+        "smape_percent": 49.31216931216931,
+        "observations": 2,
+        "independent_groups": 2,
+        "document_macro_mae": 7.0
+      },
+      "artifact_path": "models/business_forecasting/nop_confirmed_date_invoice_subset/linear_regression.joblib",
+      "metadata_path": "models/business_forecasting/nop_confirmed_date_invoice_subset/linear_regression.metadata.json",
+      "prediction_interface": "prediction.monthly_regression.predict_monthly_objective(input_data, model_path=...)",
+      "inference_adapter": "monthly_regression_v1",
+      "status": "exploratory; two-month test and worse than baseline",
+      "business_approved": false,
+      "fresh_process_verified": true,
+      "limitations": [
+        "This is a confirmed-date subset, not total invoice volume.",
+        "The exact invoice reference is assumed unique within this workbook only.",
+        "Unresolved dates are excluded and may create month-dependent undercounts.",
+        "No zero periods were inserted; absent months mean unknown, not zero.",
+        "No semantic approval, execution authorization, or publication receipt was created."
+      ]
+    },
+    {
+      "model_id": "nop-confirmed-date-invoice-count-exploratory-random_forest",
+      "model_version": "0.1.0-exploratory",
+      "origin": "preexisting_preserved",
+      "business_target": "Count distinct Invoice Num references in the source workbook whose every detail row has one consistent, unambiguously day-first Invoice Date, grouped by observed calendar month.",
+      "dataset": {
+        "dataset_id": "nop-confirmed-date-invoice-count-exploratory",
+        "version": "1.0.0",
+        "sha256": "807bb312577bb595cdb22d28dd227c0fc23e52898ab42dbe73b99f7d4f444b95",
+        "path": "data/nop_confirmed_date_invoice_count_exploratory.csv"
+      },
+      "training_observations": 8,
+      "evaluation_training_observations": 5,
+      "eligible_observations": 8,
+      "algorithm": "random_forest",
+      "test_metrics": {
+        "mae": 7.854583333333338,
+        "rmse": 8.814447194253184,
+        "r2": -3.855904958767365,
+        "smape_percent": 53.30942623684097,
+        "observations": 2,
+        "independent_groups": 2,
+        "document_macro_mae": 7.854583333333338
+      },
+      "baseline_comparison": {
+        "mae": 7.0,
+        "rmse": 8.06225774829855,
+        "r2": -3.0625,
+        "smape_percent": 49.31216931216931,
+        "observations": 2,
+        "independent_groups": 2,
+        "document_macro_mae": 7.0
+      },
+      "artifact_path": "models/business_forecasting/nop_confirmed_date_invoice_subset/random_forest.joblib",
+      "metadata_path": "models/business_forecasting/nop_confirmed_date_invoice_subset/random_forest.metadata.json",
+      "prediction_interface": "prediction.monthly_regression.predict_monthly_objective(input_data, model_path=...)",
+      "inference_adapter": "monthly_regression_v1",
+      "status": "exploratory; two-month test and worse than baseline",
+      "business_approved": false,
+      "fresh_process_verified": true,
+      "limitations": [
+        "This is a confirmed-date subset, not total invoice volume.",
+        "The exact invoice reference is assumed unique within this workbook only.",
+        "Unresolved dates are excluded and may create month-dependent undercounts.",
+        "No zero periods were inserted; absent months mean unknown, not zero.",
+        "No semantic approval, execution authorization, or publication receipt was created."
+      ]
+    }
+  ],
+  "blocked_objectives": [
+    {
+      "objective": "Additional larger-source line-value regression",
+      "sources": [
+        "Sales Invoice Details 1.xlsx"
+      ],
+      "reason": "The strictly historical, reference-consistent source probe has only 37 distinct resolved dates. Large detail-row counts do not satisfy the predefined chronological date-diversity gates.",
+      "minimum_requirement": "At least 60 valid distinct historical dates for the 60/20/20 date split, plus source/target-quality confirmation (23 more than the current 37). Do not merge alternate exports without verified source-overlap rules.",
+      "status": "blocked",
+      "artifact_path": null,
+      "business_approved": false
+    },
+    {
+      "objective": "Complete monthly invoice/document volume",
+      "sources": [
+        "Sales Invoice Details.xlsx",
+        "Sales Invoice Details 1.xlsx",
+        "GSTR1_Invoice.csv"
+      ],
+      "reason": "Only the date-resolved subset is prepared; reference scope, lifecycle, unresolved dates and complete mature months remain unverified.",
+      "minimum_requirement": "Resolve the 82 ambiguous-date references in the small source, approve document/event scope and completeness. For a nonseasonal monthly split supply at least 24 complete regular months (12 train, 6 validation, 6 test); longer history is needed for seasonality.",
+      "status": "blocked",
+      "artifact_path": null,
+      "business_approved": false
+    },
+    {
+      "objective": "Sales/order volume forecasting",
+      "sources": [
+        "Sales Order Report 1.xlsx",
+        "Sales Order Report 2.xlsx"
+      ],
+      "reason": "Detail rows are not unique orders; mixed dates, repeated exports, lifecycle and complete historical periods are unresolved.",
+      "minimum_requirement": "Validated order identity, event-date grammar, lifecycle and mature complete chronological periods; no row-as-order counting.",
+      "status": "blocked",
+      "artifact_path": null,
+      "business_approved": false
+    },
+    {
+      "objective": "Recognized revenue or monthly sales-value forecasting",
+      "sources": [
+        "Sales Invoice Details.xlsx",
+        "Sales Invoice Details 1.xlsx",
+        "GSTR1_Invoice.csv",
+        "GSTR1_Credit_Debit_Note 1.csv",
+        "GSTR1_Credit_Debit_Note 2.csv"
+      ],
+      "reason": "Repeated document totals, alternate invoice representations, currency/tax bases, recognition and adjustment policies are not reconciled. The raw-field regression is not a revenue target.",
+      "minimum_requirement": "Finance-confirmed line/document grain, currency and tax basis, credit/debit signs, recognition dates and a complete reconciled time series.",
+      "status": "blocked",
+      "artifact_path": null,
+      "business_approved": false
+    },
+    {
+      "objective": "Profit or margin",
+      "sources": [
+        "Sales Invoice Details.xlsx",
+        "Inventory Audit Report as on 200327.xlsx"
+      ],
+      "reason": "No aligned validated realized costs and attributable expenses; inventory value-like fields do not establish realized invoice costs.",
+      "minimum_requirement": "Recognized revenue, realized costs and attributable expenses aligned by period/entity/currency, with adjustment rules.",
+      "status": "blocked",
+      "artifact_path": null,
+      "business_approved": false
+    },
+    {
+      "objective": "Product/service demand",
+      "sources": [
+        "Sales Invoice Details.xlsx",
+        "Sales Invoice Details 1.xlsx",
+        "Sales Order Report 1.xlsx",
+        "Sales Order Report 2.xlsx",
+        "Item Master Lists 1.xlsx",
+        "Item Master Lists 2.xlsx"
+      ],
+      "reason": "Raw Manual labels do not establish physical units; product identity, service quantities, returns/cancellations and complete item histories are unvalidated.",
+      "minimum_requirement": "Approved product/service identity and units, complete dated event capture and return/cancellation treatment; no inferred latent demand.",
+      "status": "blocked",
+      "artifact_path": null,
+      "business_approved": false
+    },
+    {
+      "objective": "Inventory balance or stockout",
+      "sources": [
+        "Inventory Audit Report as on 200327.xlsx",
+        "Inventory Audit Report as on 200926.xlsx",
+        "Inventory Audit Report as on 200926 1.xlsx"
+      ],
+      "reason": "Mixed movement/cumulative extracts, largely missing item identity on large-audit movement rows, unclear opening balances and sign/date semantics.",
+      "minimum_requirement": "Stable item/warehouse identities, opening balances, signed dated movements and repeated verified stock snapshots.",
+      "status": "blocked",
+      "artifact_path": null,
+      "business_approved": false
+    },
+    {
+      "objective": "Customer repeat-purchase propensity",
+      "sources": [
+        "Customer Master Report 1.xlsx",
+        "Customer Master Report 2.xlsx",
+        "Sales Invoice Details.xlsx"
+      ],
+      "reason": "No eligible historical cohort, matured positive and negative labels or point-in-time features; current master records are not outcome labels.",
+      "minimum_requirement": "Validated customer links, cohort eligibility, observation/decision windows, complete outcomes and matured follow-up.",
+      "status": "blocked",
+      "artifact_path": null,
+      "business_approved": false
+    },
+    {
+      "objective": "Cancellation or delivery outcome",
+      "sources": [
+        "Sales Order Report 1.xlsx",
+        "Sales Order Report 2.xlsx"
+      ],
+      "reason": "Current line status and promised dates do not establish actual lifecycle transitions or completed delivery outcomes.",
+      "minimum_requirement": "Stable line/document identity, dated status transitions or actual delivery events, maturity/censoring and pre-outcome feature snapshots.",
+      "status": "blocked",
+      "artifact_path": null,
+      "business_approved": false
+    },
+    {
+      "objective": "Currency rate modeling",
+      "sources": [
+        "Exchange Rate.xlsx",
+        "Exchange Rate 1.xlsx"
+      ],
+      "reason": "Existing source-authenticity evidence identifies explicit synthetic titles; these cannot be actual-NOP training data.",
+      "minimum_requirement": "Genuine historical rates with publication timestamps, currency-pair semantics and verified source provenance.",
+      "status": "blocked",
+      "artifact_path": null,
+      "business_approved": false
+    }
+  ],
+  "actual_model_count": 4,
+  "newly_trained_models": 2,
+  "previously_existing_actual_models": 2,
+  "excluded_models": [
+    {
+      "artifact_path": "models/nop_invoice_volume_model.joblib",
+      "reason": "synthetic demonstration only; preserved and excluded from actual-NOP evaluation"
+    }
+  ],
+  "business_champion": null,
+  "business_approved_models": 0,
+  "source_inventory": "evaluation\\actual_data_ml_training\\v1\\source_inventory.json"
+}

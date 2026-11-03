@@ -1,0 +1,7 @@
+{
+  "objective_id": "nop-domestic-confirmed-date-line-value",
+  "objective_name": "Stored line taxable-value estimation for a confirmed-date domestic goods subset",
+  "target_definition": "The native numeric Taxable Value cell on one source detail row marked Domestic and G, from a reference whose detail rows share one consistent unambiguous day-first date. The task is offline estimation of this stored line-level field in unspecified source amount units.",
+  "target_column": "target_value",
+  "period_column": "event_date"
+}

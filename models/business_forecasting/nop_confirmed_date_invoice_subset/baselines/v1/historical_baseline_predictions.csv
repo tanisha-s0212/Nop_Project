@@ -1,0 +1,7 @@
+baseline,period,actual,prediction,horizon_step
+last_observed_value,2026-07,16.0,19.0,1
+last_observed_value,2026-08,8.0,19.0,2
+moving_mean_2,2026-07,16.0,20.5,1
+moving_mean_2,2026-08,8.0,20.5,2
+moving_mean_3,2026-07,16.0,20.0,1
+moving_mean_3,2026-08,8.0,20.0,2

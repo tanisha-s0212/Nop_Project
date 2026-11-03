@@ -1,0 +1,690 @@
+[
+  {
+    "source_row": 2,
+    "reason": "outside_literal_population:market_type"
+  },
+  {
+    "source_row": 3,
+    "reason": "outside_literal_population:market_type"
+  },
+  {
+    "source_row": 4,
+    "reason": "outside_literal_population:market_type"
+  },
+  {
+    "source_row": 5,
+    "reason": "outside_literal_population:market_type"
+  },
+  {
+    "source_row": 12,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 13,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 14,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 19,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 20,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 22,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 23,
+    "reason": "outside_literal_population:market_type"
+  },
+  {
+    "source_row": 24,
+    "reason": "outside_literal_population:market_type"
+  },
+  {
+    "source_row": 25,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 31,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 32,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 33,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 35,
+    "reason": "outside_literal_population:market_type"
+  },
+  {
+    "source_row": 36,
+    "reason": "outside_literal_population:item_type"
+  },
+  {
+    "source_row": 37,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 38,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 39,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 40,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 46,
+    "reason": "outside_literal_population:market_type"
+  },
+  {
+    "source_row": 48,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 49,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 50,
+    "reason": "outside_literal_population:item_type"
+  },
+  {
+    "source_row": 55,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 56,
+    "reason": "outside_literal_population:item_type"
+  },
+  {
+    "source_row": 63,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 65,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 67,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 68,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 69,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 70,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 72,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 73,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 80,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 81,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 82,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 83,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 84,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 86,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 87,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 88,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 89,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 90,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 92,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 93,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 94,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 97,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 98,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 101,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 102,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 103,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 105,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 106,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 108,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 109,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 115,
+    "reason": "outside_literal_population:item_type"
+  },
+  {
+    "source_row": 121,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 122,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 123,
+    "reason": "outside_literal_population:item_type"
+  },
+  {
+    "source_row": 124,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 129,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 130,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 131,
+    "reason": "outside_literal_population:market_type"
+  },
+  {
+    "source_row": 132,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 133,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 138,
+    "reason": "outside_literal_population:item_type"
+  },
+  {
+    "source_row": 144,
+    "reason": "outside_literal_population:market_type"
+  },
+  {
+    "source_row": 145,
+    "reason": "outside_literal_population:market_type"
+  },
+  {
+    "source_row": 146,
+    "reason": "outside_literal_population:market_type"
+  },
+  {
+    "source_row": 149,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 150,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 151,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 152,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 154,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 155,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 156,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 157,
+    "reason": "outside_literal_population:market_type"
+  },
+  {
+    "source_row": 158,
+    "reason": "outside_literal_population:market_type"
+  },
+  {
+    "source_row": 160,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 164,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 165,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 166,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 167,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 168,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 169,
+    "reason": "outside_literal_population:market_type"
+  },
+  {
+    "source_row": 170,
+    "reason": "outside_literal_population:market_type"
+  },
+  {
+    "source_row": 171,
+    "reason": "outside_literal_population:market_type"
+  },
+  {
+    "source_row": 179,
+    "reason": "outside_literal_population:item_type"
+  },
+  {
+    "source_row": 182,
+    "reason": "outside_literal_population:market_type"
+  },
+  {
+    "source_row": 183,
+    "reason": "outside_literal_population:market_type"
+  },
+  {
+    "source_row": 184,
+    "reason": "outside_literal_population:market_type"
+  },
+  {
+    "source_row": 185,
+    "reason": "outside_literal_population:market_type"
+  },
+  {
+    "source_row": 186,
+    "reason": "outside_literal_population:market_type"
+  },
+  {
+    "source_row": 187,
+    "reason": "outside_literal_population:market_type"
+  },
+  {
+    "source_row": 194,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 195,
+    "reason": "outside_literal_population:market_type"
+  },
+  {
+    "source_row": 196,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 197,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 198,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 199,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 205,
+    "reason": "outside_literal_population:market_type"
+  },
+  {
+    "source_row": 206,
+    "reason": "outside_literal_population:market_type"
+  },
+  {
+    "source_row": 207,
+    "reason": "outside_literal_population:market_type"
+  },
+  {
+    "source_row": 208,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 209,
+    "reason": "outside_literal_population:market_type"
+  },
+  {
+    "source_row": 210,
+    "reason": "outside_literal_population:market_type"
+  },
+  {
+    "source_row": 211,
+    "reason": "outside_literal_population:market_type"
+  },
+  {
+    "source_row": 212,
+    "reason": "outside_literal_population:market_type"
+  },
+  {
+    "source_row": 216,
+    "reason": "outside_literal_population:market_type"
+  },
+  {
+    "source_row": 222,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 223,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 224,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 225,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 228,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 230,
+    "reason": "outside_literal_population:market_type"
+  },
+  {
+    "source_row": 236,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 241,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 244,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 245,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 249,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 250,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 251,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 252,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 254,
+    "reason": "outside_literal_population:market_type"
+  },
+  {
+    "source_row": 255,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 256,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 257,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 259,
+    "reason": "outside_literal_population:market_type"
+  },
+  {
+    "source_row": 260,
+    "reason": "outside_literal_population:market_type"
+  },
+  {
+    "source_row": 261,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 262,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 263,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 264,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 278,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 283,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 286,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 287,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 288,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 289,
+    "reason": "outside_literal_population:market_type"
+  },
+  {
+    "source_row": 291,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 300,
+    "reason": "outside_literal_population:market_type"
+  },
+  {
+    "source_row": 301,
+    "reason": "outside_literal_population:market_type"
+  },
+  {
+    "source_row": 302,
+    "reason": "outside_literal_population:market_type"
+  },
+  {
+    "source_row": 304,
+    "reason": "outside_literal_population:item_type"
+  },
+  {
+    "source_row": 306,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 307,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 308,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 310,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 312,
+    "reason": "outside_literal_population:market_type"
+  },
+  {
+    "source_row": 313,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 314,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 315,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 316,
+    "reason": "outside_literal_population:item_type"
+  },
+  {
+    "source_row": 317,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 318,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 321,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 322,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 323,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 324,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 327,
+    "reason": "outside_literal_population:item_type"
+  },
+  {
+    "source_row": 329,
+    "reason": "outside_literal_population:market_type"
+  },
+  {
+    "source_row": 330,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 331,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 332,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 333,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 334,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 336,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 337,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  },
+  {
+    "source_row": 338,
+    "reason": "reference_has_unresolved_or_inconsistent_dates"
+  }
+]

@@ -1,0 +1,5407 @@
+{
+  "specification_baseline": "2026-11-02",
+  "source_files": 17,
+  "source_tables": 20,
+  "source_columns": 521,
+  "date_fields": 37,
+  "identifier_candidates": 135,
+  "quality_issues_specified": 424,
+  "relationship_candidates": 148,
+  "business_rule_entries": 36,
+  "cleaning_method_families": 19,
+  "structural_dataset_blueprints": 10,
+  "backend_component_contracts": 14,
+  "approved_business_joins": 0,
+  "business_definitions_newly_approved": 0,
+  "cleaning_operations_executed": 0,
+  "source_joins_executed": 0,
+  "features_created": 0,
+  "models_trained": 0,
+  "ui_created": false,
+  "preserved_inputs": 150,
+  "all_previous_inputs_unchanged": true,
+  "reviewed_artifacts": 127,
+  "all_checks_passed": true,
+  "execution_authorization": "Specification only; actual preparation awaits explicit approval",
+  "implementation_sha256": "06756a6cf757a98696d0410ffb0bff038e25094f045d995f7610a64f6249836d",
+  "export_checks": [
+    {
+      "workbook": "business_rule_register.xlsx",
+      "sheet": "business_rules",
+      "csv": "preparation_evidence/business_rules.csv",
+      "rows": 36,
+      "columns": 11,
+      "all_cells_verified": true
+    },
+    {
+      "workbook": "business_rule_register.xlsx",
+      "sheet": "table_preparation_requirements",
+      "csv": "preparation_evidence/table_preparation_requirements.csv",
+      "rows": 20,
+      "columns": 19,
+      "all_cells_verified": true
+    },
+    {
+      "workbook": "business_rule_register.xlsx",
+      "sheet": "column_preparation_requirements",
+      "csv": "preparation_evidence/column_preparation_requirements.csv",
+      "rows": 521,
+      "columns": 12,
+      "all_cells_verified": true
+    },
+    {
+      "workbook": "business_rule_register.xlsx",
+      "sheet": "prior_requirements",
+      "csv": "preparation_evidence/prior_requirements.csv",
+      "rows": 29,
+      "columns": 7,
+      "all_cells_verified": true
+    },
+    {
+      "workbook": "business_rule_register.xlsx",
+      "sheet": "date_evidence",
+      "csv": "preparation_evidence/date_evidence.csv",
+      "rows": 37,
+      "columns": 31,
+      "all_cells_verified": true
+    },
+    {
+      "workbook": "business_rule_register.xlsx",
+      "sheet": "identifier_evidence",
+      "csv": "preparation_evidence/identifier_evidence.csv",
+      "rows": 135,
+      "columns": 26,
+      "all_cells_verified": true
+    },
+    {
+      "workbook": "data_cleaning_specification.xlsx",
+      "sheet": "issue_treatment_specification",
+      "csv": "preparation_evidence/issue_treatment_specification.csv",
+      "rows": 424,
+      "columns": 23,
+      "all_cells_verified": true
+    },
+    {
+      "workbook": "data_cleaning_specification.xlsx",
+      "sheet": "cleaning_methods",
+      "csv": "preparation_evidence/cleaning_methods.csv",
+      "rows": 19,
+      "columns": 9,
+      "all_cells_verified": true
+    },
+    {
+      "workbook": "data_cleaning_specification.xlsx",
+      "sheet": "treatment_coverage_summary",
+      "csv": "preparation_evidence/treatment_coverage_summary.csv",
+      "rows": 25,
+      "columns": 4,
+      "all_cells_verified": true
+    },
+    {
+      "workbook": "data_cleaning_specification.xlsx",
+      "sheet": "duplicate_count_evidence",
+      "csv": "preparation_evidence/duplicate_count_evidence.csv",
+      "rows": 47,
+      "columns": 9,
+      "all_cells_verified": true
+    },
+    {
+      "workbook": "data_cleaning_specification.xlsx",
+      "sheet": "financial_evidence",
+      "csv": "preparation_evidence/financial_evidence.csv",
+      "rows": 35,
+      "columns": 15,
+      "all_cells_verified": true
+    },
+    {
+      "workbook": "training_dataset_blueprint.xlsx",
+      "sheet": "dataset_blueprints",
+      "csv": "preparation_evidence/dataset_blueprints.csv",
+      "rows": 10,
+      "columns": 13,
+      "all_cells_verified": true
+    },
+    {
+      "workbook": "training_dataset_blueprint.xlsx",
+      "sheet": "source_view_evidence",
+      "csv": "preparation_evidence/source_view_evidence.csv",
+      "rows": 20,
+      "columns": 8,
+      "all_cells_verified": true
+    },
+    {
+      "workbook": "training_dataset_blueprint.xlsx",
+      "sheet": "blueprint_source_evidence",
+      "csv": "preparation_evidence/blueprint_source_evidence.csv",
+      "rows": 95,
+      "columns": 12,
+      "all_cells_verified": true
+    },
+    {
+      "workbook": "training_dataset_blueprint.xlsx",
+      "sheet": "document_context_evidence",
+      "csv": "preparation_evidence/document_context_evidence.csv",
+      "rows": 27,
+      "columns": 7,
+      "all_cells_verified": true
+    },
+    {
+      "workbook": "training_dataset_blueprint.xlsx",
+      "sheet": "join_dependency_register",
+      "csv": "preparation_evidence/join_dependency_register.csv",
+      "rows": 148,
+      "columns": 42,
+      "all_cells_verified": true
+    },
+    {
+      "workbook": "training_dataset_blueprint.xlsx",
+      "sheet": "join_safeguards",
+      "csv": "preparation_evidence/join_safeguards.csv",
+      "rows": 10,
+      "columns": 3,
+      "all_cells_verified": true
+    },
+    {
+      "workbook": "training_dataset_blueprint.xlsx",
+      "sheet": "release_gates",
+      "csv": "preparation_evidence/release_gates.csv",
+      "rows": 9,
+      "columns": 5,
+      "all_cells_verified": true
+    },
+    {
+      "workbook": "training_dataset_blueprint.xlsx",
+      "sheet": "backend_component_contracts",
+      "csv": "preparation_evidence/backend_component_contracts.csv",
+      "rows": 14,
+      "columns": 6,
+      "all_cells_verified": true
+    },
+    {
+      "workbook": "training_dataset_blueprint.xlsx",
+      "sheet": "generic_contract_fields",
+      "csv": "preparation_evidence/generic_contract_fields.csv",
+      "rows": 10,
+      "columns": 3,
+      "all_cells_verified": true
+    },
+    {
+      "workbook": "training_dataset_blueprint.xlsx",
+      "sheet": "reviewed_artifacts",
+      "csv": "preparation_evidence/reviewed_artifacts.csv",
+      "rows": 127,
+      "columns": 5,
+      "all_cells_verified": true
+    },
+    {
+      "workbook": "training_dataset_blueprint.xlsx",
+      "sheet": "preserved_input_integrity",
+      "csv": "preparation_evidence/preserved_input_integrity.csv",
+      "rows": 150,
+      "columns": 4,
+      "all_cells_verified": true
+    }
+  ],
+  "checks": [
+    {
+      "test": "Previous deliverables and sources match baseline",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Evidence scope complete",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "17 source-file census matches validated source manifest",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Validated source unchanged Customer Master Report 1.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Validated source unchanged Customer Master Report 2.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Validated source unchanged Exchange Rate 1.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Validated source unchanged Exchange Rate.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Validated source unchanged GSTR1_Credit_Debit_Note 1.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Validated source unchanged GSTR1_Credit_Debit_Note 2.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Validated source unchanged GSTR1_Invoice.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Validated source unchanged Inventory Audit Report as on 200327.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Validated source unchanged Inventory Audit Report as on 200926 1.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Validated source unchanged Inventory Audit Report as on 200926.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Validated source unchanged Item Master Lists 1.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Validated source unchanged Item Master Lists 2.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Validated source unchanged Sales Invoice Details 1.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Validated source unchanged Sales Invoice Details.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Validated source unchanged Sales Order Report 1.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Validated source unchanged Sales Order Report 2.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Validated source unchanged Sales_Order_Data_202609.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Table shape Previous inventory_validation_evidence.xlsx/column_validation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Table shape Previous data_quality_evidence.xlsx/issue_register",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Table shape Previous identifier_relationship_matrix.xlsx/identifier_profiles",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Table shape Previous identifier_relationship_matrix.xlsx/relationship_candidates",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Table shape Previous dataset_granularity_report.xlsx/dataset_granularity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Table shape Previous prediction_target_mapping.xlsx/historical_date_coverage",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Table shape Previous prediction_data_requirements.xlsx/data_requirements",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue source table exists DQ-0001",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0001",
+      "passed": true,
+      "detail": "TEL 1"
+    },
+    {
+      "test": "Issue source table exists DQ-0002",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0002",
+      "passed": true,
+      "detail": "TEL 2"
+    },
+    {
+      "test": "Issue source table exists DQ-0003",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0003",
+      "passed": true,
+      "detail": "Fax Number"
+    },
+    {
+      "test": "Issue source table exists DQ-0004",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0004",
+      "passed": true,
+      "detail": "WEBSITE"
+    },
+    {
+      "test": "Issue source table exists DQ-0005",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0005",
+      "passed": true,
+      "detail": "SHIPPING TYPE"
+    },
+    {
+      "test": "Issue source table exists DQ-0006",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0006",
+      "passed": true,
+      "detail": "ADDRESS 3"
+    },
+    {
+      "test": "Issue source table exists DQ-0007",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0007",
+      "passed": true,
+      "detail": "STREET / PO BOX"
+    },
+    {
+      "test": "Issue source table exists DQ-0008",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0008",
+      "passed": true,
+      "detail": "Bill-to Block"
+    },
+    {
+      "test": "Issue source table exists DQ-0009",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0009",
+      "passed": true,
+      "detail": "STREET NO."
+    },
+    {
+      "test": "Issue source table exists DQ-0010",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0010",
+      "passed": true,
+      "detail": "ACCOUNT NO."
+    },
+    {
+      "test": "Issue source table exists DQ-0011",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0011",
+      "passed": true,
+      "detail": "BANK ACCOUNT NAME"
+    },
+    {
+      "test": "Issue source table exists DQ-0012",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0012",
+      "passed": true,
+      "detail": "BRANCH"
+    },
+    {
+      "test": "Issue source table exists DQ-0013",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0013",
+      "passed": true,
+      "detail": "SWIFT CODE / IFS CODE"
+    },
+    {
+      "test": "Issue source table exists DQ-0014",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0014",
+      "passed": true,
+      "detail": "PROPERTIES 1"
+    },
+    {
+      "test": "Issue source table exists DQ-0015",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0015",
+      "passed": true,
+      "detail": "PROPERTIES 2"
+    },
+    {
+      "test": "Issue source table exists DQ-0016",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0016",
+      "passed": true,
+      "detail": "(whole row)"
+    },
+    {
+      "test": "Issue source table exists DQ-0017",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0017",
+      "passed": true,
+      "detail": "(compared fields)"
+    },
+    {
+      "test": "Issue source table exists DQ-0018",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0018",
+      "passed": true,
+      "detail": "CUSTOMER CODE"
+    },
+    {
+      "test": "Issue source table exists DQ-0019",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0019",
+      "passed": true,
+      "detail": "CUSTOMER CODE"
+    },
+    {
+      "test": "Issue source table exists DQ-0020",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0020",
+      "passed": true,
+      "detail": "CUSTOMER NAME  "
+    },
+    {
+      "test": "Issue source table exists DQ-0021",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0021",
+      "passed": true,
+      "detail": "CUSTOMER NAME  "
+    },
+    {
+      "test": "Issue source table exists DQ-0022",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0022",
+      "passed": true,
+      "detail": "TEL 1"
+    },
+    {
+      "test": "Issue source table exists DQ-0023",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0023",
+      "passed": true,
+      "detail": "TEL 2"
+    },
+    {
+      "test": "Issue source table exists DQ-0024",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0024",
+      "passed": true,
+      "detail": "Fax Number"
+    },
+    {
+      "test": "Issue source table exists DQ-0025",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0025",
+      "passed": true,
+      "detail": "E-MAIL"
+    },
+    {
+      "test": "Issue source table exists DQ-0026",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0026",
+      "passed": true,
+      "detail": "WEBSITE"
+    },
+    {
+      "test": "Issue source table exists DQ-0027",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0027",
+      "passed": true,
+      "detail": "SHIPPING TYPE"
+    },
+    {
+      "test": "Issue source table exists DQ-0028",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0028",
+      "passed": true,
+      "detail": "ACTIVE"
+    },
+    {
+      "test": "Issue source table exists DQ-0029",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0029",
+      "passed": true,
+      "detail": "ACTIVE"
+    },
+    {
+      "test": "Issue source table exists DQ-0030",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0030",
+      "passed": true,
+      "detail": "INACTIVE"
+    },
+    {
+      "test": "Issue source table exists DQ-0031",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0031",
+      "passed": true,
+      "detail": "INACTIVE"
+    },
+    {
+      "test": "Issue source table exists DQ-0032",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0032",
+      "passed": true,
+      "detail": "ADDRESS 3"
+    },
+    {
+      "test": "Issue source table exists DQ-0033",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0033",
+      "passed": true,
+      "detail": "STREET / PO BOX"
+    },
+    {
+      "test": "Issue source table exists DQ-0034",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0034",
+      "passed": true,
+      "detail": "Bill-to Block"
+    },
+    {
+      "test": "Issue source table exists DQ-0035",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0035",
+      "passed": true,
+      "detail": "Bill-to City  "
+    },
+    {
+      "test": "Issue source table exists DQ-0036",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0036",
+      "passed": true,
+      "detail": "Bill-to City  "
+    },
+    {
+      "test": "Issue source table exists DQ-0037",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0037",
+      "passed": true,
+      "detail": "Bill-to Country"
+    },
+    {
+      "test": "Issue source table exists DQ-0038",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0038",
+      "passed": true,
+      "detail": "Bill-to Country"
+    },
+    {
+      "test": "Issue source table exists DQ-0039",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0039",
+      "passed": true,
+      "detail": "Bill-to Country"
+    },
+    {
+      "test": "Issue source table exists DQ-0040",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0040",
+      "passed": true,
+      "detail": "STREET NO."
+    },
+    {
+      "test": "Issue source table exists DQ-0041",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0041",
+      "passed": true,
+      "detail": "GSTIN"
+    },
+    {
+      "test": "Issue source table exists DQ-0042",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0042",
+      "passed": true,
+      "detail": "GSTIN"
+    },
+    {
+      "test": "Issue source table exists DQ-0043",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0043",
+      "passed": true,
+      "detail": "ACCOUNT NO."
+    },
+    {
+      "test": "Issue source table exists DQ-0044",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0044",
+      "passed": true,
+      "detail": "BANK ACCOUNT NAME"
+    },
+    {
+      "test": "Issue source table exists DQ-0045",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0045",
+      "passed": true,
+      "detail": "BRANCH"
+    },
+    {
+      "test": "Issue source table exists DQ-0046",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0046",
+      "passed": true,
+      "detail": "SWIFT CODE / IFS CODE"
+    },
+    {
+      "test": "Issue source table exists DQ-0047",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0047",
+      "passed": true,
+      "detail": "PROPERTIES 1"
+    },
+    {
+      "test": "Issue source table exists DQ-0048",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0048",
+      "passed": true,
+      "detail": "PROPERTIES 2"
+    },
+    {
+      "test": "Issue source table exists DQ-0049",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0049",
+      "passed": true,
+      "detail": "(source provenance)"
+    },
+    {
+      "test": "Issue source table exists DQ-0050",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0050",
+      "passed": true,
+      "detail": "Start Date"
+    },
+    {
+      "test": "Issue source table exists DQ-0051",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0051",
+      "passed": true,
+      "detail": "Start Date"
+    },
+    {
+      "test": "Issue source table exists DQ-0052",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0052",
+      "passed": true,
+      "detail": "Start Date"
+    },
+    {
+      "test": "Issue source table exists DQ-0053",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0053",
+      "passed": true,
+      "detail": "End Date"
+    },
+    {
+      "test": "Issue source table exists DQ-0054",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0054",
+      "passed": true,
+      "detail": "End Date"
+    },
+    {
+      "test": "Issue source table exists DQ-0055",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0055",
+      "passed": true,
+      "detail": "End Date"
+    },
+    {
+      "test": "Issue source table exists DQ-0056",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0056",
+      "passed": true,
+      "detail": "From Currency"
+    },
+    {
+      "test": "Issue source table exists DQ-0057",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0057",
+      "passed": true,
+      "detail": "Exchange Rate (1 INR = ? JPY)"
+    },
+    {
+      "test": "Issue source table exists DQ-0058",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0058",
+      "passed": true,
+      "detail": "Remarks"
+    },
+    {
+      "test": "Issue source table exists DQ-0059",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0059",
+      "passed": true,
+      "detail": "(source provenance)"
+    },
+    {
+      "test": "Issue source table exists DQ-0060",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0060",
+      "passed": true,
+      "detail": "CreditDebitNote_Date"
+    },
+    {
+      "test": "Issue source table exists DQ-0061",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0061",
+      "passed": true,
+      "detail": "CreditDebitNote_Date"
+    },
+    {
+      "test": "Issue source table exists DQ-0062",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0062",
+      "passed": true,
+      "detail": "Invoice_Date"
+    },
+    {
+      "test": "Issue source table exists DQ-0063",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0063",
+      "passed": true,
+      "detail": "Invoice_Date"
+    },
+    {
+      "test": "Issue source table exists DQ-0064",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0064",
+      "passed": true,
+      "detail": "IGST_Rate"
+    },
+    {
+      "test": "Issue source table exists DQ-0065",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0065",
+      "passed": true,
+      "detail": "IGST_Amount"
+    },
+    {
+      "test": "Issue source table exists DQ-0066",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0066",
+      "passed": true,
+      "detail": "CGST_Rate"
+    },
+    {
+      "test": "Issue source table exists DQ-0067",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0067",
+      "passed": true,
+      "detail": "CGST_Amount"
+    },
+    {
+      "test": "Issue source table exists DQ-0068",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0068",
+      "passed": true,
+      "detail": "SGST_Rate"
+    },
+    {
+      "test": "Issue source table exists DQ-0069",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0069",
+      "passed": true,
+      "detail": "SGST_Amount"
+    },
+    {
+      "test": "Issue source table exists DQ-0070",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0070",
+      "passed": true,
+      "detail": "CESS_Rate"
+    },
+    {
+      "test": "Issue source table exists DQ-0071",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0071",
+      "passed": true,
+      "detail": "CESS_Amount"
+    },
+    {
+      "test": "Issue source table exists DQ-0072",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0072",
+      "passed": true,
+      "detail": "Original_CreditDebitNote_Date"
+    },
+    {
+      "test": "Issue source table exists DQ-0073",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0073",
+      "passed": true,
+      "detail": "Original_CreditDebitNote_Number"
+    },
+    {
+      "test": "Issue source table exists DQ-0074",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0074",
+      "passed": true,
+      "detail": "Original_CreditDebitNote_Number"
+    },
+    {
+      "test": "Issue source table exists DQ-0075",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0075",
+      "passed": true,
+      "detail": "Non_GST_Taxes"
+    },
+    {
+      "test": "Issue source table exists DQ-0076",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0076",
+      "passed": true,
+      "detail": "Port_Code"
+    },
+    {
+      "test": "Issue source table exists DQ-0077",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0077",
+      "passed": true,
+      "detail": "Shipping_Bill_No"
+    },
+    {
+      "test": "Issue source table exists DQ-0078",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0078",
+      "passed": true,
+      "detail": "Shipping_Bill_No"
+    },
+    {
+      "test": "Issue source table exists DQ-0079",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0079",
+      "passed": true,
+      "detail": "Shipping_Bill_Date"
+    },
+    {
+      "test": "Issue source table exists DQ-0080",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0080",
+      "passed": true,
+      "detail": "(whole row)"
+    },
+    {
+      "test": "Issue source table exists DQ-0081",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0081",
+      "passed": true,
+      "detail": "(compared fields)"
+    },
+    {
+      "test": "Issue source table exists DQ-0082",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0082",
+      "passed": true,
+      "detail": "(compared fields)"
+    },
+    {
+      "test": "Issue source table exists DQ-0083",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0083",
+      "passed": true,
+      "detail": "(compared fields)"
+    },
+    {
+      "test": "Issue source table exists DQ-0084",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0084",
+      "passed": true,
+      "detail": "CreditDebitNote_Date"
+    },
+    {
+      "test": "Issue source table exists DQ-0085",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0085",
+      "passed": true,
+      "detail": "CreditDebitNote_Date"
+    },
+    {
+      "test": "Issue source table exists DQ-0086",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0086",
+      "passed": true,
+      "detail": "CreditDebitNote_Date"
+    },
+    {
+      "test": "Issue source table exists DQ-0087",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0087",
+      "passed": true,
+      "detail": "Type_Credit_or_Debit"
+    },
+    {
+      "test": "Issue source table exists DQ-0088",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0088",
+      "passed": true,
+      "detail": "Type_Credit_or_Debit"
+    },
+    {
+      "test": "Issue source table exists DQ-0089",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0089",
+      "passed": true,
+      "detail": "Invoice_Date"
+    },
+    {
+      "test": "Issue source table exists DQ-0090",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0090",
+      "passed": true,
+      "detail": "Invoice_Date"
+    },
+    {
+      "test": "Issue source table exists DQ-0091",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0091",
+      "passed": true,
+      "detail": "Invoice_Number"
+    },
+    {
+      "test": "Issue source table exists DQ-0092",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0092",
+      "passed": true,
+      "detail": "Invoice_Number"
+    },
+    {
+      "test": "Issue source table exists DQ-0093",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0093",
+      "passed": true,
+      "detail": "Customer_Billing_Name"
+    },
+    {
+      "test": "Issue source table exists DQ-0094",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0094",
+      "passed": true,
+      "detail": "Customer_Billing_Name"
+    },
+    {
+      "test": "Issue source table exists DQ-0095",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0095",
+      "passed": true,
+      "detail": "Item_Quantity"
+    },
+    {
+      "test": "Issue source table exists DQ-0096",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0096",
+      "passed": true,
+      "detail": "Item_Quantity"
+    },
+    {
+      "test": "Issue source table exists DQ-0097",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0097",
+      "passed": true,
+      "detail": " Item_Taxable_Value"
+    },
+    {
+      "test": "Issue source table exists DQ-0098",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0098",
+      "passed": true,
+      "detail": " Item_Taxable_Value"
+    },
+    {
+      "test": "Issue source table exists DQ-0099",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0099",
+      "passed": true,
+      "detail": "IGST_Rate"
+    },
+    {
+      "test": "Issue source table exists DQ-0100",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0100",
+      "passed": true,
+      "detail": "IGST_Amount"
+    },
+    {
+      "test": "Issue source table exists DQ-0101",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0101",
+      "passed": true,
+      "detail": "IGST_Amount"
+    },
+    {
+      "test": "Issue source table exists DQ-0102",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0102",
+      "passed": true,
+      "detail": "CGST_Rate"
+    },
+    {
+      "test": "Issue source table exists DQ-0103",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0103",
+      "passed": true,
+      "detail": "CGST_Amount"
+    },
+    {
+      "test": "Issue source table exists DQ-0104",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0104",
+      "passed": true,
+      "detail": "SGST_Rate"
+    },
+    {
+      "test": "Issue source table exists DQ-0105",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0105",
+      "passed": true,
+      "detail": "SGST_Amount"
+    },
+    {
+      "test": "Issue source table exists DQ-0106",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0106",
+      "passed": true,
+      "detail": "CESS_Rate"
+    },
+    {
+      "test": "Issue source table exists DQ-0107",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0107",
+      "passed": true,
+      "detail": "CESS_Amount"
+    },
+    {
+      "test": "Issue source table exists DQ-0108",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0108",
+      "passed": true,
+      "detail": "Original_CreditDebitNote_Date"
+    },
+    {
+      "test": "Issue source table exists DQ-0109",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0109",
+      "passed": true,
+      "detail": "Original_CreditDebitNote_Number"
+    },
+    {
+      "test": "Issue source table exists DQ-0110",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0110",
+      "passed": true,
+      "detail": "Original_CreditDebitNote_Number"
+    },
+    {
+      "test": "Issue source table exists DQ-0111",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0111",
+      "passed": true,
+      "detail": "Line_Total_Include_GST"
+    },
+    {
+      "test": "Issue source table exists DQ-0112",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0112",
+      "passed": true,
+      "detail": "Non_GST_Taxes"
+    },
+    {
+      "test": "Issue source table exists DQ-0113",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0113",
+      "passed": true,
+      "detail": "Credit_Debit_Note_Value"
+    },
+    {
+      "test": "Issue source table exists DQ-0114",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0114",
+      "passed": true,
+      "detail": "Port_Code"
+    },
+    {
+      "test": "Issue source table exists DQ-0115",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0115",
+      "passed": true,
+      "detail": "Shipping_Bill_No"
+    },
+    {
+      "test": "Issue source table exists DQ-0116",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0116",
+      "passed": true,
+      "detail": "Shipping_Bill_No"
+    },
+    {
+      "test": "Issue source table exists DQ-0117",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0117",
+      "passed": true,
+      "detail": "Shipping_Bill_Date"
+    },
+    {
+      "test": "Issue source table exists DQ-0118",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0118",
+      "passed": true,
+      "detail": " Item_Taxable_Value"
+    },
+    {
+      "test": "Issue source table exists DQ-0119",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0119",
+      "passed": true,
+      "detail": "Invoice_Date"
+    },
+    {
+      "test": "Issue source table exists DQ-0120",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0120",
+      "passed": true,
+      "detail": "Item_Quantity"
+    },
+    {
+      "test": "Issue source table exists DQ-0121",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0121",
+      "passed": true,
+      "detail": "Item_Taxable_Value"
+    },
+    {
+      "test": "Issue source table exists DQ-0122",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0122",
+      "passed": true,
+      "detail": "IGST_Rate"
+    },
+    {
+      "test": "Issue source table exists DQ-0123",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0123",
+      "passed": true,
+      "detail": "IGST_Amount"
+    },
+    {
+      "test": "Issue source table exists DQ-0124",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0124",
+      "passed": true,
+      "detail": "IGST_Amount"
+    },
+    {
+      "test": "Issue source table exists DQ-0125",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0125",
+      "passed": true,
+      "detail": "CGST_Rate"
+    },
+    {
+      "test": "Issue source table exists DQ-0126",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0126",
+      "passed": true,
+      "detail": "CGST_Amount"
+    },
+    {
+      "test": "Issue source table exists DQ-0127",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0127",
+      "passed": true,
+      "detail": "CGST_Amount"
+    },
+    {
+      "test": "Issue source table exists DQ-0128",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0128",
+      "passed": true,
+      "detail": "SGST_Rate"
+    },
+    {
+      "test": "Issue source table exists DQ-0129",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0129",
+      "passed": true,
+      "detail": "SGST_Amount"
+    },
+    {
+      "test": "Issue source table exists DQ-0130",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0130",
+      "passed": true,
+      "detail": "SGST_Amount"
+    },
+    {
+      "test": "Issue source table exists DQ-0131",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0131",
+      "passed": true,
+      "detail": "CESS_Rate"
+    },
+    {
+      "test": "Issue source table exists DQ-0132",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0132",
+      "passed": true,
+      "detail": "CESS_Amount"
+    },
+    {
+      "test": "Issue source table exists DQ-0133",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0133",
+      "passed": true,
+      "detail": "Non_GST_Taxes"
+    },
+    {
+      "test": "Issue source table exists DQ-0134",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0134",
+      "passed": true,
+      "detail": "Original_Invoice_Date"
+    },
+    {
+      "test": "Issue source table exists DQ-0135",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0135",
+      "passed": true,
+      "detail": "Original_Invoice_Number"
+    },
+    {
+      "test": "Issue source table exists DQ-0136",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0136",
+      "passed": true,
+      "detail": "Original_Invoice_Number"
+    },
+    {
+      "test": "Issue source table exists DQ-0137",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0137",
+      "passed": true,
+      "detail": "GSTIN_eCommerce"
+    },
+    {
+      "test": "Issue source table exists DQ-0138",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0138",
+      "passed": true,
+      "detail": "AdvanceReceipt_Date"
+    },
+    {
+      "test": "Issue source table exists DQ-0139",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0139",
+      "passed": true,
+      "detail": "AdvanceReceipt_Document_Number"
+    },
+    {
+      "test": "Issue source table exists DQ-0140",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0140",
+      "passed": true,
+      "detail": "AdvanceReceipt_Document_Number"
+    },
+    {
+      "test": "Issue source table exists DQ-0141",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0141",
+      "passed": true,
+      "detail": "Type_Export_SEZ_Deemed"
+    },
+    {
+      "test": "Issue source table exists DQ-0142",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0142",
+      "passed": true,
+      "detail": "Shipping_Bill_Number"
+    },
+    {
+      "test": "Issue source table exists DQ-0143",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0143",
+      "passed": true,
+      "detail": "Shipping_Bill_Number"
+    },
+    {
+      "test": "Issue source table exists DQ-0144",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0144",
+      "passed": true,
+      "detail": "Shipping_Bill_Date"
+    },
+    {
+      "test": "Issue source table exists DQ-0145",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0145",
+      "passed": true,
+      "detail": "Flag_if_GST_TDS_deducted"
+    },
+    {
+      "test": "Issue source table exists DQ-0146",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0146",
+      "passed": true,
+      "detail": "Invoice_Value"
+    },
+    {
+      "test": "Issue source table exists DQ-0147",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0147",
+      "passed": true,
+      "detail": "Revision_Month"
+    },
+    {
+      "test": "Issue source table exists DQ-0148",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0148",
+      "passed": true,
+      "detail": "Duty_Status"
+    },
+    {
+      "test": "Issue source table exists DQ-0149",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0149",
+      "passed": true,
+      "detail": "Port_Code"
+    },
+    {
+      "test": "Issue source table exists DQ-0150",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0150",
+      "passed": true,
+      "detail": "Line_Total_Include_GST"
+    },
+    {
+      "test": "Issue source table exists DQ-0151",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0151",
+      "passed": true,
+      "detail": "Doc_Series_Suffix"
+    },
+    {
+      "test": "Issue source table exists DQ-0152",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0152",
+      "passed": true,
+      "detail": "Pre_GST"
+    },
+    {
+      "test": "Issue source table exists DQ-0153",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0153",
+      "passed": true,
+      "detail": "Item_Taxable_Value"
+    },
+    {
+      "test": "Issue source table exists DQ-0154",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0154",
+      "passed": true,
+      "detail": "IGST_Amount"
+    },
+    {
+      "test": "Issue source table exists DQ-0155",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0155",
+      "passed": true,
+      "detail": "CGST_Amount"
+    },
+    {
+      "test": "Issue source table exists DQ-0156",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0156",
+      "passed": true,
+      "detail": "SGST_Amount"
+    },
+    {
+      "test": "Issue source table exists DQ-0157",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0157",
+      "passed": true,
+      "detail": "Line_Total_Include_GST"
+    },
+    {
+      "test": "Issue source table exists DQ-0158",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0158",
+      "passed": true,
+      "detail": "(whole row)"
+    },
+    {
+      "test": "Issue source table exists DQ-0159",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0159",
+      "passed": true,
+      "detail": "(compared fields)"
+    },
+    {
+      "test": "Issue source table exists DQ-0160",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0160",
+      "passed": true,
+      "detail": " Item No. "
+    },
+    {
+      "test": "Issue source table exists DQ-0161",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0161",
+      "passed": true,
+      "detail": " Item No. "
+    },
+    {
+      "test": "Issue source table exists DQ-0162",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0162",
+      "passed": true,
+      "detail": " Item No. "
+    },
+    {
+      "test": "Issue source table exists DQ-0163",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0163",
+      "passed": true,
+      "detail": "Description"
+    },
+    {
+      "test": "Issue source table exists DQ-0164",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0164",
+      "passed": true,
+      "detail": "System Date"
+    },
+    {
+      "test": "Issue source table exists DQ-0165",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0165",
+      "passed": true,
+      "detail": "System Date"
+    },
+    {
+      "test": "Issue source table exists DQ-0166",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0166",
+      "passed": true,
+      "detail": "System Date"
+    },
+    {
+      "test": "Issue source table exists DQ-0167",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0167",
+      "passed": true,
+      "detail": "System Date"
+    },
+    {
+      "test": "Issue source table exists DQ-0168",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0168",
+      "passed": true,
+      "detail": "Posting Date"
+    },
+    {
+      "test": "Issue source table exists DQ-0169",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0169",
+      "passed": true,
+      "detail": "Posting Date"
+    },
+    {
+      "test": "Issue source table exists DQ-0170",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0170",
+      "passed": true,
+      "detail": "Posting Date"
+    },
+    {
+      "test": "Issue source table exists DQ-0171",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0171",
+      "passed": true,
+      "detail": "Document"
+    },
+    {
+      "test": "Issue source table exists DQ-0172",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0172",
+      "passed": true,
+      "detail": "Document"
+    },
+    {
+      "test": "Issue source table exists DQ-0173",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0173",
+      "passed": true,
+      "detail": "Whse"
+    },
+    {
+      "test": "Issue source table exists DQ-0174",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0174",
+      "passed": true,
+      "detail": "Whse"
+    },
+    {
+      "test": "Issue source table exists DQ-0175",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0175",
+      "passed": true,
+      "detail": "Quantity"
+    },
+    {
+      "test": "Issue source table exists DQ-0176",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0176",
+      "passed": true,
+      "detail": "Cost"
+    },
+    {
+      "test": "Issue source table exists DQ-0177",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0177",
+      "passed": true,
+      "detail": "Cost"
+    },
+    {
+      "test": "Issue source table exists DQ-0178",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0178",
+      "passed": true,
+      "detail": "Cost"
+    },
+    {
+      "test": "Issue source table exists DQ-0179",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0179",
+      "passed": true,
+      "detail": "Cost"
+    },
+    {
+      "test": "Issue source table exists DQ-0180",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0180",
+      "passed": true,
+      "detail": "Trans. Value"
+    },
+    {
+      "test": "Issue source table exists DQ-0181",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0181",
+      "passed": true,
+      "detail": "Trans. Value"
+    },
+    {
+      "test": "Issue source table exists DQ-0182",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0182",
+      "passed": true,
+      "detail": "Trans. Value"
+    },
+    {
+      "test": "Issue source table exists DQ-0183",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0183",
+      "passed": true,
+      "detail": "Trans. Value"
+    },
+    {
+      "test": "Issue source table exists DQ-0184",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0184",
+      "passed": true,
+      "detail": "Cumulative Qty"
+    },
+    {
+      "test": "Issue source table exists DQ-0185",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0185",
+      "passed": true,
+      "detail": "Cumulative Qty"
+    },
+    {
+      "test": "Issue source table exists DQ-0186",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0186",
+      "passed": true,
+      "detail": "Cumulative Value  "
+    },
+    {
+      "test": "Issue source table exists DQ-0187",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0187",
+      "passed": true,
+      "detail": "Cumulative Value  "
+    },
+    {
+      "test": "Issue source table exists DQ-0188",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0188",
+      "passed": true,
+      "detail": "Cumulative Value  "
+    },
+    {
+      "test": "Issue source table exists DQ-0189",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0189",
+      "passed": true,
+      "detail": "(compared fields)"
+    },
+    {
+      "test": "Issue source table exists DQ-0190",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0190",
+      "passed": true,
+      "detail": "Item No."
+    },
+    {
+      "test": "Issue source table exists DQ-0191",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0191",
+      "passed": true,
+      "detail": "Item No."
+    },
+    {
+      "test": "Issue source table exists DQ-0192",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0192",
+      "passed": true,
+      "detail": "Item No."
+    },
+    {
+      "test": "Issue source table exists DQ-0193",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0193",
+      "passed": true,
+      "detail": "Description"
+    },
+    {
+      "test": "Issue source table exists DQ-0194",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0194",
+      "passed": true,
+      "detail": "System Date"
+    },
+    {
+      "test": "Issue source table exists DQ-0195",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0195",
+      "passed": true,
+      "detail": "System Date"
+    },
+    {
+      "test": "Issue source table exists DQ-0196",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0196",
+      "passed": true,
+      "detail": "System Date"
+    },
+    {
+      "test": "Issue source table exists DQ-0197",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0197",
+      "passed": true,
+      "detail": "Posting Date"
+    },
+    {
+      "test": "Issue source table exists DQ-0198",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0198",
+      "passed": true,
+      "detail": "Posting Date"
+    },
+    {
+      "test": "Issue source table exists DQ-0199",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0199",
+      "passed": true,
+      "detail": "Posting Date"
+    },
+    {
+      "test": "Issue source table exists DQ-0200",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0200",
+      "passed": true,
+      "detail": "Document"
+    },
+    {
+      "test": "Issue source table exists DQ-0201",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0201",
+      "passed": true,
+      "detail": "Doc. Row"
+    },
+    {
+      "test": "Issue source table exists DQ-0202",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0202",
+      "passed": true,
+      "detail": "Whse"
+    },
+    {
+      "test": "Issue source table exists DQ-0203",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0203",
+      "passed": true,
+      "detail": "Quantity"
+    },
+    {
+      "test": "Issue source table exists DQ-0204",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0204",
+      "passed": true,
+      "detail": "Quantity"
+    },
+    {
+      "test": "Issue source table exists DQ-0205",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0205",
+      "passed": true,
+      "detail": "Cost"
+    },
+    {
+      "test": "Issue source table exists DQ-0206",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0206",
+      "passed": true,
+      "detail": "Cost"
+    },
+    {
+      "test": "Issue source table exists DQ-0207",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0207",
+      "passed": true,
+      "detail": "Cost"
+    },
+    {
+      "test": "Issue source table exists DQ-0208",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0208",
+      "passed": true,
+      "detail": "Trans. Value"
+    },
+    {
+      "test": "Issue source table exists DQ-0209",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0209",
+      "passed": true,
+      "detail": "Trans. Value"
+    },
+    {
+      "test": "Issue source table exists DQ-0210",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0210",
+      "passed": true,
+      "detail": "Trans. Value"
+    },
+    {
+      "test": "Issue source table exists DQ-0211",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0211",
+      "passed": true,
+      "detail": "Trans. Value"
+    },
+    {
+      "test": "Issue source table exists DQ-0212",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0212",
+      "passed": true,
+      "detail": "Cumulative Qty"
+    },
+    {
+      "test": "Issue source table exists DQ-0213",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0213",
+      "passed": true,
+      "detail": "Cumulative Value"
+    },
+    {
+      "test": "Issue source table exists DQ-0214",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0214",
+      "passed": true,
+      "detail": "Cumulative Value"
+    },
+    {
+      "test": "Issue source table exists DQ-0215",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0215",
+      "passed": true,
+      "detail": "(compared fields)"
+    },
+    {
+      "test": "Issue source table exists DQ-0216",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0216",
+      "passed": true,
+      "detail": "Item No."
+    },
+    {
+      "test": "Issue source table exists DQ-0217",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0217",
+      "passed": true,
+      "detail": "Item No."
+    },
+    {
+      "test": "Issue source table exists DQ-0218",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0218",
+      "passed": true,
+      "detail": "Description"
+    },
+    {
+      "test": "Issue source table exists DQ-0219",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0219",
+      "passed": true,
+      "detail": "System Date"
+    },
+    {
+      "test": "Issue source table exists DQ-0220",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0220",
+      "passed": true,
+      "detail": "System Date"
+    },
+    {
+      "test": "Issue source table exists DQ-0221",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0221",
+      "passed": true,
+      "detail": "Posting Date"
+    },
+    {
+      "test": "Issue source table exists DQ-0222",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0222",
+      "passed": true,
+      "detail": "Posting Date"
+    },
+    {
+      "test": "Issue source table exists DQ-0223",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0223",
+      "passed": true,
+      "detail": "Document"
+    },
+    {
+      "test": "Issue source table exists DQ-0224",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0224",
+      "passed": true,
+      "detail": "Doc. Row"
+    },
+    {
+      "test": "Issue source table exists DQ-0225",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0225",
+      "passed": true,
+      "detail": "Whse"
+    },
+    {
+      "test": "Issue source table exists DQ-0226",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0226",
+      "passed": true,
+      "detail": "Quantity"
+    },
+    {
+      "test": "Issue source table exists DQ-0227",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0227",
+      "passed": true,
+      "detail": "Quantity"
+    },
+    {
+      "test": "Issue source table exists DQ-0228",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0228",
+      "passed": true,
+      "detail": "Cost"
+    },
+    {
+      "test": "Issue source table exists DQ-0229",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0229",
+      "passed": true,
+      "detail": "Cost"
+    },
+    {
+      "test": "Issue source table exists DQ-0230",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0230",
+      "passed": true,
+      "detail": "Trans. Value"
+    },
+    {
+      "test": "Issue source table exists DQ-0231",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0231",
+      "passed": true,
+      "detail": "Trans. Value"
+    },
+    {
+      "test": "Issue source table exists DQ-0232",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0232",
+      "passed": true,
+      "detail": "Trans. Value"
+    },
+    {
+      "test": "Issue source table exists DQ-0233",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0233",
+      "passed": true,
+      "detail": "Cumulative Qty"
+    },
+    {
+      "test": "Issue source table exists DQ-0234",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0234",
+      "passed": true,
+      "detail": "Cumulative Value"
+    },
+    {
+      "test": "Issue source table exists DQ-0235",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0235",
+      "passed": true,
+      "detail": "Cumulative Value"
+    },
+    {
+      "test": "Issue source table exists DQ-0236",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0236",
+      "passed": true,
+      "detail": "In Stock"
+    },
+    {
+      "test": "Issue source table exists DQ-0237",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0237",
+      "passed": true,
+      "detail": "Order to Supllier"
+    },
+    {
+      "test": "Issue source table exists DQ-0238",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0238",
+      "passed": true,
+      "detail": "Order by Customer"
+    },
+    {
+      "test": "Issue source table exists DQ-0239",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0239",
+      "passed": true,
+      "detail": "Value"
+    },
+    {
+      "test": "Issue source table exists DQ-0240",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0240",
+      "passed": true,
+      "detail": "foreign Code"
+    },
+    {
+      "test": "Issue source table exists DQ-0241",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0241",
+      "passed": true,
+      "detail": "Lead Time"
+    },
+    {
+      "test": "Issue source table exists DQ-0242",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0242",
+      "passed": true,
+      "detail": "Minimum Inventory"
+    },
+    {
+      "test": "Issue source table exists DQ-0243",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0243",
+      "passed": true,
+      "detail": "Date of Udate"
+    },
+    {
+      "test": "Issue source table exists DQ-0244",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0244",
+      "passed": true,
+      "detail": "(whole row)"
+    },
+    {
+      "test": "Issue source table exists DQ-0245",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0245",
+      "passed": true,
+      "detail": "(compared fields)"
+    },
+    {
+      "test": "Issue source table exists DQ-0246",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0246",
+      "passed": true,
+      "detail": "Item No."
+    },
+    {
+      "test": "Issue source table exists DQ-0247",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0247",
+      "passed": true,
+      "detail": "Item No."
+    },
+    {
+      "test": "Issue source table exists DQ-0248",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0248",
+      "passed": true,
+      "detail": "Item Description  "
+    },
+    {
+      "test": "Issue source table exists DQ-0249",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0249",
+      "passed": true,
+      "detail": "Item Description  "
+    },
+    {
+      "test": "Issue source table exists DQ-0250",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0250",
+      "passed": true,
+      "detail": "In Stock"
+    },
+    {
+      "test": "Issue source table exists DQ-0251",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0251",
+      "passed": true,
+      "detail": "Order to Supllier"
+    },
+    {
+      "test": "Issue source table exists DQ-0252",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0252",
+      "passed": true,
+      "detail": "Order by Customer"
+    },
+    {
+      "test": "Issue source table exists DQ-0253",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0253",
+      "passed": true,
+      "detail": "Value"
+    },
+    {
+      "test": "Issue source table exists DQ-0254",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0254",
+      "passed": true,
+      "detail": "foreign Code"
+    },
+    {
+      "test": "Issue source table exists DQ-0255",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0255",
+      "passed": true,
+      "detail": "foreign Code"
+    },
+    {
+      "test": "Issue source table exists DQ-0256",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0256",
+      "passed": true,
+      "detail": "Active"
+    },
+    {
+      "test": "Issue source table exists DQ-0257",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0257",
+      "passed": true,
+      "detail": "Active"
+    },
+    {
+      "test": "Issue source table exists DQ-0258",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0258",
+      "passed": true,
+      "detail": " Amount "
+    },
+    {
+      "test": "Issue source table exists DQ-0259",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0259",
+      "passed": true,
+      "detail": "Lead Time"
+    },
+    {
+      "test": "Issue source table exists DQ-0260",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0260",
+      "passed": true,
+      "detail": "Lead Time"
+    },
+    {
+      "test": "Issue source table exists DQ-0261",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0261",
+      "passed": true,
+      "detail": "Lead Time"
+    },
+    {
+      "test": "Issue source table exists DQ-0262",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0262",
+      "passed": true,
+      "detail": "Minimum Inventory"
+    },
+    {
+      "test": "Issue source table exists DQ-0263",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0263",
+      "passed": true,
+      "detail": "Date of Udate"
+    },
+    {
+      "test": "Issue source table exists DQ-0264",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0264",
+      "passed": true,
+      "detail": "Date of Udate"
+    },
+    {
+      "test": "Issue source table exists DQ-0265",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0265",
+      "passed": true,
+      "detail": "Date of Udate"
+    },
+    {
+      "test": "Issue source table exists DQ-0266",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0266",
+      "passed": true,
+      "detail": "(whole row)"
+    },
+    {
+      "test": "Issue source table exists DQ-0267",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0267",
+      "passed": true,
+      "detail": "(compared fields)"
+    },
+    {
+      "test": "Issue source table exists DQ-0268",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0268",
+      "passed": true,
+      "detail": "(compared fields)"
+    },
+    {
+      "test": "Issue source table exists DQ-0269",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0269",
+      "passed": true,
+      "detail": "SO Date"
+    },
+    {
+      "test": "Issue source table exists DQ-0270",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0270",
+      "passed": true,
+      "detail": "SO Date"
+    },
+    {
+      "test": "Issue source table exists DQ-0271",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0271",
+      "passed": true,
+      "detail": "SO Date"
+    },
+    {
+      "test": "Issue source table exists DQ-0272",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0272",
+      "passed": true,
+      "detail": "SO Date"
+    },
+    {
+      "test": "Issue source table exists DQ-0273",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0273",
+      "passed": true,
+      "detail": "Customer Type"
+    },
+    {
+      "test": "Issue source table exists DQ-0274",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0274",
+      "passed": true,
+      "detail": "Customer Type"
+    },
+    {
+      "test": "Issue source table exists DQ-0275",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0275",
+      "passed": true,
+      "detail": "Customer Type"
+    },
+    {
+      "test": "Issue source table exists DQ-0276",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0276",
+      "passed": true,
+      "detail": "Invoice Num"
+    },
+    {
+      "test": "Issue source table exists DQ-0277",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0277",
+      "passed": true,
+      "detail": "Invoice Num"
+    },
+    {
+      "test": "Issue source table exists DQ-0278",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0278",
+      "passed": true,
+      "detail": " Invoice Date "
+    },
+    {
+      "test": "Issue source table exists DQ-0279",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0279",
+      "passed": true,
+      "detail": " Invoice Date "
+    },
+    {
+      "test": "Issue source table exists DQ-0280",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0280",
+      "passed": true,
+      "detail": " Invoice Date "
+    },
+    {
+      "test": "Issue source table exists DQ-0281",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0281",
+      "passed": true,
+      "detail": " Invoice Date "
+    },
+    {
+      "test": "Issue source table exists DQ-0282",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0282",
+      "passed": true,
+      "detail": "Customer Billing Name  "
+    },
+    {
+      "test": "Issue source table exists DQ-0283",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0283",
+      "passed": true,
+      "detail": "Customer Billing Name  "
+    },
+    {
+      "test": "Issue source table exists DQ-0284",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0284",
+      "passed": true,
+      "detail": "State Place of Supply"
+    },
+    {
+      "test": "Issue source table exists DQ-0285",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0285",
+      "passed": true,
+      "detail": "State Place of Supply"
+    },
+    {
+      "test": "Issue source table exists DQ-0286",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0286",
+      "passed": true,
+      "detail": "Country"
+    },
+    {
+      "test": "Issue source table exists DQ-0287",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0287",
+      "passed": true,
+      "detail": "Country"
+    },
+    {
+      "test": "Issue source table exists DQ-0288",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0288",
+      "passed": true,
+      "detail": "Country"
+    },
+    {
+      "test": "Issue source table exists DQ-0289",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0289",
+      "passed": true,
+      "detail": "Country"
+    },
+    {
+      "test": "Issue source table exists DQ-0290",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0290",
+      "passed": true,
+      "detail": "Part Code SAP Code"
+    },
+    {
+      "test": "Issue source table exists DQ-0291",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0291",
+      "passed": true,
+      "detail": "Part Code SAP Code"
+    },
+    {
+      "test": "Issue source table exists DQ-0292",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0292",
+      "passed": true,
+      "detail": "Part Code SAP Code"
+    },
+    {
+      "test": "Issue source table exists DQ-0293",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0293",
+      "passed": true,
+      "detail": "Item Foreign Code"
+    },
+    {
+      "test": "Issue source table exists DQ-0294",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0294",
+      "passed": true,
+      "detail": "Item Foreign Code"
+    },
+    {
+      "test": "Issue source table exists DQ-0295",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0295",
+      "passed": true,
+      "detail": "Item Foreign Code"
+    },
+    {
+      "test": "Issue source table exists DQ-0296",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0296",
+      "passed": true,
+      "detail": "HSN Code"
+    },
+    {
+      "test": "Issue source table exists DQ-0297",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0297",
+      "passed": true,
+      "detail": "SAC Code"
+    },
+    {
+      "test": "Issue source table exists DQ-0298",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0298",
+      "passed": true,
+      "detail": "Quantity"
+    },
+    {
+      "test": "Issue source table exists DQ-0299",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0299",
+      "passed": true,
+      "detail": "Quantity"
+    },
+    {
+      "test": "Issue source table exists DQ-0300",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0300",
+      "passed": true,
+      "detail": "Unit Price"
+    },
+    {
+      "test": "Issue source table exists DQ-0301",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0301",
+      "passed": true,
+      "detail": "Unit Price"
+    },
+    {
+      "test": "Issue source table exists DQ-0302",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0302",
+      "passed": true,
+      "detail": " Taxable Value "
+    },
+    {
+      "test": "Issue source table exists DQ-0303",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0303",
+      "passed": true,
+      "detail": " Taxable Value "
+    },
+    {
+      "test": "Issue source table exists DQ-0304",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0304",
+      "passed": true,
+      "detail": "FreightAmt"
+    },
+    {
+      "test": "Issue source table exists DQ-0305",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0305",
+      "passed": true,
+      "detail": "FreightAmt"
+    },
+    {
+      "test": "Issue source table exists DQ-0306",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0306",
+      "passed": true,
+      "detail": "FreightDetail"
+    },
+    {
+      "test": "Issue source table exists DQ-0307",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0307",
+      "passed": true,
+      "detail": "FreightSACCode"
+    },
+    {
+      "test": "Issue source table exists DQ-0308",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0308",
+      "passed": true,
+      "detail": "IGST Rate"
+    },
+    {
+      "test": "Issue source table exists DQ-0309",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0309",
+      "passed": true,
+      "detail": "IGST Amt"
+    },
+    {
+      "test": "Issue source table exists DQ-0310",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0310",
+      "passed": true,
+      "detail": "IGST Amt"
+    },
+    {
+      "test": "Issue source table exists DQ-0311",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0311",
+      "passed": true,
+      "detail": "CGST Rate"
+    },
+    {
+      "test": "Issue source table exists DQ-0312",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0312",
+      "passed": true,
+      "detail": "CGST Amt"
+    },
+    {
+      "test": "Issue source table exists DQ-0313",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0313",
+      "passed": true,
+      "detail": "SGST Rate"
+    },
+    {
+      "test": "Issue source table exists DQ-0314",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0314",
+      "passed": true,
+      "detail": "SGST Amt"
+    },
+    {
+      "test": "Issue source table exists DQ-0315",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0315",
+      "passed": true,
+      "detail": "Total Value"
+    },
+    {
+      "test": "Issue source table exists DQ-0316",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0316",
+      "passed": true,
+      "detail": "Total Value"
+    },
+    {
+      "test": "Issue source table exists DQ-0317",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0317",
+      "passed": true,
+      "detail": "Doc Round Off"
+    },
+    {
+      "test": "Issue source table exists DQ-0318",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0318",
+      "passed": true,
+      "detail": "Invoice Total Include GST"
+    },
+    {
+      "test": "Issue source table exists DQ-0319",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0319",
+      "passed": true,
+      "detail": "Invoice Total Include GST"
+    },
+    {
+      "test": "Issue source table exists DQ-0320",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0320",
+      "passed": true,
+      "detail": "Invoice Discount %"
+    },
+    {
+      "test": "Issue source table exists DQ-0321",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0321",
+      "passed": true,
+      "detail": "Customer Billing GSTIN"
+    },
+    {
+      "test": "Issue source table exists DQ-0322",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0322",
+      "passed": true,
+      "detail": "Customer Billing GSTIN"
+    },
+    {
+      "test": "Issue source table exists DQ-0323",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0323",
+      "passed": true,
+      "detail": "Sales Employee"
+    },
+    {
+      "test": "Issue source table exists DQ-0324",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0324",
+      "passed": true,
+      "detail": "Sales Employee"
+    },
+    {
+      "test": "Issue source table exists DQ-0325",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0325",
+      "passed": true,
+      "detail": " Taxable Value "
+    },
+    {
+      "test": "Issue source table exists DQ-0326",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0326",
+      "passed": true,
+      "detail": "IGST Amt"
+    },
+    {
+      "test": "Issue source table exists DQ-0327",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0327",
+      "passed": true,
+      "detail": "CGST Amt"
+    },
+    {
+      "test": "Issue source table exists DQ-0328",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0328",
+      "passed": true,
+      "detail": "SGST Amt"
+    },
+    {
+      "test": "Issue source table exists DQ-0329",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0329",
+      "passed": true,
+      "detail": "SO Date"
+    },
+    {
+      "test": "Issue source table exists DQ-0330",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0330",
+      "passed": true,
+      "detail": "Customer Type"
+    },
+    {
+      "test": "Issue source table exists DQ-0331",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0331",
+      "passed": true,
+      "detail": "Invoice Date"
+    },
+    {
+      "test": "Issue source table exists DQ-0332",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0332",
+      "passed": true,
+      "detail": "Part Code SAP Code"
+    },
+    {
+      "test": "Issue source table exists DQ-0333",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0333",
+      "passed": true,
+      "detail": "Item Foreign Code"
+    },
+    {
+      "test": "Issue source table exists DQ-0334",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0334",
+      "passed": true,
+      "detail": "SAC Code"
+    },
+    {
+      "test": "Issue source table exists DQ-0335",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0335",
+      "passed": true,
+      "detail": "Quantity"
+    },
+    {
+      "test": "Issue source table exists DQ-0336",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0336",
+      "passed": true,
+      "detail": "Taxable Value"
+    },
+    {
+      "test": "Issue source table exists DQ-0337",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0337",
+      "passed": true,
+      "detail": "FreightAmt"
+    },
+    {
+      "test": "Issue source table exists DQ-0338",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0338",
+      "passed": true,
+      "detail": "FreightDetail"
+    },
+    {
+      "test": "Issue source table exists DQ-0339",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0339",
+      "passed": true,
+      "detail": "FreightSACCode"
+    },
+    {
+      "test": "Issue source table exists DQ-0340",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0340",
+      "passed": true,
+      "detail": "IGST Rate"
+    },
+    {
+      "test": "Issue source table exists DQ-0341",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0341",
+      "passed": true,
+      "detail": "IGST Amt"
+    },
+    {
+      "test": "Issue source table exists DQ-0342",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0342",
+      "passed": true,
+      "detail": "IGST Amt"
+    },
+    {
+      "test": "Issue source table exists DQ-0343",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0343",
+      "passed": true,
+      "detail": "CGST Rate"
+    },
+    {
+      "test": "Issue source table exists DQ-0344",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0344",
+      "passed": true,
+      "detail": "CGST Amt"
+    },
+    {
+      "test": "Issue source table exists DQ-0345",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0345",
+      "passed": true,
+      "detail": "CGST Amt"
+    },
+    {
+      "test": "Issue source table exists DQ-0346",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0346",
+      "passed": true,
+      "detail": "SGST Rate"
+    },
+    {
+      "test": "Issue source table exists DQ-0347",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0347",
+      "passed": true,
+      "detail": "SGST Amt"
+    },
+    {
+      "test": "Issue source table exists DQ-0348",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0348",
+      "passed": true,
+      "detail": "SGST Amt"
+    },
+    {
+      "test": "Issue source table exists DQ-0349",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0349",
+      "passed": true,
+      "detail": "Total Value"
+    },
+    {
+      "test": "Issue source table exists DQ-0350",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0350",
+      "passed": true,
+      "detail": "Doc Round Off"
+    },
+    {
+      "test": "Issue source table exists DQ-0351",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0351",
+      "passed": true,
+      "detail": "Invoice Total Include GST"
+    },
+    {
+      "test": "Issue source table exists DQ-0352",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0352",
+      "passed": true,
+      "detail": "Invoice Discount %"
+    },
+    {
+      "test": "Issue source table exists DQ-0353",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0353",
+      "passed": true,
+      "detail": "Taxable Value"
+    },
+    {
+      "test": "Issue source table exists DQ-0354",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0354",
+      "passed": true,
+      "detail": "IGST Amt"
+    },
+    {
+      "test": "Issue source table exists DQ-0355",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0355",
+      "passed": true,
+      "detail": "CGST Amt"
+    },
+    {
+      "test": "Issue source table exists DQ-0356",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0356",
+      "passed": true,
+      "detail": "SGST Amt"
+    },
+    {
+      "test": "Issue source table exists DQ-0357",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0357",
+      "passed": true,
+      "detail": "Posting Date"
+    },
+    {
+      "test": "Issue source table exists DQ-0358",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0358",
+      "passed": true,
+      "detail": "Delivery Date"
+    },
+    {
+      "test": "Issue source table exists DQ-0359",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0359",
+      "passed": true,
+      "detail": "Item No"
+    },
+    {
+      "test": "Issue source table exists DQ-0360",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0360",
+      "passed": true,
+      "detail": "BP Catalog No"
+    },
+    {
+      "test": "Issue source table exists DQ-0361",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0361",
+      "passed": true,
+      "detail": "BP Catalog No"
+    },
+    {
+      "test": "Issue source table exists DQ-0362",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0362",
+      "passed": true,
+      "detail": "Item Details"
+    },
+    {
+      "test": "Issue source table exists DQ-0363",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0363",
+      "passed": true,
+      "detail": "Quantity"
+    },
+    {
+      "test": "Issue source table exists DQ-0364",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0364",
+      "passed": true,
+      "detail": "Discount %"
+    },
+    {
+      "test": "Issue source table exists DQ-0365",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0365",
+      "passed": true,
+      "detail": "Total (LC)"
+    },
+    {
+      "test": "Issue source table exists DQ-0366",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0366",
+      "passed": true,
+      "detail": "Tax Total"
+    },
+    {
+      "test": "Issue source table exists DQ-0367",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0367",
+      "passed": true,
+      "detail": "Tax Total"
+    },
+    {
+      "test": "Issue source table exists DQ-0368",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0368",
+      "passed": true,
+      "detail": "Total (LC)"
+    },
+    {
+      "test": "Issue source table exists DQ-0369",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0369",
+      "passed": true,
+      "detail": "(whole row)"
+    },
+    {
+      "test": "Issue source table exists DQ-0370",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0370",
+      "passed": true,
+      "detail": "(compared fields)"
+    },
+    {
+      "test": "Issue source table exists DQ-0371",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0371",
+      "passed": true,
+      "detail": "(compared fields)"
+    },
+    {
+      "test": "Issue source table exists DQ-0372",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0372",
+      "passed": true,
+      "detail": " Customer Code "
+    },
+    {
+      "test": "Issue source table exists DQ-0373",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0373",
+      "passed": true,
+      "detail": " Customer Code "
+    },
+    {
+      "test": "Issue source table exists DQ-0374",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0374",
+      "passed": true,
+      "detail": "Customer Name"
+    },
+    {
+      "test": "Issue source table exists DQ-0375",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0375",
+      "passed": true,
+      "detail": "Customer Name"
+    },
+    {
+      "test": "Issue source table exists DQ-0376",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0376",
+      "passed": true,
+      "detail": "Contact Person"
+    },
+    {
+      "test": "Issue source table exists DQ-0377",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0377",
+      "passed": true,
+      "detail": "Status"
+    },
+    {
+      "test": "Issue source table exists DQ-0378",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0378",
+      "passed": true,
+      "detail": "Status"
+    },
+    {
+      "test": "Issue source table exists DQ-0379",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0379",
+      "passed": true,
+      "detail": "Status"
+    },
+    {
+      "test": "Issue source table exists DQ-0380",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0380",
+      "passed": true,
+      "detail": "Posting Date  "
+    },
+    {
+      "test": "Issue source table exists DQ-0381",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0381",
+      "passed": true,
+      "detail": "Posting Date  "
+    },
+    {
+      "test": "Issue source table exists DQ-0382",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0382",
+      "passed": true,
+      "detail": "Posting Date  "
+    },
+    {
+      "test": "Issue source table exists DQ-0383",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0383",
+      "passed": true,
+      "detail": "Delivery Date"
+    },
+    {
+      "test": "Issue source table exists DQ-0384",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0384",
+      "passed": true,
+      "detail": "Delivery Date"
+    },
+    {
+      "test": "Issue source table exists DQ-0385",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0385",
+      "passed": true,
+      "detail": "Delivery Date"
+    },
+    {
+      "test": "Issue source table exists DQ-0386",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0386",
+      "passed": true,
+      "detail": "Delivery Date"
+    },
+    {
+      "test": "Issue source table exists DQ-0387",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0387",
+      "passed": true,
+      "detail": "Delivery Date"
+    },
+    {
+      "test": "Issue source table exists DQ-0388",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0388",
+      "passed": true,
+      "detail": "Delivery Date"
+    },
+    {
+      "test": "Issue source table exists DQ-0389",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0389",
+      "passed": true,
+      "detail": "Item No"
+    },
+    {
+      "test": "Issue source table exists DQ-0390",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0390",
+      "passed": true,
+      "detail": "Item No"
+    },
+    {
+      "test": "Issue source table exists DQ-0391",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0391",
+      "passed": true,
+      "detail": "Item No"
+    },
+    {
+      "test": "Issue source table exists DQ-0392",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0392",
+      "passed": true,
+      "detail": "BP Catalog No"
+    },
+    {
+      "test": "Issue source table exists DQ-0393",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0393",
+      "passed": true,
+      "detail": "BP Catalog No"
+    },
+    {
+      "test": "Issue source table exists DQ-0394",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0394",
+      "passed": true,
+      "detail": "Item Description"
+    },
+    {
+      "test": "Issue source table exists DQ-0395",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0395",
+      "passed": true,
+      "detail": "Item Description"
+    },
+    {
+      "test": "Issue source table exists DQ-0396",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0396",
+      "passed": true,
+      "detail": "Item Details"
+    },
+    {
+      "test": "Issue source table exists DQ-0397",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0397",
+      "passed": true,
+      "detail": "Quantity"
+    },
+    {
+      "test": "Issue source table exists DQ-0398",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0398",
+      "passed": true,
+      "detail": "Quantity"
+    },
+    {
+      "test": "Issue source table exists DQ-0399",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0399",
+      "passed": true,
+      "detail": "Unit Price"
+    },
+    {
+      "test": "Issue source table exists DQ-0400",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0400",
+      "passed": true,
+      "detail": "Discount %"
+    },
+    {
+      "test": "Issue source table exists DQ-0401",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0401",
+      "passed": true,
+      "detail": " Total (LC) "
+    },
+    {
+      "test": "Issue source table exists DQ-0402",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0402",
+      "passed": true,
+      "detail": " Total (LC) "
+    },
+    {
+      "test": "Issue source table exists DQ-0403",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0403",
+      "passed": true,
+      "detail": "Tax Total"
+    },
+    {
+      "test": "Issue source table exists DQ-0404",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0404",
+      "passed": true,
+      "detail": "Tax Total"
+    },
+    {
+      "test": "Issue source table exists DQ-0405",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0405",
+      "passed": true,
+      "detail": "Tax Total"
+    },
+    {
+      "test": "Issue source table exists DQ-0406",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0406",
+      "passed": true,
+      "detail": "Tax Total"
+    },
+    {
+      "test": "Issue source table exists DQ-0407",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0407",
+      "passed": true,
+      "detail": "Payment Terms"
+    },
+    {
+      "test": "Issue source table exists DQ-0408",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0408",
+      "passed": true,
+      "detail": "Sales Employee"
+    },
+    {
+      "test": "Issue source table exists DQ-0409",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0409",
+      "passed": true,
+      "detail": "Sales Employee"
+    },
+    {
+      "test": "Issue source table exists DQ-0410",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0410",
+      "passed": true,
+      "detail": " Total (LC) "
+    },
+    {
+      "test": "Issue source table exists DQ-0411",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0411",
+      "passed": true,
+      "detail": "(source provenance)"
+    },
+    {
+      "test": "Issue source table exists DQ-0412",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0412",
+      "passed": true,
+      "detail": "Customer Code"
+    },
+    {
+      "test": "Issue source table exists DQ-0413",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0413",
+      "passed": true,
+      "detail": "Customer Code"
+    },
+    {
+      "test": "Issue source table exists DQ-0414",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0414",
+      "passed": true,
+      "detail": "BP_CODE"
+    },
+    {
+      "test": "Issue source table exists DQ-0415",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0415",
+      "passed": true,
+      "detail": "<blank column 1>"
+    },
+    {
+      "test": "Issue source table exists DQ-0416",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0416",
+      "passed": true,
+      "detail": " Customer Code "
+    },
+    {
+      "test": "Issue source table exists DQ-0417",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0417",
+      "passed": true,
+      "detail": "Customer Code"
+    },
+    {
+      "test": "Issue source table exists DQ-0418",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0418",
+      "passed": true,
+      "detail": " Customer Code "
+    },
+    {
+      "test": "Issue source table exists DQ-0419",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0419",
+      "passed": true,
+      "detail": "Part Code SAP Code"
+    },
+    {
+      "test": "Issue source table exists DQ-0420",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0420",
+      "passed": true,
+      "detail": "Item No"
+    },
+    {
+      "test": "Issue source table exists DQ-0421",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0421",
+      "passed": true,
+      "detail": "Part Code SAP Code"
+    },
+    {
+      "test": "Issue source table exists DQ-0422",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0422",
+      "passed": true,
+      "detail": "Part Code SAP Code"
+    },
+    {
+      "test": "Issue source table exists DQ-0423",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0423",
+      "passed": true,
+      "detail": "Item No"
+    },
+    {
+      "test": "Issue source table exists DQ-0424",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Issue column/scope maps DQ-0424",
+      "passed": true,
+      "detail": "Item No"
+    },
+    {
+      "test": "Every quality issue mapped without fallback",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Exact and payload EXCESS duplicate counts preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "All source tables and columns specified",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Table issue mapping conserves issue entries",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Blueprint source evidence covers all 20 sources",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Blueprint source annotations reference real views",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "All prior reports, notebooks, source code and datasets byte-identical",
+      "passed": true,
+      "detail": "150"
+    },
+    {
+      "test": "Untruncated Excel text budget reviewed_artifacts",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Table shape New CSV reviewed_artifacts",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Untruncated Excel text budget prior_requirements",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Table shape New CSV prior_requirements",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Untruncated Excel text budget date_evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Table shape New CSV date_evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Untruncated Excel text budget identifier_evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Table shape New CSV identifier_evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Untruncated Excel text budget duplicate_count_evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Table shape New CSV duplicate_count_evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Untruncated Excel text budget financial_evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Table shape New CSV financial_evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Untruncated Excel text budget business_rules",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Table shape New CSV business_rules",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Untruncated Excel text budget cleaning_methods",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Table shape New CSV cleaning_methods",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Untruncated Excel text budget issue_treatment_specification",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Table shape New CSV issue_treatment_specification",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Untruncated Excel text budget treatment_coverage_summary",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Table shape New CSV treatment_coverage_summary",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Untruncated Excel text budget table_preparation_requirements",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Table shape New CSV table_preparation_requirements",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Untruncated Excel text budget column_preparation_requirements",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Table shape New CSV column_preparation_requirements",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Untruncated Excel text budget join_dependency_register",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Table shape New CSV join_dependency_register",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Untruncated Excel text budget join_safeguards",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Table shape New CSV join_safeguards",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Untruncated Excel text budget dataset_blueprints",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Table shape New CSV dataset_blueprints",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Untruncated Excel text budget source_view_evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Table shape New CSV source_view_evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Untruncated Excel text budget blueprint_source_evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Table shape New CSV blueprint_source_evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Untruncated Excel text budget document_context_evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Table shape New CSV document_context_evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Untruncated Excel text budget release_gates",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Table shape New CSV release_gates",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Untruncated Excel text budget backend_component_contracts",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Table shape New CSV backend_component_contracts",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Untruncated Excel text budget generic_contract_fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Table shape New CSV generic_contract_fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Untruncated Excel text budget preserved_input_integrity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Table shape New CSV preserved_input_integrity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Unique worksheet labels business_rule_register.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Workbook manifest business_rule_register.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Table shape New Excel business_rules",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Table shape New Excel table_preparation_requirements",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Table shape New Excel column_preparation_requirements",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Table shape New Excel prior_requirements",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Table shape New Excel date_evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Table shape New Excel identifier_evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Unique worksheet labels data_cleaning_specification.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Workbook manifest data_cleaning_specification.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Table shape New Excel issue_treatment_specification",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Table shape New Excel cleaning_methods",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Table shape New Excel treatment_coverage_summary",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Table shape New Excel duplicate_count_evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Table shape New Excel financial_evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Unique worksheet labels training_dataset_blueprint.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Workbook manifest training_dataset_blueprint.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Table shape New Excel dataset_blueprints",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Table shape New Excel source_view_evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Table shape New Excel blueprint_source_evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Table shape New Excel document_context_evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Table shape New Excel join_dependency_register",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Table shape New Excel join_safeguards",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Table shape New Excel release_gates",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Table shape New Excel backend_component_contracts",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Table shape New Excel generic_contract_fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Table shape New Excel reviewed_artifacts",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Table shape New Excel preserved_input_integrity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "All prior reports, notebooks, source code and datasets byte-identical",
+      "passed": true,
+      "detail": "150"
+    },
+    {
+      "test": "Table shape Original issue fields retained",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No business definition/correction authorized",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No candidate join promoted to approved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent export dimensions business_rules",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent workbook content business_rules",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent export dimensions table_preparation_requirements",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent workbook content table_preparation_requirements",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent export dimensions column_preparation_requirements",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent workbook content column_preparation_requirements",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent export dimensions prior_requirements",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent workbook content prior_requirements",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent export dimensions date_evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent workbook content date_evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent export dimensions identifier_evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent workbook content identifier_evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent export dimensions issue_treatment_specification",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent workbook content issue_treatment_specification",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent export dimensions cleaning_methods",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent workbook content cleaning_methods",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent export dimensions treatment_coverage_summary",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent workbook content treatment_coverage_summary",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent export dimensions duplicate_count_evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent workbook content duplicate_count_evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent export dimensions financial_evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent workbook content financial_evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent export dimensions dataset_blueprints",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent workbook content dataset_blueprints",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent export dimensions source_view_evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent workbook content source_view_evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent export dimensions blueprint_source_evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent workbook content blueprint_source_evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent export dimensions document_context_evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent workbook content document_context_evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent export dimensions join_dependency_register",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent workbook content join_dependency_register",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent export dimensions join_safeguards",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent workbook content join_safeguards",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent export dimensions release_gates",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent workbook content release_gates",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent export dimensions backend_component_contracts",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent workbook content backend_component_contracts",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent export dimensions generic_contract_fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent workbook content generic_contract_fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent export dimensions reviewed_artifacts",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent workbook content reviewed_artifacts",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent export dimensions preserved_input_integrity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent workbook content preserved_input_integrity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Previous README links preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Documentation reference notebooks/01_data_inventory.ipynb",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Documentation reference reports/data_inventory/inventory_validation_report.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Documentation reference notebooks/02_data_quality_analysis.ipynb",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Documentation reference reports/data_quality/data_quality_report.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Documentation reference notebooks/03_dataset_relationship_analysis.ipynb",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Documentation reference reports/analysis/dataset_relationship_report.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Documentation reference reports/analysis/identifier_relationship_matrix.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Documentation reference reports/analysis/dataset_granularity_report.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Documentation reference reports/analysis/data_model_diagram/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Documentation reference notebooks/04_business_prediction_feasibility.ipynb",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Documentation reference reports/analysis/business_prediction_feasibility_report.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Documentation reference reports/analysis/prediction_target_mapping.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Documentation reference reports/analysis/prediction_data_requirements.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Documentation reference reports/analysis/data_preparation_strategy.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Documentation reference reports/analysis/business_rule_register.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Documentation reference reports/analysis/data_cleaning_specification.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Documentation reference reports/analysis/training_dataset_blueprint.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Documentation reference preparation_evidence/reviewed_artifacts.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Documentation reference ../data_inventory/inventory_validation_report.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Documentation reference ../data_quality/data_quality_report.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Documentation reference ../data_quality/issue_register.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Documentation reference dataset_relationship_report.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Documentation reference identifier_relationship_matrix.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Documentation reference dataset_granularity_report.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Documentation reference data_model_diagram/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Documentation reference business_prediction_feasibility_report.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Documentation reference prediction_target_mapping.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Documentation reference prediction_data_requirements.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Documentation reference business_rule_register.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Documentation reference data_cleaning_specification.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Documentation reference training_dataset_blueprint.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Documentation reference preparation_evidence/date_evidence.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Documentation reference prediction_data_requirements.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Documentation reference business_rule_register.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Documentation reference data_cleaning_specification.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Documentation reference training_dataset_blueprint.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Documentation reference preparation_evidence/preserved_input_integrity.csv",
+      "passed": true,
+      "detail": ""
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "model_identifier": "nop-monthly-invoice-volume-rf",
+  "model_version": "1.0.0",
+  "prediction_target": "Synthetic illustrative monthly invoice-volume count; not an approved NOP target.",
+  "prediction_periods": [
+    {
+      "period": "2026-01",
+      "predicted_invoice_volume": 160.4439684759685
+    },
+    {
+      "period": "2026-02",
+      "predicted_invoice_volume": 175.80176190476183
+    },
+    {
+      "period": "2026-03",
+      "predicted_invoice_volume": 179.6744365079365
+    }
+  ],
+  "data_provenance": {
+    "training_data_mode": "synthetic",
+    "training_data": {
+      "data_mode": "synthetic",
+      "source": "data/synthetic_monthly_invoice_volume.csv",
+      "source_sha256": "6735e876c7867c7420c713e721a1a9cefca5cea5370343ef247a1bca7e8d30bd",
+      "generation_method": "145 + 0.14*month_index + annual and semiannual sinusoidal components + seeded Normal(0, 3.5) noise; rounded and floored at zero",
+      "random_seed": 20261103,
+      "dataset_observations": 180,
+      "dataset_period_start": "2011-01",
+      "dataset_period_end": "2025-12",
+      "deployment_fit_supervised_rows": 168,
+      "deployment_training_history_end": "2025-12",
+      "evaluation_model_training_history_end": "2022-12",
+      "evaluation_holdout_period_start": "2023-01",
+      "evaluation_holdout_period_end": "2025-12",
+      "actual_nop_data_used": false
+    },
+    "prediction_history_source": "bundled model-fit history"
+  },
+  "known_limitations": [
+    "Trained and evaluated exclusively on reproducible synthetic data; metrics do not estimate NOP business performance.",
+    "Synthetic counts do not encode NOP source scope, invoice lifecycle, holidays, reporting lag, operational changes or business meaning.",
+    "Only calendar and lagged counts are used; no exogenous business drivers are included.",
+    "Recursive forecast errors may compound over longer horizons; no prediction intervals are provided.",
+    "A supplied history replaces the bundled synthetic history at inference but is not validated or approved by this model package."
+  ]
+}

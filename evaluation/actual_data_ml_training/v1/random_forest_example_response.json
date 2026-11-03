@@ -1,0 +1,38 @@
+{
+  "model_identifier": "nop-domestic-confirmed-date-line-value-random_forest-v1.0.0",
+  "model_version": "1.0.0",
+  "objective_id": "nop-domestic-confirmed-date-line-value",
+  "target_definition": "The native numeric Taxable Value cell on one source detail row marked Domestic and G, from a reference whose detail rows share one consistent unambiguous day-first date. The task is offline estimation of this stored line-level field in unspecified source amount units.",
+  "dataset_id": "nop-domestic-confirmed-date-line-value",
+  "dataset_version": "1.0.0",
+  "dataset_sha256": "c177d1d76b8695ea41c88995b0782ad2a37545321df419ed30e758341fb8dd8e",
+  "data_mode": "actual_nop_exploratory_raw_field",
+  "business_approved": false,
+  "predictions": [
+    {
+      "row_index": 0,
+      "prediction": 337475.7719507936
+    },
+    {
+      "row_index": 1,
+      "prediction": 966593.1038957059
+    }
+  ],
+  "unseen_categorical_rows": 0,
+  "unknown_category_policy": "unseen one-hot categories are ignored and explicitly counted",
+  "source_provenance": {
+    "source_file": "dataset/Sales Invoice Details.xlsx",
+    "source_file_sha256": "e36c7b8338e80353e6ccf5b452fd9c9be0834fc3a3890841c60fd3fe644fad56",
+    "source_sheet": "Sheet1",
+    "dataset_id": "nop-domestic-confirmed-date-line-value",
+    "dataset_version": "1.0.0",
+    "dataset_sha256": "c177d1d76b8695ea41c88995b0782ad2a37545321df419ed30e758341fb8dd8e"
+  },
+  "known_limitations": [
+    "Exploratory offline field estimation only; no business-approved price, revenue, profit or demand prediction.",
+    "Unresolved-date references, exports and services are excluded; the selected population is not representative of all NOP activity.",
+    "Item-code identity is scoped to one source field; unseen codes have no learned product effect.",
+    "Source amount units and physical quantity units are not independently approved; no aggregation or unit conversion is performed.",
+    "The chronological holdout is small and irregularly sampled; prospective business performance is unknown."
+  ]
+}

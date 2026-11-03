@@ -1,0 +1,9 @@
+﻿file,worksheet,raw_document_key,attribute,source_rows,document_groups,groups_with_multiple_raw_attribute_values,interpretation
+Sales Order Report 1.xlsx,Sheet1,SO No,Customer Code,1098,299,275,"Confirmed raw variation; reused scope, formatting or genuine conflict not resolved; source not corrected"
+Sales Order Report 1.xlsx,Sheet1,SO No,Customer Ref No,1098,299,278,"Confirmed raw variation; reused scope, formatting or genuine conflict not resolved; source not corrected"
+Sales Order Report 1.xlsx,Sheet1,SO No,Posting Date,1098,299,278,"Confirmed raw variation; reused scope, formatting or genuine conflict not resolved; source not corrected"
+Sales Order Report 1.xlsx,Sheet1,SO No,Status,1098,299,46,"Confirmed raw variation; reused scope, formatting or genuine conflict not resolved; source not corrected"
+Sales Invoice Details.xlsx,Sheet1,Invoice Num,Customer Billing Name,337,234,0,"Confirmed raw variation; reused scope, formatting or genuine conflict not resolved; source not corrected"
+Sales Invoice Details.xlsx,Sheet1,Invoice Num,Invoice Date,337,234,0,"Confirmed raw variation; reused scope, formatting or genuine conflict not resolved; source not corrected"
+Sales Invoice Details.xlsx,Sheet1,Invoice Num,Invoice Total Include GST,337,234,0,"Confirmed raw variation; reused scope, formatting or genuine conflict not resolved; source not corrected"
+Sales Invoice Details.xlsx,Sheet1,Invoice Num,SO Num,337,234,0,"Confirmed raw variation; reused scope, formatting or genuine conflict not resolved; source not corrected"

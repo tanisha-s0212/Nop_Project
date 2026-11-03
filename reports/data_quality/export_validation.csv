@@ -1,0 +1,28 @@
+﻿report,rows,csv_content_verified,excel_content_verified,excel_scope
+source_tables,20,True,True,complete aggregate table
+duplicate_analysis,47,True,True,complete aggregate table
+missing_values,521,True,True,complete aggregate table
+identifier_quality,135,True,True,complete aggregate table
+entity_duplicate_analysis,17,True,True,complete aggregate table
+categorical_consistency,394,True,True,complete aggregate table
+categorical_values,902,True,,full detail in CSV only
+flag_encoding_representations,27,True,True,complete aggregate table
+duplicate_groups,696,True,,full detail in CSV only
+entity_duplicate_groups,54,True,,full detail in CSV only
+categorical_variants,15378,True,,full detail in CSV only
+spelling_candidates,7,True,,full detail in CSV only
+dataset_specific,9,True,True,complete aggregate table
+date_value_evidence,10359,True,,full detail in CSV only
+date_quality,37,True,True,complete aggregate table
+date_cell_exceptions,15270,True,,full detail in CSV only
+date_coverage_gaps,201,True,True,complete aggregate table
+numerical_quality,114,True,True,complete aggregate table
+chronology_checks,6,True,True,complete aggregate table
+numerical_context,608,True,True,complete aggregate table
+financial_consistency,35,True,True,complete aggregate table
+numerical_token_issues,12,True,,full detail in CSV only
+identifier_matching_coverage,101,True,True,complete aggregate table
+cross_source_duplicate_coverage,6,True,True,complete aggregate table
+source_integrity,17,True,True,complete aggregate table
+inventory_integrity,23,True,True,complete aggregate table
+issue_register,424,True,True,complete aggregate table

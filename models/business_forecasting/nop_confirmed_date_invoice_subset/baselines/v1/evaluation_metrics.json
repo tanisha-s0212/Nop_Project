@@ -1,0 +1,52 @@
+{
+  "test_periods": [
+    "2026-07",
+    "2026-08"
+  ],
+  "fixed_cutoff": "2026-06",
+  "comparators": {
+    "last_observed_value": {
+      "mae": 7.0,
+      "rmse": 8.06225774829855,
+      "r2": -3.0625,
+      "smape_percent": 49.31216931216931,
+      "observations": 2,
+      "independent_groups": 2,
+      "document_macro_mae": 7.0
+    },
+    "moving_mean_2": {
+      "mae": 8.5,
+      "rmse": 9.394147114027968,
+      "r2": -4.515625,
+      "smape_percent": 56.18841624609469,
+      "observations": 2,
+      "independent_groups": 2,
+      "document_macro_mae": 8.5
+    },
+    "moving_mean_3": {
+      "mae": 8.0,
+      "rmse": 8.94427190999916,
+      "r2": -4.0,
+      "smape_percent": 53.96825396825396,
+      "observations": 2,
+      "independent_groups": 2,
+      "document_macro_mae": 8.0
+    }
+  },
+  "seasonal_naive_status": "insufficient history for a 12-month lag",
+  "business_champion": null,
+  "artifact_path": "models/business_forecasting/nop_confirmed_date_invoice_subset/baselines/v1/last_observed_value.joblib",
+  "deployment_training_periods": [
+    "2026-01",
+    "2026-02",
+    "2026-03",
+    "2026-04",
+    "2026-05",
+    "2026-06",
+    "2026-07",
+    "2026-08"
+  ],
+  "deployment_value": 8.0,
+  "test_is_previously_seen": true,
+  "horizon_protocol": "fixed two-step forecast; no actual test target is fed back as history"
+}

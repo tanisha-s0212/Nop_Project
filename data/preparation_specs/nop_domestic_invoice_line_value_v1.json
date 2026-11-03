@@ -1,0 +1,57 @@
+{
+  "dataset_id": "nop-domestic-confirmed-date-line-value",
+  "dataset_version": "1.0.0",
+  "objective_id": "nop-domestic-confirmed-date-line-value",
+  "objective_name": "Stored line taxable-value estimation for a confirmed-date domestic goods subset",
+  "target_definition": "The native numeric Taxable Value cell on one source detail row marked Domestic and G, from a reference whose detail rows share one consistent unambiguous day-first date. The task is offline estimation of this stored line-level field in unspecified source amount units.",
+  "source_file": "dataset/Sales Invoice Details.xlsx",
+  "source_sheet": "Sheet1",
+  "header_row": 1,
+  "columns": {
+    "document_id": "Invoice Num",
+    "event_date": "Invoice Date",
+    "quantity": "Quantity",
+    "item_code": "Part Code SAP Code",
+    "target_value": "Taxable Value",
+    "unit_price_diagnostic": "Unit Price",
+    "transaction_type": "TransType",
+    "item_type": "Item Type G or S",
+    "market_type": "Type Export/Domestic",
+    "unit_label": "UOM"
+  },
+  "population": {
+    "transaction_type": "GST Tax Invoice",
+    "item_type": "G",
+    "market_type": "Domestic",
+    "unit_label": "Manual"
+  },
+  "date_policy": "reuse canonical unambiguous day-first four-digit-year parser; every detail row of a reference must resolve to the same date",
+  "as_of_date_exclusive": "2026-11-03",
+  "data_mode": "actual_nop_exploratory_raw_field",
+  "business_approved": false,
+  "features": {
+    "numeric_features": [
+      "quantity"
+    ],
+    "categorical_features": [
+      "item_code"
+    ],
+    "numeric_minimums": {
+      "quantity": 1e-09
+    }
+  },
+  "assumptions": [
+    "The exact reference string groups detail rows within this workbook only; issuer-wide identity is unapproved.",
+    "Domestic, G and Manual are literal population filters; Manual does not establish a physical unit or currency.",
+    "The target is the stored numeric source field. Arithmetic checks provide line-grain evidence but do not establish accounting revenue or a currency conversion.",
+    "Item code and quantity are observed inputs for offline field estimation. Their availability before a future business decision has not been independently established.",
+    "No source authenticity or business-owner approval is implied by using repository records."
+  ],
+  "limitations": [
+    "Exploratory offline field estimation only; no business-approved price, revenue, profit or demand prediction.",
+    "Unresolved-date references, exports and services are excluded; the selected population is not representative of all NOP activity.",
+    "Item-code identity is scoped to one source field; unseen codes have no learned product effect.",
+    "Source amount units and physical quantity units are not independently approved; no aggregation or unit conversion is performed.",
+    "The chronological holdout is small and irregularly sampled; prospective business performance is unknown."
+  ]
+}

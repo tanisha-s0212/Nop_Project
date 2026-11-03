@@ -1,0 +1,146 @@
+﻿table,column,format,rows
+Customer Master Report 1.xlsx :: Sheet1,#,number,40
+Customer Master Report 1.xlsx :: Sheet1,CUSTOMER CODE,letter prefix + digits,40
+Customer Master Report 1.xlsx :: Sheet1,CUSTOMER NAME,other text,40
+Customer Master Report 1.xlsx :: Sheet1,MOBILE PHONE,other text,40
+Customer Master Report 1.xlsx :: Sheet1,ADDRESS 2,other text,40
+Customer Master Report 1.xlsx :: Sheet1,ZIP CODE,digits as text,40
+Customer Master Report 1.xlsx :: Sheet1,BUILDING/FLOOR/ROOM,other text,40
+Customer Master Report 1.xlsx :: Sheet1,GSTIN,other text,32
+Customer Master Report 1.xlsx :: Sheet1,BANK CODE,hyphen-delimited text,40
+Customer Master Report 1.xlsx :: Sheet1,PAN NO.,letter prefix + digits,32
+Customer Master Report 2.xlsx :: Sheet1,#,number,5012
+Customer Master Report 2.xlsx :: Sheet1,CUSTOMER CODE,letter prefix + digits,4851
+Customer Master Report 2.xlsx :: Sheet1,CUSTOMER CODE,letter prefix + digits; outer whitespace,161
+Customer Master Report 2.xlsx :: Sheet1,ZIP CODE,digits as text,3483
+Customer Master Report 2.xlsx :: Sheet1,ZIP CODE,number,1529
+Customer Master Report 2.xlsx :: Sheet1,GSTIN,other text,4009
+Customer Master Report 2.xlsx :: Sheet1,GSTIN,other text; outer whitespace,167
+Customer Master Report 2.xlsx :: Sheet1,GSTIN,slash-delimited text,60
+Customer Master Report 2.xlsx :: Sheet1,GSTIN,hyphen-delimited text,50
+Customer Master Report 2.xlsx :: Sheet1,BANK CODE,hyphen-delimited text,5012
+Customer Master Report 2.xlsx :: Sheet1,PAN NO.,letter prefix + digits,4125
+Exchange Rate 1.xlsx :: INR to JPY,Rate Month  ,other text,3
+Exchange Rate 1.xlsx :: INR to JPY,Rate Month  ,hyphen-delimited text,4
+Exchange Rate 1.xlsx :: INR to JPY,Start Date,datetime,2
+Exchange Rate 1.xlsx :: INR to JPY,Start Date,slash-delimited text,2
+Exchange Rate 1.xlsx :: INR to JPY,Start Date,number,2
+Exchange Rate 1.xlsx :: INR to JPY,Start Date,hyphen-delimited text,1
+Exchange Rate 1.xlsx :: INR to JPY,End Date,hyphen-delimited text,2
+Exchange Rate 1.xlsx :: INR to JPY,End Date,datetime,2
+Exchange Rate 1.xlsx :: INR to JPY,End Date,slash-delimited text,2
+Exchange Rate 1.xlsx :: INR to JPY,End Date,number,1
+Exchange Rate 1.xlsx :: INR to JPY,Exchange Rate (1 INR = ? JPY),number,6
+Exchange Rate 1.xlsx :: INR to JPY,Exchange Rate (1 INR = ? JPY),other text; outer whitespace,1
+Exchange Rate.xlsx :: INR to JPY,Rate Month,hyphen-delimited text,22
+Exchange Rate.xlsx :: INR to JPY,Start Date,datetime,22
+Exchange Rate.xlsx :: INR to JPY,End Date,datetime,22
+GSTR1_Credit_Debit_Note 1.csv :: (CSV table),CreditDebitNote_Number,digits as text,6
+GSTR1_Credit_Debit_Note 1.csv :: (CSV table),Invoice_Number,slash-delimited text,6
+GSTR1_Credit_Debit_Note 1.csv :: (CSV table),Customer_Shipping/Billing_GSTIN,other text,6
+GSTR1_Credit_Debit_Note 1.csv :: (CSV table),HSN_SAC_code,digits as text,6
+GSTR1_Credit_Debit_Note 1.csv :: (CSV table),Original_Customer_Billing_GSTIN,other text,6
+GSTR1_Credit_Debit_Note 1.csv :: (CSV table),Supplier_GSTIN,other text,6
+GSTR1_Credit_Debit_Note 1.csv :: (CSV table),Location_State_Code,other text,6
+GSTR1_Credit_Debit_Note 1.csv :: (CSV table),GSTIN_As_per_Billing_Address,other text,6
+GSTR1_Credit_Debit_Note 1.csv :: (CSV table),Customer_Bill_To_GSTIN,other text,6
+GSTR1_Credit_Debit_Note 2.csv :: (CSV table),CreditDebitNote_Number,digits as text,276
+GSTR1_Credit_Debit_Note 2.csv :: (CSV table),Invoice_Number,slash-delimited text,259
+GSTR1_Credit_Debit_Note 2.csv :: (CSV table),Invoice_Number,slash-delimited text; outer whitespace,17
+GSTR1_Credit_Debit_Note 2.csv :: (CSV table),Customer_Shipping/Billing_GSTIN,other text,230
+GSTR1_Credit_Debit_Note 2.csv :: (CSV table),HSN_SAC_code,digits as text,276
+GSTR1_Credit_Debit_Note 2.csv :: (CSV table),Original_Customer_Billing_GSTIN,other text,230
+GSTR1_Credit_Debit_Note 2.csv :: (CSV table),Supplier_GSTIN,other text,276
+GSTR1_Credit_Debit_Note 2.csv :: (CSV table),Location_State_Code,other text,276
+GSTR1_Credit_Debit_Note 2.csv :: (CSV table),GSTIN_As_per_Billing_Address,other text,276
+GSTR1_Credit_Debit_Note 2.csv :: (CSV table),Customer_Bill_To_GSTIN,other text,230
+GSTR1_Invoice.csv :: (CSV table),Invoice_Number,digits as text,337
+GSTR1_Invoice.csv :: (CSV table),Customer_Shipping/Billing_GSTIN,other text,278
+GSTR1_Invoice.csv :: (CSV table),HSN_SAC_code,digits as text,337
+GSTR1_Invoice.csv :: (CSV table),Original_Customer_Billing_GSTIN,other text,278
+GSTR1_Invoice.csv :: (CSV table),Supplier_GSTIN,other text,337
+GSTR1_Invoice.csv :: (CSV table),Location_State_Code,other text,337
+GSTR1_Invoice.csv :: (CSV table),GSTIN_As_per_Billing_Address,other text,337
+GSTR1_Invoice.csv :: (CSV table),Customer_Bill_To_GSTIN,other text,278
+Inventory Audit Report as on 200327.xlsx :: Sheet1,#,number,108124
+Inventory Audit Report as on 200327.xlsx :: Sheet1, Item No. ,letter prefix + digits,4846
+Inventory Audit Report as on 200327.xlsx :: Sheet1, Item No. ,letter prefix + digits; outer whitespace,164
+Inventory Audit Report as on 200327.xlsx :: Sheet1,Description,hyphen-delimited text,4285
+Inventory Audit Report as on 200327.xlsx :: Sheet1,Description,other text,725
+Inventory Audit Report as on 200327.xlsx :: Sheet1,Document,other text,103114
+Inventory Audit Report as on 200926 1.xlsx :: Sheet1,#,number,162
+Inventory Audit Report as on 200926 1.xlsx :: Sheet1,Item No.,letter prefix + digits,43
+Inventory Audit Report as on 200926 1.xlsx :: Sheet1,Item No.,letter prefix + digits; outer whitespace,9
+Inventory Audit Report as on 200926 1.xlsx :: Sheet1,Description,hyphen-delimited text,44
+Inventory Audit Report as on 200926 1.xlsx :: Sheet1,Description,other text,8
+Inventory Audit Report as on 200926 1.xlsx :: Sheet1,Document,other text,110
+Inventory Audit Report as on 200926.xlsx :: Sheet1,#,number,162
+Inventory Audit Report as on 200926.xlsx :: Sheet1,Item No.,letter prefix + digits,52
+Inventory Audit Report as on 200926.xlsx :: Sheet1,Description,hyphen-delimited text,44
+Inventory Audit Report as on 200926.xlsx :: Sheet1,Description,other text,8
+Inventory Audit Report as on 200926.xlsx :: Sheet1,Document,other text,110
+Item Master Lists 1.xlsx :: Item Lists,#,number,150
+Item Master Lists 1.xlsx :: Item Lists,Item No.,letter prefix + digits,150
+Item Master Lists 1.xlsx :: Item Lists,Item Description,hyphen-delimited text,125
+Item Master Lists 1.xlsx :: Item Lists,Item Description,other text,25
+Item Master Lists 1.xlsx :: Item Lists,foreign Code,other text,103
+Item Master Lists 1.xlsx :: Item Lists,HSN Code,digits as text,150
+Item Master Lists 2.xlsx :: Item Lists,#,number,5012
+Item Master Lists 2.xlsx :: Item Lists,Item No.,letter prefix + digits,4817
+Item Master Lists 2.xlsx :: Item Lists,Item No.,letter prefix + digits; outer whitespace,195
+Item Master Lists 2.xlsx :: Item Lists,foreign Code,other text,2834
+Item Master Lists 2.xlsx :: Item Lists,foreign Code,other text; outer whitespace,109
+Item Master Lists 2.xlsx :: Item Lists,HSN Code,digits as text,5012
+Sales Invoice Details 1.xlsx :: Sheet1,#,number,100183
+Sales Invoice Details 1.xlsx :: Sheet1,SO Num,number,100183
+Sales Invoice Details 1.xlsx :: Sheet1,Customer Ref. No.,slash-delimited text,100183
+Sales Invoice Details 1.xlsx :: Sheet1,Invoice Num,slash-delimited text; outer whitespace,2267
+Sales Invoice Details 1.xlsx :: Sheet1,Invoice Num,slash-delimited text,97916
+Sales Invoice Details 1.xlsx :: Sheet1,Part Code SAP Code,letter prefix + digits,96230
+Sales Invoice Details 1.xlsx :: Sheet1,Part Code SAP Code,letter prefix + digits; outer whitespace,3012
+Sales Invoice Details 1.xlsx :: Sheet1,Item Foreign Code,other text,67931
+Sales Invoice Details 1.xlsx :: Sheet1,Item Foreign Code,other text; outer whitespace,1561
+Sales Invoice Details 1.xlsx :: Sheet1,HSN Code,digits as text,99242
+Sales Invoice Details 1.xlsx :: Sheet1,HSN Code,other text,46
+Sales Invoice Details 1.xlsx :: Sheet1,HSN Code,slash-delimited text,57
+Sales Invoice Details 1.xlsx :: Sheet1,HSN Code,hyphen-delimited text,53
+Sales Invoice Details 1.xlsx :: Sheet1,SAC Code,digits as text,941
+Sales Invoice Details 1.xlsx :: Sheet1,Customer Shipping GSTIN,other text,82869
+Sales Invoice Details 1.xlsx :: Sheet1,Customer Billing GSTIN,other text,81004
+Sales Invoice Details 1.xlsx :: Sheet1,Customer Billing GSTIN,other text; outer whitespace,1865
+Sales Invoice Details.xlsx :: Sheet1,#,number,337
+Sales Invoice Details.xlsx :: Sheet1,SO Num,number,337
+Sales Invoice Details.xlsx :: Sheet1,Customer Ref. No.,slash-delimited text,337
+Sales Invoice Details.xlsx :: Sheet1,Invoice Num,slash-delimited text,337
+Sales Invoice Details.xlsx :: Sheet1,Part Code SAP Code,letter prefix + digits,323
+Sales Invoice Details.xlsx :: Sheet1,Item Foreign Code,other text,278
+Sales Invoice Details.xlsx :: Sheet1,HSN Code,digits as text,323
+Sales Invoice Details.xlsx :: Sheet1,SAC Code,digits as text,14
+Sales Invoice Details.xlsx :: Sheet1,Customer Shipping GSTIN,other text,278
+Sales Invoice Details.xlsx :: Sheet1,Customer Billing GSTIN,other text,278
+Sales Order Report 1.xlsx :: Sheet1,#,number,1098
+Sales Order Report 1.xlsx :: Sheet1,Customer Code,letter prefix + digits,1098
+Sales Order Report 1.xlsx :: Sheet1,Contact Number,other text,1098
+Sales Order Report 1.xlsx :: Sheet1,Customer Ref No,slash-delimited text,1098
+Sales Order Report 1.xlsx :: Sheet1,SO No,number,1098
+Sales Order Report 1.xlsx :: Sheet1,Item No,letter prefix + digits,1062
+Sales Order Report 2.xlsx :: Sheet1,#,number,100280
+Sales Order Report 2.xlsx :: Sheet1, Customer Code ,letter prefix + digits,97219
+Sales Order Report 2.xlsx :: Sheet1, Customer Code ,letter prefix + digits; outer whitespace,3061
+Sales Order Report 2.xlsx :: Sheet1,Contact Number,other text,99956
+Sales Order Report 2.xlsx :: Sheet1,Customer Ref No,slash-delimited text,100280
+Sales Order Report 2.xlsx :: Sheet1,SO No,number,100280
+Sales Order Report 2.xlsx :: Sheet1,Item No,letter prefix + digits,96177
+Sales Order Report 2.xlsx :: Sheet1,Item No,letter prefix + digits; outer whitespace,3082
+Sales_Order_Data_202609.xlsx :: Customer list,S.No,number,43
+Sales_Order_Data_202609.xlsx :: Customer list,Customer Code,number,3
+Sales_Order_Data_202609.xlsx :: Customer list,Customer Name,other text,43
+Sales_Order_Data_202609.xlsx :: Customer list,BP_CODE,letter prefix + digits,37
+Sales_Order_Data_202609.xlsx :: Country master,Code,other text,11
+Sales_Order_Data_202609.xlsx :: Country master,Country Name,other text,11
+Sales_Order_Data_202609.xlsx :: Country master,Japanese country name,other text,11
+Sales_Order_Data_202609.xlsx :: Country master,通称,other text,11
+Sales_Order_Data_202609.xlsx :: PTC_NOPI,Product code,other text,60
+Sales_Order_Data_202609.xlsx :: PTC_NOPI,Product name,hyphen-delimited text,60
+Sales_Order_Data_202609.xlsx :: PCT_NOPJ,Product code,other text,33
+Sales_Order_Data_202609.xlsx :: PCT_NOPJ,Product name,hyphen-delimited text,33

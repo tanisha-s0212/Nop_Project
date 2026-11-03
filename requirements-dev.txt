@@ -1,0 +1,4 @@
+-r requirements-ml.txt
+openpyxl==3.1.5
+xlrd==2.0.2
+setuptools==81.0.0

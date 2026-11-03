@@ -1,0 +1,13 @@
+﻿file,worksheet,column,raw_value,status,occurrences
+Inventory Audit Report as on 200327.xlsx,Sheet1,Cost,abc,unrecognized numeric text,1
+Inventory Audit Report as on 200327.xlsx,Sheet1,Cost,n.a.5,unrecognized numeric text,1
+Item Master Lists 2.xlsx,Item Lists,Lead Time,--,unrecognized numeric text,86
+Item Master Lists 2.xlsx,Item Lists,Lead Time,N/A,unrecognized numeric text,84
+Item Master Lists 2.xlsx,Item Lists,Lead Time,NA,unrecognized numeric text,81
+Item Master Lists 2.xlsx,Item Lists,Lead Time,NULL,unrecognized numeric text,94
+Item Master Lists 2.xlsx,Item Lists,Lead Time,-,unrecognized numeric text,89
+Item Master Lists 2.xlsx,Item Lists,Lead Time,#N/A,unrecognized numeric text,105
+Sales Invoice Details 1.xlsx,Sheet1,Unit Price,12..50,unrecognized numeric text,1
+Sales Invoice Details 1.xlsx,Sheet1,Unit Price,abc,unrecognized numeric text,1
+Sales Order Report 2.xlsx,Sheet1,Tax Total,abc,unrecognized numeric text,1
+Sales Order Report 2.xlsx,Sheet1,Tax Total,#VALUE!,unrecognized numeric text,1

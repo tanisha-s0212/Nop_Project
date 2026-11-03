@@ -1,0 +1,7 @@
+test_fixed_seed_is_reproducible_and_registered_version_is_preserved (tests.test_tabular_ml.TabularMLTests.test_fixed_seed_is_reproducible_and_registered_version_is_preserved) ... ok
+test_original_sources_existing_models_and_framework_are_unchanged (tests.test_tabular_ml.TabularMLTests.test_original_sources_existing_models_and_framework_are_unchanged) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 1.403s
+
+OK

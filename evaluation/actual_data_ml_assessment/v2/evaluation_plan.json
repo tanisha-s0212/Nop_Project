@@ -1,0 +1,99 @@
+{
+  "plan_version": "2.0.0",
+  "dataset_id": "nop-domestic-confirmed-date-line-value",
+  "dataset_sha256": "c177d1d76b8695ea41c88995b0782ad2a37545321df419ed30e758341fb8dd8e",
+  "source_sha256": "e36c7b8338e80353e6ccf5b452fd9c9be0834fc3a3890841c60fd3fe644fad56",
+  "original_test_source_rows": [
+    266,
+    273,
+    274,
+    275,
+    269,
+    282,
+    284,
+    297,
+    279,
+    280,
+    281,
+    303,
+    285,
+    305,
+    294,
+    295,
+    296,
+    298,
+    299,
+    292,
+    293,
+    311,
+    290,
+    325,
+    309,
+    319,
+    320,
+    326,
+    328,
+    335
+  ],
+  "original_test_previously_inspected": true,
+  "development_rows": 135,
+  "development_groups": 90,
+  "folds": [
+    {
+      "fold": 1,
+      "training_dates": [
+        "2025-12-22",
+        "2026-02-28"
+      ],
+      "validation_dates": [
+        "2026-03-18",
+        "2026-04-17"
+      ],
+      "training_rows": 56,
+      "training_groups": 38,
+      "validation_rows": 27,
+      "validation_groups": 16
+    },
+    {
+      "fold": 2,
+      "training_dates": [
+        "2025-12-22",
+        "2026-04-17"
+      ],
+      "validation_dates": [
+        "2026-04-18",
+        "2026-05-26"
+      ],
+      "training_rows": 83,
+      "training_groups": 54,
+      "validation_rows": 28,
+      "validation_groups": 17
+    },
+    {
+      "fold": 3,
+      "training_dates": [
+        "2025-12-22",
+        "2026-05-26"
+      ],
+      "validation_dates": [
+        "2026-05-28",
+        "2026-06-25"
+      ],
+      "training_rows": 111,
+      "training_groups": 71,
+      "validation_rows": 24,
+      "validation_groups": 19
+    }
+  ],
+  "candidates": [
+    "quantity_scaled_item_median_baseline",
+    "quantity_normalized_ridge_alpha_1",
+    "quantity_normalized_ridge_alpha_10"
+  ],
+  "primary_selection_metric": "pooled development rolling-origin document_macro_mae",
+  "target_transform": "fit stored target_value / supplied positive quantity, then multiply the fitted estimate by supplied quantity; no unit-price input",
+  "prespecified_final_fit": "development rows only, excluding all original test rows",
+  "test_role": "retrospective audit on previously inspected test period, not independent evidence for the new experiment",
+  "business_champion_permitted": false,
+  "monthly_baseline": "serialize the existing last-observed comparator; no new monthly model tuning"
+}

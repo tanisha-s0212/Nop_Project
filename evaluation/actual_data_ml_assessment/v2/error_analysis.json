@@ -1,0 +1,42 @@
+{
+  "item_quantity_median_baseline": {
+    "seen_item_code": {
+      "mae": 16550.78947368421,
+      "rmse": 33859.772582551486,
+      "r2": 0.9615608741693917,
+      "smape_percent": 8.666904020554355,
+      "observations": 19,
+      "independent_groups": 14,
+      "document_macro_mae": 12586.339285714286
+    },
+    "unseen_item_code": {
+      "mae": 168472.72727272726,
+      "rmse": 311729.60383815155,
+      "r2": 0.09597991863834776,
+      "smape_percent": 70.3584571643769,
+      "observations": 11,
+      "independent_groups": 10,
+      "document_macro_mae": 178660.0
+    }
+  },
+  "quantity_normalized_ridge": {
+    "seen_item_code": {
+      "mae": 82231.87963988473,
+      "rmse": 147496.57985115724,
+      "r2": 0.27059400438329395,
+      "smape_percent": 47.026717719344916,
+      "observations": 19,
+      "independent_groups": 14,
+      "document_macro_mae": 71395.4130156529
+    },
+    "unseen_item_code": {
+      "mae": 217404.5753561113,
+      "rmse": 343435.02502268145,
+      "r2": -0.0972640517815977,
+      "smape_percent": 79.0983903334891,
+      "observations": 11,
+      "independent_groups": 10,
+      "document_macro_mae": 232695.03289172245
+    }
+  }
+}

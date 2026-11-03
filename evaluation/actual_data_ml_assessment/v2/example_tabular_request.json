@@ -1,0 +1,15 @@
+{
+  "rows": [
+    {
+      "quantity": 4,
+      "item_code": "FG00100"
+    },
+    {
+      "quantity": 10,
+      "item_code": "FG00087"
+    }
+  ],
+  "expected_objective_id": "nop-domestic-confirmed-date-line-value",
+  "expected_dataset_id": "nop-domestic-confirmed-date-line-value",
+  "expected_dataset_version": "1.0.0"
+}

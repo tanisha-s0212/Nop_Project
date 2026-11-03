@@ -1,0 +1,15 @@
+{
+  "modules_and_tests": [
+    "tests.test_tabular_ml",
+    "tests.test_actual_data_ml_exploratory",
+    "tests.test_invoice_volume_model",
+    "tests.test_discovery",
+    "tests.test_dynamic_business_query.DynamicBusinessQueryTests.test_unseen_invoice_forecast_uses_all_compatible_actual_models",
+    "tests.test_dynamic_business_query.DynamicBusinessQueryTests.test_unrelated_financial_forecast_is_not_routed_to_invoice_model"
+  ],
+  "tests_run": 41,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "successful": true
+}

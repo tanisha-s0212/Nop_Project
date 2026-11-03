@@ -1,0 +1,7 @@
+test_reproduction_uses_an_unused_version_and_preserves_registered_artifacts (tests.test_ml_assessment_v2.MLAssessmentV2Tests.test_reproduction_uses_an_unused_version_and_preserves_registered_artifacts) ... ok
+test_monthly_baseline_reproduction_preserves_evaluation_and_input_contract (tests.test_ml_assessment_v2.MLAssessmentV2Tests.test_monthly_baseline_reproduction_preserves_evaluation_and_input_contract) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.365s
+
+OK

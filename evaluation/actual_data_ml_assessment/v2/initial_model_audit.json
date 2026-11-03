@@ -1,0 +1,180 @@
+[
+  {
+    "model_id": "nop-domestic-confirmed-date-line-value-ridge_regression-v1.0.0",
+    "artifact_sha256_matches": true,
+    "fresh_process_loaded": true,
+    "response": {
+      "model_identifier": "nop-domestic-confirmed-date-line-value-ridge_regression-v1.0.0",
+      "model_version": "1.0.0",
+      "objective_id": "nop-domestic-confirmed-date-line-value",
+      "target_definition": "The native numeric Taxable Value cell on one source detail row marked Domestic and G, from a reference whose detail rows share one consistent unambiguous day-first date. The task is offline estimation of this stored line-level field in unspecified source amount units.",
+      "dataset_id": "nop-domestic-confirmed-date-line-value",
+      "dataset_version": "1.0.0",
+      "dataset_sha256": "c177d1d76b8695ea41c88995b0782ad2a37545321df419ed30e758341fb8dd8e",
+      "data_mode": "actual_nop_exploratory_raw_field",
+      "business_approved": false,
+      "predictions": [
+        {
+          "row_index": 0,
+          "prediction": 197293.06609588425
+        },
+        {
+          "row_index": 1,
+          "prediction": 870266.4254921622
+        }
+      ],
+      "unseen_categorical_rows": 0,
+      "unknown_category_policy": "unseen one-hot categories are ignored and explicitly counted",
+      "source_provenance": {
+        "source_file": "dataset/Sales Invoice Details.xlsx",
+        "source_file_sha256": "e36c7b8338e80353e6ccf5b452fd9c9be0834fc3a3890841c60fd3fe644fad56",
+        "source_sheet": "Sheet1",
+        "dataset_id": "nop-domestic-confirmed-date-line-value",
+        "dataset_version": "1.0.0",
+        "dataset_sha256": "c177d1d76b8695ea41c88995b0782ad2a37545321df419ed30e758341fb8dd8e"
+      },
+      "known_limitations": [
+        "Exploratory offline field estimation only; no business-approved price, revenue, profit or demand prediction.",
+        "Unresolved-date references, exports and services are excluded; the selected population is not representative of all NOP activity.",
+        "Item-code identity is scoped to one source field; unseen codes have no learned product effect.",
+        "Source amount units and physical quantity units are not independently approved; no aggregation or unit conversion is performed.",
+        "The chronological holdout is small and irregularly sampled; prospective business performance is unknown."
+      ]
+    }
+  },
+  {
+    "model_id": "nop-domestic-confirmed-date-line-value-random_forest-v1.0.0",
+    "artifact_sha256_matches": true,
+    "fresh_process_loaded": true,
+    "response": {
+      "model_identifier": "nop-domestic-confirmed-date-line-value-random_forest-v1.0.0",
+      "model_version": "1.0.0",
+      "objective_id": "nop-domestic-confirmed-date-line-value",
+      "target_definition": "The native numeric Taxable Value cell on one source detail row marked Domestic and G, from a reference whose detail rows share one consistent unambiguous day-first date. The task is offline estimation of this stored line-level field in unspecified source amount units.",
+      "dataset_id": "nop-domestic-confirmed-date-line-value",
+      "dataset_version": "1.0.0",
+      "dataset_sha256": "c177d1d76b8695ea41c88995b0782ad2a37545321df419ed30e758341fb8dd8e",
+      "data_mode": "actual_nop_exploratory_raw_field",
+      "business_approved": false,
+      "predictions": [
+        {
+          "row_index": 0,
+          "prediction": 337475.7719507936
+        },
+        {
+          "row_index": 1,
+          "prediction": 966593.1038957059
+        }
+      ],
+      "unseen_categorical_rows": 0,
+      "unknown_category_policy": "unseen one-hot categories are ignored and explicitly counted",
+      "source_provenance": {
+        "source_file": "dataset/Sales Invoice Details.xlsx",
+        "source_file_sha256": "e36c7b8338e80353e6ccf5b452fd9c9be0834fc3a3890841c60fd3fe644fad56",
+        "source_sheet": "Sheet1",
+        "dataset_id": "nop-domestic-confirmed-date-line-value",
+        "dataset_version": "1.0.0",
+        "dataset_sha256": "c177d1d76b8695ea41c88995b0782ad2a37545321df419ed30e758341fb8dd8e"
+      },
+      "known_limitations": [
+        "Exploratory offline field estimation only; no business-approved price, revenue, profit or demand prediction.",
+        "Unresolved-date references, exports and services are excluded; the selected population is not representative of all NOP activity.",
+        "Item-code identity is scoped to one source field; unseen codes have no learned product effect.",
+        "Source amount units and physical quantity units are not independently approved; no aggregation or unit conversion is performed.",
+        "The chronological holdout is small and irregularly sampled; prospective business performance is unknown."
+      ]
+    }
+  },
+  {
+    "model_id": "nop-confirmed-date-invoice-count-exploratory-linear_regression",
+    "artifact_sha256_matches": true,
+    "fresh_process_loaded": true,
+    "response": {
+      "objective_id": "nop-confirmed-date-invoice-count-exploratory",
+      "objective_name": "Confirmed-date invoice references per observed month (exploratory subset)",
+      "target_definition": "Count distinct Invoice Num references in the source workbook whose every detail row has one consistent, unambiguously day-first Invoice Date, grouped by observed calendar month.",
+      "model_identifier": "nop-confirmed-date-invoice-count-exploratory-linear_regression",
+      "model_version": "0.1.0-exploratory",
+      "data_mode": "actual_nop_exploratory_subset",
+      "business_approved": false,
+      "predictions": [
+        {
+          "period": "2026-10",
+          "prediction": 12.142857142857142
+        },
+        {
+          "period": "2026-11",
+          "prediction": 11.214285714285714
+        }
+      ],
+      "data_provenance": {
+        "dataset_id": "nop-confirmed-date-invoice-count-exploratory",
+        "dataset_version": "1.0.0",
+        "dataset_sha256": "807bb312577bb595cdb22d28dd227c0fc23e52898ab42dbe73b99f7d4f444b95",
+        "source_file": "dataset\\Sales Invoice Details.xlsx",
+        "source_file_sha256": "e36c7b8338e80353e6ccf5b452fd9c9be0834fc3a3890841c60fd3fe644fad56",
+        "source_sheet": "Sheet1",
+        "observations": 10,
+        "observation_period": {
+          "start": "2025-12",
+          "end": "2026-09"
+        },
+        "distinct_references_included": 152,
+        "distinct_references_without_fully_resolved_date_excluded": 82
+      },
+      "known_limitations": [
+        "This is a confirmed-date subset, not total invoice volume.",
+        "The exact invoice reference is assumed unique within this workbook only.",
+        "Unresolved dates are excluded and may create month-dependent undercounts.",
+        "No zero periods were inserted; absent months mean unknown, not zero.",
+        "No semantic approval, execution authorization, or publication receipt was created."
+      ]
+    }
+  },
+  {
+    "model_id": "nop-confirmed-date-invoice-count-exploratory-random_forest",
+    "artifact_sha256_matches": true,
+    "fresh_process_loaded": true,
+    "response": {
+      "objective_id": "nop-confirmed-date-invoice-count-exploratory",
+      "objective_name": "Confirmed-date invoice references per observed month (exploratory subset)",
+      "target_definition": "Count distinct Invoice Num references in the source workbook whose every detail row has one consistent, unambiguously day-first Invoice Date, grouped by observed calendar month.",
+      "model_identifier": "nop-confirmed-date-invoice-count-exploratory-random_forest",
+      "model_version": "0.1.0-exploratory",
+      "data_mode": "actual_nop_exploratory_subset",
+      "business_approved": false,
+      "predictions": [
+        {
+          "period": "2026-10",
+          "prediction": 14.911875
+        },
+        {
+          "period": "2026-11",
+          "prediction": 14.911875
+        }
+      ],
+      "data_provenance": {
+        "dataset_id": "nop-confirmed-date-invoice-count-exploratory",
+        "dataset_version": "1.0.0",
+        "dataset_sha256": "807bb312577bb595cdb22d28dd227c0fc23e52898ab42dbe73b99f7d4f444b95",
+        "source_file": "dataset\\Sales Invoice Details.xlsx",
+        "source_file_sha256": "e36c7b8338e80353e6ccf5b452fd9c9be0834fc3a3890841c60fd3fe644fad56",
+        "source_sheet": "Sheet1",
+        "observations": 10,
+        "observation_period": {
+          "start": "2025-12",
+          "end": "2026-09"
+        },
+        "distinct_references_included": 152,
+        "distinct_references_without_fully_resolved_date_excluded": 82
+      },
+      "known_limitations": [
+        "This is a confirmed-date subset, not total invoice volume.",
+        "The exact invoice reference is assumed unique within this workbook only.",
+        "Unresolved dates are excluded and may create month-dependent undercounts.",
+        "No zero periods were inserted; absent months mean unknown, not zero.",
+        "No semantic approval, execution authorization, or publication receipt was created."
+      ]
+    }
+  }
+]

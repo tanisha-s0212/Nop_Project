@@ -1,0 +1,13 @@
+﻿table,expected_rows,csv_rows,excel_rows,csv_content_matches_records,excel_content_matches_records
+source_completeness,17,17,17,True,True
+header_validation,20,20,20,True,True
+table_counts,20,20,20,True,True
+column_validation,521,521,521,True,True
+date_validation,37,37,37,True,True
+date_token_issues,5611,5611,5611,True,True
+identifier_validation,135,135,135,True,True
+identifier_matching_coverage,101,101,101,True,True
+formula_validation,17,17,17,True,True
+formula_cells,1,1,1,True,True
+report_consistency,1917,1917,1917,True,True
+validation_failures,1,1,1,True,True

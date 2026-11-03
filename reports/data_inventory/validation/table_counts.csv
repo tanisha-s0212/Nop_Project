@@ -1,0 +1,21 @@
+﻿file,worksheet,format,worksheet_rows_scanned,worksheet_columns_scanned,data_rows_below_header,empty_rows_entire_worksheet,empty_data_rows,empty_columns_entire_worksheet,empty_data_columns,missing_data_values
+Customer Master Report 1.xlsx,Sheet1,Excel,41,35,40,0,0,0,15,632
+Customer Master Report 2.xlsx,Sheet1,Excel,5016,35,5015,3,3,0,15,78719
+Exchange Rate 1.xlsx,INR to JPY,Excel,11,7,7,1,0,0,1,7
+Exchange Rate.xlsx,INR to JPY,Excel,26,7,22,1,0,0,0,10
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),CSV,7,64,6,0,0,0,5,30
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),CSV,280,64,279,3,3,0,5,1980
+GSTR1_Invoice.csv,(CSV table),CSV,338,68,337,0,0,0,12,4822
+Inventory Audit Report as on 200327.xlsx,Sheet1,Excel,108130,13,108129,5,5,0,0,261403
+Inventory Audit Report as on 200926 1.xlsx,Sheet1,Excel,163,13,162,0,0,0,0,792
+Inventory Audit Report as on 200926.xlsx,Sheet1,Excel,163,13,162,0,0,0,0,792
+Item Master Lists 1.xlsx,Item Lists,Excel,151,19,150,0,0,0,0,191
+Item Master Lists 2.xlsx,Item Lists,Excel,5016,19,5015,3,3,0,0,4737
+Sales Invoice Details 1.xlsx,Sheet1,Excel,100189,43,100188,5,5,0,0,418884
+Sales Invoice Details.xlsx,Sheet1,Excel,338,43,337,0,0,0,0,1438
+Sales Order Report 1.xlsx,Sheet1,Excel,1099,26,1098,0,0,0,2,2304
+Sales Order Report 2.xlsx,Sheet1,Excel,100287,26,100286,6,6,0,2,204617
+Sales_Order_Data_202609.xlsx,Customer list,Excel,46,4,43,1,0,0,0,46
+Sales_Order_Data_202609.xlsx,Country master,Excel,14,5,11,1,0,0,0,0
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Excel,65,8,60,2,0,0,0,0
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,Excel,38,9,33,2,0,0,0,0

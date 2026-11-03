@@ -1,0 +1,6 @@
+{
+  "question": "Forecast the selected confirmed-date invoice subset",
+  "intent": "forecast",
+  "objective_id": "nop-confirmed-date-invoice-count-exploratory",
+  "periods_ahead": 2
+}

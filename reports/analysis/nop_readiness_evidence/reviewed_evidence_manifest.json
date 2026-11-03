@@ -1,0 +1,122 @@
+[
+  {
+    "path": "reports/data_inventory/inventory_validation_report.md",
+    "sha256": "605ef948d5e349a1257517c307130106dcb130c22acea543b768ec2d260a30ba"
+  },
+  {
+    "path": "reports/data_inventory/validation/header_validation.csv",
+    "sha256": "274ff043c8c8f01f4bda488010b7f9533a22e21be1a3c4c47366024c03b61fb5"
+  },
+  {
+    "path": "reports/data_quality/data_quality_report.md",
+    "sha256": "a7bd20af0e5215c05a0744e3f17503dab324395e482efa4fc07ca8b3b50a45fb"
+  },
+  {
+    "path": "reports/data_quality/source_tables.csv",
+    "sha256": "4361cfa8847d19d79998ac14254c53b86f3415322ba5e2245b2296cd38d52bc2"
+  },
+  {
+    "path": "reports/data_quality/source_integrity.csv",
+    "sha256": "4f2d0a0e0adfbb79d6c4dd22e74b0947f2b228105ee10403d1f0da91f297ec9c"
+  },
+  {
+    "path": "reports/data_quality/issue_register.csv",
+    "sha256": "89d1860dfb28dc946875ba63d5e1461af1a462c9634e9b516a4ad823ccf13a7d"
+  },
+  {
+    "path": "reports/data_quality/date_quality.csv",
+    "sha256": "f3a3ac2718d9f514c2a3926413e1b1333cb86ab7abe90af1c73a4090993cfd53"
+  },
+  {
+    "path": "reports/data_quality/identifier_quality.csv",
+    "sha256": "73303a7dfe3e3bd11e9c3ecc9d0a120e0d65a5a9f3e1e47fc2e6abdc6b518c46"
+  },
+  {
+    "path": "reports/data_quality/duplicate_analysis.csv",
+    "sha256": "4c939c8faf21842a93264e703dae7adddbc8ce38b010896ad3ec74f9f341be6b"
+  },
+  {
+    "path": "reports/analysis/dataset_relationship_report.md",
+    "sha256": "0e458e81492cd1a0a4e242f6a03d543f0bb4128db2a271570073d46a0953db7a"
+  },
+  {
+    "path": "reports/analysis/identifier_relationship_matrix.xlsx",
+    "sha256": "1c32e47ee4f6171ee7cb8056bfda10fea8b04fd7cf2029e90a34924c5f1f9686"
+  },
+  {
+    "path": "reports/analysis/dataset_granularity_report.xlsx",
+    "sha256": "87f88aae0c2ccbc39c2a681c703cb127e0475bdba00686c356f265fc8b216db1"
+  },
+  {
+    "path": "reports/analysis/data_model_diagram/logical_business_model.mmd",
+    "sha256": "547461b577ed55ccee05baafa130e70b446d93f5365012f7a95458b9a449f654"
+  },
+  {
+    "path": "reports/analysis/business_prediction_feasibility_report.md",
+    "sha256": "5c9c8880895d364bbb7d15ae7e86f54a132410faa50c00e490604c9cd3ccfde2"
+  },
+  {
+    "path": "reports/analysis/feasibility_evidence/assessment_examples.csv",
+    "sha256": "43b606529467d94fa833a2454533c3ac0eb245c5971c3ca9048c181fc416e9b4"
+  },
+  {
+    "path": "reports/analysis/feasibility_evidence/historical_date_coverage.csv",
+    "sha256": "50d463c0a223b376e1638d3c9de5fc4ebdf33cfdbb23df4a1cbb7aae0cf41db4"
+  },
+  {
+    "path": "reports/analysis/data_preparation_strategy.md",
+    "sha256": "ba6a69d48e45110e2f375985ee184493a9630b9865c7d8c9ea41c8d03d805b0e"
+  },
+  {
+    "path": "reports/analysis/business_rule_register.xlsx",
+    "sha256": "63533cee5507a2d4c0eb9c1b5905a3b3926b30357c376732412aa64e0260d87e"
+  },
+  {
+    "path": "reports/analysis/data_cleaning_specification.xlsx",
+    "sha256": "beac0bf59d887d16adcc6a0eec901eb8b6a8c6f4a7d400f208ac9a793735da52"
+  },
+  {
+    "path": "reports/analysis/training_dataset_blueprint.xlsx",
+    "sha256": "5999c11d75a34bbf079c7f72da2fa5004db3de67ae1beb46ea6225be5d594ffc"
+  },
+  {
+    "path": "reports/analysis/initial_prediction_business_clarification.md",
+    "sha256": "128dc01f5a7a41e4e32e31bc2a9b327f7203dad783ed8b7b029bf6bf2cdc237c"
+  },
+  {
+    "path": "reports/analysis/initial_prediction_readiness_checklist.xlsx",
+    "sha256": "c128cc63977fe12af377dffe6bd6bfd55207a333389f79325c628b7cb9e5b6c7"
+  },
+  {
+    "path": "reports/analysis/initial_prediction_clarification_evidence/decision_response_log.csv",
+    "sha256": "90a140c6b0a7c51965489c823c92b43f8b8be9e33be101db3b35faa5164e8beb"
+  },
+  {
+    "path": "docs/development/foundation.md",
+    "sha256": "d39e2e3629ec30d99b4c6b63d31d89af3009a91024fc34d1aa55dd8858cc8177"
+  },
+  {
+    "path": "docs/development/semantic_approval_foundation.md",
+    "sha256": "663b6cae9925753f40a63c571f7e04b4c11fbfc9e1a60b4eac6f3d95770a014c"
+  },
+  {
+    "path": "docs/development/durable_runtime.md",
+    "sha256": "a2977fdc2f6135c6a393c69e44d37e21957d6b999b0c9d84f3bb67a65ec0fad9"
+  },
+  {
+    "path": "docs/development/prediction_requirement_assessment.md",
+    "sha256": "aad235ca56c3e542d5192ddb96b63aea90752d6fd1bf37337d1a95bbb9934451"
+  },
+  {
+    "path": "docs/development/target_observation_preparation_specifications.md",
+    "sha256": "a70bbbf935781b63e09de83a0cda963199f724550206e34647731bd662ca5ed5"
+  },
+  {
+    "path": "docs/development/controlled_preparation_execution.md",
+    "sha256": "f0c7f7f17320a52a617be260f955bd379241ff61128dd712c0c7e3c90308bebf"
+  },
+  {
+    "path": "docs/development/worker_artifact_publication.md",
+    "sha256": "b9f61f95e70867a47097ae01926159570a622438c99a4f17267a779e14a4fc49"
+  }
+]

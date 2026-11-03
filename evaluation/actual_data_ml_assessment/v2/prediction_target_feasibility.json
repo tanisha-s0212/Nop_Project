@@ -1,0 +1,85 @@
+[
+  {
+    "target": "Monthly document-volume forecasting",
+    "status": "Insufficient historical data",
+    "definition": "distinct source-scoped references per observed month; rows cannot be counted as unique business documents",
+    "source": "original confirmed-date monthly dataset; new CSV has a different narrower population",
+    "fields": [
+      "document_id",
+      "event_date"
+    ],
+    "aggregation": "distinct scoped references by month, only after identity/lifecycle/completeness review",
+    "observations": "10 observed months; 8 eligible interior months in the existing series",
+    "required": "Confirmed document identity/event/lifecycle and complete mature periods; at least 24 complete monthly observations for a modest 12/6/6 split; existing eight months are not certified complete."
+  },
+  {
+    "target": "Monthly aggregate quantity forecasting",
+    "status": "Blocked pending business clarification",
+    "definition": "sum of quantities only within validated compatible product/unit populations",
+    "source": "new CSV and invoice source",
+    "fields": [
+      "quantity",
+      "item_code",
+      "event_date"
+    ],
+    "aggregation": "approved unit-compatible sums by month",
+    "observations": "10 observed months; at most 8 interior buckets, not mature complete observations",
+    "required": "Physical units, source coverage, lifecycle, compatible aggregation and sufficient complete history. Manual is not a confirmed unit."
+  },
+  {
+    "target": "Item-level quantity forecasting",
+    "status": "Insufficient historical data",
+    "definition": "quantity per validated item and regular completed period",
+    "source": "new CSV",
+    "fields": [
+      "quantity",
+      "item_code",
+      "event_date"
+    ],
+    "aggregation": "per-item sums after unit/identity approval",
+    "observations": "92 item codes; 48 seen once; maximum 4 observed months per item",
+    "required": "Validated item identity/units and substantially longer complete per-item series; no zero insertion for unobserved periods."
+  },
+  {
+    "target": "Monthly target-value forecasting",
+    "status": "Blocked pending business clarification",
+    "definition": "a specifically agreed additive monetary measure, not automatically revenue/profit",
+    "source": "new CSV raw Taxable Value lineage",
+    "fields": [
+      "target_value",
+      "document_id",
+      "event_date"
+    ],
+    "aggregation": "approved line-grain additive sums with currency, adjustment and completeness evidence",
+    "observations": "10 partial observed buckets; insufficient complete regular history",
+    "required": "Target meaning, currency/tax/recognition basis, additive grain, adjustments, completeness and longer history."
+  },
+  {
+    "target": "Item-level target-value forecasting",
+    "status": "Insufficient historical data",
+    "definition": "approved item-period value measure with valid item identity and currency basis",
+    "source": "new CSV",
+    "fields": [
+      "target_value",
+      "item_code",
+      "event_date"
+    ],
+    "aggregation": "approved per-item period sums",
+    "observations": "maximum 4 observed months per item; median 1.0",
+    "required": "Long regular per-item history, approved value meaning and period completeness; future quantity is not available as a forecasting feature."
+  },
+  {
+    "target": "Offline stored line-value estimation",
+    "status": "Feasible with conditions",
+    "definition": "stored native Taxable Value for the explicitly retained source-row population",
+    "source": "new CSV with verified original-workbook lineage",
+    "fields": [
+      "quantity",
+      "item_code",
+      "target_value"
+    ],
+    "aggregation": "none; one estimate per supplied source-like feature record",
+    "observations": "165 lines, 111 reference groups, 77 dates",
+    "required": "Exploratory use only; currency/units/decision-time availability and prospective performance remain unapproved. Baseline outperforms ML candidates."
+  }
+]

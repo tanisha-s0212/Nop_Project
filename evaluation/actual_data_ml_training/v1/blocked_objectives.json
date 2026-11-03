@@ -1,0 +1,131 @@
+[
+  {
+    "objective": "Additional larger-source line-value regression",
+    "sources": [
+      "Sales Invoice Details 1.xlsx"
+    ],
+    "reason": "The strictly historical, reference-consistent source probe has only 37 distinct resolved dates. Large detail-row counts do not satisfy the predefined chronological date-diversity gates.",
+    "minimum_requirement": "At least 60 valid distinct historical dates for the 60/20/20 date split, plus source/target-quality confirmation (23 more than the current 37). Do not merge alternate exports without verified source-overlap rules.",
+    "status": "blocked",
+    "artifact_path": null,
+    "business_approved": false
+  },
+  {
+    "objective": "Complete monthly invoice/document volume",
+    "sources": [
+      "Sales Invoice Details.xlsx",
+      "Sales Invoice Details 1.xlsx",
+      "GSTR1_Invoice.csv"
+    ],
+    "reason": "Only the date-resolved subset is prepared; reference scope, lifecycle, unresolved dates and complete mature months remain unverified.",
+    "minimum_requirement": "Resolve the 82 ambiguous-date references in the small source, approve document/event scope and completeness. For a nonseasonal monthly split supply at least 24 complete regular months (12 train, 6 validation, 6 test); longer history is needed for seasonality.",
+    "status": "blocked",
+    "artifact_path": null,
+    "business_approved": false
+  },
+  {
+    "objective": "Sales/order volume forecasting",
+    "sources": [
+      "Sales Order Report 1.xlsx",
+      "Sales Order Report 2.xlsx"
+    ],
+    "reason": "Detail rows are not unique orders; mixed dates, repeated exports, lifecycle and complete historical periods are unresolved.",
+    "minimum_requirement": "Validated order identity, event-date grammar, lifecycle and mature complete chronological periods; no row-as-order counting.",
+    "status": "blocked",
+    "artifact_path": null,
+    "business_approved": false
+  },
+  {
+    "objective": "Recognized revenue or monthly sales-value forecasting",
+    "sources": [
+      "Sales Invoice Details.xlsx",
+      "Sales Invoice Details 1.xlsx",
+      "GSTR1_Invoice.csv",
+      "GSTR1_Credit_Debit_Note 1.csv",
+      "GSTR1_Credit_Debit_Note 2.csv"
+    ],
+    "reason": "Repeated document totals, alternate invoice representations, currency/tax bases, recognition and adjustment policies are not reconciled. The raw-field regression is not a revenue target.",
+    "minimum_requirement": "Finance-confirmed line/document grain, currency and tax basis, credit/debit signs, recognition dates and a complete reconciled time series.",
+    "status": "blocked",
+    "artifact_path": null,
+    "business_approved": false
+  },
+  {
+    "objective": "Profit or margin",
+    "sources": [
+      "Sales Invoice Details.xlsx",
+      "Inventory Audit Report as on 200327.xlsx"
+    ],
+    "reason": "No aligned validated realized costs and attributable expenses; inventory value-like fields do not establish realized invoice costs.",
+    "minimum_requirement": "Recognized revenue, realized costs and attributable expenses aligned by period/entity/currency, with adjustment rules.",
+    "status": "blocked",
+    "artifact_path": null,
+    "business_approved": false
+  },
+  {
+    "objective": "Product/service demand",
+    "sources": [
+      "Sales Invoice Details.xlsx",
+      "Sales Invoice Details 1.xlsx",
+      "Sales Order Report 1.xlsx",
+      "Sales Order Report 2.xlsx",
+      "Item Master Lists 1.xlsx",
+      "Item Master Lists 2.xlsx"
+    ],
+    "reason": "Raw Manual labels do not establish physical units; product identity, service quantities, returns/cancellations and complete item histories are unvalidated.",
+    "minimum_requirement": "Approved product/service identity and units, complete dated event capture and return/cancellation treatment; no inferred latent demand.",
+    "status": "blocked",
+    "artifact_path": null,
+    "business_approved": false
+  },
+  {
+    "objective": "Inventory balance or stockout",
+    "sources": [
+      "Inventory Audit Report as on 200327.xlsx",
+      "Inventory Audit Report as on 200926.xlsx",
+      "Inventory Audit Report as on 200926 1.xlsx"
+    ],
+    "reason": "Mixed movement/cumulative extracts, largely missing item identity on large-audit movement rows, unclear opening balances and sign/date semantics.",
+    "minimum_requirement": "Stable item/warehouse identities, opening balances, signed dated movements and repeated verified stock snapshots.",
+    "status": "blocked",
+    "artifact_path": null,
+    "business_approved": false
+  },
+  {
+    "objective": "Customer repeat-purchase propensity",
+    "sources": [
+      "Customer Master Report 1.xlsx",
+      "Customer Master Report 2.xlsx",
+      "Sales Invoice Details.xlsx"
+    ],
+    "reason": "No eligible historical cohort, matured positive and negative labels or point-in-time features; current master records are not outcome labels.",
+    "minimum_requirement": "Validated customer links, cohort eligibility, observation/decision windows, complete outcomes and matured follow-up.",
+    "status": "blocked",
+    "artifact_path": null,
+    "business_approved": false
+  },
+  {
+    "objective": "Cancellation or delivery outcome",
+    "sources": [
+      "Sales Order Report 1.xlsx",
+      "Sales Order Report 2.xlsx"
+    ],
+    "reason": "Current line status and promised dates do not establish actual lifecycle transitions or completed delivery outcomes.",
+    "minimum_requirement": "Stable line/document identity, dated status transitions or actual delivery events, maturity/censoring and pre-outcome feature snapshots.",
+    "status": "blocked",
+    "artifact_path": null,
+    "business_approved": false
+  },
+  {
+    "objective": "Currency rate modeling",
+    "sources": [
+      "Exchange Rate.xlsx",
+      "Exchange Rate 1.xlsx"
+    ],
+    "reason": "Existing source-authenticity evidence identifies explicit synthetic titles; these cannot be actual-NOP training data.",
+    "minimum_requirement": "Genuine historical rates with publication timestamps, currency-pair semantics and verified source provenance.",
+    "status": "blocked",
+    "artifact_path": null,
+    "business_approved": false
+  }
+]

@@ -1,0 +1,44 @@
+{
+  "status": "passed",
+  "executed_code_cells": 5,
+  "execution_counts": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "notebook_error_outputs": [],
+  "tables_assessed": 20,
+  "source_files_unchanged": 17,
+  "inventory_artifacts_preserved": 23,
+  "linked_artifacts_verified": 30,
+  "notebook_sha256": "4ec800307a544ffc4877ae177743f9139d7ccab63a79e2e5672d6b5f18fef710",
+  "implementation_sha256": "ff1fcf836d28aa11c6405cefab920aa46439959de06dd48e6f75b67b5d73ae69",
+  "checks": [
+    "Scope and report accounting identities",
+    "135 identifier candidates and 101 matching comparisons",
+    "inventory date counts",
+    "Supported CSV/Excel financial checks",
+    "Master names assessed independently of initial identifier flags",
+    "CSV/Excel read-back checks",
+    "Source and inventory hashes",
+    "Notebook errors and execution counts",
+    "Report links and syntax"
+  ],
+  "executed_notebook_sha256": "bac5de8a06dcf4fe3b39d28a525cb424cb886864623ba7e55f0cece42cb07b37",
+  "executed_implementation_sha256": "1d7306bd6d50ae1291fa62909b027d730514efce63f90075e14b8a4698b9c857",
+  "metadata_update": "Descriptive file names, references and labels updated after analysis execution; original execution hashes retained. Analysis was not rerun.",
+  "repository_checks": {
+    "status": "passed",
+    "csv_excel_table_pairs": 31,
+    "source_files_unchanged": 17,
+    "inventory_artifact_baselines_valid": 23,
+    "python_imports_and_syntax_valid": true,
+    "notebook_cells_valid": true,
+    "report_links_valid": true,
+    "workflow_stage_labels_removed": true,
+    "source_address_wording_preserved": true,
+    "analysis_rerun": false
+  }
+}

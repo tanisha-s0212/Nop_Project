@@ -1,0 +1,7 @@
+﻿file,worksheet,proposed_rule,active_rows,eligible_unambiguous_pairs,unevaluable_rows,reversed_pairs,source_row_examples,business_rule_confirmed
+Exchange Rate 1.xlsx,INR to JPY,Start Date <= End Date,7,4,3,0,[],False
+Exchange Rate.xlsx,INR to JPY,Start Date <= End Date,22,22,0,0,[],False
+Sales Invoice Details 1.xlsx,Sheet1,SO Date <=  Invoice Date ,100183,37732,62451,0,[],False
+Sales Invoice Details.xlsx,Sheet1,SO Date <= Invoice Date,337,143,194,0,[],False
+Sales Order Report 1.xlsx,Sheet1,Posting Date <= Delivery Date,1098,437,661,0,[],False
+Sales Order Report 2.xlsx,Sheet1,Posting Date   <= Delivery Date,100280,34496,65784,0,[],False

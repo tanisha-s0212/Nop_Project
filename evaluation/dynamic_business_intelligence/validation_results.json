@@ -1,0 +1,37 @@
+{
+  "validated_at_utc": "2026-11-03T12:28:07.444316+00:00",
+  "python_executable": "C:\\Users\\Tanisha\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+  "source_files": 17,
+  "source_tables": 20,
+  "source_columns": 521,
+  "source_hashes_match": true,
+  "sources_unchanged": true,
+  "existing_models_unchanged": true,
+  "scenario_count": 13,
+  "scenario_statuses": {
+    "financial_forecast": "clarification_required",
+    "profit_forecast": "clarification_required",
+    "sales_analysis": "clarification_required",
+    "broad_invoice_forecast": "partially_answered",
+    "selected_exploratory_forecast": "answered",
+    "historical_subset": "answered",
+    "rank_observed_periods": "answered",
+    "product_demand": "clarification_required",
+    "inventory": "clarification_required",
+    "customer_behavior": "clarification_required",
+    "performance_comparison": "clarification_required",
+    "diagnostic": "clarification_required",
+    "unusual_changes": "clarification_required"
+  },
+  "source_profiles_returned": 20,
+  "fresh_process_status": "answered",
+  "fresh_process_models": 2,
+  "actual_models_reused": [
+    "nop-confirmed-date-invoice-count-exploratory-linear_regression",
+    "nop-confirmed-date-invoice-count-exploratory-random_forest"
+  ],
+  "new_actual_models_trained": 0,
+  "synthetic_models_used": false,
+  "production_approved": false,
+  "limitation": "Prefix field profiles remain prefix observations; source hashes and full physical counts are pinned to prior discovery."
+}

@@ -1,0 +1,5 @@
+algorithm,split,period,actual,prediction,baseline
+linear_regression,test,2026-07,16.0,20.400000000000002,19.0
+linear_regression,test,2026-08,8.0,20.8,19.0
+random_forest,test,2026-07,16.0,19.854583333333338,19.0
+random_forest,test,2026-08,8.0,19.854583333333338,19.0

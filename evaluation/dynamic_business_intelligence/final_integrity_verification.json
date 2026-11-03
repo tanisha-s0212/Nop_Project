@@ -1,0 +1,89 @@
+{
+  "source_count": 17,
+  "sources": [
+    {
+      "path": "Customer Master Report 1.xlsx",
+      "matches": true
+    },
+    {
+      "path": "Customer Master Report 2.xlsx",
+      "matches": true
+    },
+    {
+      "path": "Exchange Rate 1.xlsx",
+      "matches": true
+    },
+    {
+      "path": "Exchange Rate.xlsx",
+      "matches": true
+    },
+    {
+      "path": "GSTR1_Credit_Debit_Note 1.csv",
+      "matches": true
+    },
+    {
+      "path": "GSTR1_Credit_Debit_Note 2.csv",
+      "matches": true
+    },
+    {
+      "path": "GSTR1_Invoice.csv",
+      "matches": true
+    },
+    {
+      "path": "Inventory Audit Report as on 200327.xlsx",
+      "matches": true
+    },
+    {
+      "path": "Inventory Audit Report as on 200926 1.xlsx",
+      "matches": true
+    },
+    {
+      "path": "Inventory Audit Report as on 200926.xlsx",
+      "matches": true
+    },
+    {
+      "path": "Item Master Lists 1.xlsx",
+      "matches": true
+    },
+    {
+      "path": "Item Master Lists 2.xlsx",
+      "matches": true
+    },
+    {
+      "path": "Sales Invoice Details 1.xlsx",
+      "matches": true
+    },
+    {
+      "path": "Sales Invoice Details.xlsx",
+      "matches": true
+    },
+    {
+      "path": "Sales Order Report 1.xlsx",
+      "matches": true
+    },
+    {
+      "path": "Sales Order Report 2.xlsx",
+      "matches": true
+    },
+    {
+      "path": "Sales_Order_Data_202609.xlsx",
+      "matches": true
+    }
+  ],
+  "models": [
+    {
+      "path": "models\\business_forecasting\\nop_confirmed_date_invoice_subset\\linear_regression.joblib",
+      "matches": true
+    },
+    {
+      "path": "models\\business_forecasting\\nop_confirmed_date_invoice_subset\\random_forest.joblib",
+      "matches": true
+    },
+    {
+      "path": "models/nop_invoice_volume_model.joblib",
+      "matches": true
+    }
+  ],
+  "all_source_hashes_match": true,
+  "all_model_hashes_match": true
+}

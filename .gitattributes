@@ -1,0 +1,21 @@
+# Existing source, dataset, model and evidence bytes are SHA-256 referenced.
+# Preserve them across platforms; do not run git add --renormalize.
+* -text
+
+# Normalize only the new repository-management files.
+/.gitattributes text eol=lf
+/.gitignore text eol=lf
+/.editorconfig text eol=lf
+/.python-version text eol=lf
+/pyproject.toml text eol=lf
+/requirements-ml.txt text eol=lf
+/requirements-dev.txt text eol=lf
+/README.md text eol=lf
+/CONTRIBUTING.md text eol=lf
+/SECURITY.md text eol=lf
+/.github/** text eol=lf
+
+*.joblib binary
+*.xlsx binary
+*.xls binary
+*.parquet binary

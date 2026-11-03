@@ -1,0 +1,118 @@
+{
+  "source_files": 17,
+  "file_set_unchanged": true,
+  "extension_counts": {
+    ".xlsx": 14,
+    ".csv": 3
+  },
+  "excel_worksheets": 17,
+  "csv_tables": 3,
+  "validation_failures": [],
+  "all_sources_unchanged": true,
+  "initial_excel_hashes_match": true,
+  "consistency_checks": 1917,
+  "consistency_mismatches": [],
+  "export_verification": [
+    {
+      "table": "source_completeness",
+      "expected_rows": 17,
+      "csv_rows": 17,
+      "excel_rows": 17,
+      "csv_content_matches_records": true,
+      "excel_content_matches_records": true
+    },
+    {
+      "table": "header_validation",
+      "expected_rows": 20,
+      "csv_rows": 20,
+      "excel_rows": 20,
+      "csv_content_matches_records": true,
+      "excel_content_matches_records": true
+    },
+    {
+      "table": "table_counts",
+      "expected_rows": 20,
+      "csv_rows": 20,
+      "excel_rows": 20,
+      "csv_content_matches_records": true,
+      "excel_content_matches_records": true
+    },
+    {
+      "table": "column_validation",
+      "expected_rows": 521,
+      "csv_rows": 521,
+      "excel_rows": 521,
+      "csv_content_matches_records": true,
+      "excel_content_matches_records": true
+    },
+    {
+      "table": "date_validation",
+      "expected_rows": 37,
+      "csv_rows": 37,
+      "excel_rows": 37,
+      "csv_content_matches_records": true,
+      "excel_content_matches_records": true
+    },
+    {
+      "table": "date_token_issues",
+      "expected_rows": 5611,
+      "csv_rows": 5611,
+      "excel_rows": 5611,
+      "csv_content_matches_records": true,
+      "excel_content_matches_records": true
+    },
+    {
+      "table": "identifier_validation",
+      "expected_rows": 135,
+      "csv_rows": 135,
+      "excel_rows": 135,
+      "csv_content_matches_records": true,
+      "excel_content_matches_records": true
+    },
+    {
+      "table": "identifier_matching_coverage",
+      "expected_rows": 101,
+      "csv_rows": 101,
+      "excel_rows": 101,
+      "csv_content_matches_records": true,
+      "excel_content_matches_records": true
+    },
+    {
+      "table": "formula_validation",
+      "expected_rows": 17,
+      "csv_rows": 17,
+      "excel_rows": 17,
+      "csv_content_matches_records": true,
+      "excel_content_matches_records": true
+    },
+    {
+      "table": "formula_cells",
+      "expected_rows": 1,
+      "csv_rows": 1,
+      "excel_rows": 1,
+      "csv_content_matches_records": true,
+      "excel_content_matches_records": true
+    },
+    {
+      "table": "report_consistency",
+      "expected_rows": 1917,
+      "csv_rows": 1917,
+      "excel_rows": 1917,
+      "csv_content_matches_records": true,
+      "excel_content_matches_records": true
+    },
+    {
+      "table": "validation_failures",
+      "expected_rows": 1,
+      "csv_rows": 1,
+      "excel_rows": 1,
+      "csv_content_matches_records": true,
+      "excel_content_matches_records": true
+    }
+  ],
+  "formula_cells": 0,
+  "ambiguous_date_values": 203455,
+  "unresolved_date_values": 15270,
+  "export_text_literal_correction": "Preserved literal #N/A as text in audit evidence workbook; read-back content verified against the validated CSV records.",
+  "unicode_header_comparison": "Japanese header labels preserved in duplicate-label comparison; no duplicate header labels found."
+}

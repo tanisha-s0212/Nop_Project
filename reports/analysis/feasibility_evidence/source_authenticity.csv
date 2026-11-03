@@ -1,0 +1,6 @@
+﻿file,worksheet,indicator,observed_count,evidence,status
+Exchange Rate 1.xlsx,INR to JPY,Explicit title marker,1,"[""NOP India  |  Monthly Exchange Rate Upload  (INR to JPY)   [SYNTHETIC DATA]""]",Confirmed marker; business production authenticity not established
+Exchange Rate.xlsx,INR to JPY,Explicit title marker,1,"[""NOP India  |  Monthly Exchange Rate Upload  (INR to JPY)   [SYNTHETIC DATA]""]",Confirmed marker; business production authenticity not established
+Sales_Order_Data_202609.xlsx,Customer list,Explicit title marker,1,"[""Demo Pump India Private Limited  [SYNTHETIC DATA]""]",Confirmed marker; business production authenticity not established
+Customer Master Report 1.xlsx,Sheet1,example.com email domain,40,Reserved example-domain pattern in contact values,Sample/synthetic indicator only; not proof all records are synthetic
+Customer Master Report 2.xlsx,Sheet1,example.com email domain,4849,Reserved example-domain pattern in contact values,Sample/synthetic indicator only; not proof all records are synthetic

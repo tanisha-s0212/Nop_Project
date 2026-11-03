@@ -1,0 +1,114 @@
+{
+  "mode": "read_only_component_assessment",
+  "partial_intake_findings": [
+    {
+      "code": "missing_business_outcome",
+      "category": "clarification",
+      "message": "Describe the requested business outcome.",
+      "binding_reference": null
+    },
+    {
+      "code": "missing_intent",
+      "category": "clarification",
+      "message": "Specify historical calculation, future prediction or an unknown outcome.",
+      "binding_reference": null
+    },
+    {
+      "code": "missing_desired_output",
+      "category": "clarification",
+      "message": "Specify the requested output characteristics.",
+      "binding_reference": null
+    },
+    {
+      "code": "missing_observation_granularity",
+      "category": "clarification",
+      "message": "Specify what one requested observation represents.",
+      "binding_reference": null
+    },
+    {
+      "code": "target_semantics_unspecified",
+      "category": "clarification",
+      "message": "Supply an exact semantic concept or target binding; descriptions alone are not interpreted as field mappings.",
+      "binding_reference": null
+    }
+  ],
+  "technical_probes": [
+    {
+      "characteristics": {
+        "intent": "historical",
+        "desired_output": {
+          "value_kind": "numeric"
+        }
+      },
+      "problem_type": "analytics",
+      "findings": [],
+      "data_readiness_established": false
+    },
+    {
+      "characteristics": {
+        "intent": "future",
+        "desired_output": {
+          "value_kind": "count"
+        }
+      },
+      "problem_type": "forecasting",
+      "findings": [],
+      "data_readiness_established": false
+    },
+    {
+      "characteristics": {
+        "intent": "unknown_outcome",
+        "desired_output": {
+          "value_kind": "numeric"
+        }
+      },
+      "problem_type": "regression",
+      "findings": [],
+      "data_readiness_established": false
+    },
+    {
+      "characteristics": {
+        "intent": "unknown_outcome",
+        "desired_output": {
+          "value_kind": "categorical"
+        }
+      },
+      "problem_type": "classification",
+      "findings": [],
+      "data_readiness_established": false
+    },
+    {
+      "characteristics": {
+        "intent": "future",
+        "desired_output": {
+          "value_kind": "unregistered_kind"
+        }
+      },
+      "problem_type": null,
+      "findings": [
+        {
+          "code": "unsupported_problem_characteristics",
+          "category": "unsupported",
+          "message": "No registered assessment strategy supports these structured task characteristics.",
+          "binding_reference": null
+        }
+      ],
+      "data_readiness_established": false
+    }
+  ],
+  "target_without_approved_bindings": {
+    "selected": null,
+    "findings": [
+      {
+        "code": "target_not_established",
+        "category": "evidence",
+        "message": "No uniquely grounded target is established in the authorized current data.",
+        "binding_reference": null
+      }
+    ],
+    "construction_requirements": []
+  },
+  "governed_assessment_engine_executed": false,
+  "execution_authorized": false,
+  "limitation": "No authenticated NOP runtime, approved semantic bindings or attributed target evidence supplied. No credentials, grants, bindings or approvals manufactured."
+}

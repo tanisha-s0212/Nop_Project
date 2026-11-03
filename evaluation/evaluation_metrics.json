@@ -1,0 +1,13 @@
+{
+  "evaluation_mode": "recursive multi-step chronological holdout",
+  "train_observations": 144,
+  "supervised_train_rows": 132,
+  "test_observations": 36,
+  "train_period_start": "2011-01",
+  "train_period_end": "2022-12",
+  "test_period_start": "2023-01",
+  "test_period_end": "2025-12",
+  "mae": 4.353029609279621,
+  "rmse": 5.230049911905837,
+  "prediction_policy": "recursive; holdout targets are never fed into later holdout features"
+}

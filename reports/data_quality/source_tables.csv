@@ -1,0 +1,21 @@
+﻿file,worksheet,header_row,rows_below_header,nonempty_rows,empty_rows,columns,empty_data_columns,blank_cells,data_cells,blank_cell_percent,status
+Customer Master Report 1.xlsx,Sheet1,1,40,40,0,35,15,632,1400,45.1429,assessed
+Customer Master Report 2.xlsx,Sheet1,1,5015,5012,3,35,15,78719,175525,44.8477,assessed
+Exchange Rate 1.xlsx,INR to JPY,4,7,7,0,7,1,7,49,14.2857,assessed
+Exchange Rate.xlsx,INR to JPY,4,22,22,0,7,0,10,154,6.4935,assessed
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),1,6,6,0,64,5,30,384,7.8125,assessed
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),1,279,276,3,64,5,1980,17856,11.0887,assessed
+GSTR1_Invoice.csv,(CSV table),1,337,337,0,68,12,4822,22916,21.0421,assessed
+Inventory Audit Report as on 200327.xlsx,Sheet1,1,108129,108124,5,13,0,261403,1405677,18.5962,assessed
+Inventory Audit Report as on 200926 1.xlsx,Sheet1,1,162,162,0,13,0,792,2106,37.6068,assessed
+Inventory Audit Report as on 200926.xlsx,Sheet1,1,162,162,0,13,0,792,2106,37.6068,assessed
+Item Master Lists 1.xlsx,Item Lists,1,150,150,0,19,0,191,2850,6.7018,assessed
+Item Master Lists 2.xlsx,Item Lists,1,5015,5012,3,19,0,4737,95285,4.9714,assessed
+Sales Invoice Details 1.xlsx,Sheet1,1,100188,100183,5,43,0,418884,4308084,9.7232,assessed
+Sales Invoice Details.xlsx,Sheet1,1,337,337,0,43,0,1438,14491,9.9234,assessed
+Sales Order Report 1.xlsx,Sheet1,1,1098,1098,0,26,2,2304,28548,8.0706,assessed
+Sales Order Report 2.xlsx,Sheet1,1,100286,100280,6,26,2,204617,2607436,7.8474,assessed
+Sales_Order_Data_202609.xlsx,Customer list,3,43,43,0,4,0,46,172,26.7442,assessed
+Sales_Order_Data_202609.xlsx,Country master,3,11,11,0,5,0,0,55,0.0,assessed
+Sales_Order_Data_202609.xlsx,PTC_NOPI,5,60,60,0,8,0,0,480,0.0,assessed
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,5,33,33,0,9,0,0,297,0.0,assessed

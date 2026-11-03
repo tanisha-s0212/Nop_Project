@@ -1,0 +1,1337 @@
+{
+  "status": "passed",
+  "evidence_baseline": "Existing validated evidence dated 2026-11-02; no new source profiling",
+  "core_decisions": 13,
+  "conditional_decisions": 4,
+  "rules_reviewed": 36,
+  "readiness_items": 15,
+  "workbook_sheets": 8,
+  "previous_inputs_preserved": 181,
+  "source_files_unchanged": 17,
+  "previous_reports_unchanged": 153,
+  "business_decisions_confirmed": 0,
+  "source_cleaning_transformations_joins_aggregations": 0,
+  "features_labels_models_generated": 0,
+  "ui_llm_mcp_implemented": false,
+  "brief_sha256": "128dc01f5a7a41e4e32e31bc2a9b327f7203dad783ed8b7b029bf6bf2cdc237c",
+  "workbook_sha256": "c128cc63977fe12af377dffe6bd6bfd55207a333389f79325c628b7cb9e5b6c7",
+  "builder_sha256": "9f1afab30311429f932e286a6ceb573669287a69bc371e439199bd59f3e2de03",
+  "checks": [
+    {
+      "test": "Preserved reports/analysis/analysis_validation.json",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/attribute_conflicts.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/authority_assessment.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/business_prediction_feasibility_report.md",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/business_rule_register.xlsx",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/composite_keys.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/controlled_join_expansion.png",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/controlled_join_validation.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/dataset_granularity.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/dataset_granularity_report.xlsx",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/dataset_relationship_report.md",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/data_cleaning_specification.xlsx",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/data_preparation_strategy.md",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/document_context.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/export_validation.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/feasibility_notebook_validation.json",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/feasibility_validation.json",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/identifier_formats.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/identifier_match_detail.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/identifier_profiles.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/identifier_relationship_matrix.xlsx",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/inventory_row_shapes.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/join_financial_effects.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/key_derivation_rules.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/key_scope_checks.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/notebook_execution_validation.json",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/prediction_data_requirements.xlsx",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/prediction_target_mapping.xlsx",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/preparation_specification_validation.json",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/prior_duplicate_analysis.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/prior_financial_exceptions.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/prior_issue_register.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/prior_matching_coverage.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/protected_file_integrity.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/quality_carry_forward.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/relationship_candidates.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/service_indicators.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/source_authenticity.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/source_overlap.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/training_dataset_blueprint.xlsx",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/data_inventory/column_metadata.xlsx",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/data_inventory/date_coverage.png",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/data_inventory/date_coverage.xlsx",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/data_inventory/excel_file_inventory.xlsx",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/data_inventory/inventory_validation_report.md",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/data_inventory/sample_data.xlsx",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/data_inventory/worksheet_inventory.xlsx",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/data_inventory/worksheet_structure.png",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/data_quality/assessment_validation.json",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/data_quality/categorical_consistency.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/data_quality/categorical_values.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/data_quality/categorical_variants.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/data_quality/chronology_checks.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/data_quality/cross_source_duplicate_coverage.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/data_quality/dataset_specific.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/data_quality/data_quality_evidence.xlsx",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/data_quality/data_quality_report.md",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/data_quality/date_cell_exceptions.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/data_quality/date_coverage_gaps.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/data_quality/date_quality.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/data_quality/date_value_evidence.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/data_quality/duplicate_analysis.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/data_quality/duplicate_groups.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/data_quality/entity_duplicate_analysis.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/data_quality/entity_duplicate_groups.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/data_quality/export_validation.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/data_quality/financial_consistency.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/data_quality/flag_encoding_representations.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/data_quality/identifier_matching_coverage.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/data_quality/identifier_quality.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/data_quality/inventory_integrity.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/data_quality/issue_register.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/data_quality/issue_severity.png",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/data_quality/missingness_by_table.png",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/data_quality/missing_values.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/data_quality/notebook_execution_validation.json",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/data_quality/numerical_context.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/data_quality/numerical_quality.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/data_quality/numerical_token_issues.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/data_quality/source_integrity.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/data_quality/source_tables.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/data_quality/spelling_candidates.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/data_model_diagram/logical_business_model.mmd",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/data_model_diagram/logical_business_model.png",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/data_model_diagram/logical_business_model.svg",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/data_model_diagram/README.md",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/feasibility_evidence/architecture_requirements.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/feasibility_evidence/assessment_examples.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/feasibility_evidence/categorical_evidence.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/feasibility_evidence/data_requirements.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/feasibility_evidence/date_coverage_diagnostics.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/feasibility_evidence/date_interpretation_coverage.png",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/feasibility_evidence/document_context_evidence.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/feasibility_evidence/financial_rule_evidence.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/feasibility_evidence/historical_date_coverage.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/feasibility_evidence/identifier_evidence.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/feasibility_evidence/independent_grain_probes.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/feasibility_evidence/input_manifest.json",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/feasibility_evidence/leakage_and_validation_controls.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/feasibility_evidence/measure_evidence.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/feasibility_evidence/outcome_availability_audit.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/feasibility_evidence/preserved_input_integrity.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/feasibility_evidence/propensity_outcome_audit.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/feasibility_evidence/relationship_dependency_evidence.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/feasibility_evidence/reusable_capability_assessment.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/feasibility_evidence/schema_evidence.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/feasibility_evidence/source_authenticity.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/feasibility_evidence/source_authority.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/feasibility_evidence/source_grain_evidence.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/feasibility_evidence/target_contract_requirements.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/feasibility_evidence/target_source_bindings.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/feasibility_evidence/unresolved_issue_dependencies.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/feasibility_evidence/unresolved_issue_summary.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/preparation_evidence/backend_component_contracts.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/preparation_evidence/blueprint_source_evidence.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/preparation_evidence/business_rules.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/preparation_evidence/cleaning_methods.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/preparation_evidence/column_preparation_requirements.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/preparation_evidence/dataset_blueprints.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/preparation_evidence/date_evidence.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/preparation_evidence/document_context_evidence.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/preparation_evidence/duplicate_count_evidence.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/preparation_evidence/financial_evidence.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/preparation_evidence/generic_contract_fields.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/preparation_evidence/identifier_evidence.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/preparation_evidence/independent_validation.json",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/preparation_evidence/input_manifest.json",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/preparation_evidence/issue_treatment_specification.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/preparation_evidence/join_dependency_register.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/preparation_evidence/join_safeguards.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/preparation_evidence/preserved_input_integrity.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/preparation_evidence/prior_requirements.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/preparation_evidence/readme_link_baseline.json",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/preparation_evidence/release_gates.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/preparation_evidence/reviewed_artifacts.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/preparation_evidence/source_view_evidence.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/preparation_evidence/table_preparation_requirements.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/analysis/preparation_evidence/treatment_coverage_summary.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/data_inventory/validation/audit_summary.json",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/data_inventory/validation/column_validation.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/data_inventory/validation/date_token_issues.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/data_inventory/validation/date_validation.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/data_inventory/validation/export_verification.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/data_inventory/validation/formula_cells.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/data_inventory/validation/formula_validation.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/data_inventory/validation/header_validation.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/data_inventory/validation/identifier_matching_coverage.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/data_inventory/validation/identifier_validation.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/data_inventory/validation/inventory_validation_evidence.xlsx",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/data_inventory/validation/report_consistency.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/data_inventory/validation/source_completeness.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/data_inventory/validation/table_counts.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved reports/data_inventory/validation/validation_failures.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved dataset/Customer Master Report 1.xlsx",
+      "passed": true
+    },
+    {
+      "test": "Preserved dataset/Customer Master Report 2.xlsx",
+      "passed": true
+    },
+    {
+      "test": "Preserved dataset/Exchange Rate 1.xlsx",
+      "passed": true
+    },
+    {
+      "test": "Preserved dataset/Exchange Rate.xlsx",
+      "passed": true
+    },
+    {
+      "test": "Preserved dataset/GSTR1_Credit_Debit_Note 1.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved dataset/GSTR1_Credit_Debit_Note 2.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved dataset/GSTR1_Invoice.csv",
+      "passed": true
+    },
+    {
+      "test": "Preserved dataset/Inventory Audit Report as on 200327.xlsx",
+      "passed": true
+    },
+    {
+      "test": "Preserved dataset/Inventory Audit Report as on 200926 1.xlsx",
+      "passed": true
+    },
+    {
+      "test": "Preserved dataset/Inventory Audit Report as on 200926.xlsx",
+      "passed": true
+    },
+    {
+      "test": "Preserved dataset/Item Master Lists 1.xlsx",
+      "passed": true
+    },
+    {
+      "test": "Preserved dataset/Item Master Lists 2.xlsx",
+      "passed": true
+    },
+    {
+      "test": "Preserved dataset/Sales Invoice Details 1.xlsx",
+      "passed": true
+    },
+    {
+      "test": "Preserved dataset/Sales Invoice Details.xlsx",
+      "passed": true
+    },
+    {
+      "test": "Preserved dataset/Sales Order Report 1.xlsx",
+      "passed": true
+    },
+    {
+      "test": "Preserved dataset/Sales Order Report 2.xlsx",
+      "passed": true
+    },
+    {
+      "test": "Preserved dataset/Sales_Order_Data_202609.xlsx",
+      "passed": true
+    },
+    {
+      "test": "Preserved notebooks/01_data_inventory.ipynb",
+      "passed": true
+    },
+    {
+      "test": "Preserved notebooks/02_data_quality_analysis.ipynb",
+      "passed": true
+    },
+    {
+      "test": "Preserved notebooks/03_dataset_relationship_analysis.ipynb",
+      "passed": true
+    },
+    {
+      "test": "Preserved notebooks/04_business_prediction_feasibility.ipynb",
+      "passed": true
+    },
+    {
+      "test": "Preserved src/data/analyze_relationships.py",
+      "passed": true
+    },
+    {
+      "test": "Preserved src/data/assess_data_quality.py",
+      "passed": true
+    },
+    {
+      "test": "Preserved src/data/assess_prediction_feasibility.py",
+      "passed": true
+    },
+    {
+      "test": "Preserved src/data/specify_preparation_strategy.py",
+      "passed": true
+    },
+    {
+      "test": "Preserved src/data/validate_inventory.py",
+      "passed": true
+    },
+    {
+      "test": "Preserved src/data/validate_prediction_feasibility.py",
+      "passed": true
+    },
+    {
+      "test": "Preserved src/data/validate_relationship_analysis.py",
+      "passed": true
+    },
+    {
+      "test": "36 original rules retained",
+      "passed": true
+    },
+    {
+      "test": "17 unique decisions",
+      "passed": true
+    },
+    {
+      "test": "No approval fabricated",
+      "passed": true
+    },
+    {
+      "test": "No stage authorization",
+      "passed": true
+    },
+    {
+      "test": "Unrelated inventory/PCT deferred",
+      "passed": true
+    },
+    {
+      "test": "Readiness decision links R01",
+      "passed": true
+    },
+    {
+      "test": "Readiness decision links R02",
+      "passed": true
+    },
+    {
+      "test": "Readiness decision links R03",
+      "passed": true
+    },
+    {
+      "test": "Readiness decision links R04",
+      "passed": true
+    },
+    {
+      "test": "Readiness decision links R05",
+      "passed": true
+    },
+    {
+      "test": "Readiness decision links R06",
+      "passed": true
+    },
+    {
+      "test": "Readiness decision links R07",
+      "passed": true
+    },
+    {
+      "test": "Readiness decision links R08",
+      "passed": true
+    },
+    {
+      "test": "Readiness decision links R09",
+      "passed": true
+    },
+    {
+      "test": "Readiness decision links R10",
+      "passed": true
+    },
+    {
+      "test": "Readiness decision links R11",
+      "passed": true
+    },
+    {
+      "test": "Readiness decision links R12",
+      "passed": true
+    },
+    {
+      "test": "Readiness decision links R13",
+      "passed": true
+    },
+    {
+      "test": "Readiness decision links R14",
+      "passed": true
+    },
+    {
+      "test": "Readiness decision links R15",
+      "passed": true
+    },
+    {
+      "test": "Original rule links D01",
+      "passed": true
+    },
+    {
+      "test": "Actual field D01/Invoice Num",
+      "passed": true
+    },
+    {
+      "test": "Actual field D01/Invoice Date",
+      "passed": true
+    },
+    {
+      "test": "Actual field D01/TransType",
+      "passed": true
+    },
+    {
+      "test": "Actual field D01/Invoice Num",
+      "passed": true
+    },
+    {
+      "test": "Actual field D01/ Invoice Date ",
+      "passed": true
+    },
+    {
+      "test": "Original rule links D02",
+      "passed": true
+    },
+    {
+      "test": "Actual field D02/Invoice Num",
+      "passed": true
+    },
+    {
+      "test": "Actual field D02/Invoice Date",
+      "passed": true
+    },
+    {
+      "test": "Actual field D02/TransType",
+      "passed": true
+    },
+    {
+      "test": "Original rule links D03",
+      "passed": true
+    },
+    {
+      "test": "Actual field D03/Invoice Num",
+      "passed": true
+    },
+    {
+      "test": "Actual field D03/Invoice Date",
+      "passed": true
+    },
+    {
+      "test": "Actual field D03/TransType",
+      "passed": true
+    },
+    {
+      "test": "Original rule links D04",
+      "passed": true
+    },
+    {
+      "test": "Actual field D04/Invoice Num",
+      "passed": true
+    },
+    {
+      "test": "Actual field D04/Invoice Date",
+      "passed": true
+    },
+    {
+      "test": "Actual field D04/Customer Billing Name",
+      "passed": true
+    },
+    {
+      "test": "Actual field D04/Invoice Total Include GST",
+      "passed": true
+    },
+    {
+      "test": "Original rule links D05",
+      "passed": true
+    },
+    {
+      "test": "Actual field D05/Invoice Date",
+      "passed": true
+    },
+    {
+      "test": "Original rule links D06",
+      "passed": true
+    },
+    {
+      "test": "Actual field D06/Invoice Num",
+      "passed": true
+    },
+    {
+      "test": "Actual field D06/Invoice Date",
+      "passed": true
+    },
+    {
+      "test": "Actual field D06/TransType",
+      "passed": true
+    },
+    {
+      "test": "Original rule links D07",
+      "passed": true
+    },
+    {
+      "test": "Actual field D07/Invoice Num",
+      "passed": true
+    },
+    {
+      "test": "Actual field D07/Invoice Date",
+      "passed": true
+    },
+    {
+      "test": "Actual field D07/TransType",
+      "passed": true
+    },
+    {
+      "test": "Actual field D07/Invoice Num",
+      "passed": true
+    },
+    {
+      "test": "Actual field D07/ Invoice Date ",
+      "passed": true
+    },
+    {
+      "test": "Original rule links D08",
+      "passed": true
+    },
+    {
+      "test": "Actual field D08/Invoice Num",
+      "passed": true
+    },
+    {
+      "test": "Actual field D08/Invoice Date",
+      "passed": true
+    },
+    {
+      "test": "Actual field D08/TransType",
+      "passed": true
+    },
+    {
+      "test": "Original rule links D09",
+      "passed": true
+    },
+    {
+      "test": "Actual field D09/Invoice Num",
+      "passed": true
+    },
+    {
+      "test": "Actual field D09/Invoice Date",
+      "passed": true
+    },
+    {
+      "test": "Actual field D09/TransType",
+      "passed": true
+    },
+    {
+      "test": "Original rule links D10",
+      "passed": true
+    },
+    {
+      "test": "Actual field D10/Invoice Num",
+      "passed": true
+    },
+    {
+      "test": "Actual field D10/Invoice Date",
+      "passed": true
+    },
+    {
+      "test": "Actual field D10/TransType",
+      "passed": true
+    },
+    {
+      "test": "Original rule links D11",
+      "passed": true
+    },
+    {
+      "test": "Actual field D11/Invoice Num",
+      "passed": true
+    },
+    {
+      "test": "Actual field D11/Invoice Date",
+      "passed": true
+    },
+    {
+      "test": "Actual field D11/TransType",
+      "passed": true
+    },
+    {
+      "test": "Original rule links D12",
+      "passed": true
+    },
+    {
+      "test": "Actual field D12/Invoice Num",
+      "passed": true
+    },
+    {
+      "test": "Actual field D12/Invoice Date",
+      "passed": true
+    },
+    {
+      "test": "Actual field D12/TransType",
+      "passed": true
+    },
+    {
+      "test": "Original rule links D13",
+      "passed": true
+    },
+    {
+      "test": "Actual field D13/Invoice Num",
+      "passed": true
+    },
+    {
+      "test": "Actual field D13/Invoice Date",
+      "passed": true
+    },
+    {
+      "test": "Actual field D13/TransType",
+      "passed": true
+    },
+    {
+      "test": "Original rule links D14",
+      "passed": true
+    },
+    {
+      "test": "Actual field D14/Customer Billing Name",
+      "passed": true
+    },
+    {
+      "test": "Actual field D14/Customer Billing GSTIN",
+      "passed": true
+    },
+    {
+      "test": "Actual field D14/Part Code SAP Code",
+      "passed": true
+    },
+    {
+      "test": "Actual field D14/Item Foreign Code",
+      "passed": true
+    },
+    {
+      "test": "Original rule links D15",
+      "passed": true
+    },
+    {
+      "test": "Actual field D15/Taxable Value",
+      "passed": true
+    },
+    {
+      "test": "Actual field D15/Total Value",
+      "passed": true
+    },
+    {
+      "test": "Actual field D15/Invoice Total Include GST",
+      "passed": true
+    },
+    {
+      "test": "Actual field D15/Quantity",
+      "passed": true
+    },
+    {
+      "test": "Actual field D15/UOM",
+      "passed": true
+    },
+    {
+      "test": "Actual field D15/Item Type G or S",
+      "passed": true
+    },
+    {
+      "test": "Original rule links D16",
+      "passed": true
+    },
+    {
+      "test": "Actual field D16/Invoice_Date",
+      "passed": true
+    },
+    {
+      "test": "Actual field D16/Invoice_Number",
+      "passed": true
+    },
+    {
+      "test": "Actual field D16/Doc_Series",
+      "passed": true
+    },
+    {
+      "test": "Actual field D16/Doc_Series_Prefix",
+      "passed": true
+    },
+    {
+      "test": "Actual field D16/Doc_Series_Suffix",
+      "passed": true
+    },
+    {
+      "test": "Actual field D16/Invoice Num",
+      "passed": true
+    },
+    {
+      "test": "Actual field D16/Invoice Date",
+      "passed": true
+    },
+    {
+      "test": "Original rule links D17",
+      "passed": true
+    },
+    {
+      "test": "Actual field D17/Invoice Num",
+      "passed": true
+    },
+    {
+      "test": "Actual field D17/ Invoice Date ",
+      "passed": true
+    },
+    {
+      "test": "Workbook tabs",
+      "passed": true
+    },
+    {
+      "test": "Shape prediction_candidates",
+      "passed": true
+    },
+    {
+      "test": "Every workbook/CSV cell prediction_candidates",
+      "passed": true
+    },
+    {
+      "test": "Shape decision_questions",
+      "passed": true
+    },
+    {
+      "test": "Every workbook/CSV cell decision_questions",
+      "passed": true
+    },
+    {
+      "test": "Shape readiness_checklist",
+      "passed": true
+    },
+    {
+      "test": "Every workbook/CSV cell readiness_checklist",
+      "passed": true
+    },
+    {
+      "test": "Shape rule_relevance",
+      "passed": true
+    },
+    {
+      "test": "Every workbook/CSV cell rule_relevance",
+      "passed": true
+    },
+    {
+      "test": "Shape source_field_evidence",
+      "passed": true
+    },
+    {
+      "test": "Every workbook/CSV cell source_field_evidence",
+      "passed": true
+    },
+    {
+      "test": "Shape technical_observations",
+      "passed": true
+    },
+    {
+      "test": "Every workbook/CSV cell technical_observations",
+      "passed": true
+    },
+    {
+      "test": "Shape decision_response_log",
+      "passed": true
+    },
+    {
+      "test": "Every workbook/CSV cell decision_response_log",
+      "passed": true
+    },
+    {
+      "test": "Shape preserved_input_integrity",
+      "passed": true
+    },
+    {
+      "test": "Every workbook/CSV cell preserved_input_integrity",
+      "passed": true
+    },
+    {
+      "test": "Previous README links retained",
+      "passed": true
+    },
+    {
+      "test": "Reference notebooks/01_data_inventory.ipynb",
+      "passed": true
+    },
+    {
+      "test": "Reference reports/data_inventory/inventory_validation_report.md",
+      "passed": true
+    },
+    {
+      "test": "Reference notebooks/02_data_quality_analysis.ipynb",
+      "passed": true
+    },
+    {
+      "test": "Reference reports/data_quality/data_quality_report.md",
+      "passed": true
+    },
+    {
+      "test": "Reference notebooks/03_dataset_relationship_analysis.ipynb",
+      "passed": true
+    },
+    {
+      "test": "Reference reports/analysis/dataset_relationship_report.md",
+      "passed": true
+    },
+    {
+      "test": "Reference reports/analysis/identifier_relationship_matrix.xlsx",
+      "passed": true
+    },
+    {
+      "test": "Reference reports/analysis/dataset_granularity_report.xlsx",
+      "passed": true
+    },
+    {
+      "test": "Reference reports/analysis/data_model_diagram/README.md",
+      "passed": true
+    },
+    {
+      "test": "Reference notebooks/04_business_prediction_feasibility.ipynb",
+      "passed": true
+    },
+    {
+      "test": "Reference reports/analysis/business_prediction_feasibility_report.md",
+      "passed": true
+    },
+    {
+      "test": "Reference reports/analysis/prediction_target_mapping.xlsx",
+      "passed": true
+    },
+    {
+      "test": "Reference reports/analysis/prediction_data_requirements.xlsx",
+      "passed": true
+    },
+    {
+      "test": "Reference reports/analysis/data_preparation_strategy.md",
+      "passed": true
+    },
+    {
+      "test": "Reference reports/analysis/business_rule_register.xlsx",
+      "passed": true
+    },
+    {
+      "test": "Reference reports/analysis/data_cleaning_specification.xlsx",
+      "passed": true
+    },
+    {
+      "test": "Reference reports/analysis/training_dataset_blueprint.xlsx",
+      "passed": true
+    },
+    {
+      "test": "Reference reports/analysis/initial_prediction_business_clarification.md",
+      "passed": true
+    },
+    {
+      "test": "Reference reports/analysis/initial_prediction_readiness_checklist.xlsx",
+      "passed": true
+    },
+    {
+      "test": "Reference initial_prediction_readiness_checklist.xlsx",
+      "passed": true
+    },
+    {
+      "test": "Reference data_preparation_strategy.md",
+      "passed": true
+    },
+    {
+      "test": "Reference business_rule_register.xlsx",
+      "passed": true
+    },
+    {
+      "test": "Reference data_cleaning_specification.xlsx",
+      "passed": true
+    },
+    {
+      "test": "Reference training_dataset_blueprint.xlsx",
+      "passed": true
+    },
+    {
+      "test": "Reference business_prediction_feasibility_report.md",
+      "passed": true
+    },
+    {
+      "test": "Reference prediction_target_mapping.xlsx",
+      "passed": true
+    },
+    {
+      "test": "Reference identifier_relationship_matrix.xlsx",
+      "passed": true
+    },
+    {
+      "test": "Reference document_context.csv",
+      "passed": true
+    },
+    {
+      "test": "Reference ../data_quality/date_quality.csv",
+      "passed": true
+    },
+    {
+      "test": "Reference initial_prediction_readiness_checklist.xlsx",
+      "passed": true
+    },
+    {
+      "test": "Reference initial_prediction_clarification_validation.json",
+      "passed": true
+    },
+    {
+      "test": "Reference initial_prediction_clarification_evidence/preserved_input_integrity.csv",
+      "passed": true
+    }
+  ]
+}

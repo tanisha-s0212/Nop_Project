@@ -1,0 +1,26 @@
+[
+  {
+    "path": "notebooks/01_data_inventory.ipynb",
+    "code_cells": 7,
+    "training_or_inference_imports": [],
+    "role": "existing source analysis/quality/relationship/feasibility evidence; not a saved-model training workflow"
+  },
+  {
+    "path": "notebooks/02_data_quality_analysis.ipynb",
+    "code_cells": 5,
+    "training_or_inference_imports": [],
+    "role": "existing source analysis/quality/relationship/feasibility evidence; not a saved-model training workflow"
+  },
+  {
+    "path": "notebooks/03_dataset_relationship_analysis.ipynb",
+    "code_cells": 11,
+    "training_or_inference_imports": [],
+    "role": "existing source analysis/quality/relationship/feasibility evidence; not a saved-model training workflow"
+  },
+  {
+    "path": "notebooks/04_business_prediction_feasibility.ipynb",
+    "code_cells": 11,
+    "training_or_inference_imports": [],
+    "role": "existing source analysis/quality/relationship/feasibility evidence; not a saved-model training workflow"
+  }
+]

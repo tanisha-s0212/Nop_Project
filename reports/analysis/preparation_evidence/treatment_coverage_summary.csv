@@ -1,0 +1,26 @@
+﻿strategy_id,severity,issue_entries,count_interpretation
+CL-01,High,26,Issue entries; affected-record counts overlap and must not be summed as unique defects
+CL-01,Low,21,Issue entries; affected-record counts overlap and must not be summed as unique defects
+CL-01,Moderate,36,Issue entries; affected-record counts overlap and must not be summed as unique defects
+CL-02,Low,6,Issue entries; affected-record counts overlap and must not be summed as unique defects
+CL-03,Moderate,7,Issue entries; affected-record counts overlap and must not be summed as unique defects
+CL-04,High,21,Issue entries; affected-record counts overlap and must not be summed as unique defects
+CL-05,High,3,Issue entries; affected-record counts overlap and must not be summed as unique defects
+CL-06,High,11,Issue entries; affected-record counts overlap and must not be summed as unique defects
+CL-07,Moderate,10,Issue entries; affected-record counts overlap and must not be summed as unique defects
+CL-08,Moderate,8,Issue entries; affected-record counts overlap and must not be summed as unique defects
+CL-09,High,9,Issue entries; affected-record counts overlap and must not be summed as unique defects
+CL-09,Moderate,3,Issue entries; affected-record counts overlap and must not be summed as unique defects
+CL-10,High,2,Issue entries; affected-record counts overlap and must not be summed as unique defects
+CL-10,Moderate,2,Issue entries; affected-record counts overlap and must not be summed as unique defects
+CL-11,High,24,Issue entries; affected-record counts overlap and must not be summed as unique defects
+CL-11,Moderate,10,Issue entries; affected-record counts overlap and must not be summed as unique defects
+CL-12,Moderate,81,Issue entries; affected-record counts overlap and must not be summed as unique defects
+CL-13,High,3,Issue entries; affected-record counts overlap and must not be summed as unique defects
+CL-13,Moderate,1,Issue entries; affected-record counts overlap and must not be summed as unique defects
+CL-14,Low,77,Issue entries; affected-record counts overlap and must not be summed as unique defects
+CL-14,Moderate,6,Issue entries; affected-record counts overlap and must not be summed as unique defects
+CL-15,Moderate,37,Issue entries; affected-record counts overlap and must not be summed as unique defects
+CL-16,Moderate,16,Issue entries; affected-record counts overlap and must not be summed as unique defects
+CL-17,High,3,Issue entries; affected-record counts overlap and must not be summed as unique defects
+CL-18,Moderate,1,Issue entries; affected-record counts overlap and must not be summed as unique defects

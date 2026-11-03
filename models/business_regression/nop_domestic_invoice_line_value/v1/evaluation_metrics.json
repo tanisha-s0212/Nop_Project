@@ -1,0 +1,305 @@
+{
+  "objective_id": "nop-domestic-confirmed-date-line-value",
+  "target_definition": "The native numeric Taxable Value cell on one source detail row marked Domestic and G, from a reference whose detail rows share one consistent unambiguous day-first date. The task is offline estimation of this stored line-level field in unspecified source amount units.",
+  "dataset_id": "nop-domestic-confirmed-date-line-value",
+  "dataset_version": "1.0.0",
+  "dataset_sha256": "c177d1d76b8695ea41c88995b0782ad2a37545321df419ed30e758341fb8dd8e",
+  "eligible_observations": 165,
+  "eligible_independent_groups": 111,
+  "split": {
+    "train": {
+      "rows": 101,
+      "independent_groups": 65,
+      "days": 46,
+      "start": "2025-12-22",
+      "end": "2026-05-19"
+    },
+    "validation": {
+      "rows": 34,
+      "independent_groups": 25,
+      "days": 15,
+      "start": "2026-05-23",
+      "end": "2026-06-25"
+    },
+    "test": {
+      "rows": 30,
+      "independent_groups": 21,
+      "days": 16,
+      "start": "2026-06-27",
+      "end": "2026-09-13"
+    }
+  },
+  "saved_fit": {
+    "rows": 135,
+    "independent_groups": 90,
+    "through": "2026-06-25"
+  },
+  "models": {
+    "ridge_regression": {
+      "algorithm": "ridge_regression",
+      "parameters": {
+        "alpha": 1.0
+      },
+      "validation": {
+        "mae": 109745.73316471853,
+        "rmse": 169223.0464493546,
+        "r2": 0.6552908905669199,
+        "smape_percent": 81.74207724208519,
+        "observations": 34,
+        "independent_groups": 25,
+        "document_macro_mae": 104295.3846249287
+      },
+      "test": {
+        "mae": 140357.11343784712,
+        "rmse": 250029.5562584521,
+        "r2": -0.0538590772447074,
+        "smape_percent": 73.08699042516409,
+        "observations": 30,
+        "independent_groups": 21,
+        "document_macro_mae": 125635.7614364234
+      },
+      "training": {
+        "mae": 114644.79294930684,
+        "rmse": 219866.62681181895,
+        "r2": 0.750060125469431,
+        "smape_percent": 67.79494355822702,
+        "observations": 135,
+        "independent_groups": 90,
+        "document_macro_mae": 100014.7256801926
+      },
+      "validation_trials": [
+        {
+          "parameters": {
+            "alpha": 1.0
+          },
+          "validation": {
+            "mae": 109745.73316471853,
+            "rmse": 169223.0464493546,
+            "r2": 0.6552908905669199,
+            "smape_percent": 81.74207724208519,
+            "observations": 34,
+            "independent_groups": 25,
+            "document_macro_mae": 104295.3846249287
+          }
+        },
+        {
+          "parameters": {
+            "alpha": 10.0
+          },
+          "validation": {
+            "mae": 121653.70761430342,
+            "rmse": 187076.16183652548,
+            "r2": 0.5787201916490765,
+            "smape_percent": 79.13614667305797,
+            "observations": 34,
+            "independent_groups": 25,
+            "document_macro_mae": 112558.91281735622
+          }
+        },
+        {
+          "parameters": {
+            "alpha": 100.0
+          },
+          "validation": {
+            "mae": 166425.35980014378,
+            "rmse": 234361.58690006327,
+            "r2": 0.338839952708918,
+            "smape_percent": 92.72112938483569,
+            "observations": 34,
+            "independent_groups": 25,
+            "document_macro_mae": 149403.39101789307
+          }
+        }
+      ],
+      "baselines": {
+        "validation": {
+          "constant_training_median": {
+            "mae": 165819.41176470587,
+            "rmse": 307061.126873404,
+            "r2": -0.13496748742389642,
+            "smape_percent": 97.98607524917031,
+            "observations": 34,
+            "independent_groups": 25,
+            "document_macro_mae": 144317.76666666666
+          },
+          "quantity_scaled_item_median": {
+            "mae": 35521.470588235294,
+            "rmse": 59187.60734507938,
+            "r2": 0.9578308050481876,
+            "smape_percent": 40.50306509782032,
+            "observations": 34,
+            "independent_groups": 25,
+            "document_macro_mae": 41618.96666666667
+          }
+        },
+        "test": {
+          "constant_training_median": {
+            "mae": 148474.16666666666,
+            "rmse": 264424.7639137328,
+            "r2": -0.17870219129913645,
+            "smape_percent": 81.91106044581944,
+            "observations": 30,
+            "independent_groups": 21,
+            "document_macro_mae": 106747.61904761905
+          },
+          "quantity_scaled_item_median": {
+            "mae": 72255.5,
+            "rmse": 190675.2915987019,
+            "r2": 0.3871013301491346,
+            "smape_percent": 31.287140173289295,
+            "observations": 30,
+            "independent_groups": 21,
+            "document_macro_mae": 56477.4007936508
+          }
+        }
+      },
+      "test_unseen_category_rows": 11,
+      "test_unseen_category_fraction": 0.36666666666666664,
+      "artifact_path": "models/business_regression/nop_domestic_invoice_line_value/v1/ridge_regression.joblib",
+      "artifact_sha256": "b74b69513767218252433e33683fabd718f5964e028ac447f587fc5c851de5ff"
+    },
+    "random_forest": {
+      "algorithm": "random_forest",
+      "parameters": {
+        "n_estimators": 200,
+        "max_depth": 6,
+        "min_samples_leaf": 3
+      },
+      "validation": {
+        "mae": 119775.98477386101,
+        "rmse": 171520.47283678607,
+        "r2": 0.6458675919991426,
+        "smape_percent": 84.39673591979096,
+        "observations": 34,
+        "independent_groups": 25,
+        "document_macro_mae": 110075.82632297954
+      },
+      "test": {
+        "mae": 179683.2888085809,
+        "rmse": 306937.26924016164,
+        "r2": -0.5881776876176321,
+        "smape_percent": 73.13232893950308,
+        "observations": 30,
+        "independent_groups": 21,
+        "document_macro_mae": 155652.32994582955
+      },
+      "training": {
+        "mae": 181562.429791476,
+        "rmse": 324299.2240913781,
+        "r2": 0.4562381435920855,
+        "smape_percent": 82.52636205254754,
+        "observations": 135,
+        "independent_groups": 90,
+        "document_macro_mae": 168357.94920176035
+      },
+      "validation_trials": [
+        {
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": 6,
+            "min_samples_leaf": 3
+          },
+          "validation": {
+            "mae": 119775.98477386101,
+            "rmse": 171520.47283678607,
+            "r2": 0.6458675919991426,
+            "smape_percent": 84.39673591979096,
+            "observations": 34,
+            "independent_groups": 25,
+            "document_macro_mae": 110075.82632297954
+          }
+        },
+        {
+          "parameters": {
+            "n_estimators": 200,
+            "max_depth": null,
+            "min_samples_leaf": 5
+          },
+          "validation": {
+            "mae": 119522.29344379563,
+            "rmse": 171572.19410862806,
+            "r2": 0.6456539855436294,
+            "smape_percent": 84.5821473547503,
+            "observations": 34,
+            "independent_groups": 25,
+            "document_macro_mae": 110398.85118008875
+          }
+        }
+      ],
+      "baselines": {
+        "validation": {
+          "constant_training_median": {
+            "mae": 165819.41176470587,
+            "rmse": 307061.126873404,
+            "r2": -0.13496748742389642,
+            "smape_percent": 97.98607524917031,
+            "observations": 34,
+            "independent_groups": 25,
+            "document_macro_mae": 144317.76666666666
+          },
+          "quantity_scaled_item_median": {
+            "mae": 35521.470588235294,
+            "rmse": 59187.60734507938,
+            "r2": 0.9578308050481876,
+            "smape_percent": 40.50306509782032,
+            "observations": 34,
+            "independent_groups": 25,
+            "document_macro_mae": 41618.96666666667
+          }
+        },
+        "test": {
+          "constant_training_median": {
+            "mae": 148474.16666666666,
+            "rmse": 264424.7639137328,
+            "r2": -0.17870219129913645,
+            "smape_percent": 81.91106044581944,
+            "observations": 30,
+            "independent_groups": 21,
+            "document_macro_mae": 106747.61904761905
+          },
+          "quantity_scaled_item_median": {
+            "mae": 72255.5,
+            "rmse": 190675.2915987019,
+            "r2": 0.3871013301491346,
+            "smape_percent": 31.287140173289295,
+            "observations": 30,
+            "independent_groups": 21,
+            "document_macro_mae": 56477.4007936508
+          }
+        }
+      },
+      "test_unseen_category_rows": 11,
+      "test_unseen_category_fraction": 0.36666666666666664,
+      "artifact_path": "models/business_regression/nop_domestic_invoice_line_value/v1/random_forest.joblib",
+      "artifact_sha256": "095c704de58264e542a0f0dc7b531970e163ff0a0252decae2efa46bdbe072c1"
+    }
+  },
+  "validation_selected_model": null,
+  "business_champion": null,
+  "selection_rule": "lowest validation document-macro MAE, only if below the predefined quantity-scaled item-median baseline; test is not used for tuning",
+  "test_use": "one chronological holdout; saved estimator is fitted on train plus validation only",
+  "group_weighting": "inverse detail-row count per reference",
+  "feature_schema": {
+    "numeric_features": [
+      "quantity"
+    ],
+    "categorical_features": [
+      "item_code"
+    ],
+    "numeric_minimums": {
+      "quantity": 1e-09
+    }
+  },
+  "seed": 20261103,
+  "model_version": "1.0.0",
+  "business_approved": false,
+  "data_mode": "actual_nop_exploratory_raw_field",
+  "dependency_versions": {
+    "python": "3.12.10",
+    "scikit_learn": "1.8.0",
+    "numpy": "2.4.4",
+    "pandas": "3.0.2",
+    "joblib": "1.5.3"
+  },
+  "training_timestamp_utc": "2026-11-03T15:29:56.701646+00:00"
+}

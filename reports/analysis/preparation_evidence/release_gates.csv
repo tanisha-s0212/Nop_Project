@@ -1,0 +1,10 @@
+﻿gate_id,gate,required_evidence,current_status,execution_authorized
+G-01,Source/evidence preservation,Stable source/report hashes and schema/extent baseline,Verified for this specification only,False
+G-02,Authority and semantics,"Owner-approved source/version/use, outcome, grain, units and scope",Open,False
+G-03,Identity and relationships,"Stable scoped business IDs, line identity, crosswalks and point-in-time cardinality",Open; zero business joins approved,False
+G-04,Time and coverage,"Per-field date/century/epoch rules, calendars, availability and capture closure",Open,False
+G-05,Quality treatments,Signed-off issue treatments and duplicate/optional/collision policies,Open; no corrections authorized,False
+G-06,Target/population contract,"Target definition, t/H, requiredness, observations, maturity and relevant lifecycle evidence",Open,False
+G-07,Derivative verification,"Row partitions, raw lineage, orphan/fanout, quantity/financial controls and rule-version checks",Design only; requires later approved execution,False
+G-08,Leakage/validation plan,"Chronological boundaries, related events, fold-contained transforms and untouched holdout",Design only; no split/feature/model generated,False
+G-09,Business acceptance and release,"Owner acceptance of bounded unresolved exceptions, limitations and intended use",Open; no derivative release or training authorized,False

@@ -1,0 +1,10 @@
+{
+  "exit_code": 0,
+  "status": "answered",
+  "model_count": 2,
+  "forecast_periods": [
+    "2026-10",
+    "2026-11"
+  ],
+  "numeric_predictions_valid": true
+}

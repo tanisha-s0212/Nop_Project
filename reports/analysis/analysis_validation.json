@@ -1,0 +1,4928 @@
+{
+  "analysis_date": "2026-11-02",
+  "source_files": 17,
+  "tables": 20,
+  "identifier_candidates": 135,
+  "relationship_candidates": 148,
+  "prior_comparisons_reconciled": 101,
+  "controlled_joins": 69,
+  "financial_controls": 530,
+  "all_protected_hashes_unchanged": true,
+  "protected_files": 74,
+  "business_primary_keys_confirmed": 0,
+  "business_relationships_confirmed": 0,
+  "read_failures": 0,
+  "join_calculation_failures": 0,
+  "permanent_consolidation_performed": false,
+  "export_checks": [
+    {
+      "workbook": "dataset_granularity_report.xlsx",
+      "sheet": "dataset_granularity",
+      "rows": 20,
+      "columns": 11,
+      "complete_csv_and_excel_content_verified": true
+    },
+    {
+      "workbook": "dataset_granularity_report.xlsx",
+      "sheet": "document_context",
+      "rows": 27,
+      "columns": 7,
+      "complete_csv_and_excel_content_verified": true
+    },
+    {
+      "workbook": "dataset_granularity_report.xlsx",
+      "sheet": "inventory_row_shapes",
+      "rows": 12,
+      "columns": 5,
+      "complete_csv_and_excel_content_verified": true
+    },
+    {
+      "workbook": "dataset_granularity_report.xlsx",
+      "sheet": "service_indicators",
+      "rows": 4,
+      "columns": 7,
+      "complete_csv_and_excel_content_verified": true
+    },
+    {
+      "workbook": "identifier_relationship_matrix.xlsx",
+      "sheet": "identifier_profiles",
+      "rows": 135,
+      "columns": 26,
+      "complete_csv_and_excel_content_verified": true
+    },
+    {
+      "workbook": "identifier_relationship_matrix.xlsx",
+      "sheet": "identifier_formats",
+      "rows": 145,
+      "columns": 4,
+      "complete_csv_and_excel_content_verified": true
+    },
+    {
+      "workbook": "identifier_relationship_matrix.xlsx",
+      "sheet": "composite_keys",
+      "rows": 38,
+      "columns": 16,
+      "complete_csv_and_excel_content_verified": true
+    },
+    {
+      "workbook": "identifier_relationship_matrix.xlsx",
+      "sheet": "key_derivation_rules",
+      "rows": 5,
+      "columns": 4,
+      "complete_csv_and_excel_content_verified": true
+    },
+    {
+      "workbook": "identifier_relationship_matrix.xlsx",
+      "sheet": "key_scope_checks",
+      "rows": 2,
+      "columns": 5,
+      "complete_csv_and_excel_content_verified": true
+    },
+    {
+      "workbook": "identifier_relationship_matrix.xlsx",
+      "sheet": "relationship_candidates",
+      "rows": 148,
+      "columns": 37,
+      "complete_csv_and_excel_content_verified": true
+    },
+    {
+      "workbook": "identifier_relationship_matrix.xlsx",
+      "sheet": "identifier_match_detail",
+      "rows": 312,
+      "columns": 10,
+      "complete_csv_and_excel_content_verified": true
+    },
+    {
+      "workbook": "identifier_relationship_matrix.xlsx",
+      "sheet": "controlled_join_validation",
+      "rows": 69,
+      "columns": 22,
+      "complete_csv_and_excel_content_verified": true
+    },
+    {
+      "workbook": "identifier_relationship_matrix.xlsx",
+      "sheet": "join_financial_effects",
+      "rows": 530,
+      "columns": 17,
+      "complete_csv_and_excel_content_verified": true
+    },
+    {
+      "workbook": "identifier_relationship_matrix.xlsx",
+      "sheet": "source_overlap",
+      "rows": 9,
+      "columns": 11,
+      "complete_csv_and_excel_content_verified": true
+    },
+    {
+      "workbook": "identifier_relationship_matrix.xlsx",
+      "sheet": "attribute_conflicts",
+      "rows": 33,
+      "columns": 14,
+      "complete_csv_and_excel_content_verified": true
+    },
+    {
+      "workbook": "identifier_relationship_matrix.xlsx",
+      "sheet": "source_authenticity",
+      "rows": 5,
+      "columns": 6,
+      "complete_csv_and_excel_content_verified": true
+    },
+    {
+      "workbook": "identifier_relationship_matrix.xlsx",
+      "sheet": "authority_assessment",
+      "rows": 7,
+      "columns": 4,
+      "complete_csv_and_excel_content_verified": true
+    },
+    {
+      "workbook": "identifier_relationship_matrix.xlsx",
+      "sheet": "quality_carry_forward",
+      "rows": 9,
+      "columns": 5,
+      "complete_csv_and_excel_content_verified": true
+    },
+    {
+      "workbook": "identifier_relationship_matrix.xlsx",
+      "sheet": "prior_issue_register",
+      "rows": 424,
+      "columns": 14,
+      "complete_csv_and_excel_content_verified": true
+    },
+    {
+      "workbook": "identifier_relationship_matrix.xlsx",
+      "sheet": "prior_matching_coverage",
+      "rows": 101,
+      "columns": 21,
+      "complete_csv_and_excel_content_verified": true
+    },
+    {
+      "workbook": "identifier_relationship_matrix.xlsx",
+      "sheet": "prior_duplicate_analysis",
+      "rows": 47,
+      "columns": 9,
+      "complete_csv_and_excel_content_verified": true
+    },
+    {
+      "workbook": "identifier_relationship_matrix.xlsx",
+      "sheet": "prior_financial_exceptions",
+      "rows": 35,
+      "columns": 15,
+      "complete_csv_and_excel_content_verified": true
+    },
+    {
+      "workbook": "identifier_relationship_matrix.xlsx",
+      "sheet": "protected_file_integrity",
+      "rows": 74,
+      "columns": 4,
+      "complete_csv_and_excel_content_verified": true
+    }
+  ],
+  "checks": [
+    {
+      "test": "Source census exactly matches validated files",
+      "passed": true,
+      "detail": "17 files"
+    },
+    {
+      "test": "Inventory CSV/workbook agreement: header_validation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Inventory CSV/workbook agreement: table_counts",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source matches quality baseline: Customer Master Report 1.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Every worksheet covered: Customer Master Report 1.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Validated header preserved: Customer Master Report 1.xlsx/Sheet1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Extent matches inventory: Customer Master Report 1.xlsx :: Sheet1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Empty rows match inventory: Customer Master Report 1.xlsx :: Sheet1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source matches quality baseline: Customer Master Report 2.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Every worksheet covered: Customer Master Report 2.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Validated header preserved: Customer Master Report 2.xlsx/Sheet1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Extent matches inventory: Customer Master Report 2.xlsx :: Sheet1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Empty rows match inventory: Customer Master Report 2.xlsx :: Sheet1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source matches quality baseline: Exchange Rate 1.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Every worksheet covered: Exchange Rate 1.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Validated header preserved: Exchange Rate 1.xlsx/INR to JPY",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Extent matches inventory: Exchange Rate 1.xlsx :: INR to JPY",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Empty rows match inventory: Exchange Rate 1.xlsx :: INR to JPY",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source matches quality baseline: Exchange Rate.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Every worksheet covered: Exchange Rate.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Validated header preserved: Exchange Rate.xlsx/INR to JPY",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Extent matches inventory: Exchange Rate.xlsx :: INR to JPY",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Empty rows match inventory: Exchange Rate.xlsx :: INR to JPY",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source matches quality baseline: GSTR1_Credit_Debit_Note 1.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Validated header preserved: GSTR1_Credit_Debit_Note 1.csv/(CSV table)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Extent matches inventory: GSTR1_Credit_Debit_Note 1.csv :: (CSV table)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Empty rows match inventory: GSTR1_Credit_Debit_Note 1.csv :: (CSV table)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source matches quality baseline: GSTR1_Credit_Debit_Note 2.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Validated header preserved: GSTR1_Credit_Debit_Note 2.csv/(CSV table)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Extent matches inventory: GSTR1_Credit_Debit_Note 2.csv :: (CSV table)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Empty rows match inventory: GSTR1_Credit_Debit_Note 2.csv :: (CSV table)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source matches quality baseline: GSTR1_Invoice.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Validated header preserved: GSTR1_Invoice.csv/(CSV table)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Extent matches inventory: GSTR1_Invoice.csv :: (CSV table)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Empty rows match inventory: GSTR1_Invoice.csv :: (CSV table)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source matches quality baseline: Inventory Audit Report as on 200327.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Every worksheet covered: Inventory Audit Report as on 200327.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Validated header preserved: Inventory Audit Report as on 200327.xlsx/Sheet1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Extent matches inventory: Inventory Audit Report as on 200327.xlsx :: Sheet1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Empty rows match inventory: Inventory Audit Report as on 200327.xlsx :: Sheet1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source matches quality baseline: Inventory Audit Report as on 200926 1.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Every worksheet covered: Inventory Audit Report as on 200926 1.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Validated header preserved: Inventory Audit Report as on 200926 1.xlsx/Sheet1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Extent matches inventory: Inventory Audit Report as on 200926 1.xlsx :: Sheet1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Empty rows match inventory: Inventory Audit Report as on 200926 1.xlsx :: Sheet1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source matches quality baseline: Inventory Audit Report as on 200926.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Every worksheet covered: Inventory Audit Report as on 200926.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Validated header preserved: Inventory Audit Report as on 200926.xlsx/Sheet1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Extent matches inventory: Inventory Audit Report as on 200926.xlsx :: Sheet1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Empty rows match inventory: Inventory Audit Report as on 200926.xlsx :: Sheet1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source matches quality baseline: Item Master Lists 1.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Every worksheet covered: Item Master Lists 1.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Validated header preserved: Item Master Lists 1.xlsx/Item Lists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Extent matches inventory: Item Master Lists 1.xlsx :: Item Lists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Empty rows match inventory: Item Master Lists 1.xlsx :: Item Lists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source matches quality baseline: Item Master Lists 2.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Every worksheet covered: Item Master Lists 2.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Validated header preserved: Item Master Lists 2.xlsx/Item Lists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Extent matches inventory: Item Master Lists 2.xlsx :: Item Lists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Empty rows match inventory: Item Master Lists 2.xlsx :: Item Lists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source matches quality baseline: Sales Invoice Details 1.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Every worksheet covered: Sales Invoice Details 1.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Validated header preserved: Sales Invoice Details 1.xlsx/Sheet1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Extent matches inventory: Sales Invoice Details 1.xlsx :: Sheet1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Empty rows match inventory: Sales Invoice Details 1.xlsx :: Sheet1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source matches quality baseline: Sales Invoice Details.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Every worksheet covered: Sales Invoice Details.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Validated header preserved: Sales Invoice Details.xlsx/Sheet1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Extent matches inventory: Sales Invoice Details.xlsx :: Sheet1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Empty rows match inventory: Sales Invoice Details.xlsx :: Sheet1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source matches quality baseline: Sales Order Report 1.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Every worksheet covered: Sales Order Report 1.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Validated header preserved: Sales Order Report 1.xlsx/Sheet1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Extent matches inventory: Sales Order Report 1.xlsx :: Sheet1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Empty rows match inventory: Sales Order Report 1.xlsx :: Sheet1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source matches quality baseline: Sales Order Report 2.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Every worksheet covered: Sales Order Report 2.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Validated header preserved: Sales Order Report 2.xlsx/Sheet1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Extent matches inventory: Sales Order Report 2.xlsx :: Sheet1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Empty rows match inventory: Sales Order Report 2.xlsx :: Sheet1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source matches quality baseline: Sales_Order_Data_202609.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Every worksheet covered: Sales_Order_Data_202609.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Validated header preserved: Sales_Order_Data_202609.xlsx/Customer list",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Extent matches inventory: Sales_Order_Data_202609.xlsx :: Customer list",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Empty rows match inventory: Sales_Order_Data_202609.xlsx :: Customer list",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Validated header preserved: Sales_Order_Data_202609.xlsx/Country master",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Extent matches inventory: Sales_Order_Data_202609.xlsx :: Country master",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Empty rows match inventory: Sales_Order_Data_202609.xlsx :: Country master",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Validated header preserved: Sales_Order_Data_202609.xlsx/PTC_NOPI",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Extent matches inventory: Sales_Order_Data_202609.xlsx :: PTC_NOPI",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Empty rows match inventory: Sales_Order_Data_202609.xlsx :: PTC_NOPI",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Validated header preserved: Sales_Order_Data_202609.xlsx/PCT_NOPJ",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Extent matches inventory: Sales_Order_Data_202609.xlsx :: PCT_NOPJ",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Empty rows match inventory: Sales_Order_Data_202609.xlsx :: PCT_NOPJ",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "20 source tables loaded",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Every explicit rate period recognized: Exchange Rate 1.xlsx :: INR to JPY",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Every explicit rate period recognized: Exchange Rate.xlsx :: INR to JPY",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Customer Master Report 1.xlsx :: Sheet1/1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Customer Master Report 1.xlsx :: Sheet1/1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Customer Master Report 1.xlsx :: Sheet1/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Customer Master Report 1.xlsx :: Sheet1/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Customer Master Report 1.xlsx :: Sheet1/3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Customer Master Report 1.xlsx :: Sheet1/3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Customer Master Report 1.xlsx :: Sheet1/7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Customer Master Report 1.xlsx :: Sheet1/7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Customer Master Report 1.xlsx :: Sheet1/8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Customer Master Report 1.xlsx :: Sheet1/8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Customer Master Report 1.xlsx :: Sheet1/15",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Customer Master Report 1.xlsx :: Sheet1/15",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Customer Master Report 1.xlsx :: Sheet1/20",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Customer Master Report 1.xlsx :: Sheet1/20",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Customer Master Report 1.xlsx :: Sheet1/23",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Customer Master Report 1.xlsx :: Sheet1/23",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Customer Master Report 1.xlsx :: Sheet1/24",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Customer Master Report 1.xlsx :: Sheet1/24",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Customer Master Report 1.xlsx :: Sheet1/25",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Customer Master Report 1.xlsx :: Sheet1/25",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Customer Master Report 1.xlsx :: Sheet1/27",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Customer Master Report 1.xlsx :: Sheet1/27",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Customer Master Report 1.xlsx :: Sheet1/28",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Customer Master Report 1.xlsx :: Sheet1/28",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Customer Master Report 1.xlsx :: Sheet1/31",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Customer Master Report 1.xlsx :: Sheet1/31",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Customer Master Report 1.xlsx :: Sheet1/32",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Customer Master Report 1.xlsx :: Sheet1/32",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Customer Master Report 2.xlsx :: Sheet1/1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Customer Master Report 2.xlsx :: Sheet1/1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Customer Master Report 2.xlsx :: Sheet1/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Customer Master Report 2.xlsx :: Sheet1/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Customer Master Report 2.xlsx :: Sheet1/8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Customer Master Report 2.xlsx :: Sheet1/8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Customer Master Report 2.xlsx :: Sheet1/20",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Customer Master Report 2.xlsx :: Sheet1/20",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Customer Master Report 2.xlsx :: Sheet1/23",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Customer Master Report 2.xlsx :: Sheet1/23",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Customer Master Report 2.xlsx :: Sheet1/25",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Customer Master Report 2.xlsx :: Sheet1/25",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Customer Master Report 2.xlsx :: Sheet1/27",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Customer Master Report 2.xlsx :: Sheet1/27",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Customer Master Report 2.xlsx :: Sheet1/28",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Customer Master Report 2.xlsx :: Sheet1/28",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Customer Master Report 2.xlsx :: Sheet1/31",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Customer Master Report 2.xlsx :: Sheet1/31",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Customer Master Report 2.xlsx :: Sheet1/32",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Customer Master Report 2.xlsx :: Sheet1/32",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Exchange Rate 1.xlsx :: INR to JPY/1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Exchange Rate 1.xlsx :: INR to JPY/1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Exchange Rate 1.xlsx :: INR to JPY/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Exchange Rate 1.xlsx :: INR to JPY/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Exchange Rate 1.xlsx :: INR to JPY/3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Exchange Rate 1.xlsx :: INR to JPY/3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Exchange Rate 1.xlsx :: INR to JPY/6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Exchange Rate 1.xlsx :: INR to JPY/6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Exchange Rate.xlsx :: INR to JPY/1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Exchange Rate.xlsx :: INR to JPY/1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Exchange Rate.xlsx :: INR to JPY/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Exchange Rate.xlsx :: INR to JPY/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Exchange Rate.xlsx :: INR to JPY/3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Exchange Rate.xlsx :: INR to JPY/3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: GSTR1_Credit_Debit_Note 1.csv :: (CSV table)/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: GSTR1_Credit_Debit_Note 1.csv :: (CSV table)/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: GSTR1_Credit_Debit_Note 1.csv :: (CSV table)/5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: GSTR1_Credit_Debit_Note 1.csv :: (CSV table)/5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: GSTR1_Credit_Debit_Note 1.csv :: (CSV table)/7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: GSTR1_Credit_Debit_Note 1.csv :: (CSV table)/7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: GSTR1_Credit_Debit_Note 1.csv :: (CSV table)/12",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: GSTR1_Credit_Debit_Note 1.csv :: (CSV table)/12",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: GSTR1_Credit_Debit_Note 1.csv :: (CSV table)/29",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: GSTR1_Credit_Debit_Note 1.csv :: (CSV table)/29",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: GSTR1_Credit_Debit_Note 1.csv :: (CSV table)/30",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: GSTR1_Credit_Debit_Note 1.csv :: (CSV table)/30",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: GSTR1_Credit_Debit_Note 1.csv :: (CSV table)/31",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: GSTR1_Credit_Debit_Note 1.csv :: (CSV table)/31",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: GSTR1_Credit_Debit_Note 1.csv :: (CSV table)/40",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: GSTR1_Credit_Debit_Note 1.csv :: (CSV table)/40",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: GSTR1_Credit_Debit_Note 1.csv :: (CSV table)/49",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: GSTR1_Credit_Debit_Note 1.csv :: (CSV table)/49",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: GSTR1_Credit_Debit_Note 1.csv :: (CSV table)/56",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: GSTR1_Credit_Debit_Note 1.csv :: (CSV table)/56",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: GSTR1_Credit_Debit_Note 1.csv :: (CSV table)/58",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: GSTR1_Credit_Debit_Note 1.csv :: (CSV table)/58",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: GSTR1_Credit_Debit_Note 1.csv :: (CSV table)/59",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: GSTR1_Credit_Debit_Note 1.csv :: (CSV table)/59",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: GSTR1_Credit_Debit_Note 2.csv :: (CSV table)/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: GSTR1_Credit_Debit_Note 2.csv :: (CSV table)/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: GSTR1_Credit_Debit_Note 2.csv :: (CSV table)/5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: GSTR1_Credit_Debit_Note 2.csv :: (CSV table)/5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: GSTR1_Credit_Debit_Note 2.csv :: (CSV table)/7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: GSTR1_Credit_Debit_Note 2.csv :: (CSV table)/7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: GSTR1_Credit_Debit_Note 2.csv :: (CSV table)/12",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: GSTR1_Credit_Debit_Note 2.csv :: (CSV table)/12",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: GSTR1_Credit_Debit_Note 2.csv :: (CSV table)/29",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: GSTR1_Credit_Debit_Note 2.csv :: (CSV table)/29",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: GSTR1_Credit_Debit_Note 2.csv :: (CSV table)/30",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: GSTR1_Credit_Debit_Note 2.csv :: (CSV table)/30",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: GSTR1_Credit_Debit_Note 2.csv :: (CSV table)/31",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: GSTR1_Credit_Debit_Note 2.csv :: (CSV table)/31",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: GSTR1_Credit_Debit_Note 2.csv :: (CSV table)/40",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: GSTR1_Credit_Debit_Note 2.csv :: (CSV table)/40",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: GSTR1_Credit_Debit_Note 2.csv :: (CSV table)/49",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: GSTR1_Credit_Debit_Note 2.csv :: (CSV table)/49",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: GSTR1_Credit_Debit_Note 2.csv :: (CSV table)/56",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: GSTR1_Credit_Debit_Note 2.csv :: (CSV table)/56",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: GSTR1_Credit_Debit_Note 2.csv :: (CSV table)/58",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: GSTR1_Credit_Debit_Note 2.csv :: (CSV table)/58",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: GSTR1_Credit_Debit_Note 2.csv :: (CSV table)/59",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: GSTR1_Credit_Debit_Note 2.csv :: (CSV table)/59",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: GSTR1_Invoice.csv :: (CSV table)/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: GSTR1_Invoice.csv :: (CSV table)/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: GSTR1_Invoice.csv :: (CSV table)/5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: GSTR1_Invoice.csv :: (CSV table)/5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: GSTR1_Invoice.csv :: (CSV table)/10",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: GSTR1_Invoice.csv :: (CSV table)/10",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: GSTR1_Invoice.csv :: (CSV table)/28",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: GSTR1_Invoice.csv :: (CSV table)/28",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: GSTR1_Invoice.csv :: (CSV table)/29",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: GSTR1_Invoice.csv :: (CSV table)/29",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: GSTR1_Invoice.csv :: (CSV table)/30",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: GSTR1_Invoice.csv :: (CSV table)/30",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: GSTR1_Invoice.csv :: (CSV table)/32",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: GSTR1_Invoice.csv :: (CSV table)/32",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: GSTR1_Invoice.csv :: (CSV table)/35",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: GSTR1_Invoice.csv :: (CSV table)/35",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: GSTR1_Invoice.csv :: (CSV table)/38",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: GSTR1_Invoice.csv :: (CSV table)/38",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: GSTR1_Invoice.csv :: (CSV table)/45",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: GSTR1_Invoice.csv :: (CSV table)/45",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: GSTR1_Invoice.csv :: (CSV table)/54",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: GSTR1_Invoice.csv :: (CSV table)/54",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: GSTR1_Invoice.csv :: (CSV table)/60",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: GSTR1_Invoice.csv :: (CSV table)/60",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: GSTR1_Invoice.csv :: (CSV table)/61",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: GSTR1_Invoice.csv :: (CSV table)/61",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Inventory Audit Report as on 200327.xlsx :: Sheet1/1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Inventory Audit Report as on 200327.xlsx :: Sheet1/1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Inventory Audit Report as on 200327.xlsx :: Sheet1/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Inventory Audit Report as on 200327.xlsx :: Sheet1/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Inventory Audit Report as on 200327.xlsx :: Sheet1/3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Inventory Audit Report as on 200327.xlsx :: Sheet1/3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Inventory Audit Report as on 200327.xlsx :: Sheet1/6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Inventory Audit Report as on 200327.xlsx :: Sheet1/6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Inventory Audit Report as on 200926 1.xlsx :: Sheet1/1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Inventory Audit Report as on 200926 1.xlsx :: Sheet1/1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Inventory Audit Report as on 200926 1.xlsx :: Sheet1/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Inventory Audit Report as on 200926 1.xlsx :: Sheet1/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Inventory Audit Report as on 200926 1.xlsx :: Sheet1/3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Inventory Audit Report as on 200926 1.xlsx :: Sheet1/3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Inventory Audit Report as on 200926 1.xlsx :: Sheet1/6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Inventory Audit Report as on 200926 1.xlsx :: Sheet1/6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Inventory Audit Report as on 200926.xlsx :: Sheet1/1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Inventory Audit Report as on 200926.xlsx :: Sheet1/1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Inventory Audit Report as on 200926.xlsx :: Sheet1/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Inventory Audit Report as on 200926.xlsx :: Sheet1/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Inventory Audit Report as on 200926.xlsx :: Sheet1/3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Inventory Audit Report as on 200926.xlsx :: Sheet1/3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Inventory Audit Report as on 200926.xlsx :: Sheet1/6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Inventory Audit Report as on 200926.xlsx :: Sheet1/6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Item Master Lists 1.xlsx :: Item Lists/1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Item Master Lists 1.xlsx :: Item Lists/1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Item Master Lists 1.xlsx :: Item Lists/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Item Master Lists 1.xlsx :: Item Lists/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Item Master Lists 1.xlsx :: Item Lists/3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Item Master Lists 1.xlsx :: Item Lists/3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Item Master Lists 1.xlsx :: Item Lists/8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Item Master Lists 1.xlsx :: Item Lists/8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Item Master Lists 1.xlsx :: Item Lists/11",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Item Master Lists 1.xlsx :: Item Lists/11",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Item Master Lists 2.xlsx :: Item Lists/1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Item Master Lists 2.xlsx :: Item Lists/1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Item Master Lists 2.xlsx :: Item Lists/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Item Master Lists 2.xlsx :: Item Lists/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Item Master Lists 2.xlsx :: Item Lists/8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Item Master Lists 2.xlsx :: Item Lists/8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Item Master Lists 2.xlsx :: Item Lists/11",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Item Master Lists 2.xlsx :: Item Lists/11",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Sales Invoice Details 1.xlsx :: Sheet1/1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Sales Invoice Details 1.xlsx :: Sheet1/1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Sales Invoice Details 1.xlsx :: Sheet1/4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Sales Invoice Details 1.xlsx :: Sheet1/4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Sales Invoice Details 1.xlsx :: Sheet1/5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Sales Invoice Details 1.xlsx :: Sheet1/5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Sales Invoice Details 1.xlsx :: Sheet1/7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Sales Invoice Details 1.xlsx :: Sheet1/7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Sales Invoice Details 1.xlsx :: Sheet1/14",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Sales Invoice Details 1.xlsx :: Sheet1/14",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Sales Invoice Details 1.xlsx :: Sheet1/15",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Sales Invoice Details 1.xlsx :: Sheet1/15",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Sales Invoice Details 1.xlsx :: Sheet1/17",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Sales Invoice Details 1.xlsx :: Sheet1/17",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Sales Invoice Details 1.xlsx :: Sheet1/18",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Sales Invoice Details 1.xlsx :: Sheet1/18",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Sales Invoice Details 1.xlsx :: Sheet1/39",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Sales Invoice Details 1.xlsx :: Sheet1/39",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Sales Invoice Details 1.xlsx :: Sheet1/40",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Sales Invoice Details 1.xlsx :: Sheet1/40",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Sales Invoice Details.xlsx :: Sheet1/1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Sales Invoice Details.xlsx :: Sheet1/1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Sales Invoice Details.xlsx :: Sheet1/4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Sales Invoice Details.xlsx :: Sheet1/4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Sales Invoice Details.xlsx :: Sheet1/5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Sales Invoice Details.xlsx :: Sheet1/5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Sales Invoice Details.xlsx :: Sheet1/7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Sales Invoice Details.xlsx :: Sheet1/7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Sales Invoice Details.xlsx :: Sheet1/14",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Sales Invoice Details.xlsx :: Sheet1/14",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Sales Invoice Details.xlsx :: Sheet1/15",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Sales Invoice Details.xlsx :: Sheet1/15",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Sales Invoice Details.xlsx :: Sheet1/17",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Sales Invoice Details.xlsx :: Sheet1/17",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Sales Invoice Details.xlsx :: Sheet1/18",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Sales Invoice Details.xlsx :: Sheet1/18",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Sales Invoice Details.xlsx :: Sheet1/39",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Sales Invoice Details.xlsx :: Sheet1/39",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Sales Invoice Details.xlsx :: Sheet1/40",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Sales Invoice Details.xlsx :: Sheet1/40",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Sales Order Report 1.xlsx :: Sheet1/1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Sales Order Report 1.xlsx :: Sheet1/1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Sales Order Report 1.xlsx :: Sheet1/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Sales Order Report 1.xlsx :: Sheet1/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Sales Order Report 1.xlsx :: Sheet1/5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Sales Order Report 1.xlsx :: Sheet1/5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Sales Order Report 1.xlsx :: Sheet1/6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Sales Order Report 1.xlsx :: Sheet1/6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Sales Order Report 1.xlsx :: Sheet1/7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Sales Order Report 1.xlsx :: Sheet1/7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Sales Order Report 1.xlsx :: Sheet1/11",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Sales Order Report 1.xlsx :: Sheet1/11",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Sales Order Report 1.xlsx :: Sheet1/12",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Sales Order Report 1.xlsx :: Sheet1/12",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Sales Order Report 2.xlsx :: Sheet1/1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Sales Order Report 2.xlsx :: Sheet1/1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Sales Order Report 2.xlsx :: Sheet1/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Sales Order Report 2.xlsx :: Sheet1/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Sales Order Report 2.xlsx :: Sheet1/5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Sales Order Report 2.xlsx :: Sheet1/5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Sales Order Report 2.xlsx :: Sheet1/6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Sales Order Report 2.xlsx :: Sheet1/6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Sales Order Report 2.xlsx :: Sheet1/7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Sales Order Report 2.xlsx :: Sheet1/7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Sales Order Report 2.xlsx :: Sheet1/11",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Sales Order Report 2.xlsx :: Sheet1/11",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Sales Order Report 2.xlsx :: Sheet1/12",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Sales Order Report 2.xlsx :: Sheet1/12",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Sales_Order_Data_202609.xlsx :: Customer list/1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Sales_Order_Data_202609.xlsx :: Customer list/1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Sales_Order_Data_202609.xlsx :: Customer list/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Sales_Order_Data_202609.xlsx :: Customer list/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Sales_Order_Data_202609.xlsx :: Customer list/3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Sales_Order_Data_202609.xlsx :: Customer list/3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Sales_Order_Data_202609.xlsx :: Customer list/4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Sales_Order_Data_202609.xlsx :: Customer list/4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Sales_Order_Data_202609.xlsx :: Country master/1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Sales_Order_Data_202609.xlsx :: Country master/1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Sales_Order_Data_202609.xlsx :: Country master/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Sales_Order_Data_202609.xlsx :: Country master/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Sales_Order_Data_202609.xlsx :: Country master/3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Sales_Order_Data_202609.xlsx :: Country master/3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Sales_Order_Data_202609.xlsx :: Country master/4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Sales_Order_Data_202609.xlsx :: Country master/4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Sales_Order_Data_202609.xlsx :: PTC_NOPI/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Sales_Order_Data_202609.xlsx :: PTC_NOPI/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Sales_Order_Data_202609.xlsx :: PTC_NOPI/3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Sales_Order_Data_202609.xlsx :: PTC_NOPI/3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Sales_Order_Data_202609.xlsx :: PCT_NOPJ/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Sales_Order_Data_202609.xlsx :: PCT_NOPJ/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Identifier header position: Sales_Order_Data_202609.xlsx :: PCT_NOPJ/3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full identifier metrics reconcile: Sales_Order_Data_202609.xlsx :: PCT_NOPJ/3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "All 135 identifier candidates profiled",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-001",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-002",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-003",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-004",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-005",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-006",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-007",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-008",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-009",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-010",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-011",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-012",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-013",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-014",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-015",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-016",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-017",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-018",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-019",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-020",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-021",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-022",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-023",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-024",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-025",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-026",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-027",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-028",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-029",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-030",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-031",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-032",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-033",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-034",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-035",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-036",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-037",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-038",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-039",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-040",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-041",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-042",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-043",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-044",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-045",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-046",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-047",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-048",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-049",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-050",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-051",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-052",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-053",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-054",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-055",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-056",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-057",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-058",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-059",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-060",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-061",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-062",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-063",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-064",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-065",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-066",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-067",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-068",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-069",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-070",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-071",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-072",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-073",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-074",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-075",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-076",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-077",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-078",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-079",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-080",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-081",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-082",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-083",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-084",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-085",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-086",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-087",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-088",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-089",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-090",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-091",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-092",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-093",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-094",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-095",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-096",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-097",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-098",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-099",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-100",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Prior overlap reconciled REL-101",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual full left join versus independent count formula REL-012",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Target replicated row accounting REL-012",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No source rows discarded REL-012",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-012/source/Item_Quantity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-012/source/Item_Taxable_Value",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-012/source/IGST_Amount",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-012/source/CGST_Amount",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-012/source/SGST_Amount",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-012/source/Credit_Debit_Note_Value",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual full left join versus independent count formula REL-013",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Target replicated row accounting REL-013",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No source rows discarded REL-013",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual full left join versus independent count formula REL-015",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Target replicated row accounting REL-015",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No source rows discarded REL-015",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual full left join versus independent count formula REL-016",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Target replicated row accounting REL-016",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No source rows discarded REL-016",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual full left join versus independent count formula REL-021",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Target replicated row accounting REL-021",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No source rows discarded REL-021",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-021/source/Quantity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-021/source/Trans. Value",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-021/source/Cumulative Qty",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-021/source/Cumulative Value",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual full left join versus independent count formula REL-022",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Target replicated row accounting REL-022",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No source rows discarded REL-022",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual full left join versus independent count formula REL-028",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Target replicated row accounting REL-028",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No source rows discarded REL-028",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-028/source/Quantity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-028/source/Trans. Value",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-028/source/Cumulative Qty",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-028/source/Cumulative Value",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual full left join versus independent count formula REL-029",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Target replicated row accounting REL-029",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No source rows discarded REL-029",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-029/source/Quantity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-029/source/Trans. Value",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-029/source/Cumulative Qty",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-029/source/Cumulative Value",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual full left join versus independent count formula REL-034",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Target replicated row accounting REL-034",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No source rows discarded REL-034",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-034/source/Quantity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-034/source/Trans. Value",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-034/source/Cumulative Qty",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-034/source/Cumulative Value",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual full left join versus independent count formula REL-035",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Target replicated row accounting REL-035",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No source rows discarded REL-035",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-035/source/Quantity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-035/source/Trans. Value",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-035/source/Cumulative Qty",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-035/source/Cumulative Value",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual full left join versus independent count formula REL-050",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Target replicated row accounting REL-050",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No source rows discarded REL-050",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-050/source/In Stock",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-050/source/Value",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-050/source/Amount",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual full left join versus independent count formula REL-051",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Target replicated row accounting REL-051",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No source rows discarded REL-051",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-051/source/In Stock",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-051/source/Value",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-051/source/Amount",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual full left join versus independent count formula REL-060",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Target replicated row accounting REL-060",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No source rows discarded REL-060",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-060/source/In Stock",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-060/source/Value",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-060/source/Amount",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual full left join versus independent count formula REL-061",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Target replicated row accounting REL-061",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No source rows discarded REL-061",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-061/source/In Stock",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-061/source/Value",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-061/source/Amount",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual full left join versus independent count formula REL-063",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Target replicated row accounting REL-063",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No source rows discarded REL-063",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual full left join versus independent count formula REL-064",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Target replicated row accounting REL-064",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No source rows discarded REL-064",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual full left join versus independent count formula REL-075",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Target replicated row accounting REL-075",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No source rows discarded REL-075",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-075/source/Quantity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-075/source/Taxable Value",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-075/source/Total Value",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-075/source/IGST Amt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-075/source/CGST Amt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-075/source/SGST Amt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-075/source/Invoice Total Include GST",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual full left join versus independent count formula REL-076",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Target replicated row accounting REL-076",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No source rows discarded REL-076",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-076/source/Quantity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-076/source/Taxable Value",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-076/source/Total Value",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-076/source/IGST Amt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-076/source/CGST Amt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-076/source/SGST Amt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-076/source/Invoice Total Include GST",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual full left join versus independent count formula REL-077",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Target replicated row accounting REL-077",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No source rows discarded REL-077",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual full left join versus independent count formula REL-078",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Target replicated row accounting REL-078",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No source rows discarded REL-078",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual full left join versus independent count formula REL-085",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Target replicated row accounting REL-085",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No source rows discarded REL-085",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-085/source/Quantity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-085/source/Taxable Value",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-085/source/Total Value",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-085/source/IGST Amt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-085/source/CGST Amt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-085/source/SGST Amt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-085/source/Invoice Total Include GST",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual full left join versus independent count formula REL-086",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Target replicated row accounting REL-086",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No source rows discarded REL-086",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-086/source/Quantity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-086/source/Taxable Value",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-086/source/Total Value",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-086/source/IGST Amt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-086/source/CGST Amt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-086/source/SGST Amt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-086/source/Invoice Total Include GST",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual full left join versus independent count formula REL-102",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Target replicated row accounting REL-102",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No source rows discarded REL-102",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-102/source/Quantity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-102/source/Total (LC)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-102/source/Tax Total",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual full left join versus independent count formula REL-103",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Target replicated row accounting REL-103",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No source rows discarded REL-103",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-103/source/Quantity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-103/source/Total (LC)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-103/source/Tax Total",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual full left join versus independent count formula REL-104",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Target replicated row accounting REL-104",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No source rows discarded REL-104",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-104/source/Quantity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-104/source/Total (LC)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-104/source/Tax Total",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual full left join versus independent count formula REL-105",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Target replicated row accounting REL-105",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No source rows discarded REL-105",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-105/source/Quantity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-105/source/Total (LC)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-105/source/Tax Total",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual full left join versus independent count formula REL-106",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Target replicated row accounting REL-106",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No source rows discarded REL-106",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-106/source/Quantity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-106/source/Total (LC)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-106/source/Tax Total",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual full left join versus independent count formula REL-107",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Target replicated row accounting REL-107",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No source rows discarded REL-107",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-107/source/Quantity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-107/source/Total (LC)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-107/source/Tax Total",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual full left join versus independent count formula REL-108",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Target replicated row accounting REL-108",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No source rows discarded REL-108",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-108/source/Quantity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-108/source/Total (LC)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-108/source/Tax Total",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual full left join versus independent count formula REL-109",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Target replicated row accounting REL-109",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No source rows discarded REL-109",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-109/source/Quantity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-109/source/Total (LC)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-109/source/Tax Total",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual full left join versus independent count formula REL-110",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Target replicated row accounting REL-110",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No source rows discarded REL-110",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual full left join versus independent count formula REL-111",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Target replicated row accounting REL-111",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No source rows discarded REL-111",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual full left join versus independent count formula REL-112",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Target replicated row accounting REL-112",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No source rows discarded REL-112",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-112/source/Quantity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-112/source/Total (LC)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-112/source/Tax Total",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual full left join versus independent count formula REL-113",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Target replicated row accounting REL-113",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No source rows discarded REL-113",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual full left join versus independent count formula REL-114",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Target replicated row accounting REL-114",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No source rows discarded REL-114",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-114/source/Quantity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-114/source/Taxable Value",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-114/source/Total Value",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-114/source/IGST Amt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-114/source/CGST Amt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-114/source/SGST Amt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-114/source/Invoice Total Include GST",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual full left join versus independent count formula REL-115",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Target replicated row accounting REL-115",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No source rows discarded REL-115",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual full left join versus independent count formula REL-116",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Target replicated row accounting REL-116",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No source rows discarded REL-116",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-116/source/Quantity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-116/source/Taxable Value",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-116/source/Total Value",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-116/source/IGST Amt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-116/source/CGST Amt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-116/source/SGST Amt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-116/source/Invoice Total Include GST",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual full left join versus independent count formula REL-117",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Target replicated row accounting REL-117",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No source rows discarded REL-117",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual full left join versus independent count formula REL-118",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Target replicated row accounting REL-118",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No source rows discarded REL-118",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual full left join versus independent count formula REL-119",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Target replicated row accounting REL-119",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No source rows discarded REL-119",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual full left join versus independent count formula REL-120",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Target replicated row accounting REL-120",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No source rows discarded REL-120",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual full left join versus independent count formula REL-121",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Target replicated row accounting REL-121",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No source rows discarded REL-121",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-121/source/Item_Quantity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-121/source/Item_Taxable_Value",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-121/source/Line_Total_Include_GST",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-121/source/IGST_Amount",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-121/source/CGST_Amount",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-121/source/SGST_Amount",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-121/source/Invoice_Value",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual full left join versus independent count formula REL-122",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Target replicated row accounting REL-122",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No source rows discarded REL-122",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual full left join versus independent count formula REL-123",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Target replicated row accounting REL-123",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No source rows discarded REL-123",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-123/source/Item_Quantity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-123/source/Item_Taxable_Value",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-123/source/IGST_Amount",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-123/source/CGST_Amount",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-123/source/SGST_Amount",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-123/source/Credit_Debit_Note_Value",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual full left join versus independent count formula REL-124",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Target replicated row accounting REL-124",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No source rows discarded REL-124",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual full left join versus independent count formula REL-125",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Target replicated row accounting REL-125",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No source rows discarded REL-125",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-125/source/Quantity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-125/source/Taxable Value",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-125/source/Total Value",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-125/source/IGST Amt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-125/source/CGST Amt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-125/source/SGST Amt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-125/source/Invoice Total Include GST",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual full left join versus independent count formula REL-126",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Target replicated row accounting REL-126",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No source rows discarded REL-126",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-126/source/Quantity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-126/source/Taxable Value",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-126/source/Total Value",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-126/source/IGST Amt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-126/source/CGST Amt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-126/source/SGST Amt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-126/source/Invoice Total Include GST",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual full left join versus independent count formula REL-127",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Target replicated row accounting REL-127",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No source rows discarded REL-127",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-127/source/Quantity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-127/source/Taxable Value",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-127/source/Total Value",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-127/source/IGST Amt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-127/source/CGST Amt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-127/source/SGST Amt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-127/source/Invoice Total Include GST",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual full left join versus independent count formula REL-128",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Target replicated row accounting REL-128",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No source rows discarded REL-128",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-128/source/Quantity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-128/source/Taxable Value",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-128/source/Total Value",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-128/source/IGST Amt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-128/source/CGST Amt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-128/source/SGST Amt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-128/source/Invoice Total Include GST",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual full left join versus independent count formula REL-129",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Target replicated row accounting REL-129",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No source rows discarded REL-129",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual full left join versus independent count formula REL-130",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Target replicated row accounting REL-130",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No source rows discarded REL-130",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-130/source/Quantity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-130/source/Taxable Value",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-130/source/Total Value",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-130/source/IGST Amt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-130/source/CGST Amt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-130/source/SGST Amt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-130/source/Invoice Total Include GST",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual full left join versus independent count formula REL-131",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Target replicated row accounting REL-131",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No source rows discarded REL-131",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual full left join versus independent count formula REL-132",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Target replicated row accounting REL-132",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No source rows discarded REL-132",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-132/source/Item_Quantity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-132/source/Item_Taxable_Value",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-132/source/Line_Total_Include_GST",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-132/source/IGST_Amount",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-132/source/CGST_Amount",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-132/source/SGST_Amount",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-132/source/Invoice_Value",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual full left join versus independent count formula REL-133",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Target replicated row accounting REL-133",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No source rows discarded REL-133",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual full left join versus independent count formula REL-134",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Target replicated row accounting REL-134",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No source rows discarded REL-134",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual full left join versus independent count formula REL-135",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Target replicated row accounting REL-135",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No source rows discarded REL-135",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual full left join versus independent count formula REL-136",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Target replicated row accounting REL-136",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No source rows discarded REL-136",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual full left join versus independent count formula REL-137",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Target replicated row accounting REL-137",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No source rows discarded REL-137",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual full left join versus independent count formula REL-138",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Target replicated row accounting REL-138",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No source rows discarded REL-138",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-138/source/Item_Quantity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-138/source/Item_Taxable_Value",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-138/source/Line_Total_Include_GST",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-138/source/IGST_Amount",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-138/source/CGST_Amount",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-138/source/SGST_Amount",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-138/source/Invoice_Value",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual full left join versus independent count formula REL-139",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Target replicated row accounting REL-139",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No source rows discarded REL-139",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-139/source/Item_Quantity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-139/source/Item_Taxable_Value",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-139/source/IGST_Amount",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-139/source/CGST_Amount",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-139/source/SGST_Amount",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-139/source/Credit_Debit_Note_Value",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual full left join versus independent count formula REL-140",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Target replicated row accounting REL-140",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No source rows discarded REL-140",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-140/source/Item_Quantity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-140/source/Item_Taxable_Value",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-140/source/IGST_Amount",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-140/source/CGST_Amount",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-140/source/SGST_Amount",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-140/source/Credit_Debit_Note_Value",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual full left join versus independent count formula REL-141",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Target replicated row accounting REL-141",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No source rows discarded REL-141",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual full left join versus independent count formula REL-142",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Target replicated row accounting REL-142",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No source rows discarded REL-142",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual full left join versus independent count formula REL-143",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Target replicated row accounting REL-143",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No source rows discarded REL-143",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-143/source/Item_Quantity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-143/source/Item_Taxable_Value",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-143/source/Line_Total_Include_GST",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-143/source/IGST_Amount",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-143/source/CGST_Amount",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-143/source/SGST_Amount",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-143/source/Invoice_Value",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual full left join versus independent count formula REL-144",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Target replicated row accounting REL-144",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No source rows discarded REL-144",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-144/source/Item_Quantity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-144/source/Item_Taxable_Value",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-144/source/IGST_Amount",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-144/source/CGST_Amount",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-144/source/SGST_Amount",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No-fanout financial conservation REL-144/source/Credit_Debit_Note_Value",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual full left join versus independent count formula REL-145",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Target replicated row accounting REL-145",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No source rows discarded REL-145",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual full left join versus independent count formula REL-146",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Target replicated row accounting REL-146",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No source rows discarded REL-146",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual full left join versus independent count formula REL-147",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Target replicated row accounting REL-147",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No source rows discarded REL-147",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual full left join versus independent count formula REL-148",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Target replicated row accounting REL-148",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No source rows discarded REL-148",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "All prior quality issues carried forward",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Unresolved date totals match validated quality summary",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Exact and payload duplicate totals preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Diagram SVG/PNG decode successfully",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "All sources and prior inventory/quality evidence byte-identical",
+      "passed": true,
+      "detail": "74"
+    },
+    {
+      "test": "CSV dimensions key_derivation_rules",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "CSV dimensions key_scope_checks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "CSV dimensions identifier_profiles",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "CSV dimensions identifier_formats",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "CSV dimensions composite_keys",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "CSV dimensions dataset_granularity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "CSV dimensions document_context",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "CSV dimensions inventory_row_shapes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "CSV dimensions service_indicators",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "CSV dimensions prior_matching_coverage",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "CSV dimensions controlled_join_validation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "CSV dimensions join_financial_effects",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "CSV dimensions relationship_candidates",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "CSV dimensions identifier_match_detail",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "CSV dimensions source_overlap",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "CSV dimensions attribute_conflicts",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "CSV dimensions source_authenticity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "CSV dimensions authority_assessment",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "CSV dimensions quality_carry_forward",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "CSV dimensions prior_issue_register",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "CSV dimensions prior_duplicate_analysis",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "CSV dimensions prior_financial_exceptions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "CSV dimensions protected_file_integrity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Workbook sheet manifest dataset_granularity_report.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Export shape dataset_granularity workbook",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Export shape dataset_granularity CSV",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Export shape document_context workbook",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Export shape document_context CSV",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Export shape inventory_row_shapes workbook",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Export shape inventory_row_shapes CSV",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Export shape service_indicators workbook",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Export shape service_indicators CSV",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Workbook sheet manifest identifier_relationship_matrix.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Export shape identifier_profiles workbook",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Export shape identifier_profiles CSV",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Export shape identifier_formats workbook",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Export shape identifier_formats CSV",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Export shape composite_keys workbook",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Export shape composite_keys CSV",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Export shape key_derivation_rules workbook",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Export shape key_derivation_rules CSV",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Export shape key_scope_checks workbook",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Export shape key_scope_checks CSV",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Export shape relationship_candidates workbook",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Export shape relationship_candidates CSV",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Export shape identifier_match_detail workbook",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Export shape identifier_match_detail CSV",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Export shape controlled_join_validation workbook",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Export shape controlled_join_validation CSV",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Export shape join_financial_effects workbook",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Export shape join_financial_effects CSV",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Export shape source_overlap workbook",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Export shape source_overlap CSV",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Export shape attribute_conflicts workbook",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Export shape attribute_conflicts CSV",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Export shape source_authenticity workbook",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Export shape source_authenticity CSV",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Export shape authority_assessment workbook",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Export shape authority_assessment CSV",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Export shape quality_carry_forward workbook",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Export shape quality_carry_forward CSV",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Export shape prior_issue_register workbook",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Export shape prior_issue_register CSV",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Export shape prior_matching_coverage workbook",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Export shape prior_matching_coverage CSV",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Export shape prior_duplicate_analysis workbook",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Export shape prior_duplicate_analysis CSV",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Export shape prior_financial_exceptions workbook",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Export shape prior_financial_exceptions CSV",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Export shape protected_file_integrity workbook",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Export shape protected_file_integrity CSV",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Scoped GST/Excel line numerical correspondence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "All sources and prior inventory/quality evidence byte-identical",
+      "passed": true,
+      "detail": "74"
+    }
+  ],
+  "limitations": [
+    "Business definitions and source authority require NOP confirmation",
+    "No ambiguous transaction dates resolved",
+    "Inventory group context not reconstructed",
+    "No stable order/invoice line ID demonstrated"
+  ]
+}

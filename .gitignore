@@ -1,0 +1,53 @@
+﻿# Python environments and bytecode
+.venv/
+.venv*/
+venv/
+env/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Temporary and editor/OS files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Generated logs
+logs/*.log
+*.log
+
+# Common tool caches
+.cache/
+**/.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Package builds and coverage output
+build/
+dist/
+*.egg-info/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# Local credentials and environment settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.aws/
+.codex/
+.agents/
+
+# Local operational metadata, approvals, SQLite WAL and shared-memory files
+/local_state/

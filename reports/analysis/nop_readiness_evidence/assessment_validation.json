@@ -1,0 +1,66 @@
+{
+  "checks": {
+    "source_files": 17,
+    "sources_match_start_and_recorded_hashes": true,
+    "tables": 20,
+    "columns": 521,
+    "all_prior_profiles_reusable": true,
+    "candidate_field_references_checked": 118,
+    "bad_field_references": [],
+    "bad_source_shapes": [],
+    "broken_links": [],
+    "json_files_valid": 12,
+    "prior_evidence_hashes_unchanged": true,
+    "new_python_files_parsed": 2,
+    "dataset_validation_report_created": false,
+    "training_artifact_published": false
+  },
+  "preservation": {
+    "modified": [
+      "README.md"
+    ],
+    "removed": [],
+    "created": [
+      "tests/test_nop_readiness_evidence.py",
+      "docs/development/nop_first_training_dataset_workflow.md",
+      "reports/analysis/nop_dataset_readiness_report.md",
+      "reports/analysis/nop_prediction_objective_assessment.md",
+      "reports/analysis/nop_readiness_evidence/approval_blockers.json",
+      "reports/analysis/nop_readiness_evidence/archive_review.json",
+      "reports/analysis/nop_readiness_evidence/assessment_components.json",
+      "reports/analysis/nop_readiness_evidence/assess_sources.py",
+      "reports/analysis/nop_readiness_evidence/discovery_bundles.json",
+      "reports/analysis/nop_readiness_evidence/notebook_architecture_review.json",
+      "reports/analysis/nop_readiness_evidence/prediction_candidates.json",
+      "reports/analysis/nop_readiness_evidence/readiness_assessment.json",
+      "reports/analysis/nop_readiness_evidence/reviewed_evidence_manifest.json",
+      "reports/analysis/nop_readiness_evidence/reviewed_workbook_checks.json",
+      "reports/analysis/nop_readiness_evidence/source_manifest_after.json",
+      "reports/analysis/nop_readiness_evidence/source_manifest_before.json",
+      "reports/analysis/nop_readiness_evidence/assessment_validation.json"
+    ],
+    "unchanged": 283
+  },
+  "tests": {
+    "existing": 237,
+    "new": 7,
+    "total": 244,
+    "warnings": "errors",
+    "result": "OK",
+    "seconds": 1325.442
+  },
+  "assessment_status": "blocked",
+  "preparation_executed": false,
+  "governed_engine_assessment_executed": false,
+  "test_command": ".\\.venv\\Scripts\\python.exe -B -W error -m unittest discover -s tests -t . -v (PYTHONPATH=src)",
+  "limitations": [
+    "No governed assessment was issued: configured authenticated NOP runtime, approved bindings and attributable target evidence were not supplied.",
+    "All relevant business definitions/approvals remain unconfirmed; no synthetic authority was applied to NOP data.",
+    "Document/time-bucket target construction and ambiguous date interpretation are unsupported by the current worker; no workaround was implemented.",
+    "Prior historical diagnostics retain their 2026-11-02 cutoff and caveats; prefix profiles are not full-table statistics."
+  ],
+  "training_dataset_artifact": {
+    "status": "not_created",
+    "reason": "Approval, data-readiness and supported-operation gates not satisfied."
+  }
+}

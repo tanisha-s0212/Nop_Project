@@ -1,0 +1,1319 @@
+{
+  "selected_new_target": {
+    "objective_id": "nop-domestic-confirmed-date-line-value",
+    "source": "Sales Invoice Details.xlsx",
+    "worksheet": "Sheet1",
+    "target": "Taxable Value",
+    "features": [
+      "Quantity",
+      "Part Code SAP Code"
+    ],
+    "population": [
+      "GST Tax Invoice",
+      "G",
+      "Domestic",
+      "Manual"
+    ],
+    "rows": 165,
+    "references": 111,
+    "distinct_dates": 77,
+    "observation_period": [
+      "2025-12-22",
+      "2026-09-13"
+    ],
+    "problem_type": "exploratory tabular regression; offline raw-field estimation",
+    "business_approved": false,
+    "split_gates": "60/20/20 distinct dates; at least 60/20/20 references and 30/12/12 dates",
+    "feature_availability": "caller-supplied row attributes; prospective business-decision availability is unverified"
+  },
+  "larger_same_field_source": {
+    "source": "Sales Invoice Details 1.xlsx",
+    "raw_nonblank_rows": 100183,
+    "raw_references": 35683,
+    "historical_fully_resolved_references": 3374,
+    "historical_detail_rows_in_resolved_references": 8634,
+    "historical_distinct_dates": 37,
+    "resolved_reference_counts_by_month": {
+      "2026-09": 353,
+      "2026-10": 3019,
+      "2026-11": 2
+    },
+    "status": "blocked for an additional independently evaluated source-specific model under the predefined date-diversity policy",
+    "minimum_requirement": "At least 60 well-resolved distinct historical dates for the 60/20/20 policy (23 more than the current 37), plus target-quality and source-scope confirmation. No merger with the small source is authorized.",
+    "evidence_basis": "Full read-only source probe in this execution; native or unambiguous four-digit-year dates only, complete reference date agreement, dates before 2026-11-03; serials and two-digit-year inference rejected."
+  },
+  "existing_monthly_target": {
+    "eligible_periods": 8,
+    "observed_monthly_buckets": 10,
+    "status": "existing models preserved; no retraining; insufficient mature complete monthly history for a new reliable forecasting comparison"
+  },
+  "blocked_objectives": [
+    {
+      "objective": "Complete monthly invoice/document volume",
+      "sources": [
+        "Sales Invoice Details.xlsx",
+        "Sales Invoice Details 1.xlsx",
+        "GSTR1_Invoice.csv"
+      ],
+      "reason": "Only the date-resolved subset is prepared; reference scope, lifecycle, unresolved dates and complete mature months remain unverified.",
+      "minimum_requirement": "Resolve the 82 ambiguous-date references in the small source, approve document/event scope and completeness. For a nonseasonal monthly split supply at least 24 complete regular months (12 train, 6 validation, 6 test); longer history is needed for seasonality.",
+      "status": "blocked",
+      "artifact_path": null,
+      "business_approved": false,
+      "source_tables": [
+        {
+          "file": "Sales Invoice Details.xlsx",
+          "tables": [
+            {
+              "name": "Sheet1",
+              "rows": 337,
+              "columns": 43
+            }
+          ]
+        },
+        {
+          "file": "Sales Invoice Details 1.xlsx",
+          "tables": [
+            {
+              "name": "Sheet1",
+              "rows": 100188,
+              "columns": 43
+            }
+          ]
+        },
+        {
+          "file": "GSTR1_Invoice.csv",
+          "tables": [
+            {
+              "name": "GSTR1_Invoice.csv",
+              "rows": 337,
+              "columns": 68
+            }
+          ]
+        }
+      ],
+      "date_evidence": [
+        {
+          "file": "GSTR1_Invoice.csv",
+          "worksheet": "(CSV table)",
+          "column": "Invoice_Date",
+          "ambiguous_day_month_cells": "107",
+          "invalid_calendar_cells": "0",
+          "possible_serial_cells": "0",
+          "strict_partial_history_min": "2025-12-21",
+          "strict_partial_history_max": "2026-09-13",
+          "distinct_observed_days_asof": "103",
+          "distinct_observed_months_asof": "10",
+          "production_history_sufficiency": "Not established: formats/century, actual-versus-planned meaning, extract completeness and availability time unapproved"
+        },
+        {
+          "file": "GSTR1_Invoice.csv",
+          "worksheet": "(CSV table)",
+          "column": "Original_Invoice_Date",
+          "ambiguous_day_month_cells": "0",
+          "invalid_calendar_cells": "0",
+          "possible_serial_cells": "0",
+          "strict_partial_history_min": "",
+          "strict_partial_history_max": "",
+          "distinct_observed_days_asof": "0",
+          "distinct_observed_months_asof": "0",
+          "production_history_sufficiency": "Not established: formats/century, actual-versus-planned meaning, extract completeness and availability time unapproved"
+        },
+        {
+          "file": "GSTR1_Invoice.csv",
+          "worksheet": "(CSV table)",
+          "column": "AdvanceReceipt_Date",
+          "ambiguous_day_month_cells": "0",
+          "invalid_calendar_cells": "0",
+          "possible_serial_cells": "0",
+          "strict_partial_history_min": "",
+          "strict_partial_history_max": "",
+          "distinct_observed_days_asof": "0",
+          "distinct_observed_months_asof": "0",
+          "production_history_sufficiency": "Not established: formats/century, actual-versus-planned meaning, extract completeness and availability time unapproved"
+        },
+        {
+          "file": "GSTR1_Invoice.csv",
+          "worksheet": "(CSV table)",
+          "column": "Shipping_Bill_Date",
+          "ambiguous_day_month_cells": "0",
+          "invalid_calendar_cells": "0",
+          "possible_serial_cells": "0",
+          "strict_partial_history_min": "",
+          "strict_partial_history_max": "",
+          "distinct_observed_days_asof": "0",
+          "distinct_observed_months_asof": "0",
+          "production_history_sufficiency": "Not established: formats/century, actual-versus-planned meaning, extract completeness and availability time unapproved"
+        },
+        {
+          "file": "GSTR1_Invoice.csv",
+          "worksheet": "(CSV table)",
+          "column": "Revision_Month",
+          "ambiguous_day_month_cells": "0",
+          "invalid_calendar_cells": "0",
+          "possible_serial_cells": "0",
+          "strict_partial_history_min": "",
+          "strict_partial_history_max": "",
+          "distinct_observed_days_asof": "0",
+          "distinct_observed_months_asof": "0",
+          "production_history_sufficiency": "Not established: formats/century, actual-versus-planned meaning, extract completeness and availability time unapproved"
+        },
+        {
+          "file": "Sales Invoice Details 1.xlsx",
+          "worksheet": "Sheet1",
+          "column": "SO Date",
+          "ambiguous_day_month_cells": "34065",
+          "invalid_calendar_cells": "0",
+          "possible_serial_cells": "2397",
+          "strict_partial_history_min": "2025-12-16",
+          "strict_partial_history_max": "2026-11-02",
+          "distinct_observed_days_asof": "57",
+          "distinct_observed_months_asof": "5",
+          "production_history_sufficiency": "Not established: formats/century, actual-versus-planned meaning, extract completeness and availability time unapproved"
+        },
+        {
+          "file": "Sales Invoice Details 1.xlsx",
+          "worksheet": "Sheet1",
+          "column": " Invoice Date ",
+          "ambiguous_day_month_cells": "33782",
+          "invalid_calendar_cells": "0",
+          "possible_serial_cells": "2996",
+          "strict_partial_history_min": "2026-01-01",
+          "strict_partial_history_max": "2026-11-02",
+          "distinct_observed_days_asof": "48",
+          "distinct_observed_months_asof": "4",
+          "production_history_sufficiency": "Not established: formats/century, actual-versus-planned meaning, extract completeness and availability time unapproved"
+        },
+        {
+          "file": "Sales Invoice Details.xlsx",
+          "worksheet": "Sheet1",
+          "column": "SO Date",
+          "ambiguous_day_month_cells": "124",
+          "invalid_calendar_cells": "0",
+          "possible_serial_cells": "0",
+          "strict_partial_history_min": "2025-11-26",
+          "strict_partial_history_max": "2026-08-25",
+          "distinct_observed_days_asof": "108",
+          "distinct_observed_months_asof": "10",
+          "production_history_sufficiency": "Not established: formats/century, actual-versus-planned meaning, extract completeness and availability time unapproved"
+        },
+        {
+          "file": "Sales Invoice Details.xlsx",
+          "worksheet": "Sheet1",
+          "column": "Invoice Date",
+          "ambiguous_day_month_cells": "107",
+          "invalid_calendar_cells": "0",
+          "possible_serial_cells": "0",
+          "strict_partial_history_min": "2025-12-21",
+          "strict_partial_history_max": "2026-09-13",
+          "distinct_observed_days_asof": "103",
+          "distinct_observed_months_asof": "10",
+          "production_history_sufficiency": "Not established: formats/century, actual-versus-planned meaning, extract completeness and availability time unapproved"
+        }
+      ]
+    },
+    {
+      "objective": "Sales/order volume forecasting",
+      "sources": [
+        "Sales Order Report 1.xlsx",
+        "Sales Order Report 2.xlsx"
+      ],
+      "reason": "Detail rows are not unique orders; mixed dates, repeated exports, lifecycle and complete historical periods are unresolved.",
+      "minimum_requirement": "Validated order identity, event-date grammar, lifecycle and mature complete chronological periods; no row-as-order counting.",
+      "status": "blocked",
+      "artifact_path": null,
+      "business_approved": false,
+      "source_tables": [
+        {
+          "file": "Sales Order Report 1.xlsx",
+          "tables": [
+            {
+              "name": "Sheet1",
+              "rows": 1098,
+              "columns": 26
+            }
+          ]
+        },
+        {
+          "file": "Sales Order Report 2.xlsx",
+          "tables": [
+            {
+              "name": "Sheet1",
+              "rows": 100286,
+              "columns": 26
+            }
+          ]
+        }
+      ],
+      "date_evidence": [
+        {
+          "file": "Sales Order Report 1.xlsx",
+          "worksheet": "Sheet1",
+          "column": "Posting Date",
+          "ambiguous_day_month_cells": "417",
+          "invalid_calendar_cells": "0",
+          "possible_serial_cells": "0",
+          "strict_partial_history_min": "",
+          "strict_partial_history_max": "",
+          "distinct_observed_days_asof": "0",
+          "distinct_observed_months_asof": "0",
+          "production_history_sufficiency": "Not established: formats/century, actual-versus-planned meaning, extract completeness and availability time unapproved"
+        },
+        {
+          "file": "Sales Order Report 1.xlsx",
+          "worksheet": "Sheet1",
+          "column": "Delivery Date",
+          "ambiguous_day_month_cells": "402",
+          "invalid_calendar_cells": "0",
+          "possible_serial_cells": "0",
+          "strict_partial_history_min": "",
+          "strict_partial_history_max": "",
+          "distinct_observed_days_asof": "0",
+          "distinct_observed_months_asof": "0",
+          "production_history_sufficiency": "Not established: formats/century, actual-versus-planned meaning, extract completeness and availability time unapproved"
+        },
+        {
+          "file": "Sales Order Report 2.xlsx",
+          "worksheet": "Sheet1",
+          "column": "Posting Date  ",
+          "ambiguous_day_month_cells": "33242",
+          "invalid_calendar_cells": "0",
+          "possible_serial_cells": "2975",
+          "strict_partial_history_min": "2026-08-15",
+          "strict_partial_history_max": "2026-11-02",
+          "distinct_observed_days_asof": "50",
+          "distinct_observed_months_asof": "4",
+          "production_history_sufficiency": "Not established: formats/century, actual-versus-planned meaning, extract completeness and availability time unapproved"
+        },
+        {
+          "file": "Sales Order Report 2.xlsx",
+          "worksheet": "Sheet1",
+          "column": "Delivery Date",
+          "ambiguous_day_month_cells": "31699",
+          "invalid_calendar_cells": "15",
+          "possible_serial_cells": "2455",
+          "strict_partial_history_min": "2026-08-22",
+          "strict_partial_history_max": "2026-11-02",
+          "distinct_observed_days_asof": "42",
+          "distinct_observed_months_asof": "4",
+          "production_history_sufficiency": "Not established: formats/century, actual-versus-planned meaning, extract completeness and availability time unapproved"
+        }
+      ]
+    },
+    {
+      "objective": "Recognized revenue or monthly sales-value forecasting",
+      "sources": [
+        "Sales Invoice Details.xlsx",
+        "Sales Invoice Details 1.xlsx",
+        "GSTR1_Invoice.csv",
+        "GSTR1_Credit_Debit_Note 1.csv",
+        "GSTR1_Credit_Debit_Note 2.csv"
+      ],
+      "reason": "Repeated document totals, alternate invoice representations, currency/tax bases, recognition and adjustment policies are not reconciled. The raw-field regression is not a revenue target.",
+      "minimum_requirement": "Finance-confirmed line/document grain, currency and tax basis, credit/debit signs, recognition dates and a complete reconciled time series.",
+      "status": "blocked",
+      "artifact_path": null,
+      "business_approved": false,
+      "source_tables": [
+        {
+          "file": "Sales Invoice Details.xlsx",
+          "tables": [
+            {
+              "name": "Sheet1",
+              "rows": 337,
+              "columns": 43
+            }
+          ]
+        },
+        {
+          "file": "Sales Invoice Details 1.xlsx",
+          "tables": [
+            {
+              "name": "Sheet1",
+              "rows": 100188,
+              "columns": 43
+            }
+          ]
+        },
+        {
+          "file": "GSTR1_Invoice.csv",
+          "tables": [
+            {
+              "name": "GSTR1_Invoice.csv",
+              "rows": 337,
+              "columns": 68
+            }
+          ]
+        },
+        {
+          "file": "GSTR1_Credit_Debit_Note 1.csv",
+          "tables": [
+            {
+              "name": "GSTR1_Credit_Debit_Note 1.csv",
+              "rows": 6,
+              "columns": 64
+            }
+          ]
+        },
+        {
+          "file": "GSTR1_Credit_Debit_Note 2.csv",
+          "tables": [
+            {
+              "name": "GSTR1_Credit_Debit_Note 2.csv",
+              "rows": 279,
+              "columns": 64
+            }
+          ]
+        }
+      ],
+      "date_evidence": [
+        {
+          "file": "GSTR1_Credit_Debit_Note 1.csv",
+          "worksheet": "(CSV table)",
+          "column": "CreditDebitNote_Date",
+          "ambiguous_day_month_cells": "3",
+          "invalid_calendar_cells": "0",
+          "possible_serial_cells": "0",
+          "strict_partial_history_min": "2026-01-29",
+          "strict_partial_history_max": "2026-06-24",
+          "distinct_observed_days_asof": "3",
+          "distinct_observed_months_asof": "3",
+          "production_history_sufficiency": "Not established: formats/century, actual-versus-planned meaning, extract completeness and availability time unapproved"
+        },
+        {
+          "file": "GSTR1_Credit_Debit_Note 1.csv",
+          "worksheet": "(CSV table)",
+          "column": "Invoice_Date",
+          "ambiguous_day_month_cells": "3",
+          "invalid_calendar_cells": "0",
+          "possible_serial_cells": "0",
+          "strict_partial_history_min": "2026-01-18",
+          "strict_partial_history_max": "2026-03-30",
+          "distinct_observed_days_asof": "2",
+          "distinct_observed_months_asof": "2",
+          "production_history_sufficiency": "Not established: formats/century, actual-versus-planned meaning, extract completeness and availability time unapproved"
+        },
+        {
+          "file": "GSTR1_Credit_Debit_Note 1.csv",
+          "worksheet": "(CSV table)",
+          "column": "Original_CreditDebitNote_Date",
+          "ambiguous_day_month_cells": "0",
+          "invalid_calendar_cells": "0",
+          "possible_serial_cells": "0",
+          "strict_partial_history_min": "",
+          "strict_partial_history_max": "",
+          "distinct_observed_days_asof": "0",
+          "distinct_observed_months_asof": "0",
+          "production_history_sufficiency": "Not established: formats/century, actual-versus-planned meaning, extract completeness and availability time unapproved"
+        },
+        {
+          "file": "GSTR1_Credit_Debit_Note 1.csv",
+          "worksheet": "(CSV table)",
+          "column": "Revision_Month",
+          "ambiguous_day_month_cells": "0",
+          "invalid_calendar_cells": "0",
+          "possible_serial_cells": "0",
+          "strict_partial_history_min": "",
+          "strict_partial_history_max": "",
+          "distinct_observed_days_asof": "0",
+          "distinct_observed_months_asof": "0",
+          "production_history_sufficiency": "Not established: formats/century, actual-versus-planned meaning, extract completeness and availability time unapproved"
+        },
+        {
+          "file": "GSTR1_Credit_Debit_Note 1.csv",
+          "worksheet": "(CSV table)",
+          "column": "Shipping_Bill_Date",
+          "ambiguous_day_month_cells": "0",
+          "invalid_calendar_cells": "0",
+          "possible_serial_cells": "0",
+          "strict_partial_history_min": "",
+          "strict_partial_history_max": "",
+          "distinct_observed_days_asof": "0",
+          "distinct_observed_months_asof": "0",
+          "production_history_sufficiency": "Not established: formats/century, actual-versus-planned meaning, extract completeness and availability time unapproved"
+        },
+        {
+          "file": "GSTR1_Credit_Debit_Note 2.csv",
+          "worksheet": "(CSV table)",
+          "column": "CreditDebitNote_Date",
+          "ambiguous_day_month_cells": "80",
+          "invalid_calendar_cells": "0",
+          "possible_serial_cells": "0",
+          "strict_partial_history_min": "2026-09-21",
+          "strict_partial_history_max": "2026-10-31",
+          "distinct_observed_days_asof": "22",
+          "distinct_observed_months_asof": "2",
+          "production_history_sufficiency": "Not established: formats/century, actual-versus-planned meaning, extract completeness and availability time unapproved"
+        },
+        {
+          "file": "GSTR1_Credit_Debit_Note 2.csv",
+          "worksheet": "(CSV table)",
+          "column": "Invoice_Date",
+          "ambiguous_day_month_cells": "103",
+          "invalid_calendar_cells": "0",
+          "possible_serial_cells": "0",
+          "strict_partial_history_min": "2026-03-30",
+          "strict_partial_history_max": "2026-10-31",
+          "distinct_observed_days_asof": "43",
+          "distinct_observed_months_asof": "8",
+          "production_history_sufficiency": "Not established: formats/century, actual-versus-planned meaning, extract completeness and availability time unapproved"
+        },
+        {
+          "file": "GSTR1_Credit_Debit_Note 2.csv",
+          "worksheet": "(CSV table)",
+          "column": "Original_CreditDebitNote_Date",
+          "ambiguous_day_month_cells": "0",
+          "invalid_calendar_cells": "0",
+          "possible_serial_cells": "0",
+          "strict_partial_history_min": "",
+          "strict_partial_history_max": "",
+          "distinct_observed_days_asof": "0",
+          "distinct_observed_months_asof": "0",
+          "production_history_sufficiency": "Not established: formats/century, actual-versus-planned meaning, extract completeness and availability time unapproved"
+        },
+        {
+          "file": "GSTR1_Credit_Debit_Note 2.csv",
+          "worksheet": "(CSV table)",
+          "column": "Revision_Month",
+          "ambiguous_day_month_cells": "0",
+          "invalid_calendar_cells": "0",
+          "possible_serial_cells": "0",
+          "strict_partial_history_min": "",
+          "strict_partial_history_max": "",
+          "distinct_observed_days_asof": "0",
+          "distinct_observed_months_asof": "0",
+          "production_history_sufficiency": "Not established: formats/century, actual-versus-planned meaning, extract completeness and availability time unapproved"
+        },
+        {
+          "file": "GSTR1_Credit_Debit_Note 2.csv",
+          "worksheet": "(CSV table)",
+          "column": "Shipping_Bill_Date",
+          "ambiguous_day_month_cells": "0",
+          "invalid_calendar_cells": "0",
+          "possible_serial_cells": "0",
+          "strict_partial_history_min": "",
+          "strict_partial_history_max": "",
+          "distinct_observed_days_asof": "0",
+          "distinct_observed_months_asof": "0",
+          "production_history_sufficiency": "Not established: formats/century, actual-versus-planned meaning, extract completeness and availability time unapproved"
+        },
+        {
+          "file": "GSTR1_Invoice.csv",
+          "worksheet": "(CSV table)",
+          "column": "Invoice_Date",
+          "ambiguous_day_month_cells": "107",
+          "invalid_calendar_cells": "0",
+          "possible_serial_cells": "0",
+          "strict_partial_history_min": "2025-12-21",
+          "strict_partial_history_max": "2026-09-13",
+          "distinct_observed_days_asof": "103",
+          "distinct_observed_months_asof": "10",
+          "production_history_sufficiency": "Not established: formats/century, actual-versus-planned meaning, extract completeness and availability time unapproved"
+        },
+        {
+          "file": "GSTR1_Invoice.csv",
+          "worksheet": "(CSV table)",
+          "column": "Original_Invoice_Date",
+          "ambiguous_day_month_cells": "0",
+          "invalid_calendar_cells": "0",
+          "possible_serial_cells": "0",
+          "strict_partial_history_min": "",
+          "strict_partial_history_max": "",
+          "distinct_observed_days_asof": "0",
+          "distinct_observed_months_asof": "0",
+          "production_history_sufficiency": "Not established: formats/century, actual-versus-planned meaning, extract completeness and availability time unapproved"
+        },
+        {
+          "file": "GSTR1_Invoice.csv",
+          "worksheet": "(CSV table)",
+          "column": "AdvanceReceipt_Date",
+          "ambiguous_day_month_cells": "0",
+          "invalid_calendar_cells": "0",
+          "possible_serial_cells": "0",
+          "strict_partial_history_min": "",
+          "strict_partial_history_max": "",
+          "distinct_observed_days_asof": "0",
+          "distinct_observed_months_asof": "0",
+          "production_history_sufficiency": "Not established: formats/century, actual-versus-planned meaning, extract completeness and availability time unapproved"
+        },
+        {
+          "file": "GSTR1_Invoice.csv",
+          "worksheet": "(CSV table)",
+          "column": "Shipping_Bill_Date",
+          "ambiguous_day_month_cells": "0",
+          "invalid_calendar_cells": "0",
+          "possible_serial_cells": "0",
+          "strict_partial_history_min": "",
+          "strict_partial_history_max": "",
+          "distinct_observed_days_asof": "0",
+          "distinct_observed_months_asof": "0",
+          "production_history_sufficiency": "Not established: formats/century, actual-versus-planned meaning, extract completeness and availability time unapproved"
+        },
+        {
+          "file": "GSTR1_Invoice.csv",
+          "worksheet": "(CSV table)",
+          "column": "Revision_Month",
+          "ambiguous_day_month_cells": "0",
+          "invalid_calendar_cells": "0",
+          "possible_serial_cells": "0",
+          "strict_partial_history_min": "",
+          "strict_partial_history_max": "",
+          "distinct_observed_days_asof": "0",
+          "distinct_observed_months_asof": "0",
+          "production_history_sufficiency": "Not established: formats/century, actual-versus-planned meaning, extract completeness and availability time unapproved"
+        },
+        {
+          "file": "Sales Invoice Details 1.xlsx",
+          "worksheet": "Sheet1",
+          "column": "SO Date",
+          "ambiguous_day_month_cells": "34065",
+          "invalid_calendar_cells": "0",
+          "possible_serial_cells": "2397",
+          "strict_partial_history_min": "2025-12-16",
+          "strict_partial_history_max": "2026-11-02",
+          "distinct_observed_days_asof": "57",
+          "distinct_observed_months_asof": "5",
+          "production_history_sufficiency": "Not established: formats/century, actual-versus-planned meaning, extract completeness and availability time unapproved"
+        },
+        {
+          "file": "Sales Invoice Details 1.xlsx",
+          "worksheet": "Sheet1",
+          "column": " Invoice Date ",
+          "ambiguous_day_month_cells": "33782",
+          "invalid_calendar_cells": "0",
+          "possible_serial_cells": "2996",
+          "strict_partial_history_min": "2026-01-01",
+          "strict_partial_history_max": "2026-11-02",
+          "distinct_observed_days_asof": "48",
+          "distinct_observed_months_asof": "4",
+          "production_history_sufficiency": "Not established: formats/century, actual-versus-planned meaning, extract completeness and availability time unapproved"
+        },
+        {
+          "file": "Sales Invoice Details.xlsx",
+          "worksheet": "Sheet1",
+          "column": "SO Date",
+          "ambiguous_day_month_cells": "124",
+          "invalid_calendar_cells": "0",
+          "possible_serial_cells": "0",
+          "strict_partial_history_min": "2025-11-26",
+          "strict_partial_history_max": "2026-08-25",
+          "distinct_observed_days_asof": "108",
+          "distinct_observed_months_asof": "10",
+          "production_history_sufficiency": "Not established: formats/century, actual-versus-planned meaning, extract completeness and availability time unapproved"
+        },
+        {
+          "file": "Sales Invoice Details.xlsx",
+          "worksheet": "Sheet1",
+          "column": "Invoice Date",
+          "ambiguous_day_month_cells": "107",
+          "invalid_calendar_cells": "0",
+          "possible_serial_cells": "0",
+          "strict_partial_history_min": "2025-12-21",
+          "strict_partial_history_max": "2026-09-13",
+          "distinct_observed_days_asof": "103",
+          "distinct_observed_months_asof": "10",
+          "production_history_sufficiency": "Not established: formats/century, actual-versus-planned meaning, extract completeness and availability time unapproved"
+        }
+      ]
+    },
+    {
+      "objective": "Profit or margin",
+      "sources": [
+        "Sales Invoice Details.xlsx",
+        "Inventory Audit Report as on 200327.xlsx"
+      ],
+      "reason": "No aligned validated realized costs and attributable expenses; inventory value-like fields do not establish realized invoice costs.",
+      "minimum_requirement": "Recognized revenue, realized costs and attributable expenses aligned by period/entity/currency, with adjustment rules.",
+      "status": "blocked",
+      "artifact_path": null,
+      "business_approved": false,
+      "source_tables": [
+        {
+          "file": "Sales Invoice Details.xlsx",
+          "tables": [
+            {
+              "name": "Sheet1",
+              "rows": 337,
+              "columns": 43
+            }
+          ]
+        },
+        {
+          "file": "Inventory Audit Report as on 200327.xlsx",
+          "tables": [
+            {
+              "name": "Sheet1",
+              "rows": 108129,
+              "columns": 13
+            }
+          ]
+        }
+      ],
+      "date_evidence": [
+        {
+          "file": "Inventory Audit Report as on 200327.xlsx",
+          "worksheet": "Sheet1",
+          "column": "System Date",
+          "ambiguous_day_month_cells": "33743",
+          "invalid_calendar_cells": "8",
+          "possible_serial_cells": "1995",
+          "strict_partial_history_min": "2026-09-21",
+          "strict_partial_history_max": "2026-11-02",
+          "distinct_observed_days_asof": "43",
+          "distinct_observed_months_asof": "3",
+          "production_history_sufficiency": "Not established: formats/century, actual-versus-planned meaning, extract completeness and availability time unapproved"
+        },
+        {
+          "file": "Inventory Audit Report as on 200327.xlsx",
+          "worksheet": "Sheet1",
+          "column": "Posting Date",
+          "ambiguous_day_month_cells": "33850",
+          "invalid_calendar_cells": "0",
+          "possible_serial_cells": "1915",
+          "strict_partial_history_min": "2026-09-21",
+          "strict_partial_history_max": "2026-11-02",
+          "distinct_observed_days_asof": "43",
+          "distinct_observed_months_asof": "3",
+          "production_history_sufficiency": "Not established: formats/century, actual-versus-planned meaning, extract completeness and availability time unapproved"
+        },
+        {
+          "file": "Sales Invoice Details.xlsx",
+          "worksheet": "Sheet1",
+          "column": "SO Date",
+          "ambiguous_day_month_cells": "124",
+          "invalid_calendar_cells": "0",
+          "possible_serial_cells": "0",
+          "strict_partial_history_min": "2025-11-26",
+          "strict_partial_history_max": "2026-08-25",
+          "distinct_observed_days_asof": "108",
+          "distinct_observed_months_asof": "10",
+          "production_history_sufficiency": "Not established: formats/century, actual-versus-planned meaning, extract completeness and availability time unapproved"
+        },
+        {
+          "file": "Sales Invoice Details.xlsx",
+          "worksheet": "Sheet1",
+          "column": "Invoice Date",
+          "ambiguous_day_month_cells": "107",
+          "invalid_calendar_cells": "0",
+          "possible_serial_cells": "0",
+          "strict_partial_history_min": "2025-12-21",
+          "strict_partial_history_max": "2026-09-13",
+          "distinct_observed_days_asof": "103",
+          "distinct_observed_months_asof": "10",
+          "production_history_sufficiency": "Not established: formats/century, actual-versus-planned meaning, extract completeness and availability time unapproved"
+        }
+      ]
+    },
+    {
+      "objective": "Product/service demand",
+      "sources": [
+        "Sales Invoice Details.xlsx",
+        "Sales Invoice Details 1.xlsx",
+        "Sales Order Report 1.xlsx",
+        "Sales Order Report 2.xlsx",
+        "Item Master Lists 1.xlsx",
+        "Item Master Lists 2.xlsx"
+      ],
+      "reason": "Raw Manual labels do not establish physical units; product identity, service quantities, returns/cancellations and complete item histories are unvalidated.",
+      "minimum_requirement": "Approved product/service identity and units, complete dated event capture and return/cancellation treatment; no inferred latent demand.",
+      "status": "blocked",
+      "artifact_path": null,
+      "business_approved": false,
+      "source_tables": [
+        {
+          "file": "Sales Invoice Details.xlsx",
+          "tables": [
+            {
+              "name": "Sheet1",
+              "rows": 337,
+              "columns": 43
+            }
+          ]
+        },
+        {
+          "file": "Sales Invoice Details 1.xlsx",
+          "tables": [
+            {
+              "name": "Sheet1",
+              "rows": 100188,
+              "columns": 43
+            }
+          ]
+        },
+        {
+          "file": "Sales Order Report 1.xlsx",
+          "tables": [
+            {
+              "name": "Sheet1",
+              "rows": 1098,
+              "columns": 26
+            }
+          ]
+        },
+        {
+          "file": "Sales Order Report 2.xlsx",
+          "tables": [
+            {
+              "name": "Sheet1",
+              "rows": 100286,
+              "columns": 26
+            }
+          ]
+        },
+        {
+          "file": "Item Master Lists 1.xlsx",
+          "tables": [
+            {
+              "name": "Item Lists",
+              "rows": 150,
+              "columns": 19
+            }
+          ]
+        },
+        {
+          "file": "Item Master Lists 2.xlsx",
+          "tables": [
+            {
+              "name": "Item Lists",
+              "rows": 5015,
+              "columns": 19
+            }
+          ]
+        }
+      ],
+      "date_evidence": [
+        {
+          "file": "Item Master Lists 1.xlsx",
+          "worksheet": "Item Lists",
+          "column": "Date of Udate",
+          "ambiguous_day_month_cells": "41",
+          "invalid_calendar_cells": "0",
+          "possible_serial_cells": "0",
+          "strict_partial_history_min": "",
+          "strict_partial_history_max": "",
+          "distinct_observed_days_asof": "0",
+          "distinct_observed_months_asof": "0",
+          "production_history_sufficiency": "Not established: formats/century, actual-versus-planned meaning, extract completeness and availability time unapproved"
+        },
+        {
+          "file": "Item Master Lists 2.xlsx",
+          "worksheet": "Item Lists",
+          "column": "Date of Udate",
+          "ambiguous_day_month_cells": "1571",
+          "invalid_calendar_cells": "5",
+          "possible_serial_cells": "205",
+          "strict_partial_history_min": "2024-11-25",
+          "strict_partial_history_max": "2026-09-17",
+          "distinct_observed_days_asof": "385",
+          "distinct_observed_months_asof": "23",
+          "production_history_sufficiency": "Not established: formats/century, actual-versus-planned meaning, extract completeness and availability time unapproved"
+        },
+        {
+          "file": "Sales Invoice Details 1.xlsx",
+          "worksheet": "Sheet1",
+          "column": "SO Date",
+          "ambiguous_day_month_cells": "34065",
+          "invalid_calendar_cells": "0",
+          "possible_serial_cells": "2397",
+          "strict_partial_history_min": "2025-12-16",
+          "strict_partial_history_max": "2026-11-02",
+          "distinct_observed_days_asof": "57",
+          "distinct_observed_months_asof": "5",
+          "production_history_sufficiency": "Not established: formats/century, actual-versus-planned meaning, extract completeness and availability time unapproved"
+        },
+        {
+          "file": "Sales Invoice Details 1.xlsx",
+          "worksheet": "Sheet1",
+          "column": " Invoice Date ",
+          "ambiguous_day_month_cells": "33782",
+          "invalid_calendar_cells": "0",
+          "possible_serial_cells": "2996",
+          "strict_partial_history_min": "2026-01-01",
+          "strict_partial_history_max": "2026-11-02",
+          "distinct_observed_days_asof": "48",
+          "distinct_observed_months_asof": "4",
+          "production_history_sufficiency": "Not established: formats/century, actual-versus-planned meaning, extract completeness and availability time unapproved"
+        },
+        {
+          "file": "Sales Invoice Details.xlsx",
+          "worksheet": "Sheet1",
+          "column": "SO Date",
+          "ambiguous_day_month_cells": "124",
+          "invalid_calendar_cells": "0",
+          "possible_serial_cells": "0",
+          "strict_partial_history_min": "2025-11-26",
+          "strict_partial_history_max": "2026-08-25",
+          "distinct_observed_days_asof": "108",
+          "distinct_observed_months_asof": "10",
+          "production_history_sufficiency": "Not established: formats/century, actual-versus-planned meaning, extract completeness and availability time unapproved"
+        },
+        {
+          "file": "Sales Invoice Details.xlsx",
+          "worksheet": "Sheet1",
+          "column": "Invoice Date",
+          "ambiguous_day_month_cells": "107",
+          "invalid_calendar_cells": "0",
+          "possible_serial_cells": "0",
+          "strict_partial_history_min": "2025-12-21",
+          "strict_partial_history_max": "2026-09-13",
+          "distinct_observed_days_asof": "103",
+          "distinct_observed_months_asof": "10",
+          "production_history_sufficiency": "Not established: formats/century, actual-versus-planned meaning, extract completeness and availability time unapproved"
+        },
+        {
+          "file": "Sales Order Report 1.xlsx",
+          "worksheet": "Sheet1",
+          "column": "Posting Date",
+          "ambiguous_day_month_cells": "417",
+          "invalid_calendar_cells": "0",
+          "possible_serial_cells": "0",
+          "strict_partial_history_min": "",
+          "strict_partial_history_max": "",
+          "distinct_observed_days_asof": "0",
+          "distinct_observed_months_asof": "0",
+          "production_history_sufficiency": "Not established: formats/century, actual-versus-planned meaning, extract completeness and availability time unapproved"
+        },
+        {
+          "file": "Sales Order Report 1.xlsx",
+          "worksheet": "Sheet1",
+          "column": "Delivery Date",
+          "ambiguous_day_month_cells": "402",
+          "invalid_calendar_cells": "0",
+          "possible_serial_cells": "0",
+          "strict_partial_history_min": "",
+          "strict_partial_history_max": "",
+          "distinct_observed_days_asof": "0",
+          "distinct_observed_months_asof": "0",
+          "production_history_sufficiency": "Not established: formats/century, actual-versus-planned meaning, extract completeness and availability time unapproved"
+        },
+        {
+          "file": "Sales Order Report 2.xlsx",
+          "worksheet": "Sheet1",
+          "column": "Posting Date  ",
+          "ambiguous_day_month_cells": "33242",
+          "invalid_calendar_cells": "0",
+          "possible_serial_cells": "2975",
+          "strict_partial_history_min": "2026-08-15",
+          "strict_partial_history_max": "2026-11-02",
+          "distinct_observed_days_asof": "50",
+          "distinct_observed_months_asof": "4",
+          "production_history_sufficiency": "Not established: formats/century, actual-versus-planned meaning, extract completeness and availability time unapproved"
+        },
+        {
+          "file": "Sales Order Report 2.xlsx",
+          "worksheet": "Sheet1",
+          "column": "Delivery Date",
+          "ambiguous_day_month_cells": "31699",
+          "invalid_calendar_cells": "15",
+          "possible_serial_cells": "2455",
+          "strict_partial_history_min": "2026-08-22",
+          "strict_partial_history_max": "2026-11-02",
+          "distinct_observed_days_asof": "42",
+          "distinct_observed_months_asof": "4",
+          "production_history_sufficiency": "Not established: formats/century, actual-versus-planned meaning, extract completeness and availability time unapproved"
+        }
+      ]
+    },
+    {
+      "objective": "Inventory balance or stockout",
+      "sources": [
+        "Inventory Audit Report as on 200327.xlsx",
+        "Inventory Audit Report as on 200926.xlsx",
+        "Inventory Audit Report as on 200926 1.xlsx"
+      ],
+      "reason": "Mixed movement/cumulative extracts, largely missing item identity on large-audit movement rows, unclear opening balances and sign/date semantics.",
+      "minimum_requirement": "Stable item/warehouse identities, opening balances, signed dated movements and repeated verified stock snapshots.",
+      "status": "blocked",
+      "artifact_path": null,
+      "business_approved": false,
+      "source_tables": [
+        {
+          "file": "Inventory Audit Report as on 200327.xlsx",
+          "tables": [
+            {
+              "name": "Sheet1",
+              "rows": 108129,
+              "columns": 13
+            }
+          ]
+        },
+        {
+          "file": "Inventory Audit Report as on 200926.xlsx",
+          "tables": [
+            {
+              "name": "Sheet1",
+              "rows": 162,
+              "columns": 13
+            }
+          ]
+        },
+        {
+          "file": "Inventory Audit Report as on 200926 1.xlsx",
+          "tables": [
+            {
+              "name": "Sheet1",
+              "rows": 162,
+              "columns": 13
+            }
+          ]
+        }
+      ],
+      "date_evidence": [
+        {
+          "file": "Inventory Audit Report as on 200327.xlsx",
+          "worksheet": "Sheet1",
+          "column": "System Date",
+          "ambiguous_day_month_cells": "33743",
+          "invalid_calendar_cells": "8",
+          "possible_serial_cells": "1995",
+          "strict_partial_history_min": "2026-09-21",
+          "strict_partial_history_max": "2026-11-02",
+          "distinct_observed_days_asof": "43",
+          "distinct_observed_months_asof": "3",
+          "production_history_sufficiency": "Not established: formats/century, actual-versus-planned meaning, extract completeness and availability time unapproved"
+        },
+        {
+          "file": "Inventory Audit Report as on 200327.xlsx",
+          "worksheet": "Sheet1",
+          "column": "Posting Date",
+          "ambiguous_day_month_cells": "33850",
+          "invalid_calendar_cells": "0",
+          "possible_serial_cells": "1915",
+          "strict_partial_history_min": "2026-09-21",
+          "strict_partial_history_max": "2026-11-02",
+          "distinct_observed_days_asof": "43",
+          "distinct_observed_months_asof": "3",
+          "production_history_sufficiency": "Not established: formats/century, actual-versus-planned meaning, extract completeness and availability time unapproved"
+        },
+        {
+          "file": "Inventory Audit Report as on 200926 1.xlsx",
+          "worksheet": "Sheet1",
+          "column": "System Date",
+          "ambiguous_day_month_cells": "27",
+          "invalid_calendar_cells": "0",
+          "possible_serial_cells": "2",
+          "strict_partial_history_min": "2026-08-22",
+          "strict_partial_history_max": "2026-09-13",
+          "distinct_observed_days_asof": "10",
+          "distinct_observed_months_asof": "2",
+          "production_history_sufficiency": "Not established: formats/century, actual-versus-planned meaning, extract completeness and availability time unapproved"
+        },
+        {
+          "file": "Inventory Audit Report as on 200926 1.xlsx",
+          "worksheet": "Sheet1",
+          "column": "Posting Date",
+          "ambiguous_day_month_cells": "27",
+          "invalid_calendar_cells": "0",
+          "possible_serial_cells": "6",
+          "strict_partial_history_min": "2026-08-22",
+          "strict_partial_history_max": "2026-09-13",
+          "distinct_observed_days_asof": "6",
+          "distinct_observed_months_asof": "2",
+          "production_history_sufficiency": "Not established: formats/century, actual-versus-planned meaning, extract completeness and availability time unapproved"
+        },
+        {
+          "file": "Inventory Audit Report as on 200926.xlsx",
+          "worksheet": "Sheet1",
+          "column": "System Date",
+          "ambiguous_day_month_cells": "31",
+          "invalid_calendar_cells": "0",
+          "possible_serial_cells": "0",
+          "strict_partial_history_min": "",
+          "strict_partial_history_max": "",
+          "distinct_observed_days_asof": "0",
+          "distinct_observed_months_asof": "0",
+          "production_history_sufficiency": "Not established: formats/century, actual-versus-planned meaning, extract completeness and availability time unapproved"
+        },
+        {
+          "file": "Inventory Audit Report as on 200926.xlsx",
+          "worksheet": "Sheet1",
+          "column": "Posting Date",
+          "ambiguous_day_month_cells": "31",
+          "invalid_calendar_cells": "0",
+          "possible_serial_cells": "0",
+          "strict_partial_history_min": "",
+          "strict_partial_history_max": "",
+          "distinct_observed_days_asof": "0",
+          "distinct_observed_months_asof": "0",
+          "production_history_sufficiency": "Not established: formats/century, actual-versus-planned meaning, extract completeness and availability time unapproved"
+        }
+      ]
+    },
+    {
+      "objective": "Customer repeat-purchase propensity",
+      "sources": [
+        "Customer Master Report 1.xlsx",
+        "Customer Master Report 2.xlsx",
+        "Sales Invoice Details.xlsx"
+      ],
+      "reason": "No eligible historical cohort, matured positive and negative labels or point-in-time features; current master records are not outcome labels.",
+      "minimum_requirement": "Validated customer links, cohort eligibility, observation/decision windows, complete outcomes and matured follow-up.",
+      "status": "blocked",
+      "artifact_path": null,
+      "business_approved": false,
+      "source_tables": [
+        {
+          "file": "Customer Master Report 1.xlsx",
+          "tables": [
+            {
+              "name": "Sheet1",
+              "rows": 40,
+              "columns": 35
+            }
+          ]
+        },
+        {
+          "file": "Customer Master Report 2.xlsx",
+          "tables": [
+            {
+              "name": "Sheet1",
+              "rows": 5015,
+              "columns": 35
+            }
+          ]
+        },
+        {
+          "file": "Sales Invoice Details.xlsx",
+          "tables": [
+            {
+              "name": "Sheet1",
+              "rows": 337,
+              "columns": 43
+            }
+          ]
+        }
+      ],
+      "date_evidence": [
+        {
+          "file": "Sales Invoice Details.xlsx",
+          "worksheet": "Sheet1",
+          "column": "SO Date",
+          "ambiguous_day_month_cells": "124",
+          "invalid_calendar_cells": "0",
+          "possible_serial_cells": "0",
+          "strict_partial_history_min": "2025-11-26",
+          "strict_partial_history_max": "2026-08-25",
+          "distinct_observed_days_asof": "108",
+          "distinct_observed_months_asof": "10",
+          "production_history_sufficiency": "Not established: formats/century, actual-versus-planned meaning, extract completeness and availability time unapproved"
+        },
+        {
+          "file": "Sales Invoice Details.xlsx",
+          "worksheet": "Sheet1",
+          "column": "Invoice Date",
+          "ambiguous_day_month_cells": "107",
+          "invalid_calendar_cells": "0",
+          "possible_serial_cells": "0",
+          "strict_partial_history_min": "2025-12-21",
+          "strict_partial_history_max": "2026-09-13",
+          "distinct_observed_days_asof": "103",
+          "distinct_observed_months_asof": "10",
+          "production_history_sufficiency": "Not established: formats/century, actual-versus-planned meaning, extract completeness and availability time unapproved"
+        }
+      ]
+    },
+    {
+      "objective": "Cancellation or delivery outcome",
+      "sources": [
+        "Sales Order Report 1.xlsx",
+        "Sales Order Report 2.xlsx"
+      ],
+      "reason": "Current line status and promised dates do not establish actual lifecycle transitions or completed delivery outcomes.",
+      "minimum_requirement": "Stable line/document identity, dated status transitions or actual delivery events, maturity/censoring and pre-outcome feature snapshots.",
+      "status": "blocked",
+      "artifact_path": null,
+      "business_approved": false,
+      "source_tables": [
+        {
+          "file": "Sales Order Report 1.xlsx",
+          "tables": [
+            {
+              "name": "Sheet1",
+              "rows": 1098,
+              "columns": 26
+            }
+          ]
+        },
+        {
+          "file": "Sales Order Report 2.xlsx",
+          "tables": [
+            {
+              "name": "Sheet1",
+              "rows": 100286,
+              "columns": 26
+            }
+          ]
+        }
+      ],
+      "date_evidence": [
+        {
+          "file": "Sales Order Report 1.xlsx",
+          "worksheet": "Sheet1",
+          "column": "Posting Date",
+          "ambiguous_day_month_cells": "417",
+          "invalid_calendar_cells": "0",
+          "possible_serial_cells": "0",
+          "strict_partial_history_min": "",
+          "strict_partial_history_max": "",
+          "distinct_observed_days_asof": "0",
+          "distinct_observed_months_asof": "0",
+          "production_history_sufficiency": "Not established: formats/century, actual-versus-planned meaning, extract completeness and availability time unapproved"
+        },
+        {
+          "file": "Sales Order Report 1.xlsx",
+          "worksheet": "Sheet1",
+          "column": "Delivery Date",
+          "ambiguous_day_month_cells": "402",
+          "invalid_calendar_cells": "0",
+          "possible_serial_cells": "0",
+          "strict_partial_history_min": "",
+          "strict_partial_history_max": "",
+          "distinct_observed_days_asof": "0",
+          "distinct_observed_months_asof": "0",
+          "production_history_sufficiency": "Not established: formats/century, actual-versus-planned meaning, extract completeness and availability time unapproved"
+        },
+        {
+          "file": "Sales Order Report 2.xlsx",
+          "worksheet": "Sheet1",
+          "column": "Posting Date  ",
+          "ambiguous_day_month_cells": "33242",
+          "invalid_calendar_cells": "0",
+          "possible_serial_cells": "2975",
+          "strict_partial_history_min": "2026-08-15",
+          "strict_partial_history_max": "2026-11-02",
+          "distinct_observed_days_asof": "50",
+          "distinct_observed_months_asof": "4",
+          "production_history_sufficiency": "Not established: formats/century, actual-versus-planned meaning, extract completeness and availability time unapproved"
+        },
+        {
+          "file": "Sales Order Report 2.xlsx",
+          "worksheet": "Sheet1",
+          "column": "Delivery Date",
+          "ambiguous_day_month_cells": "31699",
+          "invalid_calendar_cells": "15",
+          "possible_serial_cells": "2455",
+          "strict_partial_history_min": "2026-08-22",
+          "strict_partial_history_max": "2026-11-02",
+          "distinct_observed_days_asof": "42",
+          "distinct_observed_months_asof": "4",
+          "production_history_sufficiency": "Not established: formats/century, actual-versus-planned meaning, extract completeness and availability time unapproved"
+        }
+      ]
+    },
+    {
+      "objective": "Currency rate modeling",
+      "sources": [
+        "Exchange Rate.xlsx",
+        "Exchange Rate 1.xlsx"
+      ],
+      "reason": "Existing source-authenticity evidence identifies explicit synthetic titles; these cannot be actual-NOP training data.",
+      "minimum_requirement": "Genuine historical rates with publication timestamps, currency-pair semantics and verified source provenance.",
+      "status": "blocked",
+      "artifact_path": null,
+      "business_approved": false,
+      "source_tables": [
+        {
+          "file": "Exchange Rate.xlsx",
+          "tables": [
+            {
+              "name": "INR to JPY",
+              "rows": 22,
+              "columns": 7
+            }
+          ]
+        },
+        {
+          "file": "Exchange Rate 1.xlsx",
+          "tables": [
+            {
+              "name": "INR to JPY",
+              "rows": 7,
+              "columns": 7
+            }
+          ]
+        }
+      ],
+      "date_evidence": [
+        {
+          "file": "Exchange Rate 1.xlsx",
+          "worksheet": "INR to JPY",
+          "column": "Rate Month  ",
+          "ambiguous_day_month_cells": "0",
+          "invalid_calendar_cells": "0",
+          "possible_serial_cells": "0",
+          "strict_partial_history_min": "",
+          "strict_partial_history_max": "",
+          "distinct_observed_days_asof": "0",
+          "distinct_observed_months_asof": "0",
+          "production_history_sufficiency": "Not established: formats/century, actual-versus-planned meaning, extract completeness and availability time unapproved"
+        },
+        {
+          "file": "Exchange Rate 1.xlsx",
+          "worksheet": "INR to JPY",
+          "column": "Start Date",
+          "ambiguous_day_month_cells": "0",
+          "invalid_calendar_cells": "0",
+          "possible_serial_cells": "2",
+          "strict_partial_history_min": "2026-08-21",
+          "strict_partial_history_max": "2026-09-21",
+          "distinct_observed_days_asof": "2",
+          "distinct_observed_months_asof": "2",
+          "production_history_sufficiency": "Not established: formats/century, actual-versus-planned meaning, extract completeness and availability time unapproved"
+        },
+        {
+          "file": "Exchange Rate 1.xlsx",
+          "worksheet": "INR to JPY",
+          "column": "End Date",
+          "ambiguous_day_month_cells": "0",
+          "invalid_calendar_cells": "0",
+          "possible_serial_cells": "1",
+          "strict_partial_history_min": "2026-09-20",
+          "strict_partial_history_max": "2026-10-20",
+          "distinct_observed_days_asof": "2",
+          "distinct_observed_months_asof": "2",
+          "production_history_sufficiency": "Not established: formats/century, actual-versus-planned meaning, extract completeness and availability time unapproved"
+        },
+        {
+          "file": "Exchange Rate.xlsx",
+          "worksheet": "INR to JPY",
+          "column": "Rate Month",
+          "ambiguous_day_month_cells": "0",
+          "invalid_calendar_cells": "0",
+          "possible_serial_cells": "0",
+          "strict_partial_history_min": "",
+          "strict_partial_history_max": "",
+          "distinct_observed_days_asof": "0",
+          "distinct_observed_months_asof": "0",
+          "production_history_sufficiency": "Not established: formats/century, actual-versus-planned meaning, extract completeness and availability time unapproved"
+        },
+        {
+          "file": "Exchange Rate.xlsx",
+          "worksheet": "INR to JPY",
+          "column": "Start Date",
+          "ambiguous_day_month_cells": "0",
+          "invalid_calendar_cells": "0",
+          "possible_serial_cells": "0",
+          "strict_partial_history_min": "2024-12-21",
+          "strict_partial_history_max": "2026-09-21",
+          "distinct_observed_days_asof": "22",
+          "distinct_observed_months_asof": "22",
+          "production_history_sufficiency": "Not established: formats/century, actual-versus-planned meaning, extract completeness and availability time unapproved"
+        },
+        {
+          "file": "Exchange Rate.xlsx",
+          "worksheet": "INR to JPY",
+          "column": "End Date",
+          "ambiguous_day_month_cells": "0",
+          "invalid_calendar_cells": "0",
+          "possible_serial_cells": "0",
+          "strict_partial_history_min": "2025-01-20",
+          "strict_partial_history_max": "2026-10-20",
+          "distinct_observed_days_asof": "22",
+          "distinct_observed_months_asof": "22",
+          "production_history_sufficiency": "Not established: formats/century, actual-versus-planned meaning, extract completeness and availability time unapproved"
+        }
+      ]
+    }
+  ],
+  "date_evidence_limit": "Carried-forward diagnostic profiles use their original cutoff and conventions; they do not establish approved dates or complete/mature history."
+}

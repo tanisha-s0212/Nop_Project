@@ -1,0 +1,11 @@
+﻿period,target_count,calendar_boundary_status
+2025-12,13,partial_calendar_boundary
+2026-01,22,interior_calendar_month
+2026-02,12,interior_calendar_month
+2026-03,20,interior_calendar_month
+2026-04,19,interior_calendar_month
+2026-05,22,interior_calendar_month
+2026-06,19,interior_calendar_month
+2026-07,16,interior_calendar_month
+2026-08,8,interior_calendar_month
+2026-09,1,partial_calendar_boundary

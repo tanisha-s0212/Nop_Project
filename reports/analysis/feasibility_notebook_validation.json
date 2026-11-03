@@ -1,0 +1,1823 @@
+{
+  "status": "passed",
+  "assessment_date": "2026-11-02",
+  "executed_code_cells": 11,
+  "cell_errors": 0,
+  "execution_counts": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "all_original_sources_unchanged": true,
+  "all_prior_artifacts_unchanged": true,
+  "preserved_inputs": 115,
+  "notebook_sha256": "6e8f3c5454e7cc7683b26fff8730c66c1116c459f43c37d9d7200b449d02e2e0",
+  "assessment_implementation_sha256": "a2b71d62f1dcedfedcc5cb39d0d88b7b1f96baad5b6c66e4e965b4617737bc20",
+  "validator_sha256": "4787eb347c70691e2a214e90a0d1500b15a3866f425717ac4232c3f020bf6533",
+  "checks": [
+    {
+      "test": "Assessment checks passed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Complete source/schema scope",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Assessment boundary",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/analysis/analysis_validation.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/analysis/attribute_conflicts.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/analysis/authority_assessment.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/analysis/composite_keys.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/analysis/controlled_join_expansion.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/analysis/controlled_join_validation.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/analysis/dataset_granularity.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/analysis/dataset_granularity_report.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/analysis/dataset_relationship_report.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/analysis/document_context.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/analysis/export_validation.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/analysis/identifier_formats.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/analysis/identifier_match_detail.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/analysis/identifier_profiles.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/analysis/identifier_relationship_matrix.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/analysis/inventory_row_shapes.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/analysis/join_financial_effects.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/analysis/key_derivation_rules.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/analysis/key_scope_checks.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/analysis/notebook_execution_validation.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/analysis/prior_duplicate_analysis.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/analysis/prior_financial_exceptions.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/analysis/prior_issue_register.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/analysis/prior_matching_coverage.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/analysis/protected_file_integrity.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/analysis/quality_carry_forward.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/analysis/relationship_candidates.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/analysis/service_indicators.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/analysis/source_authenticity.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/analysis/source_overlap.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/data_inventory/column_metadata.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/data_inventory/date_coverage.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/data_inventory/date_coverage.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/data_inventory/excel_file_inventory.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/data_inventory/inventory_validation_report.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/data_inventory/sample_data.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/data_inventory/worksheet_inventory.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/data_inventory/worksheet_structure.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/data_quality/assessment_validation.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/data_quality/categorical_consistency.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/data_quality/categorical_values.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/data_quality/categorical_variants.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/data_quality/chronology_checks.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/data_quality/cross_source_duplicate_coverage.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/data_quality/dataset_specific.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/data_quality/data_quality_evidence.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/data_quality/data_quality_report.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/data_quality/date_cell_exceptions.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/data_quality/date_coverage_gaps.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/data_quality/date_quality.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/data_quality/date_value_evidence.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/data_quality/duplicate_analysis.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/data_quality/duplicate_groups.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/data_quality/entity_duplicate_analysis.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/data_quality/entity_duplicate_groups.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/data_quality/export_validation.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/data_quality/financial_consistency.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/data_quality/flag_encoding_representations.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/data_quality/identifier_matching_coverage.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/data_quality/identifier_quality.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/data_quality/inventory_integrity.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/data_quality/issue_register.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/data_quality/issue_severity.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/data_quality/missingness_by_table.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/data_quality/missing_values.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/data_quality/notebook_execution_validation.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/data_quality/numerical_context.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/data_quality/numerical_quality.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/data_quality/numerical_token_issues.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/data_quality/source_integrity.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/data_quality/source_tables.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/data_quality/spelling_candidates.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/analysis/data_model_diagram/logical_business_model.mmd",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/analysis/data_model_diagram/logical_business_model.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/analysis/data_model_diagram/logical_business_model.svg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/analysis/data_model_diagram/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/data_inventory/validation/audit_summary.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/data_inventory/validation/column_validation.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/data_inventory/validation/date_token_issues.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/data_inventory/validation/date_validation.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/data_inventory/validation/export_verification.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/data_inventory/validation/formula_cells.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/data_inventory/validation/formula_validation.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/data_inventory/validation/header_validation.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/data_inventory/validation/identifier_matching_coverage.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/data_inventory/validation/identifier_validation.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/data_inventory/validation/inventory_validation_evidence.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/data_inventory/validation/report_consistency.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/data_inventory/validation/source_completeness.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/data_inventory/validation/table_counts.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved reports/data_inventory/validation/validation_failures.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved dataset/Customer Master Report 1.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved dataset/Customer Master Report 2.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved dataset/Exchange Rate 1.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved dataset/Exchange Rate.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved dataset/GSTR1_Credit_Debit_Note 1.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved dataset/GSTR1_Credit_Debit_Note 2.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved dataset/GSTR1_Invoice.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved dataset/Inventory Audit Report as on 200327.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved dataset/Inventory Audit Report as on 200926 1.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved dataset/Inventory Audit Report as on 200926.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved dataset/Item Master Lists 1.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved dataset/Item Master Lists 2.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved dataset/Sales Invoice Details 1.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved dataset/Sales Invoice Details.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved dataset/Sales Order Report 1.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved dataset/Sales Order Report 2.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved dataset/Sales_Order_Data_202609.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved notebooks/01_data_inventory.ipynb",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved notebooks/02_data_quality_analysis.ipynb",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved notebooks/03_dataset_relationship_analysis.ipynb",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved src/data/validate_inventory.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved src/data/assess_data_quality.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved src/data/analyze_relationships.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Preserved src/data/validate_relationship_analysis.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Notebook freshly executed in order",
+      "passed": true,
+      "detail": "[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]"
+    },
+    {
+      "test": "Notebook has no execution errors",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Notebook runs the complete assessment",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Five requested examples plus broader evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Allowed classifications",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No example claims model readiness or approved definitions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Horizons explicitly unresolved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Frequency, actual evidence and missing clock/key requirements explicit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T01/Sales Invoice Details.xlsx/Invoice Date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T01/Sales Invoice Details.xlsx/Invoice Num",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T01/Sales Invoice Details.xlsx/TransType",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T01/Sales Order Report 1.xlsx/Posting Date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T01/Sales Order Report 1.xlsx/SO No",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T01/Sales Order Report 1.xlsx/Customer Code",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T01/Sales Order Report 1.xlsx/Status",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T02/Sales Invoice Details.xlsx/Taxable Value",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T02/Sales Invoice Details.xlsx/Invoice Date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T02/Sales Invoice Details.xlsx/Invoice Num",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T02/Sales Invoice Details.xlsx/Total Value",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T02/Sales Invoice Details.xlsx/Invoice Total Include GST",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T02/Sales Invoice Details.xlsx/Invoice Discount %",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T02/Sales Invoice Details.xlsx/FreightAmt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T02/GSTR1_Invoice.csv/Invoice_Date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T02/GSTR1_Invoice.csv/Invoice_Number",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T02/GSTR1_Invoice.csv/Doc_Series",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T02/GSTR1_Invoice.csv/Doc_Series_Prefix",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T02/GSTR1_Invoice.csv/Doc_Series_Suffix",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T02/GSTR1_Invoice.csv/Item_Taxable_Value",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T02/GSTR1_Invoice.csv/Invoice_Value",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T02/GSTR1_Credit_Debit_Note 2.csv/CreditDebitNote_Date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T02/GSTR1_Credit_Debit_Note 2.csv/CreditDebitNote_Number",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T02/GSTR1_Credit_Debit_Note 2.csv/Type_Credit_or_Debit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T02/GSTR1_Credit_Debit_Note 2.csv/Invoice_Number",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T02/GSTR1_Credit_Debit_Note 2.csv/ Item_Taxable_Value",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T02/GSTR1_Credit_Debit_Note 2.csv/Credit_Debit_Note_Value",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T03/Customer Master Report 1.xlsx/CUSTOMER CODE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T03/Customer Master Report 1.xlsx/ACTIVE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T03/Customer Master Report 1.xlsx/INACTIVE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T03/Customer Master Report 1.xlsx/GSTIN",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T03/Sales Order Report 1.xlsx/Customer Code",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T03/Sales Order Report 1.xlsx/Posting Date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T03/Sales Order Report 1.xlsx/SO No",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T03/Sales Order Report 1.xlsx/Status",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T03/Sales Invoice Details.xlsx/Customer Billing Name",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T03/Sales Invoice Details.xlsx/Customer Billing GSTIN",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T03/Sales Invoice Details.xlsx/Invoice Date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T03/Sales Invoice Details.xlsx/Invoice Num",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T04/Sales Invoice Details.xlsx/Invoice Date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T04/Sales Invoice Details.xlsx/Part Code SAP Code",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T04/Sales Invoice Details.xlsx/Item Foreign Code",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T04/Sales Invoice Details.xlsx/Item Type G or S",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T04/Sales Invoice Details.xlsx/Quantity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T04/Sales Invoice Details.xlsx/UOM",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T04/Sales Invoice Details.xlsx/Taxable Value",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T04/Sales Order Report 1.xlsx/Posting Date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T04/Sales Order Report 1.xlsx/Item No",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T04/Sales Order Report 1.xlsx/Quantity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T04/Sales Order Report 1.xlsx/Unit Price",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T04/Sales Order Report 1.xlsx/Status",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T04/Item Master Lists 1.xlsx/Item No.",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T04/Item Master Lists 1.xlsx/foreign Code",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T04/Item Master Lists 1.xlsx/Pricing unit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T04/Item Master Lists 1.xlsx/Item Group",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T04/Item Master Lists 1.xlsx/Product Segment",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T04/Item Master Lists 1.xlsx/Lead Time",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T05/Inventory Audit Report as on 200327.xlsx/ Item No. ",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T05/Inventory Audit Report as on 200327.xlsx/System Date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T05/Inventory Audit Report as on 200327.xlsx/Posting Date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T05/Inventory Audit Report as on 200327.xlsx/Document",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T05/Inventory Audit Report as on 200327.xlsx/Doc. Row",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T05/Inventory Audit Report as on 200327.xlsx/Whse",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T05/Inventory Audit Report as on 200327.xlsx/Quantity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T05/Inventory Audit Report as on 200327.xlsx/Trans. Value",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T05/Inventory Audit Report as on 200327.xlsx/Cumulative Qty",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T05/Inventory Audit Report as on 200327.xlsx/Cumulative Value  ",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T05/Item Master Lists 1.xlsx/In Stock",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T05/Item Master Lists 1.xlsx/Order to Supllier",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T05/Item Master Lists 1.xlsx/Order by Customer",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T05/Item Master Lists 1.xlsx/Minimum Inventory",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T05/Item Master Lists 1.xlsx/Date of Udate",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T06/Sales Invoice Details.xlsx/Quantity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T06/Sales Invoice Details.xlsx/Unit Price",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T06/Sales Invoice Details.xlsx/Taxable Value",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T06/Sales Invoice Details.xlsx/Invoice Date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T07/Sales Order Report 1.xlsx/Status",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T07/Sales Order Report 1.xlsx/Posting Date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T07/Sales Order Report 1.xlsx/SO No",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T07/GSTR1_Credit_Debit_Note 2.csv/CreditDebitNote_Date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T07/GSTR1_Credit_Debit_Note 2.csv/Invoice_Number",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T07/GSTR1_Credit_Debit_Note 2.csv/Type_Credit_or_Debit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T08/Sales Order Report 1.xlsx/Posting Date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T08/Sales Order Report 1.xlsx/Delivery Date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T08/Sales Order Report 1.xlsx/SO No",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T08/Sales Order Report 1.xlsx/Item No",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T08/Sales Order Report 2.xlsx/Posting Date  ",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T08/Sales Order Report 2.xlsx/Delivery Date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T09/Sales Order Report 1.xlsx/Payment Terms",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T09/Sales Order Report 1.xlsx/Total (LC)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T09/Inventory Audit Report as on 200327.xlsx/Cost",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T09/Inventory Audit Report as on 200327.xlsx/Trans. Value",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T10/GSTR1_Credit_Debit_Note 2.csv/CreditDebitNote_Date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T10/GSTR1_Credit_Debit_Note 2.csv/CreditDebitNote_Number",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T10/GSTR1_Credit_Debit_Note 2.csv/Doc_Series",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T10/GSTR1_Credit_Debit_Note 2.csv/Doc_Series_Prefix",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T10/GSTR1_Credit_Debit_Note 2.csv/Doc_Series_Suffix",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T10/GSTR1_Credit_Debit_Note 2.csv/Type_Credit_or_Debit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T10/GSTR1_Credit_Debit_Note 2.csv/IGST_Amount",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T10/GSTR1_Credit_Debit_Note 2.csv/CGST_Amount",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T10/GSTR1_Credit_Debit_Note 2.csv/SGST_Amount",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T11/Item Master Lists 1.xlsx/Item No.",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T11/Item Master Lists 1.xlsx/Item Group",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T11/Item Master Lists 1.xlsx/Segment",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T11/Item Master Lists 1.xlsx/Product Segment",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T11/Sales Invoice Details.xlsx/Territory",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T11/Sales Invoice Details.xlsx/Sales Employee",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T11/Sales Invoice Details.xlsx/Country",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T11/Sales Invoice Details.xlsx/Part Code SAP Code",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T12/Sales Invoice Details.xlsx/Invoice Date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T12/Sales Invoice Details.xlsx/Quantity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T12/Sales Invoice Details.xlsx/Taxable Value",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T13/Exchange Rate.xlsx/Rate Month",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T13/Exchange Rate.xlsx/Start Date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T13/Exchange Rate.xlsx/End Date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T13/Exchange Rate.xlsx/From Currency",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T13/Exchange Rate.xlsx/To Currency",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual-column binding T13/Exchange Rate.xlsx/Exchange Rate (1 INR = ? JPY)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent date support Exchange Rate 1.xlsx/Rate Month  ",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent date support Exchange Rate 1.xlsx/Start Date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent date support Exchange Rate 1.xlsx/End Date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent date support Exchange Rate.xlsx/Rate Month",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent date support Exchange Rate.xlsx/Start Date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent date support Exchange Rate.xlsx/End Date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent date support GSTR1_Credit_Debit_Note 1.csv/CreditDebitNote_Date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent date support GSTR1_Credit_Debit_Note 1.csv/Invoice_Date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent date support GSTR1_Credit_Debit_Note 1.csv/Original_CreditDebitNote_Date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent date support GSTR1_Credit_Debit_Note 1.csv/Revision_Month",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent date support GSTR1_Credit_Debit_Note 1.csv/Shipping_Bill_Date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent date support GSTR1_Credit_Debit_Note 2.csv/CreditDebitNote_Date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent date support GSTR1_Credit_Debit_Note 2.csv/Invoice_Date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent date support GSTR1_Credit_Debit_Note 2.csv/Original_CreditDebitNote_Date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent date support GSTR1_Credit_Debit_Note 2.csv/Revision_Month",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent date support GSTR1_Credit_Debit_Note 2.csv/Shipping_Bill_Date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent date support GSTR1_Invoice.csv/Invoice_Date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent date support GSTR1_Invoice.csv/Original_Invoice_Date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent date support GSTR1_Invoice.csv/AdvanceReceipt_Date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent date support GSTR1_Invoice.csv/Shipping_Bill_Date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent date support GSTR1_Invoice.csv/Revision_Month",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent date support Inventory Audit Report as on 200327.xlsx/System Date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent date support Inventory Audit Report as on 200327.xlsx/Posting Date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent date support Inventory Audit Report as on 200926 1.xlsx/System Date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent date support Inventory Audit Report as on 200926 1.xlsx/Posting Date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent date support Inventory Audit Report as on 200926.xlsx/System Date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent date support Inventory Audit Report as on 200926.xlsx/Posting Date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent date support Item Master Lists 1.xlsx/Date of Udate",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent date support Item Master Lists 2.xlsx/Date of Udate",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent date support Sales Invoice Details 1.xlsx/SO Date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent date support Sales Invoice Details 1.xlsx/ Invoice Date ",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent date support Sales Invoice Details.xlsx/SO Date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent date support Sales Invoice Details.xlsx/Invoice Date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent date support Sales Order Report 1.xlsx/Posting Date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent date support Sales Order Report 1.xlsx/Delivery Date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent date support Sales Order Report 2.xlsx/Posting Date  ",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent date support Sales Order Report 2.xlsx/Delivery Date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Known unresolved date totals",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Every prior issue retained with original fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Export dimensions assessment_examples",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "All export cells verified assessment_examples",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Export dimensions target_source_bindings",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "All export cells verified target_source_bindings",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Export dimensions historical_date_coverage",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "All export cells verified historical_date_coverage",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Export dimensions reusable_capability_assessment",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "All export cells verified reusable_capability_assessment",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Export dimensions source_grain_evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "All export cells verified source_grain_evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Export dimensions independent_grain_probes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "All export cells verified independent_grain_probes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Export dimensions measure_evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "All export cells verified measure_evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Export dimensions identifier_evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "All export cells verified identifier_evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Export dimensions relationship_dependency_evidenc",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "All export cells verified relationship_dependency_evidenc",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Export dimensions financial_rule_evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "All export cells verified financial_rule_evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Export dimensions categorical_evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "All export cells verified categorical_evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Export dimensions document_context_evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "All export cells verified document_context_evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Export dimensions data_requirements",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "All export cells verified data_requirements",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Export dimensions outcome_availability_audit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "All export cells verified outcome_availability_audit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Export dimensions architecture_requirements",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "All export cells verified architecture_requirements",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Export dimensions target_contract_requirements",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "All export cells verified target_contract_requirements",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Export dimensions propensity_outcome_audit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "All export cells verified propensity_outcome_audit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Export dimensions leakage_and_validation_controls",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "All export cells verified leakage_and_validation_controls",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Export dimensions unresolved_issue_dependencies",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "All export cells verified unresolved_issue_dependencies",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Export dimensions unresolved_issue_summary",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "All export cells verified unresolved_issue_summary",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Export dimensions source_authority",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "All export cells verified source_authority",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Export dimensions source_authenticity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "All export cells verified source_authenticity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Export dimensions preserved_input_integrity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "All export cells verified preserved_input_integrity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Export dimensions schema_evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "All export cells verified schema_evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Export dimensions date_coverage_diagnostics",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "All export cells verified date_coverage_diagnostics",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Coverage figure decodes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Reference link notebooks/01_data_inventory.ipynb",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Reference link reports/data_inventory/inventory_validation_report.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Reference link notebooks/02_data_quality_analysis.ipynb",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Reference link reports/data_quality/data_quality_report.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Reference link notebooks/03_dataset_relationship_analysis.ipynb",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Reference link reports/analysis/dataset_relationship_report.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Reference link reports/analysis/identifier_relationship_matrix.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Reference link reports/analysis/dataset_granularity_report.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Reference link reports/analysis/data_model_diagram/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Reference link notebooks/04_business_prediction_feasibility.ipynb",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Reference link reports/analysis/business_prediction_feasibility_report.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Reference link reports/analysis/prediction_target_mapping.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Reference link reports/analysis/prediction_data_requirements.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Reference link prediction_target_mapping.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Reference link dataset_granularity_report.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Reference link dataset_relationship_report.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Reference link identifier_relationship_matrix.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Reference link data_model_diagram/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Reference link prediction_data_requirements.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Reference link ../../notebooks/04_business_prediction_feasibility.ipynb",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Reference link prediction_target_mapping.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Reference link prediction_data_requirements.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Reference link feasibility_validation.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Reference link feasibility_notebook_validation.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Reference link feasibility_evidence/preserved_input_integrity.csv",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "interpreter": "D:\\Aroha_Files\\NOP_Project\\.venv\\Scripts\\python.exe"
+}

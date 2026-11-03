@@ -1,0 +1,522 @@
+﻿file,worksheet,column_number,column_name,data_rows,missing_values,nonblank_values,types_and_counts_json,entire_sheet_column_empty
+Customer Master Report 1.xlsx,Sheet1,1,#,40,0,40,"{""number"": 40}",False
+Customer Master Report 1.xlsx,Sheet1,2,CUSTOMER CODE,40,0,40,"{""text"": 40}",False
+Customer Master Report 1.xlsx,Sheet1,3,CUSTOMER NAME,40,0,40,"{""text"": 40}",False
+Customer Master Report 1.xlsx,Sheet1,4,CUSTOMER GROUP,40,0,40,"{""text"": 40}",False
+Customer Master Report 1.xlsx,Sheet1,5,TEL 1,40,40,0,{},False
+Customer Master Report 1.xlsx,Sheet1,6,TEL 2,40,40,0,{},False
+Customer Master Report 1.xlsx,Sheet1,7,MOBILE PHONE,40,0,40,"{""text"": 40}",False
+Customer Master Report 1.xlsx,Sheet1,8,Fax Number,40,40,0,{},False
+Customer Master Report 1.xlsx,Sheet1,9,E-MAIL,40,0,40,"{""text"": 40}",False
+Customer Master Report 1.xlsx,Sheet1,10,WEBSITE,40,40,0,{},False
+Customer Master Report 1.xlsx,Sheet1,11,SHIPPING TYPE,40,40,0,{},False
+Customer Master Report 1.xlsx,Sheet1,12,TYPE OF BUSINESS,40,0,40,"{""text"": 40}",False
+Customer Master Report 1.xlsx,Sheet1,13,ACTIVE,40,0,40,"{""text"": 40}",False
+Customer Master Report 1.xlsx,Sheet1,14,INACTIVE,40,0,40,"{""text"": 40}",False
+Customer Master Report 1.xlsx,Sheet1,15,ADDRESS 2,40,0,40,"{""text"": 40}",False
+Customer Master Report 1.xlsx,Sheet1,16,ADDRESS 3,40,40,0,{},False
+Customer Master Report 1.xlsx,Sheet1,17,STREET / PO BOX,40,40,0,{},False
+Customer Master Report 1.xlsx,Sheet1,18,Bill-to Block,40,40,0,{},False
+Customer Master Report 1.xlsx,Sheet1,19,Bill-to City,40,0,40,"{""text"": 40}",False
+Customer Master Report 1.xlsx,Sheet1,20,ZIP CODE,40,0,40,"{""text"": 40}",False
+Customer Master Report 1.xlsx,Sheet1,21,STATE,40,8,32,"{""text"": 32}",False
+Customer Master Report 1.xlsx,Sheet1,22,Bill-to Country,40,0,40,"{""text"": 40}",False
+Customer Master Report 1.xlsx,Sheet1,23,STREET NO.,40,40,0,{},False
+Customer Master Report 1.xlsx,Sheet1,24,BUILDING/FLOOR/ROOM,40,0,40,"{""text"": 40}",False
+Customer Master Report 1.xlsx,Sheet1,25,GSTIN,40,8,32,"{""text"": 32}",False
+Customer Master Report 1.xlsx,Sheet1,26,GST TYPE,40,8,32,"{""text"": 32}",False
+Customer Master Report 1.xlsx,Sheet1,27,BANK CODE,40,0,40,"{""text"": 40}",False
+Customer Master Report 1.xlsx,Sheet1,28,ACCOUNT NO.,40,40,0,{},False
+Customer Master Report 1.xlsx,Sheet1,29,BANK ACCOUNT NAME,40,40,0,{},False
+Customer Master Report 1.xlsx,Sheet1,30,BRANCH,40,40,0,{},False
+Customer Master Report 1.xlsx,Sheet1,31,SWIFT CODE / IFS CODE,40,40,0,{},False
+Customer Master Report 1.xlsx,Sheet1,32,PAN NO.,40,8,32,"{""text"": 32}",False
+Customer Master Report 1.xlsx,Sheet1,33,ACCOUNTS RECEIVABLE,40,0,40,"{""text"": 40}",False
+Customer Master Report 1.xlsx,Sheet1,34,PROPERTIES 1,40,40,0,{},False
+Customer Master Report 1.xlsx,Sheet1,35,PROPERTIES 2,40,40,0,{},False
+Customer Master Report 2.xlsx,Sheet1,1,#,5015,3,5012,"{""number"": 5012}",False
+Customer Master Report 2.xlsx,Sheet1,2,CUSTOMER CODE,5015,3,5012,"{""text"": 5012}",False
+Customer Master Report 2.xlsx,Sheet1,3,CUSTOMER NAME  ,5015,3,5012,"{""text"": 5012}",False
+Customer Master Report 2.xlsx,Sheet1,4,CUSTOMER GROUP,5015,3,5012,"{""text"": 5012}",False
+Customer Master Report 2.xlsx,Sheet1,5,TEL 1,5015,5015,0,{},False
+Customer Master Report 2.xlsx,Sheet1,6,TEL 2,5015,5015,0,{},False
+Customer Master Report 2.xlsx,Sheet1,7,MOBILE PHONE,5015,3,5012,"{""text"": 5012}",False
+Customer Master Report 2.xlsx,Sheet1,8,Fax Number,5015,5015,0,{},False
+Customer Master Report 2.xlsx,Sheet1,9,E-MAIL,5015,50,4965,"{""text"": 4965}",False
+Customer Master Report 2.xlsx,Sheet1,10,WEBSITE,5015,5015,0,{},False
+Customer Master Report 2.xlsx,Sheet1,11,SHIPPING TYPE,5015,5015,0,{},False
+Customer Master Report 2.xlsx,Sheet1,12,TYPE OF BUSINESS,5015,3,5012,"{""text"": 5012}",False
+Customer Master Report 2.xlsx,Sheet1,13,ACTIVE,5015,3,5012,"{""text"": 4722, ""boolean"": 290}",False
+Customer Master Report 2.xlsx,Sheet1,14,INACTIVE,5015,3,5012,"{""text"": 4817, ""boolean"": 195}",False
+Customer Master Report 2.xlsx,Sheet1,15,ADDRESS 2,5015,3,5012,"{""text"": 5012}",False
+Customer Master Report 2.xlsx,Sheet1,16,ADDRESS 3,5015,5015,0,{},False
+Customer Master Report 2.xlsx,Sheet1,17,STREET / PO BOX,5015,5015,0,{},False
+Customer Master Report 2.xlsx,Sheet1,18,Bill-to Block,5015,5015,0,{},False
+Customer Master Report 2.xlsx,Sheet1,19,Bill-to City  ,5015,3,5012,"{""text"": 5012}",False
+Customer Master Report 2.xlsx,Sheet1,20,ZIP CODE,5015,3,5012,"{""text"": 3483, ""number"": 1529}",False
+Customer Master Report 2.xlsx,Sheet1,21,STATE,5015,890,4125,"{""text"": 4125}",False
+Customer Master Report 2.xlsx,Sheet1,22,Bill-to Country,5015,3,5012,"{""text"": 5012}",False
+Customer Master Report 2.xlsx,Sheet1,23,STREET NO.,5015,5015,0,{},False
+Customer Master Report 2.xlsx,Sheet1,24,BUILDING/FLOOR/ROOM,5015,3,5012,"{""text"": 5012}",False
+Customer Master Report 2.xlsx,Sheet1,25,GSTIN,5015,729,4286,"{""text"": 4286}",False
+Customer Master Report 2.xlsx,Sheet1,26,GST TYPE,5015,890,4125,"{""text"": 4125}",False
+Customer Master Report 2.xlsx,Sheet1,27,BANK CODE,5015,3,5012,"{""text"": 5012}",False
+Customer Master Report 2.xlsx,Sheet1,28,ACCOUNT NO.,5015,5015,0,{},False
+Customer Master Report 2.xlsx,Sheet1,29,BANK ACCOUNT NAME,5015,5015,0,{},False
+Customer Master Report 2.xlsx,Sheet1,30,BRANCH,5015,5015,0,{},False
+Customer Master Report 2.xlsx,Sheet1,31,SWIFT CODE / IFS CODE,5015,5015,0,{},False
+Customer Master Report 2.xlsx,Sheet1,32,PAN NO.,5015,890,4125,"{""text"": 4125}",False
+Customer Master Report 2.xlsx,Sheet1,33,ACCOUNTS RECEIVABLE,5015,3,5012,"{""text"": 5012}",False
+Customer Master Report 2.xlsx,Sheet1,34,PROPERTIES 1,5015,5015,0,{},False
+Customer Master Report 2.xlsx,Sheet1,35,PROPERTIES 2,5015,5015,0,{},False
+Exchange Rate 1.xlsx,INR to JPY,1,Rate Month  ,7,0,7,"{""text"": 7}",False
+Exchange Rate 1.xlsx,INR to JPY,2,Start Date,7,0,7,"{""datetime"": 2, ""text"": 3, ""number"": 2}",False
+Exchange Rate 1.xlsx,INR to JPY,3,End Date,7,0,7,"{""text"": 4, ""datetime"": 2, ""number"": 1}",False
+Exchange Rate 1.xlsx,INR to JPY,4,From Currency,7,0,7,"{""text"": 7}",False
+Exchange Rate 1.xlsx,INR to JPY,5,To Currency,7,0,7,"{""text"": 7}",False
+Exchange Rate 1.xlsx,INR to JPY,6,Exchange Rate (1 INR = ? JPY),7,0,7,"{""number"": 6, ""text"": 1}",False
+Exchange Rate 1.xlsx,INR to JPY,7,Remarks,7,7,0,{},False
+Exchange Rate.xlsx,INR to JPY,1,Rate Month,22,0,22,"{""text"": 22}",False
+Exchange Rate.xlsx,INR to JPY,2,Start Date,22,0,22,"{""datetime"": 22}",False
+Exchange Rate.xlsx,INR to JPY,3,End Date,22,0,22,"{""datetime"": 22}",False
+Exchange Rate.xlsx,INR to JPY,4,From Currency,22,0,22,"{""text"": 22}",False
+Exchange Rate.xlsx,INR to JPY,5,To Currency,22,0,22,"{""text"": 22}",False
+Exchange Rate.xlsx,INR to JPY,6,Exchange Rate (1 INR = ? JPY),22,0,22,"{""number"": 22}",False
+Exchange Rate.xlsx,INR to JPY,7,Remarks,22,10,12,"{""text"": 12}",False
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),1,CreditDebitNote_Date,6,0,6,"{""text"": 6}",False
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),2,CreditDebitNote_Number,6,0,6,"{""text"": 6}",False
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),3,Type_Credit_or_Debit,6,0,6,"{""text"": 6}",False
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),4,Invoice_Date,6,0,6,"{""text"": 6}",False
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),5,Invoice_Number,6,0,6,"{""text"": 6}",False
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),6,Customer_Billing_Name,6,0,6,"{""text"": 6}",False
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),7,Customer_Shipping/Billing_GSTIN,6,0,6,"{""text"": 6}",False
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),8,State_Place_of_Supply,6,0,6,"{""text"": 6}",False
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),9,State_POS_GSTCode,6,0,6,"{""text"": 6}",False
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),10,Item_Type_G_or_S,6,0,6,"{""text"": 6}",False
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),11,Item_Description,6,0,6,"{""text"": 6}",False
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),12,HSN_SAC_code,6,0,6,"{""text"": 6}",False
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),13,Item_Quantity,6,0,6,"{""text"": 6}",False
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),14,Item_UoMCode,6,0,6,"{""text"": 6}",False
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),15,Item_UoMName,6,0,6,"{""text"": 6}",False
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),16,Item_Unit_Price,6,0,6,"{""text"": 6}",False
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),17,Item_Rate,6,0,6,"{""text"": 6}",False
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),18,Item_Taxable_Value,6,0,6,"{""text"": 6}",False
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),19,IGST_Rate,6,0,6,"{""text"": 6}",False
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),20,IGST_Amount,6,0,6,"{""text"": 6}",False
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),21,CGST_Rate,6,0,6,"{""text"": 6}",False
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),22,CGST_Amount,6,0,6,"{""text"": 6}",False
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),23,SGST_Rate,6,0,6,"{""text"": 6}",False
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),24,SGST_Amount,6,0,6,"{""text"": 6}",False
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),25,CESS_Rate,6,0,6,"{""text"": 6}",False
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),26,CESS_Amount,6,0,6,"{""text"": 6}",False
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),27,Flag_Reverse_Charge,6,0,6,"{""text"": 6}",False
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),28,Original_CreditDebitNote_Date,6,6,0,{},False
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),29,Original_CreditDebitNote_Number,6,6,0,{},False
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),30,Original_Customer_Billing_GSTIN,6,0,6,"{""text"": 6}",False
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),31,Supplier_GSTIN,6,0,6,"{""text"": 6}",False
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),32,Customer_Billing_Address,6,0,6,"{""text"": 6}",False
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),33,Customer_Billing_City,6,0,6,"{""text"": 6}",False
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),34,Customer_Billing_State,6,0,6,"{""text"": 6}",False
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),35,Customer_Billing_State_GSTCode,6,0,6,"{""text"": 6}",False
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),36,Line_Total_Include_GST,6,0,6,"{""text"": 6}",False
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),37,Non_GST_Taxes,6,0,6,"{""text"": 6}",False
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),38,Item_GST_Type,6,0,6,"{""text"": 6}",False
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),39,Location_Name,6,0,6,"{""text"": 6}",False
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),40,Location_State_Code,6,0,6,"{""text"": 6}",False
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),41,Location_State_GSTCode,6,0,6,"{""text"": 6}",False
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),42,Customer_Shipping_Address,6,0,6,"{""text"": 6}",False
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),43,Customer_Shipping_City,6,0,6,"{""text"": 6}",False
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),44,Customer_Shipping_State,6,0,6,"{""text"": 6}",False
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),45,Customer_Shipping_State_GSTCode,6,0,6,"{""text"": 6}",False
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),46,Credit_Debit_Note_Value,6,0,6,"{""text"": 6}",False
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),47,Revision_Month,6,0,6,"{""text"": 6}",False
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),48,Duty_Status,6,0,6,"{""text"": 6}",False
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),49,Port_Code,6,6,0,{},False
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),50,BP_Type,6,0,6,"{""text"": 6}",False
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),51,Doc_Series,6,0,6,"{""text"": 6}",False
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),52,Doc_Series_Prefix,6,0,6,"{""text"": 6}",False
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),53,Doc_Series_Suffix,6,0,6,"{""text"": 6}",False
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),54,Issue_Reason,6,0,6,"{""text"": 6}",False
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),55,Pre_GST,6,0,6,"{""text"": 6}",False
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),56,Shipping_Bill_No,6,6,0,{},False
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),57,Shipping_Bill_Date,6,6,0,{},False
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),58,GSTIN_As_per_Billing_Address,6,0,6,"{""text"": 6}",False
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),59,Customer_Bill_To_GSTIN,6,0,6,"{""text"": 6}",False
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),60,Tax_Only,6,0,6,"{""text"": 6}",False
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),61,Stock_Impact,6,0,6,"{""text"": 6}",False
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),62,Rounding_Doc_Level,6,0,6,"{""text"": 6}",False
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),63,Inter_Intra_State,6,0,6,"{""text"": 6}",False
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),64,Tax_Liable,6,0,6,"{""text"": 6}",False
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),1,CreditDebitNote_Date,279,3,276,"{""text"": 276}",False
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),2,CreditDebitNote_Number,279,3,276,"{""text"": 276}",False
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),3,Type_Credit_or_Debit,279,3,276,"{""text"": 276}",False
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),4,Invoice_Date,279,3,276,"{""text"": 276}",False
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),5,Invoice_Number,279,3,276,"{""text"": 276}",False
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),6,Customer_Billing_Name,279,3,276,"{""text"": 276}",False
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),7,Customer_Shipping/Billing_GSTIN,279,49,230,"{""text"": 230}",False
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),8,State_Place_of_Supply,279,48,231,"{""text"": 231}",False
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),9,State_POS_GSTCode,279,48,231,"{""text"": 231}",False
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),10,Item_Type_G_or_S,279,3,276,"{""text"": 276}",False
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),11,Item_Description,279,3,276,"{""text"": 276}",False
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),12,HSN_SAC_code,279,3,276,"{""text"": 276}",False
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),13,Item_Quantity,279,3,276,"{""text"": 276}",False
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),14,Item_UoMCode,279,3,276,"{""text"": 276}",False
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),15,Item_UoMName,279,3,276,"{""text"": 276}",False
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),16,Item_Unit_Price,279,3,276,"{""text"": 276}",False
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),17,Item_Rate,279,3,276,"{""text"": 276}",False
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),18, Item_Taxable_Value,279,3,276,"{""text"": 276}",False
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),19,IGST_Rate,279,3,276,"{""text"": 276}",False
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),20,IGST_Amount,279,3,276,"{""text"": 276}",False
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),21,CGST_Rate,279,3,276,"{""text"": 276}",False
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),22,CGST_Amount,279,3,276,"{""text"": 276}",False
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),23,SGST_Rate,279,3,276,"{""text"": 276}",False
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),24,SGST_Amount,279,3,276,"{""text"": 276}",False
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),25,CESS_Rate,279,3,276,"{""text"": 276}",False
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),26,CESS_Amount,279,3,276,"{""text"": 276}",False
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),27,Flag_Reverse_Charge,279,3,276,"{""text"": 276}",False
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),28,Original_CreditDebitNote_Date,279,279,0,{},False
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),29,Original_CreditDebitNote_Number,279,279,0,{},False
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),30,Original_Customer_Billing_GSTIN,279,49,230,"{""text"": 230}",False
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),31,Supplier_GSTIN,279,3,276,"{""text"": 276}",False
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),32,Customer_Billing_Address,279,3,276,"{""text"": 276}",False
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),33,Customer_Billing_City,279,3,276,"{""text"": 276}",False
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),34,Customer_Billing_State,279,48,231,"{""text"": 231}",False
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),35,Customer_Billing_State_GSTCode,279,48,231,"{""text"": 231}",False
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),36,Line_Total_Include_GST,279,3,276,"{""text"": 276}",False
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),37,Non_GST_Taxes,279,3,276,"{""text"": 276}",False
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),38,Item_GST_Type,279,3,276,"{""text"": 276}",False
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),39,Location_Name,279,3,276,"{""text"": 276}",False
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),40,Location_State_Code,279,3,276,"{""text"": 276}",False
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),41,Location_State_GSTCode,279,3,276,"{""text"": 276}",False
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),42,Customer_Shipping_Address,279,3,276,"{""text"": 276}",False
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),43,Customer_Shipping_City,279,3,276,"{""text"": 276}",False
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),44,Customer_Shipping_State,279,48,231,"{""text"": 231}",False
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),45,Customer_Shipping_State_GSTCode,279,48,231,"{""text"": 231}",False
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),46,Credit_Debit_Note_Value,279,3,276,"{""text"": 276}",False
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),47,Revision_Month,279,3,276,"{""text"": 276}",False
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),48,Duty_Status,279,3,276,"{""text"": 276}",False
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),49,Port_Code,279,279,0,{},False
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),50,BP_Type,279,3,276,"{""text"": 276}",False
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),51,Doc_Series,279,3,276,"{""text"": 276}",False
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),52,Doc_Series_Prefix,279,3,276,"{""text"": 276}",False
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),53,Doc_Series_Suffix,279,3,276,"{""text"": 276}",False
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),54,Issue_Reason,279,3,276,"{""text"": 276}",False
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),55,Pre_GST,279,3,276,"{""text"": 276}",False
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),56,Shipping_Bill_No,279,279,0,{},False
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),57,Shipping_Bill_Date,279,279,0,{},False
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),58,GSTIN_As_per_Billing_Address,279,3,276,"{""text"": 276}",False
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),59,Customer_Bill_To_GSTIN,279,49,230,"{""text"": 230}",False
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),60,Tax_Only,279,3,276,"{""text"": 276}",False
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),61,Stock_Impact,279,3,276,"{""text"": 276}",False
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),62,Rounding_Doc_Level,279,3,276,"{""text"": 276}",False
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),63,Inter_Intra_State,279,3,276,"{""text"": 276}",False
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),64,Tax_Liable,279,3,276,"{""text"": 276}",False
+GSTR1_Invoice.csv,(CSV table),1,Invoice_Date,337,0,337,"{""text"": 337}",False
+GSTR1_Invoice.csv,(CSV table),2,Invoice_Number,337,0,337,"{""text"": 337}",False
+GSTR1_Invoice.csv,(CSV table),3,Trans_Type,337,0,337,"{""text"": 337}",False
+GSTR1_Invoice.csv,(CSV table),4,Customer_Billing_Name,337,0,337,"{""text"": 337}",False
+GSTR1_Invoice.csv,(CSV table),5,Customer_Shipping/Billing_GSTIN,337,59,278,"{""text"": 278}",False
+GSTR1_Invoice.csv,(CSV table),6,State_Place_of_Supply,337,0,337,"{""text"": 337}",False
+GSTR1_Invoice.csv,(CSV table),7,State_POS_GSTCode,337,0,337,"{""text"": 337}",False
+GSTR1_Invoice.csv,(CSV table),8,Item_Type_G_or_S,337,0,337,"{""text"": 337}",False
+GSTR1_Invoice.csv,(CSV table),9,Item_Description,337,0,337,"{""text"": 337}",False
+GSTR1_Invoice.csv,(CSV table),10,HSN_SAC_code,337,0,337,"{""text"": 337}",False
+GSTR1_Invoice.csv,(CSV table),11,Item_Quantity,337,0,337,"{""text"": 337}",False
+GSTR1_Invoice.csv,(CSV table),12,Item_UoMCode,337,14,323,"{""text"": 323}",False
+GSTR1_Invoice.csv,(CSV table),13,Item_UoMName,337,14,323,"{""text"": 323}",False
+GSTR1_Invoice.csv,(CSV table),14,Item_Unit_Price,337,0,337,"{""text"": 337}",False
+GSTR1_Invoice.csv,(CSV table),15,Item_Rate,337,0,337,"{""text"": 337}",False
+GSTR1_Invoice.csv,(CSV table),16,Item_Taxable_Value,337,0,337,"{""text"": 337}",False
+GSTR1_Invoice.csv,(CSV table),17,IGST_Rate,337,0,337,"{""text"": 337}",False
+GSTR1_Invoice.csv,(CSV table),18,IGST_Amount,337,0,337,"{""text"": 337}",False
+GSTR1_Invoice.csv,(CSV table),19,CGST_Rate,337,0,337,"{""text"": 337}",False
+GSTR1_Invoice.csv,(CSV table),20,CGST_Amount,337,0,337,"{""text"": 337}",False
+GSTR1_Invoice.csv,(CSV table),21,SGST_Rate,337,0,337,"{""text"": 337}",False
+GSTR1_Invoice.csv,(CSV table),22,SGST_Amount,337,0,337,"{""text"": 337}",False
+GSTR1_Invoice.csv,(CSV table),23,CESS_Rate,337,0,337,"{""text"": 337}",False
+GSTR1_Invoice.csv,(CSV table),24,CESS_Amount,337,0,337,"{""text"": 337}",False
+GSTR1_Invoice.csv,(CSV table),25,Non_GST_Taxes,337,0,337,"{""text"": 337}",False
+GSTR1_Invoice.csv,(CSV table),26,Flag_Reverse_Charge,337,0,337,"{""text"": 337}",False
+GSTR1_Invoice.csv,(CSV table),27,Original_Invoice_Date,337,337,0,{},False
+GSTR1_Invoice.csv,(CSV table),28,Original_Invoice_Number,337,337,0,{},False
+GSTR1_Invoice.csv,(CSV table),29,Original_Customer_Billing_GSTIN,337,59,278,"{""text"": 278}",False
+GSTR1_Invoice.csv,(CSV table),30,GSTIN_eCommerce,337,337,0,{},False
+GSTR1_Invoice.csv,(CSV table),31,AdvanceReceipt_Date,337,337,0,{},False
+GSTR1_Invoice.csv,(CSV table),32,AdvanceReceipt_Document_Number,337,337,0,{},False
+GSTR1_Invoice.csv,(CSV table),33,Flag_Export_Invoice,337,0,337,"{""text"": 337}",False
+GSTR1_Invoice.csv,(CSV table),34,Type_Export_SEZ_Deemed,337,278,59,"{""text"": 59}",False
+GSTR1_Invoice.csv,(CSV table),35,Shipping_Bill_Number,337,337,0,{},False
+GSTR1_Invoice.csv,(CSV table),36,Shipping_Bill_Date,337,337,0,{},False
+GSTR1_Invoice.csv,(CSV table),37,Flag_if_GST_TDS_deducted,337,337,0,{},False
+GSTR1_Invoice.csv,(CSV table),38,Supplier_GSTIN,337,0,337,"{""text"": 337}",False
+GSTR1_Invoice.csv,(CSV table),39,Customer_Billing_Address,337,0,337,"{""text"": 337}",False
+GSTR1_Invoice.csv,(CSV table),40,Customer_Billing_City,337,0,337,"{""text"": 337}",False
+GSTR1_Invoice.csv,(CSV table),41,Customer_Billing_State,337,59,278,"{""text"": 278}",False
+GSTR1_Invoice.csv,(CSV table),42,Customer_Billing_State_GSTCode,337,59,278,"{""text"": 278}",False
+GSTR1_Invoice.csv,(CSV table),43,Item_GST_Type,337,0,337,"{""text"": 337}",False
+GSTR1_Invoice.csv,(CSV table),44,Location_Name,337,0,337,"{""text"": 337}",False
+GSTR1_Invoice.csv,(CSV table),45,Location_State_Code,337,0,337,"{""text"": 337}",False
+GSTR1_Invoice.csv,(CSV table),46,Location_State_GSTCode,337,0,337,"{""text"": 337}",False
+GSTR1_Invoice.csv,(CSV table),47,Customer_Shipping_Address,337,0,337,"{""text"": 337}",False
+GSTR1_Invoice.csv,(CSV table),48,Customer_Shipping_City,337,0,337,"{""text"": 337}",False
+GSTR1_Invoice.csv,(CSV table),49,Customer_Shipping_State,337,59,278,"{""text"": 278}",False
+GSTR1_Invoice.csv,(CSV table),50,Customer_Shipping_State_GSTCode,337,59,278,"{""text"": 278}",False
+GSTR1_Invoice.csv,(CSV table),51,Invoice_Value,337,0,337,"{""text"": 337}",False
+GSTR1_Invoice.csv,(CSV table),52,Revision_Month,337,337,0,{},False
+GSTR1_Invoice.csv,(CSV table),53,Duty_Status,337,0,337,"{""text"": 337}",False
+GSTR1_Invoice.csv,(CSV table),54,Port_Code,337,337,0,{},False
+GSTR1_Invoice.csv,(CSV table),55,BP_Type,337,59,278,"{""text"": 278}",False
+GSTR1_Invoice.csv,(CSV table),56,Line_Total_Include_GST,337,0,337,"{""text"": 337}",False
+GSTR1_Invoice.csv,(CSV table),57,Doc_Series,337,0,337,"{""text"": 337}",False
+GSTR1_Invoice.csv,(CSV table),58,Doc_Series_Prefix,337,0,337,"{""text"": 337}",False
+GSTR1_Invoice.csv,(CSV table),59,Doc_Series_Suffix,337,337,0,{},False
+GSTR1_Invoice.csv,(CSV table),60,GSTIN_As_per_Billing_Address,337,0,337,"{""text"": 337}",False
+GSTR1_Invoice.csv,(CSV table),61,Customer_Bill_To_GSTIN,337,59,278,"{""text"": 278}",False
+GSTR1_Invoice.csv,(CSV table),62,Pre_GST,337,337,0,{},False
+GSTR1_Invoice.csv,(CSV table),63,Tax_Only,337,0,337,"{""text"": 337}",False
+GSTR1_Invoice.csv,(CSV table),64,Stock_Impact,337,0,337,"{""text"": 337}",False
+GSTR1_Invoice.csv,(CSV table),65,Rounding_Doc_Level,337,0,337,"{""text"": 337}",False
+GSTR1_Invoice.csv,(CSV table),66,Inter_Intra_State,337,0,337,"{""text"": 337}",False
+GSTR1_Invoice.csv,(CSV table),67,Tax_Liable,337,0,337,"{""text"": 337}",False
+GSTR1_Invoice.csv,(CSV table),68,Issue_Reason,337,0,337,"{""text"": 337}",False
+Inventory Audit Report as on 200327.xlsx,Sheet1,1,#,108129,5,108124,"{""number"": 108124}",False
+Inventory Audit Report as on 200327.xlsx,Sheet1,2, Item No. ,108129,103119,5010,"{""text"": 5010}",False
+Inventory Audit Report as on 200327.xlsx,Sheet1,3,Description,108129,103119,5010,"{""text"": 5010}",False
+Inventory Audit Report as on 200327.xlsx,Sheet1,4,System Date,108129,10025,98104,"{""text"": 94086, ""datetime"": 2023, ""number"": 1995}",False
+Inventory Audit Report as on 200327.xlsx,Sheet1,5,Posting Date,108129,10025,98104,"{""text"": 94192, ""datetime"": 1997, ""number"": 1915}",False
+Inventory Audit Report as on 200327.xlsx,Sheet1,6,Document,108129,5015,103114,"{""text"": 103114}",False
+Inventory Audit Report as on 200327.xlsx,Sheet1,7,Doc. Row,108129,10025,98104,"{""number"": 98104}",False
+Inventory Audit Report as on 200327.xlsx,Sheet1,8,Whse,108129,10025,98104,"{""text"": 98104}",False
+Inventory Audit Report as on 200327.xlsx,Sheet1,9,Quantity,108129,10025,98104,"{""number"": 98104}",False
+Inventory Audit Report as on 200327.xlsx,Sheet1,10,Cost,108129,5,108124,"{""number"": 100396, ""text"": 7728}",False
+Inventory Audit Report as on 200327.xlsx,Sheet1,11,Trans. Value,108129,5,108124,"{""number"": 100330, ""text"": 7794}",False
+Inventory Audit Report as on 200327.xlsx,Sheet1,12,Cumulative Qty,108129,5,108124,"{""number"": 108124}",False
+Inventory Audit Report as on 200327.xlsx,Sheet1,13,Cumulative Value  ,108129,5,108124,"{""number"": 99668, ""text"": 8456}",False
+Inventory Audit Report as on 200926 1.xlsx,Sheet1,1,#,162,0,162,"{""number"": 162}",False
+Inventory Audit Report as on 200926 1.xlsx,Sheet1,2,Item No.,162,110,52,"{""text"": 52}",False
+Inventory Audit Report as on 200926 1.xlsx,Sheet1,3,Description,162,110,52,"{""text"": 52}",False
+Inventory Audit Report as on 200926 1.xlsx,Sheet1,4,System Date,162,104,58,"{""text"": 51, ""datetime"": 5, ""number"": 2}",False
+Inventory Audit Report as on 200926 1.xlsx,Sheet1,5,Posting Date,162,104,58,"{""text"": 50, ""datetime"": 2, ""number"": 6}",False
+Inventory Audit Report as on 200926 1.xlsx,Sheet1,6,Document,162,52,110,"{""text"": 110}",False
+Inventory Audit Report as on 200926 1.xlsx,Sheet1,7,Doc. Row,162,104,58,"{""number"": 58}",False
+Inventory Audit Report as on 200926 1.xlsx,Sheet1,8,Whse,162,104,58,"{""text"": 58}",False
+Inventory Audit Report as on 200926 1.xlsx,Sheet1,9,Quantity,162,104,58,"{""number"": 58}",False
+Inventory Audit Report as on 200926 1.xlsx,Sheet1,10,Cost,162,0,162,"{""text"": 29, ""number"": 133}",False
+Inventory Audit Report as on 200926 1.xlsx,Sheet1,11,Trans. Value,162,0,162,"{""number"": 127, ""text"": 35}",False
+Inventory Audit Report as on 200926 1.xlsx,Sheet1,12,Cumulative Qty,162,0,162,"{""number"": 162}",False
+Inventory Audit Report as on 200926 1.xlsx,Sheet1,13,Cumulative Value,162,0,162,"{""number"": 125, ""text"": 37}",False
+Inventory Audit Report as on 200926.xlsx,Sheet1,1,#,162,0,162,"{""number"": 162}",False
+Inventory Audit Report as on 200926.xlsx,Sheet1,2,Item No.,162,110,52,"{""text"": 52}",False
+Inventory Audit Report as on 200926.xlsx,Sheet1,3,Description,162,110,52,"{""text"": 52}",False
+Inventory Audit Report as on 200926.xlsx,Sheet1,4,System Date,162,104,58,"{""text"": 58}",False
+Inventory Audit Report as on 200926.xlsx,Sheet1,5,Posting Date,162,104,58,"{""text"": 58}",False
+Inventory Audit Report as on 200926.xlsx,Sheet1,6,Document,162,52,110,"{""text"": 110}",False
+Inventory Audit Report as on 200926.xlsx,Sheet1,7,Doc. Row,162,104,58,"{""number"": 58}",False
+Inventory Audit Report as on 200926.xlsx,Sheet1,8,Whse,162,104,58,"{""text"": 58}",False
+Inventory Audit Report as on 200926.xlsx,Sheet1,9,Quantity,162,104,58,"{""number"": 58}",False
+Inventory Audit Report as on 200926.xlsx,Sheet1,10,Cost,162,0,162,"{""number"": 162}",False
+Inventory Audit Report as on 200926.xlsx,Sheet1,11,Trans. Value,162,0,162,"{""number"": 162}",False
+Inventory Audit Report as on 200926.xlsx,Sheet1,12,Cumulative Qty,162,0,162,"{""number"": 162}",False
+Inventory Audit Report as on 200926.xlsx,Sheet1,13,Cumulative Value,162,0,162,"{""number"": 162}",False
+Item Master Lists 1.xlsx,Item Lists,1,#,150,0,150,"{""number"": 150}",False
+Item Master Lists 1.xlsx,Item Lists,2,Item No.,150,0,150,"{""text"": 150}",False
+Item Master Lists 1.xlsx,Item Lists,3,Item Description,150,0,150,"{""text"": 150}",False
+Item Master Lists 1.xlsx,Item Lists,4,In Stock,150,0,150,"{""number"": 150}",False
+Item Master Lists 1.xlsx,Item Lists,5,Order to Supllier,150,0,150,"{""number"": 150}",False
+Item Master Lists 1.xlsx,Item Lists,6,Order by Customer,150,0,150,"{""number"": 150}",False
+Item Master Lists 1.xlsx,Item Lists,7,Value,150,0,150,"{""number"": 150}",False
+Item Master Lists 1.xlsx,Item Lists,8,foreign Code,150,47,103,"{""text"": 103}",False
+Item Master Lists 1.xlsx,Item Lists,9,Active,150,0,150,"{""text"": 150}",False
+Item Master Lists 1.xlsx,Item Lists,10,Amount,150,0,150,"{""number"": 150}",False
+Item Master Lists 1.xlsx,Item Lists,11,HSN Code,150,0,150,"{""text"": 150}",False
+Item Master Lists 1.xlsx,Item Lists,12,Segment,150,30,120,"{""text"": 120}",False
+Item Master Lists 1.xlsx,Item Lists,13,Product Segment,150,30,120,"{""text"": 120}",False
+Item Master Lists 1.xlsx,Item Lists,14,Lead Time,150,84,66,"{""text"": 66}",False
+Item Master Lists 1.xlsx,Item Lists,15,Item Group,150,0,150,"{""text"": 150}",False
+Item Master Lists 1.xlsx,Item Lists,16,GL A/c,150,0,150,"{""text"": 150}",False
+Item Master Lists 1.xlsx,Item Lists,17,Minimum Inventory,150,0,150,"{""number"": 150}",False
+Item Master Lists 1.xlsx,Item Lists,18,Pricing unit,150,0,150,"{""text"": 150}",False
+Item Master Lists 1.xlsx,Item Lists,19,Date of Udate,150,0,150,"{""text"": 150}",False
+Item Master Lists 2.xlsx,Item Lists,1,#,5015,3,5012,"{""number"": 5012}",False
+Item Master Lists 2.xlsx,Item Lists,2,Item No.,5015,3,5012,"{""text"": 5012}",False
+Item Master Lists 2.xlsx,Item Lists,3,Item Description  ,5015,3,5012,"{""text"": 5012}",False
+Item Master Lists 2.xlsx,Item Lists,4,In Stock,5015,3,5012,"{""number"": 5012}",False
+Item Master Lists 2.xlsx,Item Lists,5,Order to Supllier,5015,3,5012,"{""number"": 5012}",False
+Item Master Lists 2.xlsx,Item Lists,6,Order by Customer,5015,3,5012,"{""number"": 5012}",False
+Item Master Lists 2.xlsx,Item Lists,7,Value,5015,3,5012,"{""number"": 5012}",False
+Item Master Lists 2.xlsx,Item Lists,8,foreign Code,5015,2072,2943,"{""text"": 2943}",False
+Item Master Lists 2.xlsx,Item Lists,9,Active,5015,3,5012,"{""text"": 4713, ""boolean"": 299}",False
+Item Master Lists 2.xlsx,Item Lists,10, Amount ,5015,3,5012,"{""number"": 4489, ""text"": 523}",False
+Item Master Lists 2.xlsx,Item Lists,11,HSN Code,5015,3,5012,"{""text"": 5012}",False
+Item Master Lists 2.xlsx,Item Lists,12,Segment,5015,886,4129,"{""text"": 4129}",False
+Item Master Lists 2.xlsx,Item Lists,13,Product Segment,5015,886,4129,"{""text"": 4129}",False
+Item Master Lists 2.xlsx,Item Lists,14,Lead Time,5015,848,4167,"{""text"": 3290, ""number"": 877}",False
+Item Master Lists 2.xlsx,Item Lists,15,Item Group,5015,3,5012,"{""text"": 5012}",False
+Item Master Lists 2.xlsx,Item Lists,16,GL A/c,5015,3,5012,"{""text"": 5012}",False
+Item Master Lists 2.xlsx,Item Lists,17,Minimum Inventory,5015,3,5012,"{""number"": 5012}",False
+Item Master Lists 2.xlsx,Item Lists,18,Pricing unit,5015,3,5012,"{""text"": 5012}",False
+Item Master Lists 2.xlsx,Item Lists,19,Date of Udate,5015,3,5012,"{""text"": 4608, ""number"": 205, ""datetime"": 199}",False
+Sales Invoice Details 1.xlsx,Sheet1,1,#,100188,5,100183,"{""number"": 100183}",False
+Sales Invoice Details 1.xlsx,Sheet1,2,TransType,100188,5,100183,"{""text"": 100183}",False
+Sales Invoice Details 1.xlsx,Sheet1,3,SO Date,100188,5,100183,"{""text"": 95365, ""number"": 2397, ""datetime"": 2421}",False
+Sales Invoice Details 1.xlsx,Sheet1,4,SO Num,100188,5,100183,"{""number"": 100183}",False
+Sales Invoice Details 1.xlsx,Sheet1,5,Customer Ref. No.,100188,5,100183,"{""text"": 100183}",False
+Sales Invoice Details 1.xlsx,Sheet1,6,Customer Type,100188,41426,58762,"{""text"": 58762}",False
+Sales Invoice Details 1.xlsx,Sheet1,7,Invoice Num,100188,5,100183,"{""text"": 100183}",False
+Sales Invoice Details 1.xlsx,Sheet1,8, Invoice Date ,100188,5,100183,"{""text"": 94193, ""datetime"": 2994, ""number"": 2996}",False
+Sales Invoice Details 1.xlsx,Sheet1,9,Customer Billing Name  ,100188,5,100183,"{""text"": 100183}",False
+Sales Invoice Details 1.xlsx,Sheet1,10,Customer Billing City,100188,5,100183,"{""text"": 100183}",False
+Sales Invoice Details 1.xlsx,Sheet1,11,State Place of Supply,100188,16968,83220,"{""text"": 83220}",False
+Sales Invoice Details 1.xlsx,Sheet1,12,Country,100188,5,100183,"{""text"": 100183}",False
+Sales Invoice Details 1.xlsx,Sheet1,13,Item Type G or S,100188,5,100183,"{""text"": 100183}",False
+Sales Invoice Details 1.xlsx,Sheet1,14,Part Code SAP Code,100188,946,99242,"{""text"": 99242}",False
+Sales Invoice Details 1.xlsx,Sheet1,15,Item Foreign Code,100188,30696,69492,"{""text"": 69492}",False
+Sales Invoice Details 1.xlsx,Sheet1,16,Item Description,100188,5,100183,"{""text"": 100183}",False
+Sales Invoice Details 1.xlsx,Sheet1,17,HSN Code,100188,790,99398,"{""text"": 99398}",False
+Sales Invoice Details 1.xlsx,Sheet1,18,SAC Code,100188,99247,941,"{""text"": 941}",False
+Sales Invoice Details 1.xlsx,Sheet1,19,Quantity,100188,5,100183,"{""number"": 100183}",False
+Sales Invoice Details 1.xlsx,Sheet1,20,UOM,100188,946,99242,"{""text"": 99242}",False
+Sales Invoice Details 1.xlsx,Sheet1,21,Unit Price,100188,5,100183,"{""number"": 94092, ""text"": 6091}",False
+Sales Invoice Details 1.xlsx,Sheet1,22, Taxable Value ,100188,5,100183,"{""number"": 92209, ""text"": 7974}",False
+Sales Invoice Details 1.xlsx,Sheet1,23,FreightAmt,100188,5,100183,"{""number"": 95121, ""text"": 5062}",False
+Sales Invoice Details 1.xlsx,Sheet1,24,FreightDetail,100188,96366,3822,"{""text"": 3822}",False
+Sales Invoice Details 1.xlsx,Sheet1,25,FreightSACCode,100188,96366,3822,"{""text"": 3822}",False
+Sales Invoice Details 1.xlsx,Sheet1,26,IGST Rate,100188,5,100183,"{""number"": 100183}",False
+Sales Invoice Details 1.xlsx,Sheet1,27,IGST Amt,100188,5,100183,"{""number"": 100183}",False
+Sales Invoice Details 1.xlsx,Sheet1,28,CGST Rate,100188,5,100183,"{""number"": 100183}",False
+Sales Invoice Details 1.xlsx,Sheet1,29,CGST Amt,100188,5,100183,"{""number"": 100183}",False
+Sales Invoice Details 1.xlsx,Sheet1,30,SGST Rate,100188,5,100183,"{""number"": 100183}",False
+Sales Invoice Details 1.xlsx,Sheet1,31,SGST Amt,100188,5,100183,"{""number"": 100183}",False
+Sales Invoice Details 1.xlsx,Sheet1,32,Total Value,100188,5,100183,"{""text"": 7980, ""number"": 92203}",False
+Sales Invoice Details 1.xlsx,Sheet1,33,Type Export/Domestic,100188,5,100183,"{""text"": 100183}",False
+Sales Invoice Details 1.xlsx,Sheet1,34,Customer Billing Address,100188,5,100183,"{""text"": 100183}",False
+Sales Invoice Details 1.xlsx,Sheet1,35,Customer Shiping Address,100188,5,100183,"{""text"": 100183}",False
+Sales Invoice Details 1.xlsx,Sheet1,36,Doc Round Off,100188,5,100183,"{""number"": 100183}",False
+Sales Invoice Details 1.xlsx,Sheet1,37,Invoice Total Include GST,100188,5,100183,"{""text"": 4854, ""number"": 95329}",False
+Sales Invoice Details 1.xlsx,Sheet1,38,Invoice Discount %,100188,5,100183,"{""number"": 100183}",False
+Sales Invoice Details 1.xlsx,Sheet1,39,Customer Shipping GSTIN,100188,17319,82869,"{""text"": 82869}",False
+Sales Invoice Details 1.xlsx,Sheet1,40,Customer Billing GSTIN,100188,17319,82869,"{""text"": 82869}",False
+Sales Invoice Details 1.xlsx,Sheet1,41,Sales Employee,100188,340,99848,"{""text"": 99848}",False
+Sales Invoice Details 1.xlsx,Sheet1,42,Territory,100188,5,100183,"{""text"": 100183}",False
+Sales Invoice Details 1.xlsx,Sheet1,43,Remarks,100188,5,100183,"{""text"": 100183}",False
+Sales Invoice Details.xlsx,Sheet1,1,#,337,0,337,"{""number"": 337}",False
+Sales Invoice Details.xlsx,Sheet1,2,TransType,337,0,337,"{""text"": 337}",False
+Sales Invoice Details.xlsx,Sheet1,3,SO Date,337,0,337,"{""text"": 337}",False
+Sales Invoice Details.xlsx,Sheet1,4,SO Num,337,0,337,"{""number"": 337}",False
+Sales Invoice Details.xlsx,Sheet1,5,Customer Ref. No.,337,0,337,"{""text"": 337}",False
+Sales Invoice Details.xlsx,Sheet1,6,Customer Type,337,263,74,"{""text"": 74}",False
+Sales Invoice Details.xlsx,Sheet1,7,Invoice Num,337,0,337,"{""text"": 337}",False
+Sales Invoice Details.xlsx,Sheet1,8,Invoice Date,337,0,337,"{""text"": 337}",False
+Sales Invoice Details.xlsx,Sheet1,9,Customer Billing Name,337,0,337,"{""text"": 337}",False
+Sales Invoice Details.xlsx,Sheet1,10,Customer Billing City,337,0,337,"{""text"": 337}",False
+Sales Invoice Details.xlsx,Sheet1,11,State Place of Supply,337,59,278,"{""text"": 278}",False
+Sales Invoice Details.xlsx,Sheet1,12,Country,337,0,337,"{""text"": 337}",False
+Sales Invoice Details.xlsx,Sheet1,13,Item Type G or S,337,0,337,"{""text"": 337}",False
+Sales Invoice Details.xlsx,Sheet1,14,Part Code SAP Code,337,14,323,"{""text"": 323}",False
+Sales Invoice Details.xlsx,Sheet1,15,Item Foreign Code,337,59,278,"{""text"": 278}",False
+Sales Invoice Details.xlsx,Sheet1,16,Item Description,337,0,337,"{""text"": 337}",False
+Sales Invoice Details.xlsx,Sheet1,17,HSN Code,337,14,323,"{""text"": 323}",False
+Sales Invoice Details.xlsx,Sheet1,18,SAC Code,337,323,14,"{""text"": 14}",False
+Sales Invoice Details.xlsx,Sheet1,19,Quantity,337,0,337,"{""number"": 337}",False
+Sales Invoice Details.xlsx,Sheet1,20,UOM,337,14,323,"{""text"": 323}",False
+Sales Invoice Details.xlsx,Sheet1,21,Unit Price,337,0,337,"{""number"": 337}",False
+Sales Invoice Details.xlsx,Sheet1,22,Taxable Value,337,0,337,"{""number"": 337}",False
+Sales Invoice Details.xlsx,Sheet1,23,FreightAmt,337,0,337,"{""number"": 337}",False
+Sales Invoice Details.xlsx,Sheet1,24,FreightDetail,337,287,50,"{""text"": 50}",False
+Sales Invoice Details.xlsx,Sheet1,25,FreightSACCode,337,287,50,"{""text"": 50}",False
+Sales Invoice Details.xlsx,Sheet1,26,IGST Rate,337,0,337,"{""number"": 337}",False
+Sales Invoice Details.xlsx,Sheet1,27,IGST Amt,337,0,337,"{""number"": 337}",False
+Sales Invoice Details.xlsx,Sheet1,28,CGST Rate,337,0,337,"{""number"": 337}",False
+Sales Invoice Details.xlsx,Sheet1,29,CGST Amt,337,0,337,"{""number"": 337}",False
+Sales Invoice Details.xlsx,Sheet1,30,SGST Rate,337,0,337,"{""number"": 337}",False
+Sales Invoice Details.xlsx,Sheet1,31,SGST Amt,337,0,337,"{""number"": 337}",False
+Sales Invoice Details.xlsx,Sheet1,32,Total Value,337,0,337,"{""number"": 337}",False
+Sales Invoice Details.xlsx,Sheet1,33,Type Export/Domestic,337,0,337,"{""text"": 337}",False
+Sales Invoice Details.xlsx,Sheet1,34,Customer Billing Address,337,0,337,"{""text"": 337}",False
+Sales Invoice Details.xlsx,Sheet1,35,Customer Shiping Address,337,0,337,"{""text"": 337}",False
+Sales Invoice Details.xlsx,Sheet1,36,Doc Round Off,337,0,337,"{""number"": 337}",False
+Sales Invoice Details.xlsx,Sheet1,37,Invoice Total Include GST,337,0,337,"{""number"": 337}",False
+Sales Invoice Details.xlsx,Sheet1,38,Invoice Discount %,337,0,337,"{""number"": 337}",False
+Sales Invoice Details.xlsx,Sheet1,39,Customer Shipping GSTIN,337,59,278,"{""text"": 278}",False
+Sales Invoice Details.xlsx,Sheet1,40,Customer Billing GSTIN,337,59,278,"{""text"": 278}",False
+Sales Invoice Details.xlsx,Sheet1,41,Sales Employee,337,0,337,"{""text"": 337}",False
+Sales Invoice Details.xlsx,Sheet1,42,Territory,337,0,337,"{""text"": 337}",False
+Sales Invoice Details.xlsx,Sheet1,43,Remarks,337,0,337,"{""text"": 337}",False
+Sales Order Report 1.xlsx,Sheet1,1,#,1098,0,1098,"{""number"": 1098}",False
+Sales Order Report 1.xlsx,Sheet1,2,Customer Code,1098,0,1098,"{""text"": 1098}",False
+Sales Order Report 1.xlsx,Sheet1,3,Customer Name,1098,0,1098,"{""text"": 1098}",False
+Sales Order Report 1.xlsx,Sheet1,4,Contact Person,1098,0,1098,"{""text"": 1098}",False
+Sales Order Report 1.xlsx,Sheet1,5,Contact Number,1098,0,1098,"{""text"": 1098}",False
+Sales Order Report 1.xlsx,Sheet1,6,Customer Ref No,1098,0,1098,"{""text"": 1098}",False
+Sales Order Report 1.xlsx,Sheet1,7,SO No,1098,0,1098,"{""number"": 1098}",False
+Sales Order Report 1.xlsx,Sheet1,8,Status,1098,0,1098,"{""text"": 1098}",False
+Sales Order Report 1.xlsx,Sheet1,9,Posting Date,1098,0,1098,"{""text"": 1098}",False
+Sales Order Report 1.xlsx,Sheet1,10,Delivery Date,1098,0,1098,"{""text"": 1098}",False
+Sales Order Report 1.xlsx,Sheet1,11,Item No,1098,36,1062,"{""text"": 1062}",False
+Sales Order Report 1.xlsx,Sheet1,12,BP Catalog No,1098,1098,0,{},False
+Sales Order Report 1.xlsx,Sheet1,13,Item Description,1098,36,1062,"{""text"": 1062}",False
+Sales Order Report 1.xlsx,Sheet1,14,Item Details,1098,1098,0,{},False
+Sales Order Report 1.xlsx,Sheet1,15,Quantity,1098,0,1098,"{""number"": 1098}",False
+Sales Order Report 1.xlsx,Sheet1,16,Unit Price,1098,0,1098,"{""number"": 1098}",False
+Sales Order Report 1.xlsx,Sheet1,17,Discount %,1098,0,1098,"{""number"": 1098}",False
+Sales Order Report 1.xlsx,Sheet1,18,Total (LC),1098,0,1098,"{""number"": 1098}",False
+Sales Order Report 1.xlsx,Sheet1,19,Tax Total,1098,0,1098,"{""number"": 1098}",False
+Sales Order Report 1.xlsx,Sheet1,20,HSN,1098,36,1062,"{""text"": 1062}",False
+Sales Order Report 1.xlsx,Sheet1,21,Bill To,1098,0,1098,"{""text"": 1098}",False
+Sales Order Report 1.xlsx,Sheet1,22,Ship To,1098,0,1098,"{""text"": 1098}",False
+Sales Order Report 1.xlsx,Sheet1,23,Payment Terms,1098,0,1098,"{""text"": 1098}",False
+Sales Order Report 1.xlsx,Sheet1,24,TAX Information,1098,0,1098,"{""text"": 1098}",False
+Sales Order Report 1.xlsx,Sheet1,25,Sales Employee,1098,0,1098,"{""text"": 1098}",False
+Sales Order Report 1.xlsx,Sheet1,26,Remarks,1098,0,1098,"{""text"": 1098}",False
+Sales Order Report 2.xlsx,Sheet1,1,#,100286,6,100280,"{""number"": 100280}",False
+Sales Order Report 2.xlsx,Sheet1,2, Customer Code ,100286,6,100280,"{""text"": 100280}",False
+Sales Order Report 2.xlsx,Sheet1,3,Customer Name,100286,6,100280,"{""text"": 100280}",False
+Sales Order Report 2.xlsx,Sheet1,4,Contact Person,100286,173,100113,"{""text"": 100113}",False
+Sales Order Report 2.xlsx,Sheet1,5,Contact Number,100286,330,99956,"{""text"": 99956}",False
+Sales Order Report 2.xlsx,Sheet1,6,Customer Ref No,100286,6,100280,"{""text"": 100280}",False
+Sales Order Report 2.xlsx,Sheet1,7,SO No,100286,6,100280,"{""number"": 100280}",False
+Sales Order Report 2.xlsx,Sheet1,8,Status,100286,6,100280,"{""text"": 100280}",False
+Sales Order Report 2.xlsx,Sheet1,9,Posting Date  ,100286,6,100280,"{""text"": 94248, ""number"": 2975, ""datetime"": 3057}",False
+Sales Order Report 2.xlsx,Sheet1,10,Delivery Date,100286,15,100271,"{""text"": 95436, ""datetime"": 2380, ""number"": 2455}",False
+Sales Order Report 2.xlsx,Sheet1,11,Item No,100286,1027,99259,"{""text"": 99259}",False
+Sales Order Report 2.xlsx,Sheet1,12,BP Catalog No,100286,100286,0,{},False
+Sales Order Report 2.xlsx,Sheet1,13,Item Description,100286,1027,99259,"{""text"": 99259}",False
+Sales Order Report 2.xlsx,Sheet1,14,Item Details,100286,100286,0,{},False
+Sales Order Report 2.xlsx,Sheet1,15,Quantity,100286,6,100280,"{""number"": 97294, ""text"": 2986}",False
+Sales Order Report 2.xlsx,Sheet1,16,Unit Price,100286,6,100280,"{""number"": 92287, ""text"": 7993}",False
+Sales Order Report 2.xlsx,Sheet1,17,Discount %,100286,6,100280,"{""number"": 100280}",False
+Sales Order Report 2.xlsx,Sheet1,18, Total (LC) ,100286,6,100280,"{""number"": 92270, ""text"": 8010}",False
+Sales Order Report 2.xlsx,Sheet1,19,Tax Total,100286,6,100280,"{""text"": 8199, ""number"": 92081}",False
+Sales Order Report 2.xlsx,Sheet1,20,HSN,100286,1027,99259,"{""text"": 99259}",False
+Sales Order Report 2.xlsx,Sheet1,21,Bill To,100286,6,100280,"{""text"": 100280}",False
+Sales Order Report 2.xlsx,Sheet1,22,Ship To,100286,6,100280,"{""text"": 100280}",False
+Sales Order Report 2.xlsx,Sheet1,23,Payment Terms,100286,6,100280,"{""text"": 100280}",False
+Sales Order Report 2.xlsx,Sheet1,24,TAX Information,100286,6,100280,"{""text"": 100280}",False
+Sales Order Report 2.xlsx,Sheet1,25,Sales Employee,100286,344,99942,"{""text"": 99942}",False
+Sales Order Report 2.xlsx,Sheet1,26,Remarks,100286,6,100280,"{""text"": 100280}",False
+Sales_Order_Data_202609.xlsx,Customer list,1,S.No,43,0,43,"{""number"": 43}",False
+Sales_Order_Data_202609.xlsx,Customer list,2,Customer Code,43,40,3,"{""number"": 3}",False
+Sales_Order_Data_202609.xlsx,Customer list,3,Customer Name,43,0,43,"{""text"": 43}",False
+Sales_Order_Data_202609.xlsx,Customer list,4,BP_CODE,43,6,37,"{""text"": 37}",False
+Sales_Order_Data_202609.xlsx,Country master,1,Code,11,0,11,"{""text"": 11}",False
+Sales_Order_Data_202609.xlsx,Country master,2,Country Name,11,0,11,"{""text"": 11}",False
+Sales_Order_Data_202609.xlsx,Country master,3,Japanese country name,11,0,11,"{""text"": 11}",False
+Sales_Order_Data_202609.xlsx,Country master,4,通称,11,0,11,"{""text"": 11}",False
+Sales_Order_Data_202609.xlsx,Country master,5,国セグメント,11,0,11,"{""text"": 11}",False
+Sales_Order_Data_202609.xlsx,PTC_NOPI,1,Sales agency,60,0,60,"{""text"": 60}",False
+Sales_Order_Data_202609.xlsx,PTC_NOPI,2,Product code,60,0,60,"{""text"": 60}",False
+Sales_Order_Data_202609.xlsx,PTC_NOPI,3,Product name,60,0,60,"{""text"": 60}",False
+Sales_Order_Data_202609.xlsx,PTC_NOPI,4,Category,60,0,60,"{""text"": 60}",False
+Sales_Order_Data_202609.xlsx,PTC_NOPI,5,Product segment CD,60,0,60,"{""text"": 60}",False
+Sales_Order_Data_202609.xlsx,PTC_NOPI,6,Product segment,60,0,60,"{""text"": 60}",False
+Sales_Order_Data_202609.xlsx,PTC_NOPI,7,Middle segment CD,60,0,60,"{""text"": 60}",False
+Sales_Order_Data_202609.xlsx,PTC_NOPI,8,Middle segment,60,0,60,"{""text"": 60}",False
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,1,<blank column 1>,33,0,33,"{""text"": 33}",False
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,2,Product code,33,0,33,"{""text"": 33}",False
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,3,Product name,33,0,33,"{""text"": 33}",False
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,4,Category,33,0,33,"{""text"": 33}",False
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,5,Product segment CD,33,0,33,"{""text"": 33}",False
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,6,Product segment,33,0,33,"{""text"": 33}",False
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,7,Middle segment CD,33,0,33,"{""text"": 33}",False
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,8,Middle segment ,33,0,33,"{""text"": 33}",False
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,9,セグメント,33,0,33,"{""text"": 33}",False

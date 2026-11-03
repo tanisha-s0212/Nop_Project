@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools==81.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nop-business-prediction"
+version = "0.1.0"
+description = "Schema-aware business prediction and exploratory ML workflows for NOP."
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dynamic = ["dependencies"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements-ml.txt"]}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["business_prediction*", "features*", "prediction*", "training*"]
+namespaces = false

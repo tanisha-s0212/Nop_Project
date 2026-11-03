@@ -1,0 +1,1502 @@
+{
+  "status": "passed",
+  "notebook": "notebooks\\03_dataset_relationship_analysis.ipynb",
+  "executed_code_cells": 11,
+  "cell_errors": 0,
+  "execution_counts": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "notebook_sha256": "b843f6e6ee89173f0ed473205c524e348eeb576218a4f4d131e0c5a23528655b",
+  "implementation_sha256": "983de6d5156b7fbbdf096c4aafc9c377aa07a2a84ed9ba607aa5b640a1f59ce9",
+  "independent_validation_sha256": "2961def15e498ae68093ff59bb5ead64f6be9915697f390fec7f23fd8a8ffc45",
+  "source_and_prior_evidence_hashes_unchanged": true,
+  "checks": [
+    {
+      "test": "Engine checks passed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Scope complete",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Every notebook code cell executed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Notebook has no cell errors",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Fresh sequential notebook execution",
+      "passed": true,
+      "detail": "[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]"
+    },
+    {
+      "test": "Notebook ran full assessment",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Protected hash dataset/Customer Master Report 1.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Protected hash dataset/Customer Master Report 2.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Protected hash dataset/Exchange Rate 1.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Protected hash dataset/Exchange Rate.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Protected hash dataset/GSTR1_Credit_Debit_Note 1.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Protected hash dataset/GSTR1_Credit_Debit_Note 2.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Protected hash dataset/GSTR1_Invoice.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Protected hash dataset/Inventory Audit Report as on 200327.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Protected hash dataset/Inventory Audit Report as on 200926 1.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Protected hash dataset/Inventory Audit Report as on 200926.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Protected hash dataset/Item Master Lists 1.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Protected hash dataset/Item Master Lists 2.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Protected hash dataset/Sales Invoice Details 1.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Protected hash dataset/Sales Invoice Details.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Protected hash dataset/Sales Order Report 1.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Protected hash dataset/Sales Order Report 2.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Protected hash dataset/Sales_Order_Data_202609.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Protected hash reports/data_inventory/column_metadata.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Protected hash reports/data_inventory/date_coverage.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Protected hash reports/data_inventory/date_coverage.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Protected hash reports/data_inventory/excel_file_inventory.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Protected hash reports/data_inventory/inventory_validation_report.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Protected hash reports/data_inventory/sample_data.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Protected hash reports/data_inventory/worksheet_inventory.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Protected hash reports/data_inventory/worksheet_structure.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Protected hash reports/data_inventory/validation/audit_summary.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Protected hash reports/data_inventory/validation/column_validation.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Protected hash reports/data_inventory/validation/date_token_issues.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Protected hash reports/data_inventory/validation/date_validation.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Protected hash reports/data_inventory/validation/export_verification.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Protected hash reports/data_inventory/validation/formula_cells.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Protected hash reports/data_inventory/validation/formula_validation.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Protected hash reports/data_inventory/validation/header_validation.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Protected hash reports/data_inventory/validation/identifier_matching_coverage.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Protected hash reports/data_inventory/validation/identifier_validation.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Protected hash reports/data_inventory/validation/inventory_validation_evidence.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Protected hash reports/data_inventory/validation/report_consistency.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Protected hash reports/data_inventory/validation/source_completeness.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Protected hash reports/data_inventory/validation/table_counts.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Protected hash reports/data_inventory/validation/validation_failures.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Protected hash reports/data_quality/assessment_validation.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Protected hash reports/data_quality/categorical_consistency.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Protected hash reports/data_quality/categorical_values.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Protected hash reports/data_quality/categorical_variants.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Protected hash reports/data_quality/chronology_checks.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Protected hash reports/data_quality/cross_source_duplicate_coverage.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Protected hash reports/data_quality/dataset_specific.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Protected hash reports/data_quality/data_quality_evidence.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Protected hash reports/data_quality/data_quality_report.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Protected hash reports/data_quality/date_cell_exceptions.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Protected hash reports/data_quality/date_coverage_gaps.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Protected hash reports/data_quality/date_quality.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Protected hash reports/data_quality/date_value_evidence.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Protected hash reports/data_quality/duplicate_analysis.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Protected hash reports/data_quality/duplicate_groups.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Protected hash reports/data_quality/entity_duplicate_analysis.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Protected hash reports/data_quality/entity_duplicate_groups.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Protected hash reports/data_quality/export_validation.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Protected hash reports/data_quality/financial_consistency.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Protected hash reports/data_quality/flag_encoding_representations.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Protected hash reports/data_quality/identifier_matching_coverage.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Protected hash reports/data_quality/identifier_quality.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Protected hash reports/data_quality/inventory_integrity.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Protected hash reports/data_quality/issue_register.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Protected hash reports/data_quality/issue_severity.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Protected hash reports/data_quality/missingness_by_table.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Protected hash reports/data_quality/missing_values.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Protected hash reports/data_quality/notebook_execution_validation.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Protected hash reports/data_quality/numerical_context.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Protected hash reports/data_quality/numerical_quality.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Protected hash reports/data_quality/numerical_token_issues.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Protected hash reports/data_quality/source_integrity.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Protected hash reports/data_quality/source_tables.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Protected hash reports/data_quality/spelling_candidates.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Controlled joins match candidate manifest",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Stored row calculation REL-012",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source rows retained REL-012",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Stored row calculation REL-013",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source rows retained REL-013",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Stored row calculation REL-015",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source rows retained REL-015",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Stored row calculation REL-016",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source rows retained REL-016",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Stored row calculation REL-021",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source rows retained REL-021",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Stored row calculation REL-022",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source rows retained REL-022",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Stored row calculation REL-028",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source rows retained REL-028",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Stored row calculation REL-029",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source rows retained REL-029",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Stored row calculation REL-034",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source rows retained REL-034",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Stored row calculation REL-035",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source rows retained REL-035",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Stored row calculation REL-050",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source rows retained REL-050",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Stored row calculation REL-051",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source rows retained REL-051",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Stored row calculation REL-060",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source rows retained REL-060",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Stored row calculation REL-061",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source rows retained REL-061",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Stored row calculation REL-063",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source rows retained REL-063",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Stored row calculation REL-064",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source rows retained REL-064",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Stored row calculation REL-075",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source rows retained REL-075",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Stored row calculation REL-076",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source rows retained REL-076",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Stored row calculation REL-077",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source rows retained REL-077",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Stored row calculation REL-078",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source rows retained REL-078",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Stored row calculation REL-085",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source rows retained REL-085",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Stored row calculation REL-086",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source rows retained REL-086",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Stored row calculation REL-102",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source rows retained REL-102",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Stored row calculation REL-103",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source rows retained REL-103",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Stored row calculation REL-104",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source rows retained REL-104",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Stored row calculation REL-105",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source rows retained REL-105",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Stored row calculation REL-106",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source rows retained REL-106",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Stored row calculation REL-107",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source rows retained REL-107",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Stored row calculation REL-108",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source rows retained REL-108",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Stored row calculation REL-109",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source rows retained REL-109",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Stored row calculation REL-110",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source rows retained REL-110",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Stored row calculation REL-111",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source rows retained REL-111",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Stored row calculation REL-112",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source rows retained REL-112",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Stored row calculation REL-113",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source rows retained REL-113",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Stored row calculation REL-114",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source rows retained REL-114",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Stored row calculation REL-115",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source rows retained REL-115",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Stored row calculation REL-116",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source rows retained REL-116",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Stored row calculation REL-117",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source rows retained REL-117",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Stored row calculation REL-118",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source rows retained REL-118",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Stored row calculation REL-119",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source rows retained REL-119",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Stored row calculation REL-120",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source rows retained REL-120",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Stored row calculation REL-121",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source rows retained REL-121",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Stored row calculation REL-122",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source rows retained REL-122",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Stored row calculation REL-123",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source rows retained REL-123",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Stored row calculation REL-124",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source rows retained REL-124",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Stored row calculation REL-125",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source rows retained REL-125",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Stored row calculation REL-126",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source rows retained REL-126",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Stored row calculation REL-127",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source rows retained REL-127",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Stored row calculation REL-128",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source rows retained REL-128",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Stored row calculation REL-129",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source rows retained REL-129",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Stored row calculation REL-130",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source rows retained REL-130",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Stored row calculation REL-131",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source rows retained REL-131",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Stored row calculation REL-132",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source rows retained REL-132",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Stored row calculation REL-133",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source rows retained REL-133",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Stored row calculation REL-134",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source rows retained REL-134",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Stored row calculation REL-135",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source rows retained REL-135",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Stored row calculation REL-136",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source rows retained REL-136",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Stored row calculation REL-137",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source rows retained REL-137",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Stored row calculation REL-138",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source rows retained REL-138",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Stored row calculation REL-139",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source rows retained REL-139",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Stored row calculation REL-140",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source rows retained REL-140",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Stored row calculation REL-141",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source rows retained REL-141",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Stored row calculation REL-142",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source rows retained REL-142",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Stored row calculation REL-143",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source rows retained REL-143",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Stored row calculation REL-144",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source rows retained REL-144",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Stored row calculation REL-145",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source rows retained REL-145",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Stored row calculation REL-146",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source rows retained REL-146",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Stored row calculation REL-147",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source rows retained REL-147",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Stored row calculation REL-148",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source rows retained REL-148",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Unique expected experiment Sales Order Report 1.xlsx / ['Customer Code']",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent small customer lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Unique expected experiment GSTR1_Invoice.csv / ['@scoped_invoice']",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent GST scoped document coverage",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent GST detail fanout",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Raw invoice number loses series scope",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Unique expected experiment Sales Invoice Details.xlsx / ['SO Num']",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Independent invoice-order fanout",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Workbook tabs identifier_relationship_matrix.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Workbook dimensions identifier_profiles",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No exported formula/error cells identifier_profiles",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Workbook dimensions identifier_formats",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No exported formula/error cells identifier_formats",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Workbook dimensions composite_keys",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No exported formula/error cells composite_keys",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Workbook dimensions key_derivation_rules",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No exported formula/error cells key_derivation_rules",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Workbook dimensions key_scope_checks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No exported formula/error cells key_scope_checks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Workbook dimensions relationship_candidates",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No exported formula/error cells relationship_candidates",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Workbook dimensions identifier_match_detail",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No exported formula/error cells identifier_match_detail",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Workbook dimensions controlled_join_validation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No exported formula/error cells controlled_join_validation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Workbook dimensions join_financial_effects",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No exported formula/error cells join_financial_effects",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Workbook dimensions source_overlap",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No exported formula/error cells source_overlap",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Workbook dimensions attribute_conflicts",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No exported formula/error cells attribute_conflicts",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Workbook dimensions source_authenticity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No exported formula/error cells source_authenticity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Workbook dimensions authority_assessment",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No exported formula/error cells authority_assessment",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Workbook dimensions quality_carry_forward",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No exported formula/error cells quality_carry_forward",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Workbook dimensions prior_issue_register",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No exported formula/error cells prior_issue_register",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Workbook dimensions prior_matching_coverage",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No exported formula/error cells prior_matching_coverage",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Workbook dimensions prior_duplicate_analysis",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No exported formula/error cells prior_duplicate_analysis",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Workbook dimensions prior_financial_exceptions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No exported formula/error cells prior_financial_exceptions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Workbook dimensions protected_file_integrity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No exported formula/error cells protected_file_integrity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Workbook tabs dataset_granularity_report.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Workbook dimensions dataset_granularity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No exported formula/error cells dataset_granularity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Workbook dimensions document_context",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No exported formula/error cells document_context",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Workbook dimensions inventory_row_shapes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No exported formula/error cells inventory_row_shapes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Workbook dimensions service_indicators",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No exported formula/error cells service_indicators",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "SVG valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "PNG valid data_model_diagram/logical_business_model.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "PNG valid controlled_join_expansion.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Documentation link notebooks/01_data_inventory.ipynb",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Documentation link reports/data_inventory/inventory_validation_report.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Documentation link notebooks/02_data_quality_analysis.ipynb",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Documentation link reports/data_quality/data_quality_report.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Documentation link notebooks/03_dataset_relationship_analysis.ipynb",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Documentation link reports/analysis/dataset_relationship_report.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Documentation link reports/analysis/identifier_relationship_matrix.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Documentation link reports/analysis/dataset_granularity_report.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Documentation link reports/analysis/data_model_diagram/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Documentation link data_model_diagram/logical_business_model.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Documentation link data_model_diagram/logical_business_model.svg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Documentation link data_model_diagram/logical_business_model.mmd",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Documentation link identifier_relationship_matrix.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Documentation link dataset_granularity_report.xlsx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Documentation link logical_business_model.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Documentation link logical_business_model.svg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Documentation link logical_business_model.mmd",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "client_analysis_date": "2026-11-02",
+  "interpreter": "D:\\Aroha_Files\\NOP_Project\\.venv\\Scripts\\python.exe"
+}

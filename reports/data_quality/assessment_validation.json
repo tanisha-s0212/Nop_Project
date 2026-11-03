@@ -1,0 +1,223 @@
+{
+  "configuration": {
+    "as_of": "2026-10-30",
+    "excessive_missing_percent": 50.0,
+    "outlier_iqr_multiplier": 3.0,
+    "money_absolute_tolerance": 1.0,
+    "money_relative_tolerance": 0.005,
+    "normalization": "Diagnostic copies only; raw values preserved. Case/spacing equivalence requires confirmation."
+  },
+  "files": 17,
+  "excel_workbooks": 14,
+  "excel_worksheets": 17,
+  "csv_tables": 3,
+  "tables": 20,
+  "column_profiles": 521,
+  "identifier_candidates": 135,
+  "date_fields": 37,
+  "inventory_artifacts_preserved": 23,
+  "all_source_hashes_unchanged": true,
+  "date_counts": {
+    "ambiguous": 203455,
+    "impossible": 28,
+    "unconfirmed_serial": 14949
+  },
+  "issue_counts_by_severity": {
+    "Moderate": 218,
+    "Low": 104,
+    "High": 102
+  },
+  "export_checks": [
+    {
+      "report": "source_tables",
+      "rows": 20,
+      "csv_content_verified": true,
+      "excel_content_verified": true,
+      "excel_scope": "complete aggregate table"
+    },
+    {
+      "report": "duplicate_analysis",
+      "rows": 47,
+      "csv_content_verified": true,
+      "excel_content_verified": true,
+      "excel_scope": "complete aggregate table"
+    },
+    {
+      "report": "missing_values",
+      "rows": 521,
+      "csv_content_verified": true,
+      "excel_content_verified": true,
+      "excel_scope": "complete aggregate table"
+    },
+    {
+      "report": "identifier_quality",
+      "rows": 135,
+      "csv_content_verified": true,
+      "excel_content_verified": true,
+      "excel_scope": "complete aggregate table"
+    },
+    {
+      "report": "entity_duplicate_analysis",
+      "rows": 17,
+      "csv_content_verified": true,
+      "excel_content_verified": true,
+      "excel_scope": "complete aggregate table"
+    },
+    {
+      "report": "categorical_consistency",
+      "rows": 394,
+      "csv_content_verified": true,
+      "excel_content_verified": true,
+      "excel_scope": "complete aggregate table"
+    },
+    {
+      "report": "categorical_values",
+      "rows": 902,
+      "csv_content_verified": true,
+      "excel_content_verified": null,
+      "excel_scope": "full detail in CSV only"
+    },
+    {
+      "report": "flag_encoding_representations",
+      "rows": 27,
+      "csv_content_verified": true,
+      "excel_content_verified": true,
+      "excel_scope": "complete aggregate table"
+    },
+    {
+      "report": "duplicate_groups",
+      "rows": 696,
+      "csv_content_verified": true,
+      "excel_content_verified": null,
+      "excel_scope": "full detail in CSV only"
+    },
+    {
+      "report": "entity_duplicate_groups",
+      "rows": 54,
+      "csv_content_verified": true,
+      "excel_content_verified": null,
+      "excel_scope": "full detail in CSV only"
+    },
+    {
+      "report": "categorical_variants",
+      "rows": 15378,
+      "csv_content_verified": true,
+      "excel_content_verified": null,
+      "excel_scope": "full detail in CSV only"
+    },
+    {
+      "report": "spelling_candidates",
+      "rows": 7,
+      "csv_content_verified": true,
+      "excel_content_verified": null,
+      "excel_scope": "full detail in CSV only"
+    },
+    {
+      "report": "dataset_specific",
+      "rows": 9,
+      "csv_content_verified": true,
+      "excel_content_verified": true,
+      "excel_scope": "complete aggregate table"
+    },
+    {
+      "report": "date_value_evidence",
+      "rows": 10359,
+      "csv_content_verified": true,
+      "excel_content_verified": null,
+      "excel_scope": "full detail in CSV only"
+    },
+    {
+      "report": "date_quality",
+      "rows": 37,
+      "csv_content_verified": true,
+      "excel_content_verified": true,
+      "excel_scope": "complete aggregate table"
+    },
+    {
+      "report": "date_cell_exceptions",
+      "rows": 15270,
+      "csv_content_verified": true,
+      "excel_content_verified": null,
+      "excel_scope": "full detail in CSV only"
+    },
+    {
+      "report": "date_coverage_gaps",
+      "rows": 201,
+      "csv_content_verified": true,
+      "excel_content_verified": true,
+      "excel_scope": "complete aggregate table"
+    },
+    {
+      "report": "numerical_quality",
+      "rows": 114,
+      "csv_content_verified": true,
+      "excel_content_verified": true,
+      "excel_scope": "complete aggregate table"
+    },
+    {
+      "report": "chronology_checks",
+      "rows": 6,
+      "csv_content_verified": true,
+      "excel_content_verified": true,
+      "excel_scope": "complete aggregate table"
+    },
+    {
+      "report": "numerical_context",
+      "rows": 608,
+      "csv_content_verified": true,
+      "excel_content_verified": true,
+      "excel_scope": "complete aggregate table"
+    },
+    {
+      "report": "financial_consistency",
+      "rows": 35,
+      "csv_content_verified": true,
+      "excel_content_verified": true,
+      "excel_scope": "complete aggregate table"
+    },
+    {
+      "report": "numerical_token_issues",
+      "rows": 12,
+      "csv_content_verified": true,
+      "excel_content_verified": null,
+      "excel_scope": "full detail in CSV only"
+    },
+    {
+      "report": "identifier_matching_coverage",
+      "rows": 101,
+      "csv_content_verified": true,
+      "excel_content_verified": true,
+      "excel_scope": "complete aggregate table"
+    },
+    {
+      "report": "cross_source_duplicate_coverage",
+      "rows": 6,
+      "csv_content_verified": true,
+      "excel_content_verified": true,
+      "excel_scope": "complete aggregate table"
+    },
+    {
+      "report": "source_integrity",
+      "rows": 17,
+      "csv_content_verified": true,
+      "excel_content_verified": true,
+      "excel_scope": "complete aggregate table"
+    },
+    {
+      "report": "inventory_integrity",
+      "rows": 23,
+      "csv_content_verified": true,
+      "excel_content_verified": true,
+      "excel_scope": "complete aggregate table"
+    },
+    {
+      "report": "issue_register",
+      "rows": 424,
+      "csv_content_verified": true,
+      "excel_content_verified": true,
+      "excel_scope": "complete aggregate table"
+    }
+  ],
+  "read_failures": 0,
+  "business_primary_keys_confirmed": 0
+}

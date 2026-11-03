@@ -1,0 +1,18 @@
+﻿file,worksheet,physical_xml_rows,max_xml_row,max_xml_column,declared_dimension,formula_cells,missing_or_empty_formula_cache,formula_error_cache,formula_zero_cache,merged_ranges_json,calculation_properties_json,cache_freshness_proven
+Customer Master Report 1.xlsx,Sheet1,41,41,35,A1:AI41,0,0,0,0,[],"{""calcId"": ""124519"", ""fullCalcOnLoad"": ""1""}",not applicable
+Customer Master Report 2.xlsx,Sheet1,5016,5016,35,,0,0,0,0,[],"{""calcId"": ""124519"", ""fullCalcOnLoad"": ""1""}",not applicable
+Exchange Rate 1.xlsx,INR to JPY,11,11,7,,0,0,0,0,[],"{""calcId"": ""124519"", ""fullCalcOnLoad"": ""1""}",not applicable
+Exchange Rate.xlsx,INR to JPY,25,26,7,A1:G26,0,0,0,0,[],"{""calcId"": ""124519"", ""fullCalcOnLoad"": ""1""}",not applicable
+Inventory Audit Report as on 200327.xlsx,Sheet1,108130,108130,13,,0,0,0,0,[],"{""calcId"": ""124519"", ""fullCalcOnLoad"": ""1""}",not applicable
+Inventory Audit Report as on 200926 1.xlsx,Sheet1,163,163,13,,0,0,0,0,[],"{""calcId"": ""124519"", ""fullCalcOnLoad"": ""1""}",not applicable
+Inventory Audit Report as on 200926.xlsx,Sheet1,163,163,13,A1:M163,0,0,0,0,[],"{""calcId"": ""124519"", ""fullCalcOnLoad"": ""1""}",not applicable
+Item Master Lists 1.xlsx,Item Lists,151,151,19,A1:S151,0,0,0,0,[],"{""calcId"": ""124519"", ""fullCalcOnLoad"": ""1""}",not applicable
+Item Master Lists 2.xlsx,Item Lists,5016,5016,19,,0,0,0,0,[],"{""calcId"": ""124519"", ""fullCalcOnLoad"": ""1""}",not applicable
+Sales Invoice Details 1.xlsx,Sheet1,100189,100189,43,,0,0,0,0,[],"{""calcId"": ""124519"", ""fullCalcOnLoad"": ""1""}",not applicable
+Sales Invoice Details.xlsx,Sheet1,338,338,43,A1:AQ338,0,0,0,0,[],"{""calcId"": ""124519"", ""fullCalcOnLoad"": ""1""}",not applicable
+Sales Order Report 1.xlsx,Sheet1,1099,1099,26,A1:Z1099,0,0,0,0,[],"{""calcId"": ""124519"", ""fullCalcOnLoad"": ""1""}",not applicable
+Sales Order Report 2.xlsx,Sheet1,100287,100287,26,,0,0,0,0,[],"{""calcId"": ""124519"", ""fullCalcOnLoad"": ""1""}",not applicable
+Sales_Order_Data_202609.xlsx,Customer list,45,46,4,A1:D46,0,0,0,0,[],"{""calcId"": ""124519"", ""fullCalcOnLoad"": ""1""}",not applicable
+Sales_Order_Data_202609.xlsx,Country master,13,14,5,A1:E14,0,0,0,0,[],"{""calcId"": ""124519"", ""fullCalcOnLoad"": ""1""}",not applicable
+Sales_Order_Data_202609.xlsx,PTC_NOPI,63,65,8,A2:H65,0,0,0,0,[],"{""calcId"": ""124519"", ""fullCalcOnLoad"": ""1""}",not applicable
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,36,38,9,A2:I38,0,0,0,0,[],"{""calcId"": ""124519"", ""fullCalcOnLoad"": ""1""}",not applicable

@@ -1,0 +1,34 @@
+{
+  "source_file_count": 17,
+  "tables": 20,
+  "fields": 521,
+  "all_original_source_hashes_match": true,
+  "all_preexisting_protected_files_unchanged": true,
+  "protected_files": 81,
+  "newly_trained_models": 2,
+  "existing_actual_models_preserved": 2,
+  "business_approved_models": 0,
+  "new_target_observations": 165,
+  "new_target_independent_references": 111,
+  "fresh_process_models_verified": 4,
+  "model_artifact_checks": [
+    {
+      "artifact_path": "models\\business_regression\\nop_domestic_invoice_line_value\\v1\\ridge_regression.joblib",
+      "sha256_matches_metadata": true
+    },
+    {
+      "artifact_path": "models\\business_regression\\nop_domestic_invoice_line_value\\v1\\random_forest.joblib",
+      "sha256_matches_metadata": true
+    },
+    {
+      "artifact_path": "models\\business_forecasting\\nop_confirmed_date_invoice_subset\\linear_regression.joblib",
+      "sha256_matches_metadata": true
+    },
+    {
+      "artifact_path": "models\\business_forecasting\\nop_confirmed_date_invoice_subset\\random_forest.joblib",
+      "sha256_matches_metadata": true
+    }
+  ],
+  "catalogue": "models/model_catalogue.json",
+  "created_at_utc": "2026-11-03T15:36:58.911253+00:00"
+}

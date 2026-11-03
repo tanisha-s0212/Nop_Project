@@ -1,0 +1,81 @@
+{
+  "source_hash_checks": [
+    {
+      "file": "Customer Master Report 1.xlsx",
+      "matches": true
+    },
+    {
+      "file": "Customer Master Report 2.xlsx",
+      "matches": true
+    },
+    {
+      "file": "Exchange Rate 1.xlsx",
+      "matches": true
+    },
+    {
+      "file": "Exchange Rate.xlsx",
+      "matches": true
+    },
+    {
+      "file": "GSTR1_Credit_Debit_Note 1.csv",
+      "matches": true
+    },
+    {
+      "file": "GSTR1_Credit_Debit_Note 2.csv",
+      "matches": true
+    },
+    {
+      "file": "GSTR1_Invoice.csv",
+      "matches": true
+    },
+    {
+      "file": "Inventory Audit Report as on 200327.xlsx",
+      "matches": true
+    },
+    {
+      "file": "Inventory Audit Report as on 200926 1.xlsx",
+      "matches": true
+    },
+    {
+      "file": "Inventory Audit Report as on 200926.xlsx",
+      "matches": true
+    },
+    {
+      "file": "Item Master Lists 1.xlsx",
+      "matches": true
+    },
+    {
+      "file": "Item Master Lists 2.xlsx",
+      "matches": true
+    },
+    {
+      "file": "Sales Invoice Details 1.xlsx",
+      "matches": true
+    },
+    {
+      "file": "Sales Invoice Details.xlsx",
+      "matches": true
+    },
+    {
+      "file": "Sales Order Report 1.xlsx",
+      "matches": true
+    },
+    {
+      "file": "Sales Order Report 2.xlsx",
+      "matches": true
+    },
+    {
+      "file": "Sales_Order_Data_202609.xlsx",
+      "matches": true
+    }
+  ],
+  "source_file_count": 17,
+  "csv_rows_verified_against_source": 165,
+  "all_csv_rows_match_source": true,
+  "item_label_conflict_counts": {
+    "Item Description": 0,
+    "HSN Code": 0,
+    "UOM": 0
+  },
+  "meaning": "target_value is the stored Taxable Value cell; document_id is the raw Invoice Num string within one workbook; business scope, currency and completeness remain unapproved"
+}

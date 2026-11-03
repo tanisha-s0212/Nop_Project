@@ -1,0 +1,24 @@
+flowchart LR
+    Customer["Customer candidates: master records"]
+    Product["Product candidates: item masters"]
+    Classification["Product classification: PTC / PCT"]
+    Order["Order documents: conceptual grouping"]
+    OrderLine["Order detail: no stable line ID"]
+    Invoice["Invoice documents: scoped reference"]
+    InvoiceLine["Invoice detail: no stable line ID"]
+    GST["GST invoice detail: reconciliation source"]
+    Adjustment["Credit / debit reporting detail"]
+    Inventory["Inventory grouped audit: reconstruction pending"]
+    FX["Synthetic FX periods: separate"]
+    Country["Country reference: aliases pending"]
+    Customer -. "customer code: tested lookup candidates" .-> OrderLine
+    Product -. "SAP item: tested lookup candidates" .-> OrderLine
+    Product -. "SAP item: tested lookup candidates" .-> InvoiceLine
+    Classification -. "foreign product namespace: partial evidence" .-> Product
+    Order -. "logical grouping only" .-> OrderLine
+    Invoice -. "logical grouping only" .-> InvoiceLine
+    OrderLine -. "SO / item: detail fanout risk" .-> InvoiceLine
+    InvoiceLine -. "scoped invoice / description: tested" .-> GST
+    Adjustment -. "original invoice: document reference" .-> Invoice
+    Inventory -. "raw item labels only; group context missing" .-> Product
+    Country -. "aliases require approval" .-> Customer

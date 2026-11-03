@@ -1,0 +1,7 @@
+test_requested_grouping_and_dates_cannot_be_ignored (tests.test_dynamic_business_query.DynamicBusinessQueryTests.test_requested_grouping_and_dates_cannot_be_ignored) ... ok
+test_equal_observed_group_values_share_the_same_rank (tests.test_dynamic_business_query.StructuredQueryTests.test_equal_observed_group_values_share_the_same_rank) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.145s
+
+OK

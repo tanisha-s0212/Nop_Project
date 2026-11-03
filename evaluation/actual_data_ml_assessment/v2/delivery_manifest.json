@@ -1,0 +1,93 @@
+{
+  "created_source_files": [
+    "src/prediction/tabular_estimators.py",
+    "src/training/improve_tabular_models.py",
+    "src/training/evaluate_monthly_baselines.py",
+    "src/training/finalize_ml_assessment.py",
+    "tests/test_ml_assessment_v2.py"
+  ],
+  "created_documentation": [
+    "reports/nop_ml_model_catalogue.md"
+  ],
+  "updated_files": [
+    "README.md",
+    "models/model_catalogue.json",
+    "models/model_catalogue.csv",
+    "reports/nop_actual_data_ml_training_report.md",
+    "docs/development/nop_ml_model_integration_guide.md"
+  ],
+  "new_artifact_directories": [
+    "models/business_regression/nop_domestic_invoice_line_value/v2",
+    "models/business_forecasting/nop_confirmed_date_invoice_subset/baselines/v1"
+  ],
+  "assessment_evidence_directory": "evaluation/actual_data_ml_assessment/v2",
+  "actual_artifacts": [
+    {
+      "artifact_path": "models/business_forecasting/nop_confirmed_date_invoice_subset/baselines/v1/last_observed_value.joblib",
+      "metadata_path": "models/business_forecasting/nop_confirmed_date_invoice_subset/baselines/v1/last_observed_value.metadata.json",
+      "artifact_sha256": "5b280e163c546f759a952ee53e891c81da6a6f63bde38747035a16e10871ded7",
+      "model_identifier": "nop-confirmed-date-invoice-count-exploratory-last_observed_value_baseline-v1.0.0",
+      "model_version": "1.0.0"
+    },
+    {
+      "artifact_path": "models/business_forecasting/nop_confirmed_date_invoice_subset/linear_regression.joblib",
+      "metadata_path": "models/business_forecasting/nop_confirmed_date_invoice_subset/linear_regression.metadata.json",
+      "artifact_sha256": "e13668b5a9b4dceaf7ff751e9bbe47e9d476687d032c166e315be0ff37068cf4",
+      "model_identifier": "nop-confirmed-date-invoice-count-exploratory-linear_regression",
+      "model_version": "0.1.0-exploratory"
+    },
+    {
+      "artifact_path": "models/business_forecasting/nop_confirmed_date_invoice_subset/random_forest.joblib",
+      "metadata_path": "models/business_forecasting/nop_confirmed_date_invoice_subset/random_forest.metadata.json",
+      "artifact_sha256": "e556ed1111c352248f11fa270aee8503ac37633c3fc09adbe13faa2f01dc76e4",
+      "model_identifier": "nop-confirmed-date-invoice-count-exploratory-random_forest",
+      "model_version": "0.1.0-exploratory"
+    },
+    {
+      "artifact_path": "models/business_regression/nop_domestic_invoice_line_value/v1/random_forest.joblib",
+      "metadata_path": "models/business_regression/nop_domestic_invoice_line_value/v1/random_forest.metadata.json",
+      "artifact_sha256": "095c704de58264e542a0f0dc7b531970e163ff0a0252decae2efa46bdbe072c1",
+      "model_identifier": "nop-domestic-confirmed-date-line-value-random_forest-v1.0.0",
+      "model_version": "1.0.0"
+    },
+    {
+      "artifact_path": "models/business_regression/nop_domestic_invoice_line_value/v1/ridge_regression.joblib",
+      "metadata_path": "models/business_regression/nop_domestic_invoice_line_value/v1/ridge_regression.metadata.json",
+      "artifact_sha256": "b74b69513767218252433e33683fabd718f5964e028ac447f587fc5c851de5ff",
+      "model_identifier": "nop-domestic-confirmed-date-line-value-ridge_regression-v1.0.0",
+      "model_version": "1.0.0"
+    },
+    {
+      "artifact_path": "models/business_regression/nop_domestic_invoice_line_value/v2/item_quantity_median_baseline.joblib",
+      "metadata_path": "models/business_regression/nop_domestic_invoice_line_value/v2/item_quantity_median_baseline.metadata.json",
+      "artifact_sha256": "e85a0b8e9e8176e10ff5e802d1f8112072dfb71497d9165841dcd551b739fd0c",
+      "model_identifier": "nop-domestic-confirmed-date-line-value-item_quantity_median_baseline-v2.0.0",
+      "model_version": "2.0.0"
+    },
+    {
+      "artifact_path": "models/business_regression/nop_domestic_invoice_line_value/v2/quantity_normalized_ridge.joblib",
+      "metadata_path": "models/business_regression/nop_domestic_invoice_line_value/v2/quantity_normalized_ridge.metadata.json",
+      "artifact_sha256": "e439637978c97dcdb3a549b085217b44d77a43f98f6593f3167b757b31ddb358",
+      "model_identifier": "nop-domestic-confirmed-date-line-value-quantity_normalized_ridge-v2.0.0",
+      "model_version": "2.0.0"
+    }
+  ],
+  "verification": {
+    "actual_predictors": 7,
+    "new_ml_candidates": 1,
+    "new_baselines": 2,
+    "retained_actual_models": 4,
+    "fresh_process_predictors_verified": 7,
+    "protected_file_count": 123,
+    "protected_file_changes": [],
+    "original_source_files": 17,
+    "business_approved_models": 0,
+    "ml_discovery_distinct_checks_passed": 52,
+    "legacy_integration_tests_failed": 4,
+    "legacy_integration_test_errors": 0,
+    "full_repository_suite_executed": false,
+    "documentation_links_valid": true,
+    "new_independent_test_available": false,
+    "business_champion": null
+  }
+}

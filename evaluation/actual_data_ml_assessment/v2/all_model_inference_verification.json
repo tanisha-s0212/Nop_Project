@@ -1,0 +1,774 @@
+[
+  {
+    "model_id": "nop-confirmed-date-invoice-count-exploratory-last_observed_value_baseline-v1.0.0",
+    "fresh_process_loaded": true,
+    "adapter": "monthly_regression_v1",
+    "prediction_count": 2,
+    "response": {
+      "objective_id": "nop-confirmed-date-invoice-count-exploratory",
+      "objective_name": "Confirmed-date invoice references per observed month (exploratory subset)",
+      "target_definition": "Count distinct Invoice Num references in the source workbook whose every detail row has one consistent, unambiguously day-first Invoice Date, grouped by observed calendar month.",
+      "model_identifier": "nop-confirmed-date-invoice-count-exploratory-last_observed_value_baseline-v1.0.0",
+      "model_version": "1.0.0",
+      "data_mode": "actual_nop_exploratory_subset",
+      "business_approved": false,
+      "predictions": [
+        {
+          "period": "2026-10",
+          "prediction": 8.0
+        },
+        {
+          "period": "2026-11",
+          "prediction": 8.0
+        }
+      ],
+      "data_provenance": {
+        "dataset_id": "nop-confirmed-date-invoice-count-exploratory",
+        "dataset_version": "1.0.0",
+        "dataset_sha256": "807bb312577bb595cdb22d28dd227c0fc23e52898ab42dbe73b99f7d4f444b95",
+        "source_file": "dataset\\Sales Invoice Details.xlsx",
+        "source_file_sha256": "e36c7b8338e80353e6ccf5b452fd9c9be0834fc3a3890841c60fd3fe644fad56",
+        "source_sheet": "Sheet1",
+        "observations": 10,
+        "observation_period": {
+          "start": "2025-12",
+          "end": "2026-09"
+        },
+        "distinct_references_included": 152,
+        "distinct_references_without_fully_resolved_date_excluded": 82
+      },
+      "known_limitations": [
+        "This is a confirmed-date subset, not total invoice volume.",
+        "The exact invoice reference is assumed unique within this workbook only.",
+        "Unresolved dates are excluded and may create month-dependent undercounts.",
+        "No zero periods were inserted; absent months mean unknown, not zero.",
+        "No semantic approval, execution authorization, or publication receipt was created.",
+        "The two-period historical comparator is not a reliable forecast-performance estimate."
+      ]
+    }
+  },
+  {
+    "model_id": "nop-confirmed-date-invoice-count-exploratory-linear_regression",
+    "fresh_process_loaded": true,
+    "adapter": "monthly_regression_v1",
+    "prediction_count": 2,
+    "response": {
+      "objective_id": "nop-confirmed-date-invoice-count-exploratory",
+      "objective_name": "Confirmed-date invoice references per observed month (exploratory subset)",
+      "target_definition": "Count distinct Invoice Num references in the source workbook whose every detail row has one consistent, unambiguously day-first Invoice Date, grouped by observed calendar month.",
+      "model_identifier": "nop-confirmed-date-invoice-count-exploratory-linear_regression",
+      "model_version": "0.1.0-exploratory",
+      "data_mode": "actual_nop_exploratory_subset",
+      "business_approved": false,
+      "predictions": [
+        {
+          "period": "2026-10",
+          "prediction": 12.142857142857142
+        },
+        {
+          "period": "2026-11",
+          "prediction": 11.214285714285714
+        }
+      ],
+      "data_provenance": {
+        "dataset_id": "nop-confirmed-date-invoice-count-exploratory",
+        "dataset_version": "1.0.0",
+        "dataset_sha256": "807bb312577bb595cdb22d28dd227c0fc23e52898ab42dbe73b99f7d4f444b95",
+        "source_file": "dataset\\Sales Invoice Details.xlsx",
+        "source_file_sha256": "e36c7b8338e80353e6ccf5b452fd9c9be0834fc3a3890841c60fd3fe644fad56",
+        "source_sheet": "Sheet1",
+        "observations": 10,
+        "observation_period": {
+          "start": "2025-12",
+          "end": "2026-09"
+        },
+        "distinct_references_included": 152,
+        "distinct_references_without_fully_resolved_date_excluded": 82
+      },
+      "known_limitations": [
+        "This is a confirmed-date subset, not total invoice volume.",
+        "The exact invoice reference is assumed unique within this workbook only.",
+        "Unresolved dates are excluded and may create month-dependent undercounts.",
+        "No zero periods were inserted; absent months mean unknown, not zero.",
+        "No semantic approval, execution authorization, or publication receipt was created."
+      ]
+    }
+  },
+  {
+    "model_id": "nop-confirmed-date-invoice-count-exploratory-random_forest",
+    "fresh_process_loaded": true,
+    "adapter": "monthly_regression_v1",
+    "prediction_count": 2,
+    "response": {
+      "objective_id": "nop-confirmed-date-invoice-count-exploratory",
+      "objective_name": "Confirmed-date invoice references per observed month (exploratory subset)",
+      "target_definition": "Count distinct Invoice Num references in the source workbook whose every detail row has one consistent, unambiguously day-first Invoice Date, grouped by observed calendar month.",
+      "model_identifier": "nop-confirmed-date-invoice-count-exploratory-random_forest",
+      "model_version": "0.1.0-exploratory",
+      "data_mode": "actual_nop_exploratory_subset",
+      "business_approved": false,
+      "predictions": [
+        {
+          "period": "2026-10",
+          "prediction": 14.911875
+        },
+        {
+          "period": "2026-11",
+          "prediction": 14.911875
+        }
+      ],
+      "data_provenance": {
+        "dataset_id": "nop-confirmed-date-invoice-count-exploratory",
+        "dataset_version": "1.0.0",
+        "dataset_sha256": "807bb312577bb595cdb22d28dd227c0fc23e52898ab42dbe73b99f7d4f444b95",
+        "source_file": "dataset\\Sales Invoice Details.xlsx",
+        "source_file_sha256": "e36c7b8338e80353e6ccf5b452fd9c9be0834fc3a3890841c60fd3fe644fad56",
+        "source_sheet": "Sheet1",
+        "observations": 10,
+        "observation_period": {
+          "start": "2025-12",
+          "end": "2026-09"
+        },
+        "distinct_references_included": 152,
+        "distinct_references_without_fully_resolved_date_excluded": 82
+      },
+      "known_limitations": [
+        "This is a confirmed-date subset, not total invoice volume.",
+        "The exact invoice reference is assumed unique within this workbook only.",
+        "Unresolved dates are excluded and may create month-dependent undercounts.",
+        "No zero periods were inserted; absent months mean unknown, not zero.",
+        "No semantic approval, execution authorization, or publication receipt was created."
+      ]
+    }
+  },
+  {
+    "model_id": "nop-domestic-confirmed-date-line-value-random_forest-v1.0.0",
+    "fresh_process_loaded": true,
+    "adapter": "tabular_regression_v1",
+    "prediction_count": 30,
+    "response": {
+      "model_identifier": "nop-domestic-confirmed-date-line-value-random_forest-v1.0.0",
+      "model_version": "1.0.0",
+      "objective_id": "nop-domestic-confirmed-date-line-value",
+      "target_definition": "The native numeric Taxable Value cell on one source detail row marked Domestic and G, from a reference whose detail rows share one consistent unambiguous day-first date. The task is offline estimation of this stored line-level field in unspecified source amount units.",
+      "dataset_id": "nop-domestic-confirmed-date-line-value",
+      "dataset_version": "1.0.0",
+      "dataset_sha256": "c177d1d76b8695ea41c88995b0782ad2a37545321df419ed30e758341fb8dd8e",
+      "data_mode": "actual_nop_exploratory_raw_field",
+      "business_approved": false,
+      "predictions": [
+        {
+          "row_index": 0,
+          "prediction": 337475.7719507936
+        },
+        {
+          "row_index": 1,
+          "prediction": 966593.1038957059
+        },
+        {
+          "row_index": 2,
+          "prediction": 136488.60589936853
+        },
+        {
+          "row_index": 3,
+          "prediction": 245780.218611604
+        },
+        {
+          "row_index": 4,
+          "prediction": 245780.218611604
+        },
+        {
+          "row_index": 5,
+          "prediction": 337475.7719507936
+        },
+        {
+          "row_index": 6,
+          "prediction": 144200.8439471665
+        },
+        {
+          "row_index": 7,
+          "prediction": 67048.16083461871
+        },
+        {
+          "row_index": 8,
+          "prediction": 144200.8439471665
+        },
+        {
+          "row_index": 9,
+          "prediction": 245780.218611604
+        },
+        {
+          "row_index": 10,
+          "prediction": 966593.1038957059
+        },
+        {
+          "row_index": 11,
+          "prediction": 67048.16083461871
+        },
+        {
+          "row_index": 12,
+          "prediction": 67048.16083461871
+        },
+        {
+          "row_index": 13,
+          "prediction": 966593.1038957059
+        },
+        {
+          "row_index": 14,
+          "prediction": 245780.218611604
+        },
+        {
+          "row_index": 15,
+          "prediction": 245780.218611604
+        },
+        {
+          "row_index": 16,
+          "prediction": 966593.1038957059
+        },
+        {
+          "row_index": 17,
+          "prediction": 136488.60589936853
+        },
+        {
+          "row_index": 18,
+          "prediction": 67048.16083461871
+        },
+        {
+          "row_index": 19,
+          "prediction": 144200.8439471665
+        },
+        {
+          "row_index": 20,
+          "prediction": 144200.8439471665
+        },
+        {
+          "row_index": 21,
+          "prediction": 136488.60589936853
+        },
+        {
+          "row_index": 22,
+          "prediction": 144200.8439471665
+        },
+        {
+          "row_index": 23,
+          "prediction": 144200.8439471665
+        },
+        {
+          "row_index": 24,
+          "prediction": 144200.8439471665
+        },
+        {
+          "row_index": 25,
+          "prediction": 67048.16083461871
+        },
+        {
+          "row_index": 26,
+          "prediction": 136488.60589936853
+        },
+        {
+          "row_index": 27,
+          "prediction": 144200.8439471665
+        },
+        {
+          "row_index": 28,
+          "prediction": 67048.16083461871
+        },
+        {
+          "row_index": 29,
+          "prediction": 245780.218611604
+        }
+      ],
+      "unseen_categorical_rows": 11,
+      "unknown_category_policy": "unseen one-hot categories are ignored and explicitly counted",
+      "source_provenance": {
+        "source_file": "dataset/Sales Invoice Details.xlsx",
+        "source_file_sha256": "e36c7b8338e80353e6ccf5b452fd9c9be0834fc3a3890841c60fd3fe644fad56",
+        "source_sheet": "Sheet1",
+        "dataset_id": "nop-domestic-confirmed-date-line-value",
+        "dataset_version": "1.0.0",
+        "dataset_sha256": "c177d1d76b8695ea41c88995b0782ad2a37545321df419ed30e758341fb8dd8e"
+      },
+      "known_limitations": [
+        "Exploratory offline field estimation only; no business-approved price, revenue, profit or demand prediction.",
+        "Unresolved-date references, exports and services are excluded; the selected population is not representative of all NOP activity.",
+        "Item-code identity is scoped to one source field; unseen codes have no learned product effect.",
+        "Source amount units and physical quantity units are not independently approved; no aggregation or unit conversion is performed.",
+        "The chronological holdout is small and irregularly sampled; prospective business performance is unknown."
+      ]
+    },
+    "matches_saved_test_or_audit_predictions": true
+  },
+  {
+    "model_id": "nop-domestic-confirmed-date-line-value-ridge_regression-v1.0.0",
+    "fresh_process_loaded": true,
+    "adapter": "tabular_regression_v1",
+    "prediction_count": 30,
+    "response": {
+      "model_identifier": "nop-domestic-confirmed-date-line-value-ridge_regression-v1.0.0",
+      "model_version": "1.0.0",
+      "objective_id": "nop-domestic-confirmed-date-line-value",
+      "target_definition": "The native numeric Taxable Value cell on one source detail row marked Domestic and G, from a reference whose detail rows share one consistent unambiguous day-first date. The task is offline estimation of this stored line-level field in unspecified source amount units.",
+      "dataset_id": "nop-domestic-confirmed-date-line-value",
+      "dataset_version": "1.0.0",
+      "dataset_sha256": "c177d1d76b8695ea41c88995b0782ad2a37545321df419ed30e758341fb8dd8e",
+      "data_mode": "actual_nop_exploratory_raw_field",
+      "business_approved": false,
+      "predictions": [
+        {
+          "row_index": 0,
+          "prediction": 197293.06609588425
+        },
+        {
+          "row_index": 1,
+          "prediction": 870266.4254921622
+        },
+        {
+          "row_index": 2,
+          "prediction": 240721.1710595795
+        },
+        {
+          "row_index": 3,
+          "prediction": 228436.95816939458
+        },
+        {
+          "row_index": 4,
+          "prediction": 228436.95816939458
+        },
+        {
+          "row_index": 5,
+          "prediction": 291921.9053529761
+        },
+        {
+          "row_index": 6,
+          "prediction": 125135.1834009103
+        },
+        {
+          "row_index": 7,
+          "prediction": 35407.22965631471
+        },
+        {
+          "row_index": 8,
+          "prediction": 150993.2173149839
+        },
+        {
+          "row_index": 9,
+          "prediction": 321298.66741349746
+        },
+        {
+          "row_index": 10,
+          "prediction": 842958.8133576751
+        },
+        {
+          "row_index": 11,
+          "prediction": 41356.46993516432
+        },
+        {
+          "row_index": 12,
+          "prediction": 35407.22965631471
+        },
+        {
+          "row_index": 13,
+          "prediction": 842958.8133576751
+        },
+        {
+          "row_index": 14,
+          "prediction": 430734.2655938974
+        },
+        {
+          "row_index": 15,
+          "prediction": 394319.0446346971
+        },
+        {
+          "row_index": 16,
+          "prediction": 760089.490069392
+        },
+        {
+          "row_index": 17,
+          "prediction": 214863.1371455059
+        },
+        {
+          "row_index": 18,
+          "prediction": 0.0
+        },
+        {
+          "row_index": 19,
+          "prediction": 125135.1834009103
+        },
+        {
+          "row_index": 20,
+          "prediction": 125135.1834009103
+        },
+        {
+          "row_index": 21,
+          "prediction": 0.0
+        },
+        {
+          "row_index": 22,
+          "prediction": 147943.85760956706
+        },
+        {
+          "row_index": 23,
+          "prediction": 151883.00272085663
+        },
+        {
+          "row_index": 24,
+          "prediction": 125135.1834009103
+        },
+        {
+          "row_index": 25,
+          "prediction": 0.0
+        },
+        {
+          "row_index": 26,
+          "prediction": 251278.3581047062
+        },
+        {
+          "row_index": 27,
+          "prediction": 151883.00272085663
+        },
+        {
+          "row_index": 28,
+          "prediction": 186758.45524289567
+        },
+        {
+          "row_index": 29,
+          "prediction": 394319.0446346971
+        }
+      ],
+      "unseen_categorical_rows": 11,
+      "unknown_category_policy": "unseen one-hot categories are ignored and explicitly counted",
+      "source_provenance": {
+        "source_file": "dataset/Sales Invoice Details.xlsx",
+        "source_file_sha256": "e36c7b8338e80353e6ccf5b452fd9c9be0834fc3a3890841c60fd3fe644fad56",
+        "source_sheet": "Sheet1",
+        "dataset_id": "nop-domestic-confirmed-date-line-value",
+        "dataset_version": "1.0.0",
+        "dataset_sha256": "c177d1d76b8695ea41c88995b0782ad2a37545321df419ed30e758341fb8dd8e"
+      },
+      "known_limitations": [
+        "Exploratory offline field estimation only; no business-approved price, revenue, profit or demand prediction.",
+        "Unresolved-date references, exports and services are excluded; the selected population is not representative of all NOP activity.",
+        "Item-code identity is scoped to one source field; unseen codes have no learned product effect.",
+        "Source amount units and physical quantity units are not independently approved; no aggregation or unit conversion is performed.",
+        "The chronological holdout is small and irregularly sampled; prospective business performance is unknown."
+      ]
+    },
+    "matches_saved_test_or_audit_predictions": true
+  },
+  {
+    "model_id": "nop-domestic-confirmed-date-line-value-item_quantity_median_baseline-v2.0.0",
+    "fresh_process_loaded": true,
+    "adapter": "tabular_regression_v1",
+    "prediction_count": 30,
+    "response": {
+      "model_identifier": "nop-domestic-confirmed-date-line-value-item_quantity_median_baseline-v2.0.0",
+      "model_version": "2.0.0",
+      "objective_id": "nop-domestic-confirmed-date-line-value",
+      "target_definition": "The native numeric Taxable Value cell on one source detail row marked Domestic and G, from a reference whose detail rows share one consistent unambiguous day-first date. The task is offline estimation of this stored line-level field in unspecified source amount units.",
+      "dataset_id": "nop-domestic-confirmed-date-line-value",
+      "dataset_version": "1.0.0",
+      "dataset_sha256": "c177d1d76b8695ea41c88995b0782ad2a37545321df419ed30e758341fb8dd8e",
+      "data_mode": "actual_nop_exploratory_raw_field",
+      "business_approved": false,
+      "predictions": [
+        {
+          "row_index": 0,
+          "prediction": 212400.0
+        },
+        {
+          "row_index": 1,
+          "prediction": 900000.0
+        },
+        {
+          "row_index": 2,
+          "prediction": 249750.0
+        },
+        {
+          "row_index": 3,
+          "prediction": 62500.0
+        },
+        {
+          "row_index": 4,
+          "prediction": 62500.0
+        },
+        {
+          "row_index": 5,
+          "prediction": 29640.0
+        },
+        {
+          "row_index": 6,
+          "prediction": 86400.0
+        },
+        {
+          "row_index": 7,
+          "prediction": 43200.0
+        },
+        {
+          "row_index": 8,
+          "prediction": 166500.0
+        },
+        {
+          "row_index": 9,
+          "prediction": 199800.0
+        },
+        {
+          "row_index": 10,
+          "prediction": 432000.0
+        },
+        {
+          "row_index": 11,
+          "prediction": 59000.0
+        },
+        {
+          "row_index": 12,
+          "prediction": 43200.0
+        },
+        {
+          "row_index": 13,
+          "prediction": 432000.0
+        },
+        {
+          "row_index": 14,
+          "prediction": 450000.0
+        },
+        {
+          "row_index": 15,
+          "prediction": 216000.0
+        },
+        {
+          "row_index": 16,
+          "prediction": 125000.0
+        },
+        {
+          "row_index": 17,
+          "prediction": 129600.0
+        },
+        {
+          "row_index": 18,
+          "prediction": 37800.0
+        },
+        {
+          "row_index": 19,
+          "prediction": 86400.0
+        },
+        {
+          "row_index": 20,
+          "prediction": 86400.0
+        },
+        {
+          "row_index": 21,
+          "prediction": 32812.5
+        },
+        {
+          "row_index": 22,
+          "prediction": 162000.0
+        },
+        {
+          "row_index": 23,
+          "prediction": 171000.0
+        },
+        {
+          "row_index": 24,
+          "prediction": 86400.0
+        },
+        {
+          "row_index": 25,
+          "prediction": 10937.5
+        },
+        {
+          "row_index": 26,
+          "prediction": 270000.0
+        },
+        {
+          "row_index": 27,
+          "prediction": 171000.0
+        },
+        {
+          "row_index": 28,
+          "prediction": 145000.0
+        },
+        {
+          "row_index": 29,
+          "prediction": 216000.0
+        }
+      ],
+      "unseen_categorical_rows": 11,
+      "unknown_category_policy": "unseen one-hot categories are ignored and explicitly counted",
+      "source_provenance": {
+        "source_file": "dataset/Sales Invoice Details.xlsx",
+        "source_file_sha256": "e36c7b8338e80353e6ccf5b452fd9c9be0834fc3a3890841c60fd3fe644fad56",
+        "source_sheet": "Sheet1",
+        "dataset_id": "nop-domestic-confirmed-date-line-value",
+        "dataset_version": "1.0.0",
+        "dataset_sha256": "c177d1d76b8695ea41c88995b0782ad2a37545321df419ed30e758341fb8dd8e"
+      },
+      "known_limitations": [
+        "Exploratory offline field estimation only; no business-approved price, revenue, profit or demand prediction.",
+        "Unresolved-date references, exports and services are excluded; the selected population is not representative of all NOP activity.",
+        "Item-code identity is scoped to one source field; unseen codes have no learned product effect.",
+        "Source amount units and physical quantity units are not independently approved; no aggregation or unit conversion is performed.",
+        "The chronological holdout is small and irregularly sampled; prospective business performance is unknown.",
+        "Development rolling-origin evidence is exploratory; the reused old test period is not independent validation for this experiment."
+      ]
+    },
+    "matches_saved_test_or_audit_predictions": true
+  },
+  {
+    "model_id": "nop-domestic-confirmed-date-line-value-quantity_normalized_ridge-v2.0.0",
+    "fresh_process_loaded": true,
+    "adapter": "tabular_regression_v1",
+    "prediction_count": 30,
+    "response": {
+      "model_identifier": "nop-domestic-confirmed-date-line-value-quantity_normalized_ridge-v2.0.0",
+      "model_version": "2.0.0",
+      "objective_id": "nop-domestic-confirmed-date-line-value",
+      "target_definition": "The native numeric Taxable Value cell on one source detail row marked Domestic and G, from a reference whose detail rows share one consistent unambiguous day-first date. The task is offline estimation of this stored line-level field in unspecified source amount units.",
+      "dataset_id": "nop-domestic-confirmed-date-line-value",
+      "dataset_version": "1.0.0",
+      "dataset_sha256": "c177d1d76b8695ea41c88995b0782ad2a37545321df419ed30e758341fb8dd8e",
+      "data_mode": "actual_nop_exploratory_raw_field",
+      "business_approved": false,
+      "predictions": [
+        {
+          "row_index": 0,
+          "prediction": 221103.17272419576
+        },
+        {
+          "row_index": 1,
+          "prediction": 949387.1864730935
+        },
+        {
+          "row_index": 2,
+          "prediction": 231833.67676735614
+        },
+        {
+          "row_index": 3,
+          "prediction": 208804.41544958914
+        },
+        {
+          "row_index": 4,
+          "prediction": 208804.41544958914
+        },
+        {
+          "row_index": 5,
+          "prediction": 175266.5522084034
+        },
+        {
+          "row_index": 6,
+          "prediction": 129617.98020106734
+        },
+        {
+          "row_index": 7,
+          "prediction": 62746.09832162756
+        },
+        {
+          "row_index": 8,
+          "prediction": 150430.00095375854
+        },
+        {
+          "row_index": 9,
+          "prediction": 286702.8750952014
+        },
+        {
+          "row_index": 10,
+          "prediction": 813121.243317825
+        },
+        {
+          "row_index": 11,
+          "prediction": 61819.17304647894
+        },
+        {
+          "row_index": 12,
+          "prediction": 62746.09832162756
+        },
+        {
+          "row_index": 13,
+          "prediction": 813121.243317825
+        },
+        {
+          "row_index": 14,
+          "prediction": 445845.24956998933
+        },
+        {
+          "row_index": 15,
+          "prediction": 354988.3271862599
+        },
+        {
+          "row_index": 16,
+          "prediction": 666899.885281734
+        },
+        {
+          "row_index": 17,
+          "prediction": 200615.6456383193
+        },
+        {
+          "row_index": 18,
+          "prediction": 40769.98352951209
+        },
+        {
+          "row_index": 19,
+          "prediction": 129617.98020106734
+        },
+        {
+          "row_index": 20,
+          "prediction": 129617.98020106734
+        },
+        {
+          "row_index": 21,
+          "prediction": 78373.89478006406
+        },
+        {
+          "row_index": 22,
+          "prediction": 147874.35917000027
+        },
+        {
+          "row_index": 23,
+          "prediction": 154350.62981783613
+        },
+        {
+          "row_index": 24,
+          "prediction": 129617.98020106734
+        },
+        {
+          "row_index": 25,
+          "prediction": 21998.848035542484
+        },
+        {
+          "row_index": 26,
+          "prediction": 255129.79906855698
+        },
+        {
+          "row_index": 27,
+          "prediction": 154350.62981783613
+        },
+        {
+          "row_index": 28,
+          "prediction": 78622.32836306257
+        },
+        {
+          "row_index": 29,
+          "prediction": 354988.3271862599
+        }
+      ],
+      "unseen_categorical_rows": 11,
+      "unknown_category_policy": "unseen one-hot categories are ignored and explicitly counted",
+      "source_provenance": {
+        "source_file": "dataset/Sales Invoice Details.xlsx",
+        "source_file_sha256": "e36c7b8338e80353e6ccf5b452fd9c9be0834fc3a3890841c60fd3fe644fad56",
+        "source_sheet": "Sheet1",
+        "dataset_id": "nop-domestic-confirmed-date-line-value",
+        "dataset_version": "1.0.0",
+        "dataset_sha256": "c177d1d76b8695ea41c88995b0782ad2a37545321df419ed30e758341fb8dd8e"
+      },
+      "known_limitations": [
+        "Exploratory offline field estimation only; no business-approved price, revenue, profit or demand prediction.",
+        "Unresolved-date references, exports and services are excluded; the selected population is not representative of all NOP activity.",
+        "Item-code identity is scoped to one source field; unseen codes have no learned product effect.",
+        "Source amount units and physical quantity units are not independently approved; no aggregation or unit conversion is performed.",
+        "The chronological holdout is small and irregularly sampled; prospective business performance is unknown.",
+        "Development rolling-origin evidence is exploratory; the reused old test period is not independent validation for this experiment."
+      ]
+    },
+    "matches_saved_test_or_audit_predictions": true
+  }
+]

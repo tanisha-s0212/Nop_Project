@@ -1,0 +1,46 @@
+{
+  "rows": 165,
+  "references": 111,
+  "observed_days": 77,
+  "distinct_item_codes": 92,
+  "target_distribution": {
+    "count": 165.0,
+    "mean": 243653.27272727274,
+    "std": 412891.3951492684,
+    "min": 3375.0,
+    "50%": 116640.0,
+    "95%": 919199.9999999995,
+    "max": 2310000.0
+  },
+  "quantity_distribution": {
+    "count": 165.0,
+    "mean": 3.484848484848485,
+    "std": 2.885214750019909,
+    "min": 1.0,
+    "25%": 1.0,
+    "50%": 2.0,
+    "75%": 5.0,
+    "max": 10.0
+  },
+  "missing_values": {
+    "source_row": 0,
+    "document_id": 0,
+    "event_date": 0,
+    "quantity": 0,
+    "item_code": 0,
+    "target_value": 0
+  },
+  "source_rows": 337,
+  "excluded_rows": 172,
+  "exclusion_counts": {
+    "outside_literal_population:market_type": 42,
+    "reference_has_unresolved_or_inconsistent_dates": 120,
+    "outside_literal_population:item_type": 10
+  },
+  "arithmetic_diagnostic": {
+    "evaluable_rows": 165,
+    "outside_tolerance_rows": 0,
+    "used_for_filtering": false,
+    "input_excluded_from_features": "unit_price_diagnostic"
+  }
+}

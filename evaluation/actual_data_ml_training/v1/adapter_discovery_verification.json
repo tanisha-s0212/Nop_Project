@@ -1,0 +1,38 @@
+{
+  "models": [
+    {
+      "model_identifier": "nop-confirmed-date-invoice-count-exploratory-linear_regression",
+      "inference_adapters": [
+        "monthly_regression_v1"
+      ],
+      "dependency_issues": [],
+      "artifact_exists": true
+    },
+    {
+      "model_identifier": "nop-confirmed-date-invoice-count-exploratory-random_forest",
+      "inference_adapters": [
+        "monthly_regression_v1"
+      ],
+      "dependency_issues": [],
+      "artifact_exists": true
+    },
+    {
+      "model_identifier": "nop-domestic-confirmed-date-line-value-random_forest-v1.0.0",
+      "inference_adapters": [
+        "tabular_regression_v1"
+      ],
+      "dependency_issues": [],
+      "artifact_exists": true
+    },
+    {
+      "model_identifier": "nop-domestic-confirmed-date-line-value-ridge_regression-v1.0.0",
+      "inference_adapters": [
+        "tabular_regression_v1"
+      ],
+      "dependency_issues": [],
+      "artifact_exists": true
+    }
+  ],
+  "dataset_count": 2,
+  "discovery_failures": []
+}

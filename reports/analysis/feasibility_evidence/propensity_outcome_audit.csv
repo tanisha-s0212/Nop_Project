@@ -1,0 +1,7 @@
+﻿element,status,evidence,required_action
+Positive purchase evidence,Candidate events only,Order and invoice references exist; order placement versus qualifying purchase must be approved.,"Confirm purchase event and customer mapping, not just repeated customer IDs."
+Historical negative outcomes,Not established,No verified eligible-and-fully-observed no-purchase panel; blank/zero quantities and absent transactions are not negatives.,"Obtain eligibility, complete event capture and mature outcome windows before label construction."
+Defensible prediction window,Not supplied,"No approved t/H, extraction closure or label-reporting delay.","NOP must define decision cadence, future window, horizon and maturity rule."
+Customer risk set,Not historical,"Small master has 40 codes, and all 40 appear among 1098 small-order rows; current master status supplies no past eligibility.",Obtain historical entry/exit/activity and complete follow-up; do not label other-master unmatched accounts as nonpurchasers.
+Entity identity,Unapproved,135 ID candidates remain unconfirmed; invoice party mapping and SO scope unstable.,Approve scoped customer and event identity before partitioning windows.
+Features at decision,Availability history absent,No approved availability timestamps or prior-state snapshots.,Specify point-in-time admissible inputs; no feature engineering in this assessment.

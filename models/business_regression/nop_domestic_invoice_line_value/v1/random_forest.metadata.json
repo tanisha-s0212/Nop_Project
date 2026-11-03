@@ -1,0 +1,297 @@
+{
+  "artifact_format_version": 1,
+  "model_identifier": "nop-domestic-confirmed-date-line-value-random_forest-v1.0.0",
+  "model_version": "1.0.0",
+  "objective_id": "nop-domestic-confirmed-date-line-value",
+  "target_definition": "The native numeric Taxable Value cell on one source detail row marked Domestic and G, from a reference whose detail rows share one consistent unambiguous day-first date. The task is offline estimation of this stored line-level field in unspecified source amount units.",
+  "feature_schema": {
+    "numeric_features": [
+      "quantity"
+    ],
+    "categorical_features": [
+      "item_code"
+    ],
+    "numeric_minimums": {
+      "quantity": 1e-09
+    }
+  },
+  "feature_names": [
+    "quantity",
+    "item_code"
+  ],
+  "prediction_minimum": 0.0,
+  "dataset_id": "nop-domestic-confirmed-date-line-value",
+  "dataset_version": "1.0.0",
+  "dataset_sha256": "c177d1d76b8695ea41c88995b0782ad2a37545321df419ed30e758341fb8dd8e",
+  "data_mode": "actual_nop_exploratory_raw_field",
+  "business_approved": false,
+  "known_limitations": [
+    "Exploratory offline field estimation only; no business-approved price, revenue, profit or demand prediction.",
+    "Unresolved-date references, exports and services are excluded; the selected population is not representative of all NOP activity.",
+    "Item-code identity is scoped to one source field; unseen codes have no learned product effect.",
+    "Source amount units and physical quantity units are not independently approved; no aggregation or unit conversion is performed.",
+    "The chronological holdout is small and irregularly sampled; prospective business performance is unknown."
+  ],
+  "source_provenance": {
+    "dataset_id": "nop-domestic-confirmed-date-line-value",
+    "dataset_version": "1.0.0",
+    "objective_id": "nop-domestic-confirmed-date-line-value",
+    "objective_name": "Stored line taxable-value estimation for a confirmed-date domestic goods subset",
+    "target_definition": "The native numeric Taxable Value cell on one source detail row marked Domestic and G, from a reference whose detail rows share one consistent unambiguous day-first date. The task is offline estimation of this stored line-level field in unspecified source amount units.",
+    "data_mode": "actual_nop_exploratory_raw_field",
+    "business_approved": false,
+    "assumptions": [
+      "The exact reference string groups detail rows within this workbook only; issuer-wide identity is unapproved.",
+      "Domestic, G and Manual are literal population filters; Manual does not establish a physical unit or currency.",
+      "The target is the stored numeric source field. Arithmetic checks provide line-grain evidence but do not establish accounting revenue or a currency conversion.",
+      "Item code and quantity are observed inputs for offline field estimation. Their availability before a future business decision has not been independently established.",
+      "No source authenticity or business-owner approval is implied by using repository records."
+    ],
+    "limitations": [
+      "Exploratory offline field estimation only; no business-approved price, revenue, profit or demand prediction.",
+      "Unresolved-date references, exports and services are excluded; the selected population is not representative of all NOP activity.",
+      "Item-code identity is scoped to one source field; unseen codes have no learned product effect.",
+      "Source amount units and physical quantity units are not independently approved; no aggregation or unit conversion is performed.",
+      "The chronological holdout is small and irregularly sampled; prospective business performance is unknown."
+    ],
+    "dataset_sha256": "c177d1d76b8695ea41c88995b0782ad2a37545321df419ed30e758341fb8dd8e",
+    "source_file": "dataset/Sales Invoice Details.xlsx",
+    "source_file_sha256": "e36c7b8338e80353e6ccf5b452fd9c9be0834fc3a3890841c60fd3fe644fad56",
+    "source_sheet": "Sheet1",
+    "source_fields": {
+      "document_id": "Invoice Num",
+      "event_date": "Invoice Date",
+      "quantity": "Quantity",
+      "item_code": "Part Code SAP Code",
+      "target_value": "Taxable Value",
+      "unit_price_diagnostic": "Unit Price",
+      "transaction_type": "TransType",
+      "item_type": "Item Type G or S",
+      "market_type": "Type Export/Domestic",
+      "unit_label": "UOM"
+    },
+    "source_rows": 337,
+    "source_references": 234,
+    "included_rows": 165,
+    "included_references": 111,
+    "observation_days": 77,
+    "observation_period": {
+      "start": "2025-12-22",
+      "end": "2026-09-13"
+    },
+    "exclusion_counts": {
+      "outside_literal_population:market_type": 42,
+      "reference_has_unresolved_or_inconsistent_dates": 120,
+      "outside_literal_population:item_type": 10
+    },
+    "excluded_rows": 172,
+    "unresolved_references": 82,
+    "future_references": 0,
+    "date_row_counts": {
+      "resolved": 217,
+      "unresolved": 120
+    },
+    "duplicate_source_rows_preserved": 0,
+    "arithmetic_diagnostic": {
+      "evaluable_rows": 165,
+      "outside_tolerance_rows": 0,
+      "used_for_filtering": false,
+      "input_excluded_from_features": "unit_price_diagnostic"
+    },
+    "observation_grain": "one retained source detail row; document grouping is for exclusion and split isolation only",
+    "feature_schema": {
+      "numeric_features": [
+        "quantity"
+      ],
+      "categorical_features": [
+        "item_code"
+      ],
+      "numeric_minimums": {
+        "quantity": 1e-09
+      }
+    },
+    "preparation_specification_sha256": "4d89648aba3c8a03c6cce34541c142f50c47d081e78f7e997728188f50b674d9",
+    "transformations": [
+      "read raw cells without formula evaluation",
+      "require every reference detail date resolved consistently",
+      "filter explicit cutoff and literal population",
+      "reject invalid required native values with row lineage",
+      "retain duplicate source rows",
+      "project source row features and stored target",
+      "sort chronologically"
+    ],
+    "row_reconciliation_passed": true,
+    "joins_performed": false,
+    "missing_values_imputed": false,
+    "period_completeness": "not established; no period totals are modeled"
+  },
+  "dependency_versions": {
+    "python": "3.12.10",
+    "scikit_learn": "1.8.0",
+    "numpy": "2.4.4",
+    "pandas": "3.0.2",
+    "joblib": "1.5.3"
+  },
+  "algorithm": "random_forest",
+  "parameters": {
+    "n_estimators": 200,
+    "max_depth": 6,
+    "min_samples_leaf": 3
+  },
+  "inference_adapter": "tabular_regression_v1",
+  "problem_type": "regression",
+  "artifact_path": "models/business_regression/nop_domestic_invoice_line_value/v1/random_forest.joblib",
+  "artifact_sha256": "095c704de58264e542a0f0dc7b531970e163ff0a0252decae2efa46bdbe072c1",
+  "training_configuration": {
+    "seed": 20261103,
+    "split": {
+      "train": {
+        "rows": 101,
+        "independent_groups": 65,
+        "days": 46,
+        "start": "2025-12-22",
+        "end": "2026-05-19"
+      },
+      "validation": {
+        "rows": 34,
+        "independent_groups": 25,
+        "days": 15,
+        "start": "2026-05-23",
+        "end": "2026-06-25"
+      },
+      "test": {
+        "rows": 30,
+        "independent_groups": 21,
+        "days": 16,
+        "start": "2026-06-27",
+        "end": "2026-09-13"
+      }
+    },
+    "sample_weighting": "inverse detail-row count per reference"
+  },
+  "training_observations": 135,
+  "training_independent_groups": 90,
+  "training_date_range": {
+    "start": "2025-12-22",
+    "end": "2026-06-25"
+  },
+  "evaluation": {
+    "algorithm": "random_forest",
+    "parameters": {
+      "n_estimators": 200,
+      "max_depth": 6,
+      "min_samples_leaf": 3
+    },
+    "validation": {
+      "mae": 119775.98477386101,
+      "rmse": 171520.47283678607,
+      "r2": 0.6458675919991426,
+      "smape_percent": 84.39673591979096,
+      "observations": 34,
+      "independent_groups": 25,
+      "document_macro_mae": 110075.82632297954
+    },
+    "test": {
+      "mae": 179683.2888085809,
+      "rmse": 306937.26924016164,
+      "r2": -0.5881776876176321,
+      "smape_percent": 73.13232893950308,
+      "observations": 30,
+      "independent_groups": 21,
+      "document_macro_mae": 155652.32994582955
+    },
+    "training": {
+      "mae": 181562.429791476,
+      "rmse": 324299.2240913781,
+      "r2": 0.4562381435920855,
+      "smape_percent": 82.52636205254754,
+      "observations": 135,
+      "independent_groups": 90,
+      "document_macro_mae": 168357.94920176035
+    },
+    "validation_trials": [
+      {
+        "parameters": {
+          "n_estimators": 200,
+          "max_depth": 6,
+          "min_samples_leaf": 3
+        },
+        "validation": {
+          "mae": 119775.98477386101,
+          "rmse": 171520.47283678607,
+          "r2": 0.6458675919991426,
+          "smape_percent": 84.39673591979096,
+          "observations": 34,
+          "independent_groups": 25,
+          "document_macro_mae": 110075.82632297954
+        }
+      },
+      {
+        "parameters": {
+          "n_estimators": 200,
+          "max_depth": null,
+          "min_samples_leaf": 5
+        },
+        "validation": {
+          "mae": 119522.29344379563,
+          "rmse": 171572.19410862806,
+          "r2": 0.6456539855436294,
+          "smape_percent": 84.5821473547503,
+          "observations": 34,
+          "independent_groups": 25,
+          "document_macro_mae": 110398.85118008875
+        }
+      }
+    ],
+    "baselines": {
+      "validation": {
+        "constant_training_median": {
+          "mae": 165819.41176470587,
+          "rmse": 307061.126873404,
+          "r2": -0.13496748742389642,
+          "smape_percent": 97.98607524917031,
+          "observations": 34,
+          "independent_groups": 25,
+          "document_macro_mae": 144317.76666666666
+        },
+        "quantity_scaled_item_median": {
+          "mae": 35521.470588235294,
+          "rmse": 59187.60734507938,
+          "r2": 0.9578308050481876,
+          "smape_percent": 40.50306509782032,
+          "observations": 34,
+          "independent_groups": 25,
+          "document_macro_mae": 41618.96666666667
+        }
+      },
+      "test": {
+        "constant_training_median": {
+          "mae": 148474.16666666666,
+          "rmse": 264424.7639137328,
+          "r2": -0.17870219129913645,
+          "smape_percent": 81.91106044581944,
+          "observations": 30,
+          "independent_groups": 21,
+          "document_macro_mae": 106747.61904761905
+        },
+        "quantity_scaled_item_median": {
+          "mae": 72255.5,
+          "rmse": 190675.2915987019,
+          "r2": 0.3871013301491346,
+          "smape_percent": 31.287140173289295,
+          "observations": 30,
+          "independent_groups": 21,
+          "document_macro_mae": 56477.4007936508
+        }
+      }
+    },
+    "test_unseen_category_rows": 11,
+    "test_unseen_category_fraction": 0.36666666666666664
+  },
+  "training_timestamp_utc": "2026-11-03T15:29:56.701646+00:00",
+  "prediction_frequency": "one estimate per supplied detail-row feature record",
+  "supported_horizon": null,
+  "horizon_not_applicable_reason": "tabular field estimation; this model does not forecast monthly totals",
+  "intended_use": "exploratory offline raw-field estimation only",
+  "recommended_for_business_use": false
+}

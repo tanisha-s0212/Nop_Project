@@ -1,0 +1,127 @@
+{
+  "rows": [
+    {
+      "quantity": 4,
+      "item_code": "FG00100"
+    },
+    {
+      "quantity": 10,
+      "item_code": "FG00087"
+    },
+    {
+      "quantity": 3,
+      "item_code": "FG00047"
+    },
+    {
+      "quantity": 5,
+      "item_code": "FG00090"
+    },
+    {
+      "quantity": 5,
+      "item_code": "FG00090"
+    },
+    {
+      "quantity": 4,
+      "item_code": "FG00023"
+    },
+    {
+      "quantity": 2,
+      "item_code": "FG00115"
+    },
+    {
+      "quantity": 1,
+      "item_code": "FG00076"
+    },
+    {
+      "quantity": 2,
+      "item_code": "FG00047"
+    },
+    {
+      "quantity": 5,
+      "item_code": "FG00056"
+    },
+    {
+      "quantity": 10,
+      "item_code": "FG00068"
+    },
+    {
+      "quantity": 1,
+      "item_code": "FG00003"
+    },
+    {
+      "quantity": 1,
+      "item_code": "FG00049"
+    },
+    {
+      "quantity": 10,
+      "item_code": "FG00096"
+    },
+    {
+      "quantity": 5,
+      "item_code": "FG00035"
+    },
+    {
+      "quantity": 5,
+      "item_code": "FG00084"
+    },
+    {
+      "quantity": 10,
+      "item_code": "FG00117"
+    },
+    {
+      "quantity": 3,
+      "item_code": "FG00088"
+    },
+    {
+      "quantity": 1,
+      "item_code": "FG00014"
+    },
+    {
+      "quantity": 2,
+      "item_code": "FG00068"
+    },
+    {
+      "quantity": 2,
+      "item_code": "FG00007"
+    },
+    {
+      "quantity": 3,
+      "item_code": "FG00050"
+    },
+    {
+      "quantity": 2,
+      "item_code": "FG00033"
+    },
+    {
+      "quantity": 2,
+      "item_code": "FG00098"
+    },
+    {
+      "quantity": 2,
+      "item_code": "FG00037"
+    },
+    {
+      "quantity": 1,
+      "item_code": "FG00050"
+    },
+    {
+      "quantity": 3,
+      "item_code": "FG00035"
+    },
+    {
+      "quantity": 2,
+      "item_code": "FG00098"
+    },
+    {
+      "quantity": 1,
+      "item_code": "FG00040"
+    },
+    {
+      "quantity": 5,
+      "item_code": "FG00114"
+    }
+  ],
+  "expected_objective_id": "nop-domestic-confirmed-date-line-value",
+  "expected_dataset_id": "nop-domestic-confirmed-date-line-value",
+  "expected_dataset_version": "1.0.0"
+}

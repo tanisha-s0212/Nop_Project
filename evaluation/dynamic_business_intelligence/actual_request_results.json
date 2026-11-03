@@ -1,0 +1,2827 @@
+[
+  {
+    "scenario_id": "financial_forecast",
+    "request": "What will recognized revenue be over the next three months?",
+    "response": {
+      "status": "clarification_required",
+      "answer_type": "forecast",
+      "question": "What will recognized revenue be over the next three months?",
+      "clarification": "No validated prepared target matches the requested concepts.",
+      "available_prepared_datasets": [
+        "nop-confirmed-date-invoice-count-exploratory"
+      ],
+      "source_field_observations": [],
+      "discovery_failures": [],
+      "business_approved": false,
+      "execution_mode": "exploratory",
+      "controlled_worker_execution": false
+    }
+  },
+  {
+    "scenario_id": "profit_forecast",
+    "request": "When is profit expected to increase?",
+    "response": {
+      "status": "clarification_required",
+      "answer_type": "forecast",
+      "question": "When is profit expected to increase?",
+      "clarification": "No validated prepared target matches the requested concepts.",
+      "available_prepared_datasets": [
+        "nop-confirmed-date-invoice-count-exploratory"
+      ],
+      "source_field_observations": [],
+      "discovery_failures": [],
+      "business_approved": false,
+      "execution_mode": "exploratory",
+      "controlled_worker_execution": false
+    }
+  },
+  {
+    "scenario_id": "sales_analysis",
+    "request": "Show monthly sales trend",
+    "response": {
+      "status": "clarification_required",
+      "answer_type": "historical_analysis",
+      "question": "Show monthly sales trend",
+      "clarification": "No validated prepared target matches the requested concepts.",
+      "candidate_datasets": [],
+      "discovered_prepared_dataset_count": 1,
+      "source_field_observations": [
+        {
+          "source_id": "readiness-04c9fa2c5dd7e17e462e",
+          "table_id": "table-1",
+          "field_id": "table-1:field-41",
+          "observed_header": "Sales Employee",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-ed3893ebeefee475e92a",
+          "table_id": "table-1",
+          "field_id": "table-1:field-41",
+          "observed_header": "Sales Employee",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-a3093eb68060d75d67ff",
+          "table_id": "table-1",
+          "field_id": "table-1:field-25",
+          "observed_header": "Sales Employee",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-59d735bd9a5d3dae7bdd",
+          "table_id": "table-1",
+          "field_id": "table-1:field-25",
+          "observed_header": "Sales Employee",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-3247fc1785f45d72569d",
+          "table_id": "table-3",
+          "field_id": "table-3:field-1",
+          "observed_header": "Sales agency",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        }
+      ],
+      "discovery_failures": [],
+      "business_approved": false,
+      "execution_mode": "exploratory",
+      "controlled_worker_execution": false
+    }
+  },
+  {
+    "scenario_id": "broad_invoice_forecast",
+    "request": "Forecast monthly invoice count for the next three months",
+    "response": {
+      "status": "partially_answered",
+      "answer_type": "forecast",
+      "question": "Forecast monthly invoice count for the next three months",
+      "answer": "Exploratory estimates for Count distinct Invoice Num references in the source workbook whose every detail row has one consistent, unambiguously day-first Invoice Date, grouped by observed calendar month.",
+      "objective_id": "nop-confirmed-date-invoice-count-exploratory",
+      "target_definition": "Count distinct Invoice Num references in the source workbook whose every detail row has one consistent, unambiguously day-first Invoice Date, grouped by observed calendar month.",
+      "predictions": [
+        {
+          "objective_id": "nop-confirmed-date-invoice-count-exploratory",
+          "objective_name": "Confirmed-date invoice references per observed month (exploratory subset)",
+          "target_definition": "Count distinct Invoice Num references in the source workbook whose every detail row has one consistent, unambiguously day-first Invoice Date, grouped by observed calendar month.",
+          "model_identifier": "nop-confirmed-date-invoice-count-exploratory-linear_regression",
+          "model_version": "0.1.0-exploratory",
+          "data_mode": "actual_nop_exploratory_subset",
+          "business_approved": false,
+          "predictions": [
+            {
+              "period": "2026-10",
+              "prediction": 12.142857142857142
+            },
+            {
+              "period": "2026-11",
+              "prediction": 11.214285714285714
+            },
+            {
+              "period": "2026-12",
+              "prediction": 10.285714285714285
+            }
+          ],
+          "data_provenance": {
+            "dataset_id": "nop-confirmed-date-invoice-count-exploratory",
+            "dataset_version": "1.0.0",
+            "dataset_sha256": "807bb312577bb595cdb22d28dd227c0fc23e52898ab42dbe73b99f7d4f444b95",
+            "source_file": "dataset\\Sales Invoice Details.xlsx",
+            "source_file_sha256": "e36c7b8338e80353e6ccf5b452fd9c9be0834fc3a3890841c60fd3fe644fad56",
+            "source_sheet": "Sheet1",
+            "observations": 10,
+            "observation_period": {
+              "start": "2025-12",
+              "end": "2026-09"
+            },
+            "distinct_references_included": 152,
+            "distinct_references_without_fully_resolved_date_excluded": 82
+          },
+          "known_limitations": [
+            "This is a confirmed-date subset, not total invoice volume.",
+            "The exact invoice reference is assumed unique within this workbook only.",
+            "Unresolved dates are excluded and may create month-dependent undercounts.",
+            "No zero periods were inserted; absent months mean unknown, not zero.",
+            "No semantic approval, execution authorization, or publication receipt was created."
+          ]
+        },
+        {
+          "objective_id": "nop-confirmed-date-invoice-count-exploratory",
+          "objective_name": "Confirmed-date invoice references per observed month (exploratory subset)",
+          "target_definition": "Count distinct Invoice Num references in the source workbook whose every detail row has one consistent, unambiguously day-first Invoice Date, grouped by observed calendar month.",
+          "model_identifier": "nop-confirmed-date-invoice-count-exploratory-random_forest",
+          "model_version": "0.1.0-exploratory",
+          "data_mode": "actual_nop_exploratory_subset",
+          "business_approved": false,
+          "predictions": [
+            {
+              "period": "2026-10",
+              "prediction": 14.911875
+            },
+            {
+              "period": "2026-11",
+              "prediction": 14.911875
+            },
+            {
+              "period": "2026-12",
+              "prediction": 14.911875
+            }
+          ],
+          "data_provenance": {
+            "dataset_id": "nop-confirmed-date-invoice-count-exploratory",
+            "dataset_version": "1.0.0",
+            "dataset_sha256": "807bb312577bb595cdb22d28dd227c0fc23e52898ab42dbe73b99f7d4f444b95",
+            "source_file": "dataset\\Sales Invoice Details.xlsx",
+            "source_file_sha256": "e36c7b8338e80353e6ccf5b452fd9c9be0834fc3a3890841c60fd3fe644fad56",
+            "source_sheet": "Sheet1",
+            "observations": 10,
+            "observation_period": {
+              "start": "2025-12",
+              "end": "2026-09"
+            },
+            "distinct_references_included": 152,
+            "distinct_references_without_fully_resolved_date_excluded": 82
+          },
+          "known_limitations": [
+            "This is a confirmed-date subset, not total invoice volume.",
+            "The exact invoice reference is assumed unique within this workbook only.",
+            "Unresolved dates are excluded and may create month-dependent undercounts.",
+            "No zero periods were inserted; absent months mean unknown, not zero.",
+            "No semantic approval, execution authorization, or publication receipt was created."
+          ]
+        }
+      ],
+      "historical_context": {
+        "observations": 10,
+        "provenance": {
+          "dataset_id": "nop-confirmed-date-invoice-count-exploratory",
+          "dataset_version": "1.0.0",
+          "dataset_sha256": "807bb312577bb595cdb22d28dd227c0fc23e52898ab42dbe73b99f7d4f444b95",
+          "source_file": "dataset\\Sales Invoice Details.xlsx",
+          "source_file_sha256": "e36c7b8338e80353e6ccf5b452fd9c9be0834fc3a3890841c60fd3fe644fad56",
+          "target_definition": "Distinct invoice references with a fully consistent and unambiguously day-first date, grouped by observed calendar month in this workbook."
+        }
+      },
+      "model_selection": "Each compatible model is returned separately; no champion is inferred.",
+      "evaluation": [
+        {
+          "model_identifier": "nop-confirmed-date-invoice-count-exploratory-linear_regression",
+          "metrics": {
+            "algorithm": "linear_regression",
+            "parameters": {
+              "scaler": "StandardScaler",
+              "regressor": "LinearRegression"
+            },
+            "validation_periods": [
+              "2026-06"
+            ],
+            "validation": {
+              "mae": 2.1000000000000014,
+              "rmse": 2.1000000000000014,
+              "observations": 1
+            },
+            "test_periods": [
+              "2026-07",
+              "2026-08"
+            ],
+            "test": {
+              "mae": 8.600000000000001,
+              "rmse": 9.57078889120432,
+              "observations": 2
+            },
+            "test_predictions": [
+              20.400000000000002,
+              20.8
+            ],
+            "baseline": {
+              "name": "last_observed_value",
+              "test": {
+                "mae": 7.0,
+                "rmse": 8.06225774829855,
+                "observations": 2
+              },
+              "test_predictions": [
+                19.0,
+                19.0
+              ]
+            },
+            "champion_selected": false,
+            "selection_note": "Too few validation/test periods to select a reliable champion."
+          }
+        },
+        {
+          "model_identifier": "nop-confirmed-date-invoice-count-exploratory-random_forest",
+          "metrics": {
+            "algorithm": "random_forest",
+            "parameters": {
+              "n_estimators": 200,
+              "max_depth": 2,
+              "min_samples_leaf": 2,
+              "random_state": 20261103,
+              "n_jobs": 1
+            },
+            "validation_periods": [
+              "2026-06"
+            ],
+            "validation": {
+              "mae": 0.4855000000000018,
+              "rmse": 0.4855000000000018,
+              "observations": 1
+            },
+            "test_periods": [
+              "2026-07",
+              "2026-08"
+            ],
+            "test": {
+              "mae": 7.854583333333338,
+              "rmse": 8.814447194253184,
+              "observations": 2
+            },
+            "test_predictions": [
+              19.854583333333338,
+              19.854583333333338
+            ],
+            "baseline": {
+              "name": "last_observed_value",
+              "test": {
+                "mae": 7.0,
+                "rmse": 8.06225774829855,
+                "observations": 2
+              },
+              "test_predictions": [
+                19.0,
+                19.0
+              ]
+            },
+            "champion_selected": false,
+            "selection_note": "Too few validation/test periods to select a reliable champion."
+          }
+        }
+      ],
+      "model_failures": [],
+      "plan": {
+        "intent": "forecast",
+        "dataset_id": "nop-confirmed-date-invoice-count-exploratory",
+        "dataset_version": "1.0.0",
+        "dataset_sha256": "807bb312577bb595cdb22d28dd227c0fc23e52898ab42dbe73b99f7d4f444b95",
+        "target_definition": "Distinct invoice references with a fully consistent and unambiguously day-first date, grouped by observed calendar month in this workbook.",
+        "specification_sha256": "51c973fe70d21d894e1f237427f19b6eb2e544f20d48f30e948ede25517b5339",
+        "analysis": null,
+        "models": [
+          {
+            "model_identifier": "nop-confirmed-date-invoice-count-exploratory-linear_regression",
+            "model_version": "0.1.0-exploratory",
+            "artifact_sha256": "e13668b5a9b4dceaf7ff751e9bbe47e9d476687d032c166e315be0ff37068cf4"
+          },
+          {
+            "model_identifier": "nop-confirmed-date-invoice-count-exploratory-random_forest",
+            "model_version": "0.1.0-exploratory",
+            "artifact_sha256": "e556ed1111c352248f11fa270aee8503ac37633c3fc09adbe13faa2f01dc76e4"
+          }
+        ],
+        "horizon": {
+          "steps": 3,
+          "unit": "month"
+        },
+        "execution_mode": "exploratory",
+        "business_approved": false,
+        "controlled_worker_execution": false,
+        "plan_id": "432914911ea2f881e816a2fe9a43a356f17b0a3715ece663d19ed7b6877f8753"
+      },
+      "approval_status": "exploratory_only",
+      "source_field_observations": [
+        {
+          "source_id": "readiness-a2012ec6e7093b504279",
+          "table_id": "table-1",
+          "field_id": "table-1:field-4",
+          "observed_header": "Invoice_Date",
+          "observed_types": {
+            "text": 6
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": true
+        },
+        {
+          "source_id": "readiness-a2012ec6e7093b504279",
+          "table_id": "table-1",
+          "field_id": "table-1:field-5",
+          "observed_header": "Invoice_Number",
+          "observed_types": {
+            "text": 6
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": true
+        },
+        {
+          "source_id": "readiness-1f0d34ff71dc5f8d6660",
+          "table_id": "table-1",
+          "field_id": "table-1:field-4",
+          "observed_header": "Invoice_Date",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-1f0d34ff71dc5f8d6660",
+          "table_id": "table-1",
+          "field_id": "table-1:field-5",
+          "observed_header": "Invoice_Number",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-da9ac234e6ac2c00c333",
+          "table_id": "table-1",
+          "field_id": "table-1:field-1",
+          "observed_header": "Invoice_Date",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-da9ac234e6ac2c00c333",
+          "table_id": "table-1",
+          "field_id": "table-1:field-2",
+          "observed_header": "Invoice_Number",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-da9ac234e6ac2c00c333",
+          "table_id": "table-1",
+          "field_id": "table-1:field-27",
+          "observed_header": "Original_Invoice_Date",
+          "observed_types": {},
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-da9ac234e6ac2c00c333",
+          "table_id": "table-1",
+          "field_id": "table-1:field-28",
+          "observed_header": "Original_Invoice_Number",
+          "observed_types": {},
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-da9ac234e6ac2c00c333",
+          "table_id": "table-1",
+          "field_id": "table-1:field-33",
+          "observed_header": "Flag_Export_Invoice",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-da9ac234e6ac2c00c333",
+          "table_id": "table-1",
+          "field_id": "table-1:field-51",
+          "observed_header": "Invoice_Value",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-04c9fa2c5dd7e17e462e",
+          "table_id": "table-1",
+          "field_id": "table-1:field-7",
+          "observed_header": "Invoice Num",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-04c9fa2c5dd7e17e462e",
+          "table_id": "table-1",
+          "field_id": "table-1:field-8",
+          "observed_header": " Invoice Date ",
+          "observed_types": {
+            "datetime": 4,
+            "text": 28
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-04c9fa2c5dd7e17e462e",
+          "table_id": "table-1",
+          "field_id": "table-1:field-37",
+          "observed_header": "Invoice Total Include GST",
+          "observed_types": {
+            "float": 5,
+            "integer": 20,
+            "text": 7
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-04c9fa2c5dd7e17e462e",
+          "table_id": "table-1",
+          "field_id": "table-1:field-38",
+          "observed_header": "Invoice Discount %",
+          "observed_types": {
+            "integer": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-ed3893ebeefee475e92a",
+          "table_id": "table-1",
+          "field_id": "table-1:field-7",
+          "observed_header": "Invoice Num",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-ed3893ebeefee475e92a",
+          "table_id": "table-1",
+          "field_id": "table-1:field-8",
+          "observed_header": "Invoice Date",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-ed3893ebeefee475e92a",
+          "table_id": "table-1",
+          "field_id": "table-1:field-37",
+          "observed_header": "Invoice Total Include GST",
+          "observed_types": {
+            "float": 1,
+            "integer": 31
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-ed3893ebeefee475e92a",
+          "table_id": "table-1",
+          "field_id": "table-1:field-38",
+          "observed_header": "Invoice Discount %",
+          "observed_types": {
+            "integer": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        }
+      ],
+      "discovery_failures": [],
+      "business_approved": false,
+      "execution_mode": "exploratory",
+      "controlled_worker_execution": false
+    }
+  },
+  {
+    "scenario_id": "selected_exploratory_forecast",
+    "request": {
+      "question": "Forecast the explicitly selected confirmed-date subset",
+      "intent": "forecast",
+      "objective_id": "nop-confirmed-date-invoice-count-exploratory",
+      "periods_ahead": 3
+    },
+    "response": {
+      "status": "answered",
+      "answer_type": "forecast",
+      "question": "Forecast the explicitly selected confirmed-date subset",
+      "answer": "Exploratory estimates for Count distinct Invoice Num references in the source workbook whose every detail row has one consistent, unambiguously day-first Invoice Date, grouped by observed calendar month.",
+      "objective_id": "nop-confirmed-date-invoice-count-exploratory",
+      "target_definition": "Count distinct Invoice Num references in the source workbook whose every detail row has one consistent, unambiguously day-first Invoice Date, grouped by observed calendar month.",
+      "predictions": [
+        {
+          "objective_id": "nop-confirmed-date-invoice-count-exploratory",
+          "objective_name": "Confirmed-date invoice references per observed month (exploratory subset)",
+          "target_definition": "Count distinct Invoice Num references in the source workbook whose every detail row has one consistent, unambiguously day-first Invoice Date, grouped by observed calendar month.",
+          "model_identifier": "nop-confirmed-date-invoice-count-exploratory-linear_regression",
+          "model_version": "0.1.0-exploratory",
+          "data_mode": "actual_nop_exploratory_subset",
+          "business_approved": false,
+          "predictions": [
+            {
+              "period": "2026-10",
+              "prediction": 12.142857142857142
+            },
+            {
+              "period": "2026-11",
+              "prediction": 11.214285714285714
+            },
+            {
+              "period": "2026-12",
+              "prediction": 10.285714285714285
+            }
+          ],
+          "data_provenance": {
+            "dataset_id": "nop-confirmed-date-invoice-count-exploratory",
+            "dataset_version": "1.0.0",
+            "dataset_sha256": "807bb312577bb595cdb22d28dd227c0fc23e52898ab42dbe73b99f7d4f444b95",
+            "source_file": "dataset\\Sales Invoice Details.xlsx",
+            "source_file_sha256": "e36c7b8338e80353e6ccf5b452fd9c9be0834fc3a3890841c60fd3fe644fad56",
+            "source_sheet": "Sheet1",
+            "observations": 10,
+            "observation_period": {
+              "start": "2025-12",
+              "end": "2026-09"
+            },
+            "distinct_references_included": 152,
+            "distinct_references_without_fully_resolved_date_excluded": 82
+          },
+          "known_limitations": [
+            "This is a confirmed-date subset, not total invoice volume.",
+            "The exact invoice reference is assumed unique within this workbook only.",
+            "Unresolved dates are excluded and may create month-dependent undercounts.",
+            "No zero periods were inserted; absent months mean unknown, not zero.",
+            "No semantic approval, execution authorization, or publication receipt was created."
+          ]
+        },
+        {
+          "objective_id": "nop-confirmed-date-invoice-count-exploratory",
+          "objective_name": "Confirmed-date invoice references per observed month (exploratory subset)",
+          "target_definition": "Count distinct Invoice Num references in the source workbook whose every detail row has one consistent, unambiguously day-first Invoice Date, grouped by observed calendar month.",
+          "model_identifier": "nop-confirmed-date-invoice-count-exploratory-random_forest",
+          "model_version": "0.1.0-exploratory",
+          "data_mode": "actual_nop_exploratory_subset",
+          "business_approved": false,
+          "predictions": [
+            {
+              "period": "2026-10",
+              "prediction": 14.911875
+            },
+            {
+              "period": "2026-11",
+              "prediction": 14.911875
+            },
+            {
+              "period": "2026-12",
+              "prediction": 14.911875
+            }
+          ],
+          "data_provenance": {
+            "dataset_id": "nop-confirmed-date-invoice-count-exploratory",
+            "dataset_version": "1.0.0",
+            "dataset_sha256": "807bb312577bb595cdb22d28dd227c0fc23e52898ab42dbe73b99f7d4f444b95",
+            "source_file": "dataset\\Sales Invoice Details.xlsx",
+            "source_file_sha256": "e36c7b8338e80353e6ccf5b452fd9c9be0834fc3a3890841c60fd3fe644fad56",
+            "source_sheet": "Sheet1",
+            "observations": 10,
+            "observation_period": {
+              "start": "2025-12",
+              "end": "2026-09"
+            },
+            "distinct_references_included": 152,
+            "distinct_references_without_fully_resolved_date_excluded": 82
+          },
+          "known_limitations": [
+            "This is a confirmed-date subset, not total invoice volume.",
+            "The exact invoice reference is assumed unique within this workbook only.",
+            "Unresolved dates are excluded and may create month-dependent undercounts.",
+            "No zero periods were inserted; absent months mean unknown, not zero.",
+            "No semantic approval, execution authorization, or publication receipt was created."
+          ]
+        }
+      ],
+      "historical_context": {
+        "observations": 10,
+        "provenance": {
+          "dataset_id": "nop-confirmed-date-invoice-count-exploratory",
+          "dataset_version": "1.0.0",
+          "dataset_sha256": "807bb312577bb595cdb22d28dd227c0fc23e52898ab42dbe73b99f7d4f444b95",
+          "source_file": "dataset\\Sales Invoice Details.xlsx",
+          "source_file_sha256": "e36c7b8338e80353e6ccf5b452fd9c9be0834fc3a3890841c60fd3fe644fad56",
+          "target_definition": "Distinct invoice references with a fully consistent and unambiguously day-first date, grouped by observed calendar month in this workbook."
+        }
+      },
+      "model_selection": "Each compatible model is returned separately; no champion is inferred.",
+      "evaluation": [
+        {
+          "model_identifier": "nop-confirmed-date-invoice-count-exploratory-linear_regression",
+          "metrics": {
+            "algorithm": "linear_regression",
+            "parameters": {
+              "scaler": "StandardScaler",
+              "regressor": "LinearRegression"
+            },
+            "validation_periods": [
+              "2026-06"
+            ],
+            "validation": {
+              "mae": 2.1000000000000014,
+              "rmse": 2.1000000000000014,
+              "observations": 1
+            },
+            "test_periods": [
+              "2026-07",
+              "2026-08"
+            ],
+            "test": {
+              "mae": 8.600000000000001,
+              "rmse": 9.57078889120432,
+              "observations": 2
+            },
+            "test_predictions": [
+              20.400000000000002,
+              20.8
+            ],
+            "baseline": {
+              "name": "last_observed_value",
+              "test": {
+                "mae": 7.0,
+                "rmse": 8.06225774829855,
+                "observations": 2
+              },
+              "test_predictions": [
+                19.0,
+                19.0
+              ]
+            },
+            "champion_selected": false,
+            "selection_note": "Too few validation/test periods to select a reliable champion."
+          }
+        },
+        {
+          "model_identifier": "nop-confirmed-date-invoice-count-exploratory-random_forest",
+          "metrics": {
+            "algorithm": "random_forest",
+            "parameters": {
+              "n_estimators": 200,
+              "max_depth": 2,
+              "min_samples_leaf": 2,
+              "random_state": 20261103,
+              "n_jobs": 1
+            },
+            "validation_periods": [
+              "2026-06"
+            ],
+            "validation": {
+              "mae": 0.4855000000000018,
+              "rmse": 0.4855000000000018,
+              "observations": 1
+            },
+            "test_periods": [
+              "2026-07",
+              "2026-08"
+            ],
+            "test": {
+              "mae": 7.854583333333338,
+              "rmse": 8.814447194253184,
+              "observations": 2
+            },
+            "test_predictions": [
+              19.854583333333338,
+              19.854583333333338
+            ],
+            "baseline": {
+              "name": "last_observed_value",
+              "test": {
+                "mae": 7.0,
+                "rmse": 8.06225774829855,
+                "observations": 2
+              },
+              "test_predictions": [
+                19.0,
+                19.0
+              ]
+            },
+            "champion_selected": false,
+            "selection_note": "Too few validation/test periods to select a reliable champion."
+          }
+        }
+      ],
+      "model_failures": [],
+      "plan": {
+        "intent": "forecast",
+        "dataset_id": "nop-confirmed-date-invoice-count-exploratory",
+        "dataset_version": "1.0.0",
+        "dataset_sha256": "807bb312577bb595cdb22d28dd227c0fc23e52898ab42dbe73b99f7d4f444b95",
+        "target_definition": "Distinct invoice references with a fully consistent and unambiguously day-first date, grouped by observed calendar month in this workbook.",
+        "specification_sha256": "51c973fe70d21d894e1f237427f19b6eb2e544f20d48f30e948ede25517b5339",
+        "analysis": null,
+        "models": [
+          {
+            "model_identifier": "nop-confirmed-date-invoice-count-exploratory-linear_regression",
+            "model_version": "0.1.0-exploratory",
+            "artifact_sha256": "e13668b5a9b4dceaf7ff751e9bbe47e9d476687d032c166e315be0ff37068cf4"
+          },
+          {
+            "model_identifier": "nop-confirmed-date-invoice-count-exploratory-random_forest",
+            "model_version": "0.1.0-exploratory",
+            "artifact_sha256": "e556ed1111c352248f11fa270aee8503ac37633c3fc09adbe13faa2f01dc76e4"
+          }
+        ],
+        "horizon": {
+          "steps": 3,
+          "unit": "month"
+        },
+        "execution_mode": "exploratory",
+        "business_approved": false,
+        "controlled_worker_execution": false,
+        "plan_id": "432914911ea2f881e816a2fe9a43a356f17b0a3715ece663d19ed7b6877f8753"
+      },
+      "approval_status": "exploratory_only",
+      "source_field_observations": [
+        {
+          "source_id": "readiness-6c57ccd375a3975819e6",
+          "table_id": "table-1",
+          "field_id": "table-1:field-2",
+          "observed_header": "Start Date",
+          "observed_types": {
+            "datetime": 2,
+            "integer": 2,
+            "text": 3
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": true
+        },
+        {
+          "source_id": "readiness-6c57ccd375a3975819e6",
+          "table_id": "table-1",
+          "field_id": "table-1:field-3",
+          "observed_header": "End Date",
+          "observed_types": {
+            "datetime": 2,
+            "integer": 1,
+            "text": 4
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": true
+        },
+        {
+          "source_id": "readiness-917e96f39cb979c3d7b4",
+          "table_id": "table-1",
+          "field_id": "table-1:field-2",
+          "observed_header": "Start Date",
+          "observed_types": {
+            "datetime": 22
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": true
+        },
+        {
+          "source_id": "readiness-917e96f39cb979c3d7b4",
+          "table_id": "table-1",
+          "field_id": "table-1:field-3",
+          "observed_header": "End Date",
+          "observed_types": {
+            "datetime": 22
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": true
+        },
+        {
+          "source_id": "readiness-a2012ec6e7093b504279",
+          "table_id": "table-1",
+          "field_id": "table-1:field-1",
+          "observed_header": "CreditDebitNote_Date",
+          "observed_types": {
+            "text": 6
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": true
+        },
+        {
+          "source_id": "readiness-a2012ec6e7093b504279",
+          "table_id": "table-1",
+          "field_id": "table-1:field-4",
+          "observed_header": "Invoice_Date",
+          "observed_types": {
+            "text": 6
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": true
+        },
+        {
+          "source_id": "readiness-a2012ec6e7093b504279",
+          "table_id": "table-1",
+          "field_id": "table-1:field-28",
+          "observed_header": "Original_CreditDebitNote_Date",
+          "observed_types": {},
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": true
+        },
+        {
+          "source_id": "readiness-a2012ec6e7093b504279",
+          "table_id": "table-1",
+          "field_id": "table-1:field-57",
+          "observed_header": "Shipping_Bill_Date",
+          "observed_types": {},
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": true
+        },
+        {
+          "source_id": "readiness-1f0d34ff71dc5f8d6660",
+          "table_id": "table-1",
+          "field_id": "table-1:field-1",
+          "observed_header": "CreditDebitNote_Date",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-1f0d34ff71dc5f8d6660",
+          "table_id": "table-1",
+          "field_id": "table-1:field-4",
+          "observed_header": "Invoice_Date",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-1f0d34ff71dc5f8d6660",
+          "table_id": "table-1",
+          "field_id": "table-1:field-28",
+          "observed_header": "Original_CreditDebitNote_Date",
+          "observed_types": {},
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-1f0d34ff71dc5f8d6660",
+          "table_id": "table-1",
+          "field_id": "table-1:field-57",
+          "observed_header": "Shipping_Bill_Date",
+          "observed_types": {},
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-da9ac234e6ac2c00c333",
+          "table_id": "table-1",
+          "field_id": "table-1:field-1",
+          "observed_header": "Invoice_Date",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-da9ac234e6ac2c00c333",
+          "table_id": "table-1",
+          "field_id": "table-1:field-27",
+          "observed_header": "Original_Invoice_Date",
+          "observed_types": {},
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-da9ac234e6ac2c00c333",
+          "table_id": "table-1",
+          "field_id": "table-1:field-31",
+          "observed_header": "AdvanceReceipt_Date",
+          "observed_types": {},
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-da9ac234e6ac2c00c333",
+          "table_id": "table-1",
+          "field_id": "table-1:field-36",
+          "observed_header": "Shipping_Bill_Date",
+          "observed_types": {},
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-6ee2af58838e33e7bb43",
+          "table_id": "table-1",
+          "field_id": "table-1:field-4",
+          "observed_header": "System Date",
+          "observed_types": {
+            "datetime": 2,
+            "text": 26
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-6ee2af58838e33e7bb43",
+          "table_id": "table-1",
+          "field_id": "table-1:field-5",
+          "observed_header": "Posting Date",
+          "observed_types": {
+            "datetime": 1,
+            "text": 27
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-82196ddb2ee61da62cb6",
+          "table_id": "table-1",
+          "field_id": "table-1:field-4",
+          "observed_header": "System Date",
+          "observed_types": {
+            "datetime": 2,
+            "integer": 1,
+            "text": 9
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-82196ddb2ee61da62cb6",
+          "table_id": "table-1",
+          "field_id": "table-1:field-5",
+          "observed_header": "Posting Date",
+          "observed_types": {
+            "datetime": 1,
+            "text": 11
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-7c63d5c2163e2259243b",
+          "table_id": "table-1",
+          "field_id": "table-1:field-4",
+          "observed_header": "System Date",
+          "observed_types": {
+            "text": 12
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-7c63d5c2163e2259243b",
+          "table_id": "table-1",
+          "field_id": "table-1:field-5",
+          "observed_header": "Posting Date",
+          "observed_types": {
+            "text": 12
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-b247dcbb54e46048ecda",
+          "table_id": "table-1",
+          "field_id": "table-1:field-19",
+          "observed_header": "Date of Udate",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-e9763e40df1a6782c197",
+          "table_id": "table-1",
+          "field_id": "table-1:field-19",
+          "observed_header": "Date of Udate",
+          "observed_types": {
+            "datetime": 3,
+            "integer": 4,
+            "text": 25
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-04c9fa2c5dd7e17e462e",
+          "table_id": "table-1",
+          "field_id": "table-1:field-3",
+          "observed_header": "SO Date",
+          "observed_types": {
+            "datetime": 1,
+            "integer": 4,
+            "text": 27
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-04c9fa2c5dd7e17e462e",
+          "table_id": "table-1",
+          "field_id": "table-1:field-8",
+          "observed_header": " Invoice Date ",
+          "observed_types": {
+            "datetime": 4,
+            "text": 28
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-ed3893ebeefee475e92a",
+          "table_id": "table-1",
+          "field_id": "table-1:field-3",
+          "observed_header": "SO Date",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-ed3893ebeefee475e92a",
+          "table_id": "table-1",
+          "field_id": "table-1:field-8",
+          "observed_header": "Invoice Date",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-a3093eb68060d75d67ff",
+          "table_id": "table-1",
+          "field_id": "table-1:field-9",
+          "observed_header": "Posting Date",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-a3093eb68060d75d67ff",
+          "table_id": "table-1",
+          "field_id": "table-1:field-10",
+          "observed_header": "Delivery Date",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-59d735bd9a5d3dae7bdd",
+          "table_id": "table-1",
+          "field_id": "table-1:field-9",
+          "observed_header": "Posting Date  ",
+          "observed_types": {
+            "datetime": 2,
+            "integer": 2,
+            "text": 28
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-59d735bd9a5d3dae7bdd",
+          "table_id": "table-1",
+          "field_id": "table-1:field-10",
+          "observed_header": "Delivery Date",
+          "observed_types": {
+            "datetime": 1,
+            "integer": 3,
+            "text": 28
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        }
+      ],
+      "discovery_failures": [],
+      "business_approved": false,
+      "execution_mode": "exploratory",
+      "controlled_worker_execution": false
+    }
+  },
+  {
+    "scenario_id": "historical_subset",
+    "request": {
+      "question": "Show the observed target series",
+      "intent": "historical_analysis",
+      "dataset_id": "nop-confirmed-date-invoice-count-exploratory",
+      "analysis": {
+        "operation": "series",
+        "measure": "target_count"
+      }
+    },
+    "response": {
+      "status": "answered",
+      "answer_type": "historical_fact",
+      "question": "Show the observed target series",
+      "answer": "Calculated series for 10 prepared observations of target_count.",
+      "result": {
+        "measure_field": "target_count",
+        "method": "series",
+        "groups": [
+          {
+            "dimensions": {},
+            "observations": 10,
+            "period_start": "2025-12",
+            "period_end": "2026-09",
+            "points": [
+              {
+                "period": "2025-12",
+                "value": 13.0
+              },
+              {
+                "period": "2026-01",
+                "value": 22.0
+              },
+              {
+                "period": "2026-02",
+                "value": 12.0
+              },
+              {
+                "period": "2026-03",
+                "value": 20.0
+              },
+              {
+                "period": "2026-04",
+                "value": 19.0
+              },
+              {
+                "period": "2026-05",
+                "value": 22.0
+              },
+              {
+                "period": "2026-06",
+                "value": 19.0
+              },
+              {
+                "period": "2026-07",
+                "value": 16.0
+              },
+              {
+                "period": "2026-08",
+                "value": 8.0
+              },
+              {
+                "period": "2026-09",
+                "value": 1.0
+              }
+            ]
+          }
+        ],
+        "input_rows": 10,
+        "used_rows": 10,
+        "filtered_rows": 0,
+        "excluded_missing_rows": 0,
+        "method_limitations": [],
+        "dataset_id": "nop-confirmed-date-invoice-count-exploratory",
+        "data_mode": "actual_nop_exploratory_subset",
+        "business_approved": false,
+        "provenance": {
+          "dataset_id": "nop-confirmed-date-invoice-count-exploratory",
+          "dataset_version": "1.0.0",
+          "dataset_sha256": "807bb312577bb595cdb22d28dd227c0fc23e52898ab42dbe73b99f7d4f444b95",
+          "source_file": "dataset\\Sales Invoice Details.xlsx",
+          "source_file_sha256": "e36c7b8338e80353e6ccf5b452fd9c9be0834fc3a3890841c60fd3fe644fad56",
+          "target_definition": "Distinct invoice references with a fully consistent and unambiguously day-first date, grouped by observed calendar month in this workbook."
+        },
+        "limitations": [
+          "This is a confirmed-date subset, not total invoice volume.",
+          "The exact invoice reference is assumed unique within this workbook only.",
+          "Unresolved dates are excluded and may create month-dependent undercounts.",
+          "No zero periods were inserted; absent months mean unknown, not zero.",
+          "No semantic approval, execution authorization, or publication receipt was created."
+        ],
+        "period_start": "2025-12",
+        "period_end": "2026-09",
+        "points": [
+          {
+            "period": "2025-12",
+            "value": 13.0
+          },
+          {
+            "period": "2026-01",
+            "value": 22.0
+          },
+          {
+            "period": "2026-02",
+            "value": 12.0
+          },
+          {
+            "period": "2026-03",
+            "value": 20.0
+          },
+          {
+            "period": "2026-04",
+            "value": 19.0
+          },
+          {
+            "period": "2026-05",
+            "value": 22.0
+          },
+          {
+            "period": "2026-06",
+            "value": 19.0
+          },
+          {
+            "period": "2026-07",
+            "value": 16.0
+          },
+          {
+            "period": "2026-08",
+            "value": 8.0
+          },
+          {
+            "period": "2026-09",
+            "value": 1.0
+          }
+        ],
+        "observation_count": 10
+      },
+      "plan": {
+        "intent": "historical_analysis",
+        "dataset_id": "nop-confirmed-date-invoice-count-exploratory",
+        "dataset_version": "1.0.0",
+        "dataset_sha256": "807bb312577bb595cdb22d28dd227c0fc23e52898ab42dbe73b99f7d4f444b95",
+        "target_definition": "Distinct invoice references with a fully consistent and unambiguously day-first date, grouped by observed calendar month in this workbook.",
+        "specification_sha256": "51c973fe70d21d894e1f237427f19b6eb2e544f20d48f30e948ede25517b5339",
+        "analysis": {
+          "operation": "series",
+          "measure": "target_count",
+          "dimensions": [],
+          "time_field": "period",
+          "missing_policy": "reject"
+        },
+        "models": [],
+        "horizon": null,
+        "execution_mode": "exploratory",
+        "business_approved": false,
+        "controlled_worker_execution": false,
+        "plan_id": "e4448d83ae29c770529797d14b49eba4ad09d8a3d5c2ed5e43e39950fd019840"
+      },
+      "methodology": {
+        "operation": "series",
+        "measure": "target_count",
+        "dimensions": [],
+        "time_field": "period",
+        "missing_policy": "reject"
+      },
+      "target_definition": "Distinct invoice references with a fully consistent and unambiguously day-first date, grouped by observed calendar month in this workbook.",
+      "source_field_observations": [
+        {
+          "source_id": "readiness-a2012ec6e7093b504279",
+          "table_id": "table-1",
+          "field_id": "table-1:field-51",
+          "observed_header": "Doc_Series",
+          "observed_types": {
+            "text": 6
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": true
+        },
+        {
+          "source_id": "readiness-a2012ec6e7093b504279",
+          "table_id": "table-1",
+          "field_id": "table-1:field-52",
+          "observed_header": "Doc_Series_Prefix",
+          "observed_types": {
+            "text": 6
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": true
+        },
+        {
+          "source_id": "readiness-a2012ec6e7093b504279",
+          "table_id": "table-1",
+          "field_id": "table-1:field-53",
+          "observed_header": "Doc_Series_Suffix",
+          "observed_types": {
+            "text": 6
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": true
+        },
+        {
+          "source_id": "readiness-1f0d34ff71dc5f8d6660",
+          "table_id": "table-1",
+          "field_id": "table-1:field-51",
+          "observed_header": "Doc_Series",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-1f0d34ff71dc5f8d6660",
+          "table_id": "table-1",
+          "field_id": "table-1:field-52",
+          "observed_header": "Doc_Series_Prefix",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-1f0d34ff71dc5f8d6660",
+          "table_id": "table-1",
+          "field_id": "table-1:field-53",
+          "observed_header": "Doc_Series_Suffix",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-da9ac234e6ac2c00c333",
+          "table_id": "table-1",
+          "field_id": "table-1:field-57",
+          "observed_header": "Doc_Series",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-da9ac234e6ac2c00c333",
+          "table_id": "table-1",
+          "field_id": "table-1:field-58",
+          "observed_header": "Doc_Series_Prefix",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-da9ac234e6ac2c00c333",
+          "table_id": "table-1",
+          "field_id": "table-1:field-59",
+          "observed_header": "Doc_Series_Suffix",
+          "observed_types": {},
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        }
+      ],
+      "discovery_failures": [],
+      "business_approved": false,
+      "execution_mode": "exploratory",
+      "controlled_worker_execution": false
+    }
+  },
+  {
+    "scenario_id": "rank_observed_periods",
+    "request": {
+      "question": "Which observed period has the highest stored target?",
+      "intent": "historical_analysis",
+      "dataset_id": "nop-confirmed-date-invoice-count-exploratory",
+      "analysis": {
+        "operation": "rank",
+        "measure": "target_count",
+        "dimensions": [
+          "period"
+        ]
+      }
+    },
+    "response": {
+      "status": "answered",
+      "answer_type": "historical_fact",
+      "question": "Which observed period has the highest stored target?",
+      "answer": "Calculated rank for 10 prepared observations of target_count.",
+      "result": {
+        "measure_field": "target_count",
+        "method": "rank",
+        "groups": [
+          {
+            "dimensions": {
+              "period": "2026-01"
+            },
+            "observations": 1,
+            "period_start": "2026-01",
+            "period_end": "2026-01",
+            "value": 22.0,
+            "rank": 1,
+            "difference_from_first": 0.0
+          },
+          {
+            "dimensions": {
+              "period": "2026-05"
+            },
+            "observations": 1,
+            "period_start": "2026-05",
+            "period_end": "2026-05",
+            "value": 22.0,
+            "rank": 2,
+            "difference_from_first": 0.0
+          },
+          {
+            "dimensions": {
+              "period": "2026-03"
+            },
+            "observations": 1,
+            "period_start": "2026-03",
+            "period_end": "2026-03",
+            "value": 20.0,
+            "rank": 3,
+            "difference_from_first": -2.0
+          },
+          {
+            "dimensions": {
+              "period": "2026-04"
+            },
+            "observations": 1,
+            "period_start": "2026-04",
+            "period_end": "2026-04",
+            "value": 19.0,
+            "rank": 4,
+            "difference_from_first": -3.0
+          },
+          {
+            "dimensions": {
+              "period": "2026-06"
+            },
+            "observations": 1,
+            "period_start": "2026-06",
+            "period_end": "2026-06",
+            "value": 19.0,
+            "rank": 5,
+            "difference_from_first": -3.0
+          },
+          {
+            "dimensions": {
+              "period": "2026-07"
+            },
+            "observations": 1,
+            "period_start": "2026-07",
+            "period_end": "2026-07",
+            "value": 16.0,
+            "rank": 6,
+            "difference_from_first": -6.0
+          },
+          {
+            "dimensions": {
+              "period": "2025-12"
+            },
+            "observations": 1,
+            "period_start": "2025-12",
+            "period_end": "2025-12",
+            "value": 13.0,
+            "rank": 7,
+            "difference_from_first": -9.0
+          },
+          {
+            "dimensions": {
+              "period": "2026-02"
+            },
+            "observations": 1,
+            "period_start": "2026-02",
+            "period_end": "2026-02",
+            "value": 12.0,
+            "rank": 8,
+            "difference_from_first": -10.0
+          },
+          {
+            "dimensions": {
+              "period": "2026-08"
+            },
+            "observations": 1,
+            "period_start": "2026-08",
+            "period_end": "2026-08",
+            "value": 8.0,
+            "rank": 9,
+            "difference_from_first": -14.0
+          },
+          {
+            "dimensions": {
+              "period": "2026-09"
+            },
+            "observations": 1,
+            "period_start": "2026-09",
+            "period_end": "2026-09",
+            "value": 1.0,
+            "rank": 10,
+            "difference_from_first": -21.0
+          }
+        ],
+        "input_rows": 10,
+        "used_rows": 10,
+        "filtered_rows": 0,
+        "excluded_missing_rows": 0,
+        "method_limitations": [
+          "Grouped comparison values are observation means."
+        ],
+        "dataset_id": "nop-confirmed-date-invoice-count-exploratory",
+        "data_mode": "actual_nop_exploratory_subset",
+        "business_approved": false,
+        "provenance": {
+          "dataset_id": "nop-confirmed-date-invoice-count-exploratory",
+          "dataset_version": "1.0.0",
+          "dataset_sha256": "807bb312577bb595cdb22d28dd227c0fc23e52898ab42dbe73b99f7d4f444b95",
+          "source_file": "dataset\\Sales Invoice Details.xlsx",
+          "source_file_sha256": "e36c7b8338e80353e6ccf5b452fd9c9be0834fc3a3890841c60fd3fe644fad56",
+          "target_definition": "Distinct invoice references with a fully consistent and unambiguously day-first date, grouped by observed calendar month in this workbook."
+        },
+        "limitations": [
+          "This is a confirmed-date subset, not total invoice volume.",
+          "The exact invoice reference is assumed unique within this workbook only.",
+          "Unresolved dates are excluded and may create month-dependent undercounts.",
+          "No zero periods were inserted; absent months mean unknown, not zero.",
+          "No semantic approval, execution authorization, or publication receipt was created."
+        ]
+      },
+      "plan": {
+        "intent": "historical_analysis",
+        "dataset_id": "nop-confirmed-date-invoice-count-exploratory",
+        "dataset_version": "1.0.0",
+        "dataset_sha256": "807bb312577bb595cdb22d28dd227c0fc23e52898ab42dbe73b99f7d4f444b95",
+        "target_definition": "Distinct invoice references with a fully consistent and unambiguously day-first date, grouped by observed calendar month in this workbook.",
+        "specification_sha256": "51c973fe70d21d894e1f237427f19b6eb2e544f20d48f30e948ede25517b5339",
+        "analysis": {
+          "operation": "rank",
+          "measure": "target_count",
+          "dimensions": [
+            "period"
+          ],
+          "time_field": "period",
+          "missing_policy": "reject"
+        },
+        "models": [],
+        "horizon": null,
+        "execution_mode": "exploratory",
+        "business_approved": false,
+        "controlled_worker_execution": false,
+        "plan_id": "f9a6dfbca72837fa0e6440ddd636e5e7dc8b5ffe02851d421b92c6882804fd80"
+      },
+      "methodology": {
+        "operation": "rank",
+        "measure": "target_count",
+        "dimensions": [
+          "period"
+        ],
+        "time_field": "period",
+        "missing_policy": "reject"
+      },
+      "target_definition": "Distinct invoice references with a fully consistent and unambiguously day-first date, grouped by observed calendar month in this workbook.",
+      "source_field_observations": [],
+      "discovery_failures": [],
+      "business_approved": false,
+      "execution_mode": "exploratory",
+      "controlled_worker_execution": false
+    }
+  },
+  {
+    "scenario_id": "product_demand",
+    "request": "Which products are showing increasing demand?",
+    "response": {
+      "status": "clarification_required",
+      "answer_type": "unknown",
+      "question": "Which products are showing increasing demand?",
+      "clarification": "Specify a measure and analytical intent; a provider can supply structured interpretation for this question.",
+      "source_field_observations": [
+        {
+          "source_id": "readiness-b247dcbb54e46048ecda",
+          "table_id": "table-1",
+          "field_id": "table-1:field-13",
+          "observed_header": "Product Segment",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-e9763e40df1a6782c197",
+          "table_id": "table-1",
+          "field_id": "table-1:field-13",
+          "observed_header": "Product Segment",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-3247fc1785f45d72569d",
+          "table_id": "table-3",
+          "field_id": "table-3:field-2",
+          "observed_header": "Product code",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-3247fc1785f45d72569d",
+          "table_id": "table-3",
+          "field_id": "table-3:field-3",
+          "observed_header": "Product name",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-3247fc1785f45d72569d",
+          "table_id": "table-3",
+          "field_id": "table-3:field-5",
+          "observed_header": "Product segment CD",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-3247fc1785f45d72569d",
+          "table_id": "table-3",
+          "field_id": "table-3:field-6",
+          "observed_header": "Product segment",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-3247fc1785f45d72569d",
+          "table_id": "table-4",
+          "field_id": "table-4:field-2",
+          "observed_header": "Product code",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-3247fc1785f45d72569d",
+          "table_id": "table-4",
+          "field_id": "table-4:field-3",
+          "observed_header": "Product name",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-3247fc1785f45d72569d",
+          "table_id": "table-4",
+          "field_id": "table-4:field-5",
+          "observed_header": "Product segment CD",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-3247fc1785f45d72569d",
+          "table_id": "table-4",
+          "field_id": "table-4:field-6",
+          "observed_header": "Product segment",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        }
+      ],
+      "discovery_failures": [],
+      "business_approved": false,
+      "execution_mode": "exploratory",
+      "controlled_worker_execution": false
+    }
+  },
+  {
+    "scenario_id": "inventory",
+    "request": "How much inventory might be required?",
+    "response": {
+      "status": "clarification_required",
+      "answer_type": "forecast",
+      "question": "How much inventory might be required?",
+      "clarification": "No validated prepared target matches the requested concepts.",
+      "available_prepared_datasets": [
+        "nop-confirmed-date-invoice-count-exploratory"
+      ],
+      "source_field_observations": [
+        {
+          "source_id": "readiness-b247dcbb54e46048ecda",
+          "table_id": "table-1",
+          "field_id": "table-1:field-17",
+          "observed_header": "Minimum Inventory",
+          "observed_types": {
+            "integer": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-e9763e40df1a6782c197",
+          "table_id": "table-1",
+          "field_id": "table-1:field-17",
+          "observed_header": "Minimum Inventory",
+          "observed_types": {
+            "integer": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        }
+      ],
+      "discovery_failures": [],
+      "business_approved": false,
+      "execution_mode": "exploratory",
+      "controlled_worker_execution": false
+    }
+  },
+  {
+    "scenario_id": "customer_behavior",
+    "request": "Which customers may purchase again?",
+    "response": {
+      "status": "clarification_required",
+      "answer_type": "forecast",
+      "question": "Which customers may purchase again?",
+      "clarification": "No validated prepared target matches the requested concepts.",
+      "available_prepared_datasets": [
+        "nop-confirmed-date-invoice-count-exploratory"
+      ],
+      "source_field_observations": [
+        {
+          "source_id": "readiness-0728ed2a945ec08dea61",
+          "table_id": "table-1",
+          "field_id": "table-1:field-2",
+          "observed_header": "CUSTOMER CODE",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-0728ed2a945ec08dea61",
+          "table_id": "table-1",
+          "field_id": "table-1:field-3",
+          "observed_header": "CUSTOMER NAME",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-0728ed2a945ec08dea61",
+          "table_id": "table-1",
+          "field_id": "table-1:field-4",
+          "observed_header": "CUSTOMER GROUP",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-fe3bab78ca32dba28158",
+          "table_id": "table-1",
+          "field_id": "table-1:field-2",
+          "observed_header": "CUSTOMER CODE",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-fe3bab78ca32dba28158",
+          "table_id": "table-1",
+          "field_id": "table-1:field-3",
+          "observed_header": "CUSTOMER NAME  ",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-fe3bab78ca32dba28158",
+          "table_id": "table-1",
+          "field_id": "table-1:field-4",
+          "observed_header": "CUSTOMER GROUP",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-a2012ec6e7093b504279",
+          "table_id": "table-1",
+          "field_id": "table-1:field-6",
+          "observed_header": "Customer_Billing_Name",
+          "observed_types": {
+            "text": 6
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": true
+        },
+        {
+          "source_id": "readiness-a2012ec6e7093b504279",
+          "table_id": "table-1",
+          "field_id": "table-1:field-7",
+          "observed_header": "Customer_Shipping/Billing_GSTIN",
+          "observed_types": {
+            "text": 6
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": true
+        },
+        {
+          "source_id": "readiness-a2012ec6e7093b504279",
+          "table_id": "table-1",
+          "field_id": "table-1:field-30",
+          "observed_header": "Original_Customer_Billing_GSTIN",
+          "observed_types": {
+            "text": 6
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": true
+        },
+        {
+          "source_id": "readiness-a2012ec6e7093b504279",
+          "table_id": "table-1",
+          "field_id": "table-1:field-32",
+          "observed_header": "Customer_Billing_Address",
+          "observed_types": {
+            "text": 6
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": true
+        },
+        {
+          "source_id": "readiness-a2012ec6e7093b504279",
+          "table_id": "table-1",
+          "field_id": "table-1:field-33",
+          "observed_header": "Customer_Billing_City",
+          "observed_types": {
+            "text": 6
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": true
+        },
+        {
+          "source_id": "readiness-a2012ec6e7093b504279",
+          "table_id": "table-1",
+          "field_id": "table-1:field-34",
+          "observed_header": "Customer_Billing_State",
+          "observed_types": {
+            "text": 6
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": true
+        },
+        {
+          "source_id": "readiness-a2012ec6e7093b504279",
+          "table_id": "table-1",
+          "field_id": "table-1:field-35",
+          "observed_header": "Customer_Billing_State_GSTCode",
+          "observed_types": {
+            "text": 6
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": true
+        },
+        {
+          "source_id": "readiness-a2012ec6e7093b504279",
+          "table_id": "table-1",
+          "field_id": "table-1:field-42",
+          "observed_header": "Customer_Shipping_Address",
+          "observed_types": {
+            "text": 6
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": true
+        },
+        {
+          "source_id": "readiness-a2012ec6e7093b504279",
+          "table_id": "table-1",
+          "field_id": "table-1:field-43",
+          "observed_header": "Customer_Shipping_City",
+          "observed_types": {
+            "text": 6
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": true
+        },
+        {
+          "source_id": "readiness-a2012ec6e7093b504279",
+          "table_id": "table-1",
+          "field_id": "table-1:field-44",
+          "observed_header": "Customer_Shipping_State",
+          "observed_types": {
+            "text": 6
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": true
+        },
+        {
+          "source_id": "readiness-a2012ec6e7093b504279",
+          "table_id": "table-1",
+          "field_id": "table-1:field-45",
+          "observed_header": "Customer_Shipping_State_GSTCode",
+          "observed_types": {
+            "text": 6
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": true
+        },
+        {
+          "source_id": "readiness-a2012ec6e7093b504279",
+          "table_id": "table-1",
+          "field_id": "table-1:field-59",
+          "observed_header": "Customer_Bill_To_GSTIN",
+          "observed_types": {
+            "text": 6
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": true
+        },
+        {
+          "source_id": "readiness-1f0d34ff71dc5f8d6660",
+          "table_id": "table-1",
+          "field_id": "table-1:field-6",
+          "observed_header": "Customer_Billing_Name",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-1f0d34ff71dc5f8d6660",
+          "table_id": "table-1",
+          "field_id": "table-1:field-7",
+          "observed_header": "Customer_Shipping/Billing_GSTIN",
+          "observed_types": {
+            "text": 24
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-1f0d34ff71dc5f8d6660",
+          "table_id": "table-1",
+          "field_id": "table-1:field-30",
+          "observed_header": "Original_Customer_Billing_GSTIN",
+          "observed_types": {
+            "text": 24
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-1f0d34ff71dc5f8d6660",
+          "table_id": "table-1",
+          "field_id": "table-1:field-32",
+          "observed_header": "Customer_Billing_Address",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-1f0d34ff71dc5f8d6660",
+          "table_id": "table-1",
+          "field_id": "table-1:field-33",
+          "observed_header": "Customer_Billing_City",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-1f0d34ff71dc5f8d6660",
+          "table_id": "table-1",
+          "field_id": "table-1:field-34",
+          "observed_header": "Customer_Billing_State",
+          "observed_types": {
+            "text": 24
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-1f0d34ff71dc5f8d6660",
+          "table_id": "table-1",
+          "field_id": "table-1:field-35",
+          "observed_header": "Customer_Billing_State_GSTCode",
+          "observed_types": {
+            "text": 24
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-1f0d34ff71dc5f8d6660",
+          "table_id": "table-1",
+          "field_id": "table-1:field-42",
+          "observed_header": "Customer_Shipping_Address",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-1f0d34ff71dc5f8d6660",
+          "table_id": "table-1",
+          "field_id": "table-1:field-43",
+          "observed_header": "Customer_Shipping_City",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-1f0d34ff71dc5f8d6660",
+          "table_id": "table-1",
+          "field_id": "table-1:field-44",
+          "observed_header": "Customer_Shipping_State",
+          "observed_types": {
+            "text": 24
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-1f0d34ff71dc5f8d6660",
+          "table_id": "table-1",
+          "field_id": "table-1:field-45",
+          "observed_header": "Customer_Shipping_State_GSTCode",
+          "observed_types": {
+            "text": 24
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-1f0d34ff71dc5f8d6660",
+          "table_id": "table-1",
+          "field_id": "table-1:field-59",
+          "observed_header": "Customer_Bill_To_GSTIN",
+          "observed_types": {
+            "text": 24
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-da9ac234e6ac2c00c333",
+          "table_id": "table-1",
+          "field_id": "table-1:field-4",
+          "observed_header": "Customer_Billing_Name",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-da9ac234e6ac2c00c333",
+          "table_id": "table-1",
+          "field_id": "table-1:field-5",
+          "observed_header": "Customer_Shipping/Billing_GSTIN",
+          "observed_types": {
+            "text": 25
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-da9ac234e6ac2c00c333",
+          "table_id": "table-1",
+          "field_id": "table-1:field-29",
+          "observed_header": "Original_Customer_Billing_GSTIN",
+          "observed_types": {
+            "text": 25
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-da9ac234e6ac2c00c333",
+          "table_id": "table-1",
+          "field_id": "table-1:field-39",
+          "observed_header": "Customer_Billing_Address",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-da9ac234e6ac2c00c333",
+          "table_id": "table-1",
+          "field_id": "table-1:field-40",
+          "observed_header": "Customer_Billing_City",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-da9ac234e6ac2c00c333",
+          "table_id": "table-1",
+          "field_id": "table-1:field-41",
+          "observed_header": "Customer_Billing_State",
+          "observed_types": {
+            "text": 25
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-da9ac234e6ac2c00c333",
+          "table_id": "table-1",
+          "field_id": "table-1:field-42",
+          "observed_header": "Customer_Billing_State_GSTCode",
+          "observed_types": {
+            "text": 25
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-da9ac234e6ac2c00c333",
+          "table_id": "table-1",
+          "field_id": "table-1:field-47",
+          "observed_header": "Customer_Shipping_Address",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-da9ac234e6ac2c00c333",
+          "table_id": "table-1",
+          "field_id": "table-1:field-48",
+          "observed_header": "Customer_Shipping_City",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-da9ac234e6ac2c00c333",
+          "table_id": "table-1",
+          "field_id": "table-1:field-49",
+          "observed_header": "Customer_Shipping_State",
+          "observed_types": {
+            "text": 25
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-da9ac234e6ac2c00c333",
+          "table_id": "table-1",
+          "field_id": "table-1:field-50",
+          "observed_header": "Customer_Shipping_State_GSTCode",
+          "observed_types": {
+            "text": 25
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-da9ac234e6ac2c00c333",
+          "table_id": "table-1",
+          "field_id": "table-1:field-61",
+          "observed_header": "Customer_Bill_To_GSTIN",
+          "observed_types": {
+            "text": 25
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-b247dcbb54e46048ecda",
+          "table_id": "table-1",
+          "field_id": "table-1:field-6",
+          "observed_header": "Order by Customer",
+          "observed_types": {
+            "integer": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-e9763e40df1a6782c197",
+          "table_id": "table-1",
+          "field_id": "table-1:field-6",
+          "observed_header": "Order by Customer",
+          "observed_types": {
+            "integer": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-04c9fa2c5dd7e17e462e",
+          "table_id": "table-1",
+          "field_id": "table-1:field-5",
+          "observed_header": "Customer Ref. No.",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-04c9fa2c5dd7e17e462e",
+          "table_id": "table-1",
+          "field_id": "table-1:field-6",
+          "observed_header": "Customer Type",
+          "observed_types": {
+            "cell_error": 1,
+            "text": 19
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-04c9fa2c5dd7e17e462e",
+          "table_id": "table-1",
+          "field_id": "table-1:field-9",
+          "observed_header": "Customer Billing Name  ",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-04c9fa2c5dd7e17e462e",
+          "table_id": "table-1",
+          "field_id": "table-1:field-10",
+          "observed_header": "Customer Billing City",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-04c9fa2c5dd7e17e462e",
+          "table_id": "table-1",
+          "field_id": "table-1:field-34",
+          "observed_header": "Customer Billing Address",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-04c9fa2c5dd7e17e462e",
+          "table_id": "table-1",
+          "field_id": "table-1:field-35",
+          "observed_header": "Customer Shiping Address",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-04c9fa2c5dd7e17e462e",
+          "table_id": "table-1",
+          "field_id": "table-1:field-39",
+          "observed_header": "Customer Shipping GSTIN",
+          "observed_types": {
+            "text": 29
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-04c9fa2c5dd7e17e462e",
+          "table_id": "table-1",
+          "field_id": "table-1:field-40",
+          "observed_header": "Customer Billing GSTIN",
+          "observed_types": {
+            "text": 29
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-ed3893ebeefee475e92a",
+          "table_id": "table-1",
+          "field_id": "table-1:field-5",
+          "observed_header": "Customer Ref. No.",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-ed3893ebeefee475e92a",
+          "table_id": "table-1",
+          "field_id": "table-1:field-6",
+          "observed_header": "Customer Type",
+          "observed_types": {
+            "text": 1
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-ed3893ebeefee475e92a",
+          "table_id": "table-1",
+          "field_id": "table-1:field-9",
+          "observed_header": "Customer Billing Name",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-ed3893ebeefee475e92a",
+          "table_id": "table-1",
+          "field_id": "table-1:field-10",
+          "observed_header": "Customer Billing City",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-ed3893ebeefee475e92a",
+          "table_id": "table-1",
+          "field_id": "table-1:field-34",
+          "observed_header": "Customer Billing Address",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-ed3893ebeefee475e92a",
+          "table_id": "table-1",
+          "field_id": "table-1:field-35",
+          "observed_header": "Customer Shiping Address",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-ed3893ebeefee475e92a",
+          "table_id": "table-1",
+          "field_id": "table-1:field-39",
+          "observed_header": "Customer Shipping GSTIN",
+          "observed_types": {
+            "text": 25
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-ed3893ebeefee475e92a",
+          "table_id": "table-1",
+          "field_id": "table-1:field-40",
+          "observed_header": "Customer Billing GSTIN",
+          "observed_types": {
+            "text": 25
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-a3093eb68060d75d67ff",
+          "table_id": "table-1",
+          "field_id": "table-1:field-2",
+          "observed_header": "Customer Code",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-a3093eb68060d75d67ff",
+          "table_id": "table-1",
+          "field_id": "table-1:field-3",
+          "observed_header": "Customer Name",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-a3093eb68060d75d67ff",
+          "table_id": "table-1",
+          "field_id": "table-1:field-6",
+          "observed_header": "Customer Ref No",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-59d735bd9a5d3dae7bdd",
+          "table_id": "table-1",
+          "field_id": "table-1:field-2",
+          "observed_header": " Customer Code ",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-59d735bd9a5d3dae7bdd",
+          "table_id": "table-1",
+          "field_id": "table-1:field-3",
+          "observed_header": "Customer Name",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-59d735bd9a5d3dae7bdd",
+          "table_id": "table-1",
+          "field_id": "table-1:field-6",
+          "observed_header": "Customer Ref No",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-3247fc1785f45d72569d",
+          "table_id": "table-1",
+          "field_id": "table-1:field-2",
+          "observed_header": "Customer Code",
+          "observed_types": {
+            "integer": 3
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-3247fc1785f45d72569d",
+          "table_id": "table-1",
+          "field_id": "table-1:field-3",
+          "observed_header": "Customer Name",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        }
+      ],
+      "discovery_failures": [],
+      "business_approved": false,
+      "execution_mode": "exploratory",
+      "controlled_worker_execution": false
+    }
+  },
+  {
+    "scenario_id": "performance_comparison",
+    "request": "Compare the performance of different business units",
+    "response": {
+      "status": "clarification_required",
+      "answer_type": "historical_analysis",
+      "question": "Compare the performance of different business units",
+      "clarification": "No validated prepared target matches the requested concepts.",
+      "candidate_datasets": [],
+      "discovered_prepared_dataset_count": 1,
+      "source_field_observations": [
+        {
+          "source_id": "readiness-0728ed2a945ec08dea61",
+          "table_id": "table-1",
+          "field_id": "table-1:field-12",
+          "observed_header": "TYPE OF BUSINESS",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-fe3bab78ca32dba28158",
+          "table_id": "table-1",
+          "field_id": "table-1:field-12",
+          "observed_header": "TYPE OF BUSINESS",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-a2012ec6e7093b504279",
+          "table_id": "table-1",
+          "field_id": "table-1:field-16",
+          "observed_header": "Item_Unit_Price",
+          "observed_types": {
+            "text": 6
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": true
+        },
+        {
+          "source_id": "readiness-1f0d34ff71dc5f8d6660",
+          "table_id": "table-1",
+          "field_id": "table-1:field-16",
+          "observed_header": "Item_Unit_Price",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-da9ac234e6ac2c00c333",
+          "table_id": "table-1",
+          "field_id": "table-1:field-14",
+          "observed_header": "Item_Unit_Price",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-b247dcbb54e46048ecda",
+          "table_id": "table-1",
+          "field_id": "table-1:field-18",
+          "observed_header": "Pricing unit",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-e9763e40df1a6782c197",
+          "table_id": "table-1",
+          "field_id": "table-1:field-18",
+          "observed_header": "Pricing unit",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-04c9fa2c5dd7e17e462e",
+          "table_id": "table-1",
+          "field_id": "table-1:field-21",
+          "observed_header": "Unit Price",
+          "observed_types": {
+            "integer": 27,
+            "text": 5
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-ed3893ebeefee475e92a",
+          "table_id": "table-1",
+          "field_id": "table-1:field-21",
+          "observed_header": "Unit Price",
+          "observed_types": {
+            "integer": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-a3093eb68060d75d67ff",
+          "table_id": "table-1",
+          "field_id": "table-1:field-16",
+          "observed_header": "Unit Price",
+          "observed_types": {
+            "integer": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-59d735bd9a5d3dae7bdd",
+          "table_id": "table-1",
+          "field_id": "table-1:field-16",
+          "observed_header": "Unit Price",
+          "observed_types": {
+            "integer": 26,
+            "text": 6
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        }
+      ],
+      "discovery_failures": [],
+      "business_approved": false,
+      "execution_mode": "exploratory",
+      "controlled_worker_execution": false
+    }
+  },
+  {
+    "scenario_id": "diagnostic",
+    "request": "Why did sales decrease?",
+    "response": {
+      "status": "clarification_required",
+      "answer_type": "diagnostic",
+      "question": "Why did sales decrease?",
+      "clarification": "No validated prepared target matches the requested concepts.",
+      "candidate_datasets": [],
+      "discovered_prepared_dataset_count": 1,
+      "source_field_observations": [
+        {
+          "source_id": "readiness-04c9fa2c5dd7e17e462e",
+          "table_id": "table-1",
+          "field_id": "table-1:field-41",
+          "observed_header": "Sales Employee",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-ed3893ebeefee475e92a",
+          "table_id": "table-1",
+          "field_id": "table-1:field-41",
+          "observed_header": "Sales Employee",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-a3093eb68060d75d67ff",
+          "table_id": "table-1",
+          "field_id": "table-1:field-25",
+          "observed_header": "Sales Employee",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-59d735bd9a5d3dae7bdd",
+          "table_id": "table-1",
+          "field_id": "table-1:field-25",
+          "observed_header": "Sales Employee",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-3247fc1785f45d72569d",
+          "table_id": "table-3",
+          "field_id": "table-3:field-1",
+          "observed_header": "Sales agency",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        }
+      ],
+      "discovery_failures": [],
+      "business_approved": false,
+      "execution_mode": "exploratory",
+      "controlled_worker_execution": false
+    }
+  },
+  {
+    "scenario_id": "unusual_changes",
+    "request": "Identify unusual changes in business performance",
+    "response": {
+      "status": "clarification_required",
+      "answer_type": "historical_analysis",
+      "question": "Identify unusual changes in business performance",
+      "clarification": "No validated prepared target matches the requested concepts.",
+      "candidate_datasets": [],
+      "discovered_prepared_dataset_count": 1,
+      "source_field_observations": [
+        {
+          "source_id": "readiness-0728ed2a945ec08dea61",
+          "table_id": "table-1",
+          "field_id": "table-1:field-12",
+          "observed_header": "TYPE OF BUSINESS",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        },
+        {
+          "source_id": "readiness-fe3bab78ca32dba28158",
+          "table_id": "table-1",
+          "field_id": "table-1:field-12",
+          "observed_header": "TYPE OF BUSINESS",
+          "observed_types": {
+            "text": 32
+          },
+          "semantic_status": "unreviewed_observation",
+          "profile_complete": false
+        }
+      ],
+      "discovery_failures": [],
+      "business_approved": false,
+      "execution_mode": "exploratory",
+      "controlled_worker_execution": false
+    }
+  }
+]

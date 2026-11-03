@@ -1,0 +1,185 @@
+{
+  "status": "answered",
+  "answer_type": "historical_fact",
+  "question": "Rank observed months",
+  "answer": "Calculated rank for 10 prepared observations of target_count.",
+  "result": {
+    "measure_field": "target_count",
+    "method": "rank",
+    "groups": [
+      {
+        "dimensions": {
+          "period": "2026-01"
+        },
+        "observations": 1,
+        "period_start": "2026-01",
+        "period_end": "2026-01",
+        "value": 22.0,
+        "rank": 1,
+        "difference_from_first": 0.0
+      },
+      {
+        "dimensions": {
+          "period": "2026-05"
+        },
+        "observations": 1,
+        "period_start": "2026-05",
+        "period_end": "2026-05",
+        "value": 22.0,
+        "rank": 1,
+        "difference_from_first": 0.0
+      },
+      {
+        "dimensions": {
+          "period": "2026-03"
+        },
+        "observations": 1,
+        "period_start": "2026-03",
+        "period_end": "2026-03",
+        "value": 20.0,
+        "rank": 3,
+        "difference_from_first": -2.0
+      },
+      {
+        "dimensions": {
+          "period": "2026-04"
+        },
+        "observations": 1,
+        "period_start": "2026-04",
+        "period_end": "2026-04",
+        "value": 19.0,
+        "rank": 4,
+        "difference_from_first": -3.0
+      },
+      {
+        "dimensions": {
+          "period": "2026-06"
+        },
+        "observations": 1,
+        "period_start": "2026-06",
+        "period_end": "2026-06",
+        "value": 19.0,
+        "rank": 4,
+        "difference_from_first": -3.0
+      },
+      {
+        "dimensions": {
+          "period": "2026-07"
+        },
+        "observations": 1,
+        "period_start": "2026-07",
+        "period_end": "2026-07",
+        "value": 16.0,
+        "rank": 6,
+        "difference_from_first": -6.0
+      },
+      {
+        "dimensions": {
+          "period": "2025-12"
+        },
+        "observations": 1,
+        "period_start": "2025-12",
+        "period_end": "2025-12",
+        "value": 13.0,
+        "rank": 7,
+        "difference_from_first": -9.0
+      },
+      {
+        "dimensions": {
+          "period": "2026-02"
+        },
+        "observations": 1,
+        "period_start": "2026-02",
+        "period_end": "2026-02",
+        "value": 12.0,
+        "rank": 8,
+        "difference_from_first": -10.0
+      },
+      {
+        "dimensions": {
+          "period": "2026-08"
+        },
+        "observations": 1,
+        "period_start": "2026-08",
+        "period_end": "2026-08",
+        "value": 8.0,
+        "rank": 9,
+        "difference_from_first": -14.0
+      },
+      {
+        "dimensions": {
+          "period": "2026-09"
+        },
+        "observations": 1,
+        "period_start": "2026-09",
+        "period_end": "2026-09",
+        "value": 1.0,
+        "rank": 10,
+        "difference_from_first": -21.0
+      }
+    ],
+    "input_rows": 10,
+    "used_rows": 10,
+    "filtered_rows": 0,
+    "excluded_missing_rows": 0,
+    "method_limitations": [
+      "Grouped comparison values are observation means."
+    ],
+    "dataset_id": "nop-confirmed-date-invoice-count-exploratory",
+    "data_mode": "actual_nop_exploratory_subset",
+    "business_approved": false,
+    "provenance": {
+      "dataset_id": "nop-confirmed-date-invoice-count-exploratory",
+      "dataset_version": "1.0.0",
+      "dataset_sha256": "807bb312577bb595cdb22d28dd227c0fc23e52898ab42dbe73b99f7d4f444b95",
+      "source_file": "dataset\\Sales Invoice Details.xlsx",
+      "source_file_sha256": "e36c7b8338e80353e6ccf5b452fd9c9be0834fc3a3890841c60fd3fe644fad56",
+      "target_definition": "Distinct invoice references with a fully consistent and unambiguously day-first date, grouped by observed calendar month in this workbook."
+    },
+    "limitations": [
+      "This is a confirmed-date subset, not total invoice volume.",
+      "The exact invoice reference is assumed unique within this workbook only.",
+      "Unresolved dates are excluded and may create month-dependent undercounts.",
+      "No zero periods were inserted; absent months mean unknown, not zero.",
+      "No semantic approval, execution authorization, or publication receipt was created."
+    ]
+  },
+  "plan": {
+    "intent": "historical_analysis",
+    "dataset_id": "nop-confirmed-date-invoice-count-exploratory",
+    "dataset_version": "1.0.0",
+    "dataset_sha256": "807bb312577bb595cdb22d28dd227c0fc23e52898ab42dbe73b99f7d4f444b95",
+    "target_definition": "Distinct invoice references with a fully consistent and unambiguously day-first date, grouped by observed calendar month in this workbook.",
+    "specification_sha256": "51c973fe70d21d894e1f237427f19b6eb2e544f20d48f30e948ede25517b5339",
+    "analysis": {
+      "operation": "rank",
+      "dimensions": [
+        "period"
+      ],
+      "measure": "target_count",
+      "time_field": "period",
+      "missing_policy": "reject"
+    },
+    "models": [],
+    "horizon": null,
+    "execution_mode": "exploratory",
+    "business_approved": false,
+    "controlled_worker_execution": false,
+    "plan_id": "f9a6dfbca72837fa0e6440ddd636e5e7dc8b5ffe02851d421b92c6882804fd80"
+  },
+  "methodology": {
+    "operation": "rank",
+    "dimensions": [
+      "period"
+    ],
+    "measure": "target_count",
+    "time_field": "period",
+    "missing_policy": "reject"
+  },
+  "target_definition": "Distinct invoice references with a fully consistent and unambiguously day-first date, grouped by observed calendar month in this workbook.",
+  "source_field_observations": [],
+  "discovery_failures": [],
+  "business_approved": false,
+  "execution_mode": "exploratory",
+  "controlled_worker_execution": false
+}

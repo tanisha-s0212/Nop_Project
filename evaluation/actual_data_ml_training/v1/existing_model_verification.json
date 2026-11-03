@@ -1,0 +1,132 @@
+{
+  "linear_regression": {
+    "artifact": "models\\business_forecasting\\nop_confirmed_date_invoice_subset\\linear_regression.joblib",
+    "artifact_sha256": "e13668b5a9b4dceaf7ff751e9bbe47e9d476687d032c166e315be0ff37068cf4",
+    "retrained": false,
+    "stored_test_metrics_recalculated": {
+      "mae": 8.600000000000001,
+      "rmse": 9.57078889120432,
+      "r2": -4.725000000000001,
+      "smape_percent": 56.53235653235654,
+      "observations": 2,
+      "independent_groups": 2,
+      "document_macro_mae": 8.600000000000001
+    },
+    "baseline": {
+      "mae": 7.0,
+      "rmse": 8.06225774829855,
+      "r2": -3.0625,
+      "smape_percent": 49.31216931216931,
+      "observations": 2,
+      "independent_groups": 2,
+      "document_macro_mae": 7.0
+    },
+    "fresh_process_loaded": true,
+    "response": {
+      "objective_id": "nop-confirmed-date-invoice-count-exploratory",
+      "objective_name": "Confirmed-date invoice references per observed month (exploratory subset)",
+      "target_definition": "Count distinct Invoice Num references in the source workbook whose every detail row has one consistent, unambiguously day-first Invoice Date, grouped by observed calendar month.",
+      "model_identifier": "nop-confirmed-date-invoice-count-exploratory-linear_regression",
+      "model_version": "0.1.0-exploratory",
+      "data_mode": "actual_nop_exploratory_subset",
+      "business_approved": false,
+      "predictions": [
+        {
+          "period": "2026-10",
+          "prediction": 12.142857142857142
+        },
+        {
+          "period": "2026-11",
+          "prediction": 11.214285714285714
+        }
+      ],
+      "data_provenance": {
+        "dataset_id": "nop-confirmed-date-invoice-count-exploratory",
+        "dataset_version": "1.0.0",
+        "dataset_sha256": "807bb312577bb595cdb22d28dd227c0fc23e52898ab42dbe73b99f7d4f444b95",
+        "source_file": "dataset\\Sales Invoice Details.xlsx",
+        "source_file_sha256": "e36c7b8338e80353e6ccf5b452fd9c9be0834fc3a3890841c60fd3fe644fad56",
+        "source_sheet": "Sheet1",
+        "observations": 10,
+        "observation_period": {
+          "start": "2025-12",
+          "end": "2026-09"
+        },
+        "distinct_references_included": 152,
+        "distinct_references_without_fully_resolved_date_excluded": 82
+      },
+      "known_limitations": [
+        "This is a confirmed-date subset, not total invoice volume.",
+        "The exact invoice reference is assumed unique within this workbook only.",
+        "Unresolved dates are excluded and may create month-dependent undercounts.",
+        "No zero periods were inserted; absent months mean unknown, not zero.",
+        "No semantic approval, execution authorization, or publication receipt was created."
+      ]
+    }
+  },
+  "random_forest": {
+    "artifact": "models\\business_forecasting\\nop_confirmed_date_invoice_subset\\random_forest.joblib",
+    "artifact_sha256": "e556ed1111c352248f11fa270aee8503ac37633c3fc09adbe13faa2f01dc76e4",
+    "retrained": false,
+    "stored_test_metrics_recalculated": {
+      "mae": 7.854583333333338,
+      "rmse": 8.814447194253184,
+      "r2": -3.855904958767365,
+      "smape_percent": 53.30942623684097,
+      "observations": 2,
+      "independent_groups": 2,
+      "document_macro_mae": 7.854583333333338
+    },
+    "baseline": {
+      "mae": 7.0,
+      "rmse": 8.06225774829855,
+      "r2": -3.0625,
+      "smape_percent": 49.31216931216931,
+      "observations": 2,
+      "independent_groups": 2,
+      "document_macro_mae": 7.0
+    },
+    "fresh_process_loaded": true,
+    "response": {
+      "objective_id": "nop-confirmed-date-invoice-count-exploratory",
+      "objective_name": "Confirmed-date invoice references per observed month (exploratory subset)",
+      "target_definition": "Count distinct Invoice Num references in the source workbook whose every detail row has one consistent, unambiguously day-first Invoice Date, grouped by observed calendar month.",
+      "model_identifier": "nop-confirmed-date-invoice-count-exploratory-random_forest",
+      "model_version": "0.1.0-exploratory",
+      "data_mode": "actual_nop_exploratory_subset",
+      "business_approved": false,
+      "predictions": [
+        {
+          "period": "2026-10",
+          "prediction": 14.911875
+        },
+        {
+          "period": "2026-11",
+          "prediction": 14.911875
+        }
+      ],
+      "data_provenance": {
+        "dataset_id": "nop-confirmed-date-invoice-count-exploratory",
+        "dataset_version": "1.0.0",
+        "dataset_sha256": "807bb312577bb595cdb22d28dd227c0fc23e52898ab42dbe73b99f7d4f444b95",
+        "source_file": "dataset\\Sales Invoice Details.xlsx",
+        "source_file_sha256": "e36c7b8338e80353e6ccf5b452fd9c9be0834fc3a3890841c60fd3fe644fad56",
+        "source_sheet": "Sheet1",
+        "observations": 10,
+        "observation_period": {
+          "start": "2025-12",
+          "end": "2026-09"
+        },
+        "distinct_references_included": 152,
+        "distinct_references_without_fully_resolved_date_excluded": 82
+      },
+      "known_limitations": [
+        "This is a confirmed-date subset, not total invoice volume.",
+        "The exact invoice reference is assumed unique within this workbook only.",
+        "Unresolved dates are excluded and may create month-dependent undercounts.",
+        "No zero periods were inserted; absent months mean unknown, not zero.",
+        "No semantic approval, execution authorization, or publication receipt was created."
+      ]
+    }
+  }
+}

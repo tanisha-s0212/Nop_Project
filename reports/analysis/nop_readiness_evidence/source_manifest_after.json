@@ -1,0 +1,104 @@
+[
+  {
+    "relative_path": "Customer Master Report 1.xlsx",
+    "extension": ".xlsx",
+    "size_bytes": 11366,
+    "sha256": "f1669e5fd606a98a6ba1683b39937fcc1bf3c9c096a3be9bbbd362dd8a3361fa"
+  },
+  {
+    "relative_path": "Customer Master Report 2.xlsx",
+    "extension": ".xlsx",
+    "size_bytes": 669693,
+    "sha256": "b76e06455a694ab9cec8bbf904d44b385e775ac9c937a2a1f8e7b41c1296ad5d"
+  },
+  {
+    "relative_path": "Exchange Rate 1.xlsx",
+    "extension": ".xlsx",
+    "size_bytes": 5486,
+    "sha256": "b2663cdb4a34cd5d47a3823ef9a3fbcfc08c63f1e17848880d5b80875aab3d02"
+  },
+  {
+    "relative_path": "Exchange Rate.xlsx",
+    "extension": ".xlsx",
+    "size_bytes": 6021,
+    "sha256": "3b1dcb5194795515175f8b79007bbe5a5dd3e3068d72a90538e32df4005ee03c"
+  },
+  {
+    "relative_path": "GSTR1_Credit_Debit_Note 1.csv",
+    "extension": ".csv",
+    "size_bytes": 4639,
+    "sha256": "a6c2b11f106f36aa58c4bbce00d7ac0299d78fec8168991c53a064d4b351a120"
+  },
+  {
+    "relative_path": "GSTR1_Credit_Debit_Note 2.csv",
+    "extension": ".csv",
+    "size_bytes": 157572,
+    "sha256": "2d92ce7b3e60fe748baf1081567db62113dd9ba219526f98d7c1befbcfc992d4"
+  },
+  {
+    "relative_path": "GSTR1_Invoice.csv",
+    "extension": ".csv",
+    "size_bytes": 182981,
+    "sha256": "3a50bcf6868717609155f832e65947190a042bc8156cf3e128945f35b881cf69"
+  },
+  {
+    "relative_path": "Inventory Audit Report as on 200327.xlsx",
+    "extension": ".xlsx",
+    "size_bytes": 6159252,
+    "sha256": "d1e27b35af566b4c539779bc5b4e99b0a9c5fc6550c2b67c48a2ebb8437cea3d"
+  },
+  {
+    "relative_path": "Inventory Audit Report as on 200926 1.xlsx",
+    "extension": ".xlsx",
+    "size_bytes": 13140,
+    "sha256": "a7f5ea9bfb7a8c6364c85c62e1ddc9f0371e06c07c37359e84f3127a4a6c41b5"
+  },
+  {
+    "relative_path": "Inventory Audit Report as on 200926.xlsx",
+    "extension": ".xlsx",
+    "size_bytes": 12965,
+    "sha256": "e7c372a76a392a7317c3cc7b85cb72551701efa9e6d30ea957c60be5cb9d08a7"
+  },
+  {
+    "relative_path": "Item Master Lists 1.xlsx",
+    "extension": ".xlsx",
+    "size_bytes": 19666,
+    "sha256": "dd91b56d528ca8d2442f2d71a21a3d86c28c12a46e5de4fd93bc92d98d11ad7e"
+  },
+  {
+    "relative_path": "Item Master Lists 2.xlsx",
+    "extension": ".xlsx",
+    "size_bytes": 463529,
+    "sha256": "761540737707a7b03403ea64f9e57cb732fad114331675c20d0c70f8e20ae183"
+  },
+  {
+    "relative_path": "Sales Invoice Details 1.xlsx",
+    "extension": ".xlsx",
+    "size_bytes": 22363462,
+    "sha256": "86355fe4ca0c9739c185ce1308afac79f2a017bb336e817c0be74936f236965d"
+  },
+  {
+    "relative_path": "Sales Invoice Details.xlsx",
+    "extension": ".xlsx",
+    "size_bytes": 67323,
+    "sha256": "e36c7b8338e80353e6ccf5b452fd9c9be0834fc3a3890841c60fd3fe644fad56"
+  },
+  {
+    "relative_path": "Sales Order Report 1.xlsx",
+    "extension": ".xlsx",
+    "size_bytes": 128816,
+    "sha256": "9f2d4fc1b906864721ff940f4d8079fae976c7485e45c1f70f43d8e6e5ba7236"
+  },
+  {
+    "relative_path": "Sales Order Report 2.xlsx",
+    "extension": ".xlsx",
+    "size_bytes": 14745992,
+    "sha256": "9db82d02e281449841045d2e6dac2b84dd4587a906a52486365d59aab9ba7e62"
+  },
+  {
+    "relative_path": "Sales_Order_Data_202609.xlsx",
+    "extension": ".xlsx",
+    "size_bytes": 13913,
+    "sha256": "aca14aa2cc1817c078c27de0566e500bd560acf03786d652b00621ab7f28d7b2"
+  }
+]

@@ -1,0 +1,5 @@
+﻿table,indicator,rows,flag_counts,interpretation,zero_quantity_rows,nonzero_line_value_rows
+Sales Invoice Details 1.xlsx :: Sheet1,Explicit goods/service values,100183,"{""G"": 99242, ""S"": 941}",Raw G/S classification observed; confirm meaning and scope; no separate service master supplied,,
+Sales Invoice Details.xlsx :: Sheet1,Explicit goods/service values,337,"{""G"": 323, ""S"": 14}",Raw G/S classification observed; confirm meaning and scope; no separate service master supplied,,
+Sales Order Report 1.xlsx :: Sheet1,Blank item on nonempty order row,36,,Service/charge-like candidate only; no explicit service flag in this export,36,36
+Sales Order Report 2.xlsx :: Sheet1,Blank item on nonempty order row,1021,,Service/charge-like candidate only; no explicit service flag in this export,1021,1021

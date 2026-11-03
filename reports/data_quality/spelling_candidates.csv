@@ -1,0 +1,8 @@
+﻿file,worksheet,column,value_a,value_b,similarity,affected_values,interpretation
+Customer Master Report 2.xlsx,Sheet1,Bill-to Country,saudi arabia,saudi arabiya,0.96,60,"Possible spelling difference, not a confirmed synonym or error"
+Customer Master Report 2.xlsx,Sheet1,Bill-to Country,united state of america,united states of america,0.9787234042553191,71,"Possible spelling difference, not a confirmed synonym or error"
+GSTR1_Invoice.csv,(CSV table),Duty_Status,wopay,wpay,0.8888888888888888,337,"Possible spelling difference, not a confirmed synonym or error"
+Sales Invoice Details 1.xlsx,Sheet1,Country,saudi arabia,saudi arabiya,0.96,1362,"Possible spelling difference, not a confirmed synonym or error"
+Sales Invoice Details 1.xlsx,Sheet1,Country,united arab emirates,unites arab emirates,0.95,1352,"Possible spelling difference, not a confirmed synonym or error"
+Sales Invoice Details 1.xlsx,Sheet1,Country,united state of america,united states of america,0.9787234042553191,761,"Possible spelling difference, not a confirmed synonym or error"
+Sales Order Report 2.xlsx,Sheet1,Status,canceled,cancelled,0.9411764705882353,2964,"Possible spelling difference, not a confirmed synonym or error"

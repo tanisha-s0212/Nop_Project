@@ -1,0 +1,903 @@
+﻿file,worksheet,column,raw_type,raw_value,count
+Customer Master Report 1.xlsx,Sheet1,CUSTOMER GROUP,text,Local Customer,30
+Customer Master Report 1.xlsx,Sheet1,CUSTOMER GROUP,text,Customers,2
+Customer Master Report 1.xlsx,Sheet1,CUSTOMER GROUP,text,Foreign Customer,8
+Customer Master Report 1.xlsx,Sheet1,TYPE OF BUSINESS,text,Company,40
+Customer Master Report 1.xlsx,Sheet1,ACTIVE,text,YES,40
+Customer Master Report 1.xlsx,Sheet1,INACTIVE,text,NO,40
+Customer Master Report 1.xlsx,Sheet1,Bill-to Country,text,India,32
+Customer Master Report 1.xlsx,Sheet1,Bill-to Country,text,Japan,3
+Customer Master Report 1.xlsx,Sheet1,Bill-to Country,text,Saudi Arabia,1
+Customer Master Report 1.xlsx,Sheet1,Bill-to Country,text,Unites Arab Emirates,2
+Customer Master Report 1.xlsx,Sheet1,Bill-to Country,text,United Kingdom,1
+Customer Master Report 1.xlsx,Sheet1,Bill-to Country,text,United State of America,1
+Customer Master Report 1.xlsx,Sheet1,GST TYPE,text,Regular/TDS/ISD,32
+Customer Master Report 2.xlsx,Sheet1,CUSTOMER GROUP,text,Local Customer,3712
+Customer Master Report 2.xlsx,Sheet1,CUSTOMER GROUP,text,Customers,413
+Customer Master Report 2.xlsx,Sheet1,CUSTOMER GROUP,text,Foreign Customer,887
+Customer Master Report 2.xlsx,Sheet1,TYPE OF BUSINESS,text,Company,5012
+Customer Master Report 2.xlsx,Sheet1,ACTIVE,text,YES,3161
+Customer Master Report 2.xlsx,Sheet1,ACTIVE,text,yes,281
+Customer Master Report 2.xlsx,Sheet1,ACTIVE,boolean,True,282
+Customer Master Report 2.xlsx,Sheet1,ACTIVE,text,Yes,317
+Customer Master Report 2.xlsx,Sheet1,ACTIVE,text,NO,80
+Customer Master Report 2.xlsx,Sheet1,ACTIVE,text,FALSE,8
+Customer Master Report 2.xlsx,Sheet1,ACTIVE,text,1,280
+Customer Master Report 2.xlsx,Sheet1,ACTIVE,text,Y,271
+Customer Master Report 2.xlsx,Sheet1,ACTIVE,text,TRUE,288
+Customer Master Report 2.xlsx,Sheet1,ACTIVE,text,no,11
+Customer Master Report 2.xlsx,Sheet1,ACTIVE,text,0,9
+Customer Master Report 2.xlsx,Sheet1,ACTIVE,text,N,7
+Customer Master Report 2.xlsx,Sheet1,ACTIVE,text,No,9
+Customer Master Report 2.xlsx,Sheet1,ACTIVE,boolean,False,8
+Customer Master Report 2.xlsx,Sheet1,INACTIVE,text,NO,3905
+Customer Master Report 2.xlsx,Sheet1,INACTIVE,text,0,167
+Customer Master Report 2.xlsx,Sheet1,INACTIVE,text,FALSE,172
+Customer Master Report 2.xlsx,Sheet1,INACTIVE,text,YES,100
+Customer Master Report 2.xlsx,Sheet1,INACTIVE,text,No,133
+Customer Master Report 2.xlsx,Sheet1,INACTIVE,text,N,174
+Customer Master Report 2.xlsx,Sheet1,INACTIVE,text,1,5
+Customer Master Report 2.xlsx,Sheet1,INACTIVE,boolean,False,188
+Customer Master Report 2.xlsx,Sheet1,INACTIVE,text,no,141
+Customer Master Report 2.xlsx,Sheet1,INACTIVE,text,yes,7
+Customer Master Report 2.xlsx,Sheet1,INACTIVE,boolean,True,7
+Customer Master Report 2.xlsx,Sheet1,INACTIVE,text,Y,6
+Customer Master Report 2.xlsx,Sheet1,INACTIVE,text,Yes,5
+Customer Master Report 2.xlsx,Sheet1,INACTIVE,text,TRUE,2
+Customer Master Report 2.xlsx,Sheet1,Bill-to Country,text,India,3906
+Customer Master Report 2.xlsx,Sheet1,Bill-to Country,text,india,78
+Customer Master Report 2.xlsx,Sheet1,Bill-to Country,text,Inida,71
+Customer Master Report 2.xlsx,Sheet1,Bill-to Country,text,INDIA,70
+Customer Master Report 2.xlsx,Sheet1,Bill-to Country,text,JAPAN,6
+Customer Master Report 2.xlsx,Sheet1,Bill-to Country,text,Japan,79
+Customer Master Report 2.xlsx,Sheet1,Bill-to Country,text,Saudi Arabia,54
+Customer Master Report 2.xlsx,Sheet1,Bill-to Country,text,U.A.E.,1
+Customer Master Report 2.xlsx,Sheet1,Bill-to Country,text,UAE,2
+Customer Master Report 2.xlsx,Sheet1,Bill-to Country,text,United Kingdom,74
+Customer Master Report 2.xlsx,Sheet1,Bill-to Country,text,United States of America,69
+Customer Master Report 2.xlsx,Sheet1,Bill-to Country,text,Vietnam,54
+Customer Master Report 2.xlsx,Sheet1,Bill-to Country,text,United Arab Emirates,83
+Customer Master Report 2.xlsx,Sheet1,Bill-to Country,text,Thailand,69
+Customer Master Report 2.xlsx,Sheet1,Bill-to Country,text,Mexico,80
+Customer Master Report 2.xlsx,Sheet1,Bill-to Country,text,South Africa,70
+Customer Master Report 2.xlsx,Sheet1,Bill-to Country,text,U.K.,3
+Customer Master Report 2.xlsx,Sheet1,Bill-to Country,text,Sri Lanka,72
+Customer Master Report 2.xlsx,Sheet1,Bill-to Country,text,Germany,75
+Customer Master Report 2.xlsx,Sheet1,Bill-to Country,text,China,64
+Customer Master Report 2.xlsx,Sheet1,Bill-to Country,text,SRI LANKA,3
+Customer Master Report 2.xlsx,Sheet1,Bill-to Country,text,USA,2
+Customer Master Report 2.xlsx,Sheet1,Bill-to Country,text,THAILAND,4
+Customer Master Report 2.xlsx,Sheet1,Bill-to Country,text,SOUTH AFRICA,6
+Customer Master Report 2.xlsx,Sheet1,Bill-to Country,text,MEXICO,1
+Customer Master Report 2.xlsx,Sheet1,Bill-to Country,text,United State of America,2
+Customer Master Report 2.xlsx,Sheet1,Bill-to Country,text,GERMANY,2
+Customer Master Report 2.xlsx,Sheet1,Bill-to Country,text,U.S.A.,2
+Customer Master Report 2.xlsx,Sheet1,Bill-to Country,text,Saudi Arabiya,4
+Customer Master Report 2.xlsx,Sheet1,Bill-to Country,text,CHINA,3
+Customer Master Report 2.xlsx,Sheet1,Bill-to Country,text,SAUDI ARABIA,2
+Customer Master Report 2.xlsx,Sheet1,Bill-to Country,text,UNITED KINGDOM,1
+Customer Master Report 2.xlsx,Sheet1,GST TYPE,text,Regular/TDS/ISD,4125
+Exchange Rate 1.xlsx,INR to JPY,From Currency,text,INR,6
+Exchange Rate 1.xlsx,INR to JPY,From Currency,text,inr,1
+Exchange Rate 1.xlsx,INR to JPY,To Currency,text,JPY,7
+Exchange Rate.xlsx,INR to JPY,From Currency,text,INR,22
+Exchange Rate.xlsx,INR to JPY,To Currency,text,JPY,22
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),Type_Credit_or_Debit,text,C,6
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),Item_Type_G_or_S,text,G,6
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),Flag_Reverse_Charge,text,N,6
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),Item_GST_Type,text,R,6
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),Duty_Status,text,WPAY,6
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),BP_Type,text,Regular/TDS/ISD,6
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2526/194,1
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2526/202,1
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2526/204,1
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2526/250,1
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2526/242,1
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/52,1
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),Stock_Impact,text,Y,6
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),Tax_Liable,text,Y,6
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Type_Credit_or_Debit,text,C,215
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Type_Credit_or_Debit,text,c,11
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Type_Credit_or_Debit,text,D,14
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Type_Credit_or_Debit,text,d,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Type_Credit_or_Debit,text,C ,15
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Type_Credit_or_Debit,text, C ,8
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Type_Credit_or_Debit,text,c  ,11
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Type_Credit_or_Debit,text,d  ,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Item_Type_G_or_S,text,G,275
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Item_Type_G_or_S,text,S,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Flag_Reverse_Charge,text,N,276
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Item_GST_Type,text,R,276
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Duty_Status,text,WPAY,276
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),BP_Type,text,Regular/TDS/ISD,231
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),BP_Type,text,Overseas,45
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2526/250,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2526/242,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/52,2
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Additional charges - NOPI/D/2627/31,2
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/E/2627/4,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/E/2627/1,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/91,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/24,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/22,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/83,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/84,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/15,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/69,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/89,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/88,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/63,2
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/E/2627/5,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Additional charges - NOPI/D/2627/50,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/E/2627/12,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/E/2627/7,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/75,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/72,2
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/53,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Additional charges - NOPI/D/2627/42,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/2,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/215,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/E/2627/11,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/E/2627/8,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/70,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/E/2627/92,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/41,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/78,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Additional charges - NOPI/D/2627/29,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/630,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/21,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/13,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/1171,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/E/2627/15,3
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/503,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/1435,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/65,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/37,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/49,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/9,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/831,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/48,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/31,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/809,3
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/67,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/650,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/1751,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/E/2627/260,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/1964,2
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/E/2627/699,2
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Additional charges - NOPI/D/2627/768,2
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/2591,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/E/2627/379,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/2830,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Additional charges - NOPI/D/2627/636,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/2462,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/2826,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/2314,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/4267,2
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/3523,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/4062,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/1711,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/4768,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/E/2627/544,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Additional charges - NOPI/D/2627/4049,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/2256,2
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/2990,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/1671,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/2696,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/2642,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/E/2627/700,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/2376,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/4732,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/2515,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/E/2627/574,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/6426,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/5039,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/3933,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/2361,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/3195,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/4536,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/4942,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/4925,2
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/7152,2
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/6653,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/7415,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/3980,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/5963,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/6839,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/3831,2
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Additional charges - NOPI/D/2627/8399,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Additional charges - NOPI/D/2627/7499,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/4898,2
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/5401,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/7756,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/E/2627/1659,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/5565,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/5962,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/6300,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/E/2627/1947,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/E/2627/1757,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/9472,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/E/2627/1865,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/5780,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/7451,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/10849,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/7142,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/11127,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/11069,2
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/E/2627/1496,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/11246,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/10681,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/6558,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/9871,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/E/2627/2040,2
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Additional charges - NOPI/E/2627/2212,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Additional charges - NOPI/D/2627/8751,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/11723,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/8881,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/10821,2
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/8360,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/E/2627/1744,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Additional charges - NOPI/D/2627/11467,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/10529,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/E/2627/1898,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/7980,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/12460,2
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/9406,2
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/8524,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/9217,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/11647,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Additional charges - NOPI/D/2627/12787,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/11691,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/11911,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/10490,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/12234,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/14297,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/14466,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/14333,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/E/2627/2535,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/E/2627/3338,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/14315,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/14775,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Additional charges - NOPI/D/2627/16237,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/12083,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/13115,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/16396,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/13565,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/13279,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/15897,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/12529,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/17145,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/13223,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/S/2627/534,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/16083,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/17789,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/16765,2
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/E/2627/3412,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/14252,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/E/2627/3260,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/17584,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/15112,2
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/16088,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/17752,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/16631,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/19175,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/16628,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/14956,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/18722,2
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/17853,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/18068,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/E/2627/3352,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/16453,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/18999,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/19548,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/19677,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/E/2627/3819,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/E/2627/4417,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/E/2627/4403,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/17539,2
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/20954,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/19865,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/17232,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/21282,2
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/21463,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/20989,2
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/18630,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/20656,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/E/2627/4431,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/19195,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/20140,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/E/2627/4189,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/19705,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/21909,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/E/2627/3925,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/20326,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/E/2627/4678,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/E/2627/4200,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/20648,2
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/23569,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/20969,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/23180,2
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/20945,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/20586,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/23261,2
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/22530,2
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/20398,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/22424,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/E/2627/4196,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/23467,2
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/24299,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/23588,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/23341,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/21978,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/24168,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/24859,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/24723,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/23770,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/24088,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/21168,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/23728,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/25037,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/25576,2
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/25329,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/E/2627/5294,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/E/2627/5016,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/25809,2
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/25917,2
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/25856,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/25179,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/25807,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/26090,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/25335,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/23305,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/D/2627/23798,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,text,Rate difference / return - NOPI/E/2627/4774,1
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Stock_Impact,text,Y,260
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Stock_Impact,text,N,16
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Tax_Liable,text,Y,276
+GSTR1_Invoice.csv,(CSV table),Trans_Type,text,GST Inv,337
+GSTR1_Invoice.csv,(CSV table),Item_Type_G_or_S,text,G,323
+GSTR1_Invoice.csv,(CSV table),Item_Type_G_or_S,text,S,14
+GSTR1_Invoice.csv,(CSV table),Flag_Reverse_Charge,text,N,337
+GSTR1_Invoice.csv,(CSV table),Type_Export_SEZ_Deemed,text,WOPAY,59
+GSTR1_Invoice.csv,(CSV table),Item_GST_Type,text,R,337
+GSTR1_Invoice.csv,(CSV table),Duty_Status,text,WOPAY,59
+GSTR1_Invoice.csv,(CSV table),Duty_Status,text,WPAY,278
+GSTR1_Invoice.csv,(CSV table),BP_Type,text,Regular/TDS/ISD,278
+GSTR1_Invoice.csv,(CSV table),Stock_Impact,text,Y,323
+GSTR1_Invoice.csv,(CSV table),Stock_Impact,text,N,14
+GSTR1_Invoice.csv,(CSV table),Tax_Liable,text,Y,337
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/4745/25-26 Based On Sales Order 182,3
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/3846/25-26 Based On Sales Order 183,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/1534/25-26 Based On Sales Order 188,3
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/4447/25-26 Based On Sales Order 189,2
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/1177/25-26 Based On Sales Order 195,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/3680/25-26 Based On Sales Order 197,3
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/9610/25-26 Based On Sales Order 198,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/6155/25-26 Based On Sales Order 200,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/7016/25-26 Based On Sales Order 201,2
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/1715/25-26 Based On Sales Order 202,3
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/2686/25-26 Based On Sales Order 203,2
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/1888/25-26 Based On Sales Order 204,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/5629/25-26 Based On Sales Order 205,2
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/9954/25-26 Based On Sales Order 206,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/9356/25-26 Based On Sales Order 207,2
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/1645/25-26 Based On Sales Order 208,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/4026/25-26 Based On Sales Order 209,2
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/4636/25-26 Based On Sales Order 210,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/6646/25-26 Based On Sales Order 211,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/104/25-26 Based On Sales Order 212,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/6521/25-26 Based On Sales Order 213,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/1728/25-26 Based On Sales Order 214,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/8197/25-26 Based On Sales Order 215,4
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/2721/25-26 Based On Sales Order 216,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/867/25-26 Based On Sales Order 217,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/3663/25-26 Based On Sales Order 218,2
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/5671/25-26 Based On Sales Order 219,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/112/25-26 Based On Sales Order 220,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/407/25-26 Based On Sales Order 221,2
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/8162/25-26 Based On Sales Order 223,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/1186/25-26 Based On Sales Order 224,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/9985/25-26 Based On Sales Order 225,4
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/4575/25-26 Based On Sales Order 226,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/6304/25-26 Based On Sales Order 227,3
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/5307/25-26 Based On Sales Order 228,4
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/3075/25-26 Based On Sales Order 229,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/1848/25-26 Based On Sales Order 230,2
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/5105/25-26 Based On Sales Order 231,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/6435/25-26 Based On Sales Order 232,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/2957/25-26 Based On Sales Order 233,2
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/3623/25-26 Based On Sales Order 234,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/6060/25-26 Based On Sales Order 235,2
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/1151/25-26 Based On Sales Order 236,3
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/5233/25-26 Based On Sales Order 237,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/2736/25-26 Based On Sales Order 238,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/8902/25-26 Based On Sales Order 239,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/4193/25-26 Based On Sales Order 240,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/9870/25-26 Based On Sales Order 241,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/3507/25-26 Based On Sales Order 242,4
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/1321/25-26 Based On Sales Order 243,2
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/7679/25-26 Based On Sales Order 244,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/1107/25-26 Based On Sales Order 245,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/4157/25-26 Based On Sales Order 246,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/3520/25-26 Based On Sales Order 247,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/9738/25-26 Based On Sales Order 248,3
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/8826/25-26 Based On Sales Order 249,2
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/1195/25-26 Based On Sales Order 250,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/9475/25-26 Based On Sales Order 251,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/7073/25-26 Based On Sales Order 252,2
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/9652/25-26 Based On Sales Order 253,3
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/9912/25-26 Based On Sales Order 254,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/9659/25-26 Based On Sales Order 255,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/7871/25-26 Based On Sales Order 256,2
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/7909/25-26 Based On Sales Order 257,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/4980/25-26 Based On Sales Order 258,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/4793/25-26 Based On Sales Order 259,3
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/7955/25-26 Based On Sales Order 260,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/160/25-26 Based On Sales Order 261,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/6499/25-26 Based On Sales Order 262,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/3319/25-26 Based On Sales Order 263,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/7712/25-26 Based On Sales Order 264,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/2741/25-26 Based On Sales Order 265,3
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/2568/25-26 Based On Sales Order 266,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/6465/25-26 Based On Sales Order 267,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/4980/25-26 Based On Sales Order 268,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/2720/25-26 Based On Sales Order 269,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/9547/25-26 Based On Sales Order 270,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/4711/25-26 Based On Sales Order 271,3
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/9427/25-26 Based On Sales Order 272,2
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/4228/25-26 Based On Sales Order 273,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/3643/25-26 Based On Sales Order 274,2
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/4810/25-26 Based On Sales Order 275,3
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/7404/25-26 Based On Sales Order 276,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/6754/25-26 Based On Sales Order 277,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/3221/25-26 Based On Sales Order 278,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/1340/25-26 Based On Sales Order 279,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/1745/25-26 Based On Sales Order 281,2
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/8957/25-26 Based On Sales Order 282,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/5066/25-26 Based On Sales Order 283,3
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/7371/25-26 Based On Sales Order 284,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/8605/25-26 Based On Sales Order 285,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/8133/25-26 Based On Sales Order 286,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/8528/25-26 Based On Sales Order 287,3
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/679/25-26 Based On Sales Order 288,2
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/1855/25-26 Based On Sales Order 289,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/1238/25-26 Based On Sales Order 290,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/2872/25-26 Based On Sales Order 291,2
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/1767/25-26 Based On Sales Order 292,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/4137/25-26 Based On Sales Order 293,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/9965/25-26 Based On Sales Order 294,3
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/5231/25-26 Based On Sales Order 295,2
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/2758/25-26 Based On Sales Order 296,2
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/1200/25-26 Based On Sales Order 297,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/8400/25-26 Based On Sales Order 298,2
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/9296/25-26 Based On Sales Order 299,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/517/26-27 Based On Sales Order 1,3
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/2654/26-27 Based On Sales Order 2,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/8338/26-27 Based On Sales Order 3,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/8217/26-27 Based On Sales Order 4,2
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/9816/26-27 Based On Sales Order 5,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/3569/26-27 Based On Sales Order 6,2
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/4624/26-27 Based On Sales Order 7,3
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/402/26-27 Based On Sales Order 8,3
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/6183/26-27 Based On Sales Order 9,2
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/2091/26-27 Based On Sales Order 10,3
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/7568/26-27 Based On Sales Order 11,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/4055/26-27 Based On Sales Order 12,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/6344/26-27 Based On Sales Order 13,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/425/26-27 Based On Sales Order 14,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/7607/26-27 Based On Sales Order 15,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/1992/26-27 Based On Sales Order 16,2
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/8305/26-27 Based On Sales Order 17,3
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/4426/26-27 Based On Sales Order 18,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/5043/26-27 Based On Sales Order 19,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/3661/26-27 Based On Sales Order 20,3
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/8791/26-27 Based On Sales Order 21,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/3014/26-27 Based On Sales Order 22,2
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/6431/26-27 Based On Sales Order 23,2
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/6361/26-27 Based On Sales Order 24,3
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/4884/26-27 Based On Sales Order 25,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/2200/26-27 Based On Sales Order 26,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/7742/26-27 Based On Sales Order 27,2
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/8795/26-27 Based On Sales Order 28,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/6421/26-27 Based On Sales Order 29,2
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/8552/26-27 Based On Sales Order 30,3
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/7286/26-27 Based On Sales Order 31,2
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/1024/26-27 Based On Sales Order 32,2
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/2757/26-27 Based On Sales Order 33,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/416/26-27 Based On Sales Order 34,3
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/6169/26-27 Based On Sales Order 35,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/3797/26-27 Based On Sales Order 36,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/2350/26-27 Based On Sales Order 37,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/9791/26-27 Based On Sales Order 38,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/9845/26-27 Based On Sales Order 39,2
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/2382/26-27 Based On Sales Order 40,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/1347/26-27 Based On Sales Order 41,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/7556/26-27 Based On Sales Order 42,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/2465/26-27 Based On Sales Order 43,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/6804/26-27 Based On Sales Order 44,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/6975/26-27 Based On Sales Order 45,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/2231/26-27 Based On Sales Order 46,3
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/7062/26-27 Based On Sales Order 47,3
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/2762/26-27 Based On Sales Order 48,2
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/8011/26-27 Based On Sales Order 49,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/6176/26-27 Based On Sales Order 50,3
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/6567/26-27 Based On Sales Order 51,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/6050/26-27 Based On Sales Order 53,2
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/4986/26-27 Based On Sales Order 54,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/8756/26-27 Based On Sales Order 55,3
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/7351/26-27 Based On Sales Order 56,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/3695/26-27 Based On Sales Order 57,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/9914/26-27 Based On Sales Order 58,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/1285/26-27 Based On Sales Order 59,2
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/6526/26-27 Based On Sales Order 60,2
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/4039/26-27 Based On Sales Order 61,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/823/26-27 Based On Sales Order 62,3
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/2915/26-27 Based On Sales Order 63,2
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/9838/26-27 Based On Sales Order 64,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/3504/26-27 Based On Sales Order 65,3
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/463/26-27 Based On Sales Order 66,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/3991/26-27 Based On Sales Order 67,2
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/3296/26-27 Based On Sales Order 68,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/5986/26-27 Based On Sales Order 69,2
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/2051/26-27 Based On Sales Order 70,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/4016/26-27 Based On Sales Order 71,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/7381/26-27 Based On Sales Order 72,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/3251/26-27 Based On Sales Order 73,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/3306/26-27 Based On Sales Order 74,2
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/3775/26-27 Based On Sales Order 75,3
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/5450/26-27 Based On Sales Order 76,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/8886/26-27 Based On Sales Order 77,2
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/3513/26-27 Based On Sales Order 78,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/4598/26-27 Based On Sales Order 79,2
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/6597/26-27 Based On Sales Order 80,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/565/26-27 Based On Sales Order 81,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/4468/26-27 Based On Sales Order 82,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/7215/26-27 Based On Sales Order 83,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/7650/26-27 Based On Sales Order 84,3
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/8869/26-27 Based On Sales Order 85,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/9912/26-27 Based On Sales Order 86,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/7537/26-27 Based On Sales Order 87,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/4247/26-27 Based On Sales Order 88,3
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/5733/26-27 Based On Sales Order 89,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/1084/26-27 Based On Sales Order 90,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/1609/26-27 Based On Sales Order 91,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/5752/26-27 Based On Sales Order 92,2
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/1091/26-27 Based On Sales Order 93,2
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/3678/26-27 Based On Sales Order 94,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/8310/26-27 Based On Sales Order 95,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/1164/26-27 Based On Sales Order 96,2
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/6031/26-27 Based On Sales Order 97,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/4955/26-27 Based On Sales Order 99,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/8106/26-27 Based On Sales Order 101,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/4391/26-27 Based On Sales Order 103,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/8492/26-27 Based On Sales Order 112,3
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/2537/26-27 Based On Sales Order 114,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/8693/26-27 Based On Sales Order 120,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/3265/26-27 Based On Sales Order 122,1
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,text,PO/110/26-27 Based On Sales Order 123,2
+Item Master Lists 1.xlsx,Item Lists,Active,text,Yes,146
+Item Master Lists 1.xlsx,Item Lists,Active,text,No,4
+Item Master Lists 1.xlsx,Item Lists,Segment,text,Trochoid pumps,29
+Item Master Lists 1.xlsx,Item Lists,Segment,text,GCI,13
+Item Master Lists 1.xlsx,Item Lists,Segment,text,Coolant pumps,16
+Item Master Lists 1.xlsx,Item Lists,Segment,text,YTH-PARTS,22
+Item Master Lists 1.xlsx,Item Lists,Segment,text,Coolant Units,13
+Item Master Lists 1.xlsx,Item Lists,Segment,text,Hydraulic motors,16
+Item Master Lists 1.xlsx,Item Lists,Segment,text,Procon Pumps,11
+Item Master Lists 1.xlsx,Item Lists,Product Segment,text,L-06,14
+Item Master Lists 1.xlsx,Item Lists,Product Segment,text,L-20,13
+Item Master Lists 1.xlsx,Item Lists,Product Segment,text,A-22,16
+Item Master Lists 1.xlsx,Item Lists,Product Segment,text,L-11,22
+Item Master Lists 1.xlsx,Item Lists,Product Segment,text,L-82,13
+Item Master Lists 1.xlsx,Item Lists,Product Segment,text,L-04,15
+Item Master Lists 1.xlsx,Item Lists,Product Segment,text,L-61,16
+Item Master Lists 1.xlsx,Item Lists,Product Segment,text,L-31,11
+Item Master Lists 1.xlsx,Item Lists,Item Group,text,Finished goods,120
+Item Master Lists 1.xlsx,Item Lists,Item Group,text,Raw material,15
+Item Master Lists 1.xlsx,Item Lists,Item Group,text,Consumables,10
+Item Master Lists 1.xlsx,Item Lists,Item Group,text,Capital Item,5
+Item Master Lists 1.xlsx,Item Lists,Pricing unit,text,Manual,150
+Item Master Lists 2.xlsx,Item Lists,Active,text,Yes,355
+Item Master Lists 2.xlsx,Item Lists,Active,text,1,320
+Item Master Lists 2.xlsx,Item Lists,Active,boolean,True,293
+Item Master Lists 2.xlsx,Item Lists,Active,text,yes,275
+Item Master Lists 2.xlsx,Item Lists,Active,text,Y,290
+Item Master Lists 2.xlsx,Item Lists,Active,text,TRUE,305
+Item Master Lists 2.xlsx,Item Lists,Active,text,0,7
+Item Master Lists 2.xlsx,Item Lists,Active,boolean,False,6
+Item Master Lists 2.xlsx,Item Lists,Active,text,No,11
+Item Master Lists 2.xlsx,Item Lists,Active,text,YES,3074
+Item Master Lists 2.xlsx,Item Lists,Active,text,NO,61
+Item Master Lists 2.xlsx,Item Lists,Active,text,FALSE,6
+Item Master Lists 2.xlsx,Item Lists,Active,text,N,4
+Item Master Lists 2.xlsx,Item Lists,Active,text,no,5
+Item Master Lists 2.xlsx,Item Lists,Segment,text,Trochoid pumps,615
+Item Master Lists 2.xlsx,Item Lists,Segment,text,GCI,557
+Item Master Lists 2.xlsx,Item Lists,Segment,text,Coolant pumps,553
+Item Master Lists 2.xlsx,Item Lists,Segment,text,YTH-PARTS,634
+Item Master Lists 2.xlsx,Item Lists,Segment,text,Coolant Units,579
+Item Master Lists 2.xlsx,Item Lists,Segment,text,Hydraulic motors,580
+Item Master Lists 2.xlsx,Item Lists,Segment,text,Procon Pumps,611
+Item Master Lists 2.xlsx,Item Lists,Product Segment,text,L-06,600
+Item Master Lists 2.xlsx,Item Lists,Product Segment,text,L-20,557
+Item Master Lists 2.xlsx,Item Lists,Product Segment,text,A-22,553
+Item Master Lists 2.xlsx,Item Lists,Product Segment,text,L-11,634
+Item Master Lists 2.xlsx,Item Lists,Product Segment,text,L-82,579
+Item Master Lists 2.xlsx,Item Lists,Product Segment,text,L-04,15
+Item Master Lists 2.xlsx,Item Lists,Product Segment,text,L-61,580
+Item Master Lists 2.xlsx,Item Lists,Product Segment,text,L-31,611
+Item Master Lists 2.xlsx,Item Lists,Item Group,text,Finished goods,4129
+Item Master Lists 2.xlsx,Item Lists,Item Group,text,Raw material,466
+Item Master Lists 2.xlsx,Item Lists,Item Group,text,Consumables,261
+Item Master Lists 2.xlsx,Item Lists,Item Group,text,Capital Item,156
+Item Master Lists 2.xlsx,Item Lists,Pricing unit,text,Manual,5012
+Sales Invoice Details 1.xlsx,Sheet1,Customer Type,text,OEM,24441
+Sales Invoice Details 1.xlsx,Sheet1,Customer Type,text, OEM,1
+Sales Invoice Details 1.xlsx,Sheet1,Customer Type,text,oem,1503
+Sales Invoice Details 1.xlsx,Sheet1,Customer Type,text,NULL,1737
+Sales Invoice Details 1.xlsx,Sheet1,Customer Type,text,#N/A,1822
+Sales Invoice Details 1.xlsx,Sheet1,Customer Type,text,AFT,14136
+Sales Invoice Details 1.xlsx,Sheet1,Customer Type,text, AFT ,913
+Sales Invoice Details 1.xlsx,Sheet1,Customer Type,text,OEM ,1558
+Sales Invoice Details 1.xlsx,Sheet1,Customer Type,text,oem  ,1551
+Sales Invoice Details 1.xlsx,Sheet1,Customer Type,text, OEM ,1570
+Sales Invoice Details 1.xlsx,Sheet1,Customer Type,text,N/A,1739
+Sales Invoice Details 1.xlsx,Sheet1,Customer Type,text,NA,1721
+Sales Invoice Details 1.xlsx,Sheet1,Customer Type,text,--,1775
+Sales Invoice Details 1.xlsx,Sheet1,Customer Type,text,AFT ,906
+Sales Invoice Details 1.xlsx,Sheet1,Customer Type,text,aft,859
+Sales Invoice Details 1.xlsx,Sheet1,Customer Type,text,-,1653
+Sales Invoice Details 1.xlsx,Sheet1,Customer Type,text,aft  ,877
+Sales Invoice Details 1.xlsx,Sheet1,Country,text,India,78997
+Sales Invoice Details 1.xlsx,Sheet1,Country,text,india,1352
+Sales Invoice Details 1.xlsx,Sheet1,Country,text,INDIA,1432
+Sales Invoice Details 1.xlsx,Sheet1,Country,text,Japan,1416
+Sales Invoice Details 1.xlsx,Sheet1,Country,text,Sri Lanka,2396
+Sales Invoice Details 1.xlsx,Sheet1,Country,text,Vietnam,2159
+Sales Invoice Details 1.xlsx,Sheet1,Country,text,JAPAN,88
+Sales Invoice Details 1.xlsx,Sheet1,Country,text,Inida,1439
+Sales Invoice Details 1.xlsx,Sheet1,Country,text,Thailand,1078
+Sales Invoice Details 1.xlsx,Sheet1,Country,text,THAILAND,48
+Sales Invoice Details 1.xlsx,Sheet1,Country,text,United Arab Emirates,1325
+Sales Invoice Details 1.xlsx,Sheet1,Country,text,South Africa,1055
+Sales Invoice Details 1.xlsx,Sheet1,Country,text,VIETNAM,101
+Sales Invoice Details 1.xlsx,Sheet1,Country,text,China,1118
+Sales Invoice Details 1.xlsx,Sheet1,Country,text,Germany,1096
+Sales Invoice Details 1.xlsx,Sheet1,Country,text,GERMANY,54
+Sales Invoice Details 1.xlsx,Sheet1,Country,text,SOUTH AFRICA,62
+Sales Invoice Details 1.xlsx,Sheet1,Country,text,United Kingdom,1511
+Sales Invoice Details 1.xlsx,Sheet1,Country,text,Mexico,900
+Sales Invoice Details 1.xlsx,Sheet1,Country,text,United States of America,746
+Sales Invoice Details 1.xlsx,Sheet1,Country,text,Saudi Arabia,1288
+Sales Invoice Details 1.xlsx,Sheet1,Country,text,U.S.A.,12
+Sales Invoice Details 1.xlsx,Sheet1,Country,text,Saudi Arabiya,40
+Sales Invoice Details 1.xlsx,Sheet1,Country,text,SRI LANKA,117
+Sales Invoice Details 1.xlsx,Sheet1,Country,text,USA,13
+Sales Invoice Details 1.xlsx,Sheet1,Country,text,UK,29
+Sales Invoice Details 1.xlsx,Sheet1,Country,text,Unites Arab Emirates,27
+Sales Invoice Details 1.xlsx,Sheet1,Country,text,MEXICO,51
+Sales Invoice Details 1.xlsx,Sheet1,Country,text,UNITED KINGDOM,33
+Sales Invoice Details 1.xlsx,Sheet1,Country,text,CHINA,53
+Sales Invoice Details 1.xlsx,Sheet1,Country,text,UAE,18
+Sales Invoice Details 1.xlsx,Sheet1,Country,text,U.A.E.,34
+Sales Invoice Details 1.xlsx,Sheet1,Country,text,U.K.,46
+Sales Invoice Details 1.xlsx,Sheet1,Country,text,United State of America,15
+Sales Invoice Details 1.xlsx,Sheet1,Country,text,SAUDI ARABIA,34
+Sales Invoice Details 1.xlsx,Sheet1,Item Type G or S,text,G,99242
+Sales Invoice Details 1.xlsx,Sheet1,Item Type G or S,text,S,941
+Sales Invoice Details 1.xlsx,Sheet1,UOM,text,Manual,99242
+Sales Invoice Details 1.xlsx,Sheet1,Type Export/Domestic,text,Domestic,82439
+Sales Invoice Details 1.xlsx,Sheet1,Type Export/Domestic,text,Service,941
+Sales Invoice Details 1.xlsx,Sheet1,Type Export/Domestic,text,Export,16803
+Sales Invoice Details.xlsx,Sheet1,Customer Type,text,OEM,66
+Sales Invoice Details.xlsx,Sheet1,Customer Type,text,AFT,8
+Sales Invoice Details.xlsx,Sheet1,Country,text,Japan,25
+Sales Invoice Details.xlsx,Sheet1,Country,text,India,278
+Sales Invoice Details.xlsx,Sheet1,Country,text,Unites Arab Emirates,10
+Sales Invoice Details.xlsx,Sheet1,Country,text,Saudi Arabia,12
+Sales Invoice Details.xlsx,Sheet1,Country,text,United Kingdom,8
+Sales Invoice Details.xlsx,Sheet1,Country,text,United State of America,4
+Sales Invoice Details.xlsx,Sheet1,Item Type G or S,text,G,323
+Sales Invoice Details.xlsx,Sheet1,Item Type G or S,text,S,14
+Sales Invoice Details.xlsx,Sheet1,UOM,text,Manual,323
+Sales Invoice Details.xlsx,Sheet1,Type Export/Domestic,text,Export,56
+Sales Invoice Details.xlsx,Sheet1,Type Export/Domestic,text,Domestic,267
+Sales Invoice Details.xlsx,Sheet1,Type Export/Domestic,text,Service,14
+Sales Order Report 1.xlsx,Sheet1,Status,text,Closed,1004
+Sales Order Report 1.xlsx,Sheet1,Status,text,Canceled,44
+Sales Order Report 1.xlsx,Sheet1,Status,text,Open,50
+Sales Order Report 1.xlsx,Sheet1,Payment Terms,text,Net-45,234
+Sales Order Report 1.xlsx,Sheet1,Payment Terms,text,100% ADVANCE,172
+Sales Order Report 1.xlsx,Sheet1,Payment Terms,text,Net-30,434
+Sales Order Report 1.xlsx,Sheet1,Payment Terms,text,Net-60 days,108
+Sales Order Report 1.xlsx,Sheet1,Payment Terms,text,Immediate Against Supply,150
+Sales Order Report 2.xlsx,Sheet1,Status,text,Closed,81354
+Sales Order Report 2.xlsx,Sheet1,Status,text,closed,2985
+Sales Order Report 2.xlsx,Sheet1,Status,text,CLOSED,3108
+Sales Order Report 2.xlsx,Sheet1,Status,text,closed ,3021
+Sales Order Report 2.xlsx,Sheet1,Status,text,cancelled,104
+Sales Order Report 2.xlsx,Sheet1,Status,text,Canceled,2670
+Sales Order Report 2.xlsx,Sheet1,Status,text,Cancelled,108
+Sales Order Report 2.xlsx,Sheet1,Status,text,Open,6123
+Sales Order Report 2.xlsx,Sheet1,Status,text,open,245
+Sales Order Report 2.xlsx,Sheet1,Status,text,OPEN,256
+Sales Order Report 2.xlsx,Sheet1,Status,text,CANCELED,82
+Sales Order Report 2.xlsx,Sheet1,Status,text,Open ,224
+Sales Order Report 2.xlsx,Sheet1,Payment Terms,text,100% ADVANCE,19126
+Sales Order Report 2.xlsx,Sheet1,Payment Terms,text,Net-45,15910
+Sales Order Report 2.xlsx,Sheet1,Payment Terms,text,Immediate Against Supply,21055
+Sales Order Report 2.xlsx,Sheet1,Payment Terms,text,NET-60,466
+Sales Order Report 2.xlsx,Sheet1,Payment Terms,text,Net-60 days,16609
+Sales Order Report 2.xlsx,Sheet1,Payment Terms,text,net 60 days,3
+Sales Order Report 2.xlsx,Sheet1,Payment Terms,text,net-45 days,464
+Sales Order Report 2.xlsx,Sheet1,Payment Terms,text,Net-30,21434
+Sales Order Report 2.xlsx,Sheet1,Payment Terms,text,Net 30 days,630
+Sales Order Report 2.xlsx,Sheet1,Payment Terms,text,NET-30,577
+Sales Order Report 2.xlsx,Sheet1,Payment Terms,text,NET 30,598
+Sales Order Report 2.xlsx,Sheet1,Payment Terms,text,NET-45,437
+Sales Order Report 2.xlsx,Sheet1,Payment Terms,text,NET 45,440
+Sales Order Report 2.xlsx,Sheet1,Payment Terms,text,net-60 days,474
+Sales Order Report 2.xlsx,Sheet1,Payment Terms,text,Net 60 days,472
+Sales Order Report 2.xlsx,Sheet1,Payment Terms,text,Net 45 days,469
+Sales Order Report 2.xlsx,Sheet1,Payment Terms,text,net-30 days,612
+Sales Order Report 2.xlsx,Sheet1,Payment Terms,text,NET 60,504
+Sales_Order_Data_202609.xlsx,Country master,Country Name,text,Republic of India,1
+Sales_Order_Data_202609.xlsx,Country master,Country Name,text,Japan,1
+Sales_Order_Data_202609.xlsx,Country master,Country Name,text,United Kingdom,1
+Sales_Order_Data_202609.xlsx,Country master,Country Name,text,United States of America,1
+Sales_Order_Data_202609.xlsx,Country master,Country Name,text,United Arab Emirates,1
+Sales_Order_Data_202609.xlsx,Country master,Country Name,text,Kingdom of Saudi Arabia,1
+Sales_Order_Data_202609.xlsx,Country master,Country Name,text,Kingdom of Thailand,1
+Sales_Order_Data_202609.xlsx,Country master,Country Name,text,Democratic Socialist Republic of Sri Lanka,1
+Sales_Order_Data_202609.xlsx,Country master,Country Name,text,United Mexican States,1
+Sales_Order_Data_202609.xlsx,Country master,Country Name,text,People's Republic of China,1
+Sales_Order_Data_202609.xlsx,Country master,Country Name,text,Republic of South Africa,1
+Sales_Order_Data_202609.xlsx,Country master,Japanese country name,text,インド共和国,1
+Sales_Order_Data_202609.xlsx,Country master,Japanese country name,text,日本国,1
+Sales_Order_Data_202609.xlsx,Country master,Japanese country name,text,グレートブリテン及び北アイルランド連合王国,1
+Sales_Order_Data_202609.xlsx,Country master,Japanese country name,text,アメリカ合衆国,1
+Sales_Order_Data_202609.xlsx,Country master,Japanese country name,text,アラブ首長国連邦,1
+Sales_Order_Data_202609.xlsx,Country master,Japanese country name,text,サウジアラビア王国,1
+Sales_Order_Data_202609.xlsx,Country master,Japanese country name,text,タイ王国,1
+Sales_Order_Data_202609.xlsx,Country master,Japanese country name,text,スリランカ民主社会主義共和国,1
+Sales_Order_Data_202609.xlsx,Country master,Japanese country name,text,メキシコ合衆国,1
+Sales_Order_Data_202609.xlsx,Country master,Japanese country name,text,中華人民共和国,1
+Sales_Order_Data_202609.xlsx,Country master,Japanese country name,text,南アフリカ共和国,1
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Category,text,GCI,7
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Category,text,Coolant pumps,8
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Category,text,YTH-PARTS,11
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Category,text,Trochoid pumps,16
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Category,text,Hydraulic motors,6
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Category,text,Coolant Units,5
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Category,text,Procon Pumps,7
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Product segment CD,text,L-20,7
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Product segment CD,text,A-22,8
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Product segment CD,text,L-11,11
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Product segment CD,text,L-01,16
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Product segment CD,text,L-61,6
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Product segment CD,text,L-82,5
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Product segment CD,text,L-31,7
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Product segment,text,L-20 GCI pump,7
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Product segment,text,A-22 Coolant pump,8
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Product segment,text,L-11 YTH parts,11
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Product segment,text,L-01 Trochoid,16
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Product segment,text,L-61 Hydraulic motor,6
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Product segment,text,L-82 Coolant unit,5
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Product segment,text,L-31 Procon,7
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Middle segment CD,text,146,1
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Middle segment CD,text,173,1
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Middle segment CD,text,126,3
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Middle segment CD,text,185,1
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Middle segment CD,text,220,1
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Middle segment CD,text,129,1
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Middle segment CD,text,293,1
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Middle segment CD,text,178,1
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Middle segment CD,text,213,1
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Middle segment CD,text,166,1
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Middle segment CD,text,277,1
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Middle segment CD,text,194,1
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Middle segment CD,text,141,1
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Middle segment CD,text,291,1
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Middle segment CD,text,294,1
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Middle segment CD,text,276,1
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Middle segment CD,text,119,1
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Middle segment CD,text,249,1
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Middle segment CD,text,265,1
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Middle segment CD,text,224,1
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Middle segment CD,text,221,1
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Middle segment CD,text,260,2
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Middle segment CD,text,142,2
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Middle segment CD,text,262,2
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Middle segment CD,text,201,1
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Middle segment CD,text,135,1
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Middle segment CD,text,225,1
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Middle segment CD,text,181,1
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Middle segment CD,text,132,1
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Middle segment CD,text,189,1
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Middle segment CD,text,264,2
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Middle segment CD,text,215,1
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Middle segment CD,text,251,2
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Middle segment CD,text,149,2
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Middle segment CD,text,205,1
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Middle segment CD,text,209,1
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Middle segment CD,text,167,1
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Middle segment CD,text,128,1
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Middle segment CD,text,134,1
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Middle segment CD,text,268,1
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Middle segment CD,text,297,1
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Middle segment CD,text,255,1
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Middle segment CD,text,198,1
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Middle segment CD,text,174,1
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Middle segment CD,text,292,1
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Middle segment CD,text,102,1
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Middle segment CD,text,263,2
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Middle segment CD,text,188,1
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Middle segment CD,text,278,1
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Middle segment CD,text,266,1
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Middle segment CD,text,236,1
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Middle segment,text,GCI pump group,7
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Middle segment,text,Coolant pump group,8
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Middle segment,text,YTH parts group,11
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Middle segment,text,Trochoid group,16
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Middle segment,text,Hydraulic motor group,6
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Middle segment,text,Coolant unit group,5
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Middle segment,text,Procon group,7
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,Category,text,Trochoid pumps,7
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,Category,text,Hydraulic motors,5
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,Category,text,YTH-PARTS,6
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,Category,text,GCI,4
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,Category,text,Coolant Units,3
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,Category,text,Coolant pumps,6
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,Category,text,Procon Pumps,2
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,Product segment CD,text,L-01,7
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,Product segment CD,text,L-61,5
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,Product segment CD,text,L-11,6
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,Product segment CD,text,L-20,4
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,Product segment CD,text,L-82,3
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,Product segment CD,text,A-22,6
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,Product segment CD,text,L-31,2
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,Product segment,text,L-01 Trochoid,7
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,Product segment,text,L-61 Hydraulic motor,5
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,Product segment,text,L-11 YTH parts,6
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,Product segment,text,L-20 GCI pump,4
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,Product segment,text,L-82 Coolant unit,3
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,Product segment,text,A-22 Coolant pump,6
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,Product segment,text,L-31 Procon,2
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,Middle segment CD,text,194,1
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,Middle segment CD,text,121,1
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,Middle segment CD,text,137,1
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,Middle segment CD,text,254,1
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,Middle segment CD,text,252,1
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,Middle segment CD,text,111,1
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,Middle segment CD,text,285,1
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,Middle segment CD,text,298,1
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,Middle segment CD,text,288,1
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,Middle segment CD,text,131,1
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,Middle segment CD,text,166,1
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,Middle segment CD,text,296,1
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,Middle segment CD,text,168,1
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,Middle segment CD,text,158,1
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,Middle segment CD,text,183,1
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,Middle segment CD,text,289,1
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,Middle segment CD,text,135,1
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,Middle segment CD,text,104,2
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,Middle segment CD,text,248,1
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,Middle segment CD,text,269,1
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,Middle segment CD,text,251,1
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,Middle segment CD,text,190,1
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,Middle segment CD,text,221,1
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,Middle segment CD,text,202,2
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,Middle segment CD,text,278,1
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,Middle segment CD,text,213,1
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,Middle segment CD,text,299,1
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,Middle segment CD,text,212,1
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,Middle segment CD,text,178,1
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,Middle segment CD,text,176,1
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,Middle segment CD,text,293,1
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,Middle segment ,text,Trochoid group,7
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,Middle segment ,text,Hydraulic motor group,5
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,Middle segment ,text,YTH parts group,6
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,Middle segment ,text,GCI pump group,4
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,Middle segment ,text,Coolant unit group,3
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,Middle segment ,text,Coolant pump group,6
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,Middle segment ,text,Procon group,2

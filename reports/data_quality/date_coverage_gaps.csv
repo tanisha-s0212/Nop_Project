@@ -1,0 +1,202 @@
+﻿file,worksheet,column,from_observed_date,to_observed_date,unobserved_calendar_days,interpretation
+Exchange Rate 1.xlsx,INR to JPY,Start Date,2026-08-21,2026-09-21,30,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Exchange Rate 1.xlsx,INR to JPY,Start Date,2026-09-21,2026-11-21,60,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Exchange Rate 1.xlsx,INR to JPY,Start Date,2026-11-21,2026-12-21,29,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Exchange Rate 1.xlsx,INR to JPY,Start Date,2026-12-21,2027-01-21,30,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Exchange Rate 1.xlsx,INR to JPY,End Date,2026-09-20,2026-10-20,29,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Exchange Rate 1.xlsx,INR to JPY,End Date,2026-10-20,2026-11-20,30,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Exchange Rate 1.xlsx,INR to JPY,End Date,2026-11-20,2027-01-20,60,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Exchange Rate 1.xlsx,INR to JPY,End Date,2027-01-20,2027-02-20,30,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Exchange Rate 1.xlsx,INR to JPY,End Date,2027-02-20,2027-03-20,27,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Exchange Rate.xlsx,INR to JPY,Start Date,2024-12-21,2025-01-21,30,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Exchange Rate.xlsx,INR to JPY,Start Date,2025-01-21,2025-02-21,30,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Exchange Rate.xlsx,INR to JPY,Start Date,2025-02-21,2025-03-21,27,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Exchange Rate.xlsx,INR to JPY,Start Date,2025-03-21,2025-04-21,30,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Exchange Rate.xlsx,INR to JPY,Start Date,2025-04-21,2025-05-21,29,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Exchange Rate.xlsx,INR to JPY,Start Date,2025-05-21,2025-06-21,30,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Exchange Rate.xlsx,INR to JPY,Start Date,2025-06-21,2025-07-21,29,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Exchange Rate.xlsx,INR to JPY,Start Date,2025-07-21,2025-08-21,30,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Exchange Rate.xlsx,INR to JPY,Start Date,2025-08-21,2025-09-21,30,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Exchange Rate.xlsx,INR to JPY,Start Date,2025-09-21,2025-10-21,29,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Exchange Rate.xlsx,INR to JPY,Start Date,2025-10-21,2025-11-21,30,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Exchange Rate.xlsx,INR to JPY,Start Date,2025-11-21,2025-12-21,29,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Exchange Rate.xlsx,INR to JPY,Start Date,2025-12-21,2026-01-21,30,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Exchange Rate.xlsx,INR to JPY,Start Date,2026-01-21,2026-02-21,30,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Exchange Rate.xlsx,INR to JPY,Start Date,2026-02-21,2026-03-21,27,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Exchange Rate.xlsx,INR to JPY,Start Date,2026-03-21,2026-04-21,30,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Exchange Rate.xlsx,INR to JPY,Start Date,2026-04-21,2026-05-21,29,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Exchange Rate.xlsx,INR to JPY,Start Date,2026-05-21,2026-06-21,30,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Exchange Rate.xlsx,INR to JPY,Start Date,2026-06-21,2026-07-21,29,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Exchange Rate.xlsx,INR to JPY,Start Date,2026-07-21,2026-08-21,30,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Exchange Rate.xlsx,INR to JPY,Start Date,2026-08-21,2026-09-21,30,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Exchange Rate.xlsx,INR to JPY,End Date,2025-01-20,2025-02-20,30,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Exchange Rate.xlsx,INR to JPY,End Date,2025-02-20,2025-03-20,27,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Exchange Rate.xlsx,INR to JPY,End Date,2025-03-20,2025-04-20,30,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Exchange Rate.xlsx,INR to JPY,End Date,2025-04-20,2025-05-20,29,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Exchange Rate.xlsx,INR to JPY,End Date,2025-05-20,2025-06-20,30,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Exchange Rate.xlsx,INR to JPY,End Date,2025-06-20,2025-07-20,29,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Exchange Rate.xlsx,INR to JPY,End Date,2025-07-20,2025-08-20,30,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Exchange Rate.xlsx,INR to JPY,End Date,2025-08-20,2025-09-20,30,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Exchange Rate.xlsx,INR to JPY,End Date,2025-09-20,2025-10-20,29,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Exchange Rate.xlsx,INR to JPY,End Date,2025-10-20,2025-11-20,30,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Exchange Rate.xlsx,INR to JPY,End Date,2025-11-20,2025-12-20,29,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Exchange Rate.xlsx,INR to JPY,End Date,2025-12-20,2026-01-20,30,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Exchange Rate.xlsx,INR to JPY,End Date,2026-01-20,2026-02-20,30,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Exchange Rate.xlsx,INR to JPY,End Date,2026-02-20,2026-03-20,27,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Exchange Rate.xlsx,INR to JPY,End Date,2026-03-20,2026-04-20,30,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Exchange Rate.xlsx,INR to JPY,End Date,2026-04-20,2026-05-20,29,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Exchange Rate.xlsx,INR to JPY,End Date,2026-05-20,2026-06-20,30,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Exchange Rate.xlsx,INR to JPY,End Date,2026-06-20,2026-07-20,29,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Exchange Rate.xlsx,INR to JPY,End Date,2026-07-20,2026-08-20,30,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Exchange Rate.xlsx,INR to JPY,End Date,2026-08-20,2026-09-20,30,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Exchange Rate.xlsx,INR to JPY,End Date,2026-09-20,2026-10-20,29,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),CreditDebitNote_Date,2026-01-29,2026-04-25,85,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),CreditDebitNote_Date,2026-04-25,2026-06-24,59,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),Invoice_Date,2026-01-18,2026-03-30,70,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),CreditDebitNote_Date,2026-04-25,2026-06-24,59,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),CreditDebitNote_Date,2026-06-24,2026-09-21,88,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),CreditDebitNote_Date,2026-09-30,2026-10-10,9,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),CreditDebitNote_Date,2026-11-30,2026-12-15,14,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),CreditDebitNote_Date,2026-12-31,2027-01-13,12,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),CreditDebitNote_Date,2027-02-02,2027-02-14,11,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),CreditDebitNote_Date,2027-02-28,2027-03-13,12,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Invoice_Date,2026-03-30,2026-04-15,15,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Invoice_Date,2026-04-30,2026-05-14,13,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Invoice_Date,2026-05-30,2026-06-19,19,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Invoice_Date,2026-06-30,2026-07-13,12,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Invoice_Date,2026-07-29,2026-08-23,24,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Invoice_Date,2026-08-23,2026-09-27,34,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Invoice_Date,2026-09-30,2026-10-10,9,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Invoice_Date,2026-10-31,2026-11-11,10,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Invoice_Date,2026-11-30,2026-12-12,11,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Invoice_Date,2027-01-01,2027-01-13,11,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Invoice_Date,2027-01-31,2027-02-13,12,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Invoice_Date,2027-02-28,2027-03-14,13,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+GSTR1_Invoice.csv,(CSV table),Invoice_Date,2026-01-01,2026-01-13,11,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+GSTR1_Invoice.csv,(CSV table),Invoice_Date,2026-02-02,2026-02-14,11,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+GSTR1_Invoice.csv,(CSV table),Invoice_Date,2026-03-03,2026-03-15,11,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+GSTR1_Invoice.csv,(CSV table),Invoice_Date,2026-04-04,2026-04-13,8,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+GSTR1_Invoice.csv,(CSV table),Invoice_Date,2026-05-05,2026-05-14,8,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+GSTR1_Invoice.csv,(CSV table),Invoice_Date,2026-06-06,2026-06-14,7,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+GSTR1_Invoice.csv,(CSV table),Invoice_Date,2026-06-30,2026-07-13,12,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+GSTR1_Invoice.csv,(CSV table),Invoice_Date,2026-07-31,2026-08-08,7,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+GSTR1_Invoice.csv,(CSV table),Invoice_Date,2026-08-26,2026-09-13,17,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Inventory Audit Report as on 200926.xlsx,Sheet1,System Date,2026-08-31,2026-09-09,8,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Inventory Audit Report as on 200926.xlsx,Sheet1,Posting Date,2026-08-31,2026-09-09,8,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Item Master Lists 1.xlsx,Item Lists,Date of Udate,2024-10-26,2024-11-20,24,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Item Master Lists 1.xlsx,Item Lists,Date of Udate,2024-11-30,2024-12-13,12,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Item Master Lists 1.xlsx,Item Lists,Date of Udate,2024-12-14,2024-12-27,12,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Item Master Lists 1.xlsx,Item Lists,Date of Udate,2024-12-27,2025-01-13,16,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Item Master Lists 1.xlsx,Item Lists,Date of Udate,2025-01-18,2025-01-29,10,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Item Master Lists 1.xlsx,Item Lists,Date of Udate,2025-01-29,2025-02-15,16,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Item Master Lists 1.xlsx,Item Lists,Date of Udate,2025-02-18,2025-02-26,7,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Item Master Lists 1.xlsx,Item Lists,Date of Udate,2025-03-03,2025-03-13,9,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Item Master Lists 1.xlsx,Item Lists,Date of Udate,2025-03-17,2025-03-25,7,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Item Master Lists 1.xlsx,Item Lists,Date of Udate,2025-03-30,2025-04-17,17,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Item Master Lists 1.xlsx,Item Lists,Date of Udate,2025-04-21,2025-04-29,7,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Item Master Lists 1.xlsx,Item Lists,Date of Udate,2025-05-05,2025-05-23,17,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Item Master Lists 1.xlsx,Item Lists,Date of Udate,2025-05-29,2025-06-19,20,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Item Master Lists 1.xlsx,Item Lists,Date of Udate,2025-06-20,2025-07-17,26,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Item Master Lists 1.xlsx,Item Lists,Date of Udate,2025-07-26,2025-08-13,17,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Item Master Lists 1.xlsx,Item Lists,Date of Udate,2025-08-19,2025-08-30,10,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Item Master Lists 1.xlsx,Item Lists,Date of Udate,2025-08-30,2025-09-18,18,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Item Master Lists 1.xlsx,Item Lists,Date of Udate,2025-09-28,2025-10-16,17,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Item Master Lists 1.xlsx,Item Lists,Date of Udate,2025-10-16,2025-10-25,8,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Item Master Lists 1.xlsx,Item Lists,Date of Udate,2025-10-28,2025-11-14,16,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Item Master Lists 1.xlsx,Item Lists,Date of Udate,2025-11-24,2025-12-12,17,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Item Master Lists 1.xlsx,Item Lists,Date of Udate,2025-12-30,2026-01-15,15,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Item Master Lists 1.xlsx,Item Lists,Date of Udate,2026-02-02,2026-02-14,11,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Item Master Lists 1.xlsx,Item Lists,Date of Udate,2026-02-28,2026-03-14,13,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Item Master Lists 1.xlsx,Item Lists,Date of Udate,2026-03-26,2026-04-17,21,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Item Master Lists 1.xlsx,Item Lists,Date of Udate,2026-04-30,2026-05-15,14,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Item Master Lists 1.xlsx,Item Lists,Date of Udate,2026-05-21,2026-06-21,30,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Item Master Lists 1.xlsx,Item Lists,Date of Udate,2026-06-30,2026-07-13,12,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Item Master Lists 1.xlsx,Item Lists,Date of Udate,2026-07-19,2026-07-27,7,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Item Master Lists 1.xlsx,Item Lists,Date of Udate,2026-07-27,2026-08-15,18,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Item Master Lists 1.xlsx,Item Lists,Date of Udate,2026-08-22,2026-09-17,25,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Item Master Lists 2.xlsx,Item Lists,Date of Udate,2024-10-26,2024-11-20,24,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Item Master Lists 2.xlsx,Item Lists,Date of Udate,2024-11-30,2024-12-13,12,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Item Master Lists 2.xlsx,Item Lists,Date of Udate,2024-12-14,2024-12-27,12,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Item Master Lists 2.xlsx,Item Lists,Date of Udate,2025-12-01,2025-12-09,7,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Item Master Lists 2.xlsx,Item Lists,Date of Udate,2026-08-24,2026-09-17,23,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Sales Invoice Details 1.xlsx,Sheet1,SO Date,2025-12-19,2026-08-13,236,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Sales Invoice Details 1.xlsx,Sheet1,SO Date,2026-08-30,2026-09-21,21,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Sales Invoice Details 1.xlsx,Sheet1, Invoice Date ,2026-01-03,2026-01-13,9,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Sales Invoice Details 1.xlsx,Sheet1, Invoice Date ,2026-01-13,2026-09-07,236,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Sales Invoice Details 1.xlsx,Sheet1, Invoice Date ,2026-09-13,2026-09-22,8,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Sales Invoice Details.xlsx,Sheet1,SO Date,2025-11-30,2025-12-14,13,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Sales Invoice Details.xlsx,Sheet1,SO Date,2026-01-01,2026-01-13,11,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Sales Invoice Details.xlsx,Sheet1,SO Date,2026-02-02,2026-02-15,12,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Sales Invoice Details.xlsx,Sheet1,SO Date,2026-03-03,2026-03-13,9,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Sales Invoice Details.xlsx,Sheet1,SO Date,2026-03-29,2026-04-13,14,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Sales Invoice Details.xlsx,Sheet1,SO Date,2026-05-05,2026-05-13,7,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Sales Invoice Details.xlsx,Sheet1,SO Date,2026-05-31,2026-06-13,12,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Sales Invoice Details.xlsx,Sheet1,SO Date,2026-07-30,2026-08-23,23,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Sales Invoice Details.xlsx,Sheet1,Invoice Date,2026-01-01,2026-01-13,11,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Sales Invoice Details.xlsx,Sheet1,Invoice Date,2026-02-02,2026-02-14,11,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Sales Invoice Details.xlsx,Sheet1,Invoice Date,2026-03-03,2026-03-15,11,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Sales Invoice Details.xlsx,Sheet1,Invoice Date,2026-04-04,2026-04-13,8,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Sales Invoice Details.xlsx,Sheet1,Invoice Date,2026-05-05,2026-05-14,8,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Sales Invoice Details.xlsx,Sheet1,Invoice Date,2026-06-06,2026-06-14,7,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Sales Invoice Details.xlsx,Sheet1,Invoice Date,2026-06-30,2026-07-13,12,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Sales Invoice Details.xlsx,Sheet1,Invoice Date,2026-07-31,2026-08-08,7,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Sales Invoice Details.xlsx,Sheet1,Invoice Date,2026-08-26,2026-09-13,17,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Sales Order Report 1.xlsx,Sheet1,Posting Date,2024-05-05,2024-05-13,7,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Sales Order Report 1.xlsx,Sheet1,Posting Date,2024-05-31,2024-06-17,16,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Sales Order Report 1.xlsx,Sheet1,Posting Date,2024-07-30,2024-08-08,8,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Sales Order Report 1.xlsx,Sheet1,Posting Date,2024-08-28,2024-09-09,11,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Sales Order Report 1.xlsx,Sheet1,Posting Date,2024-09-30,2024-10-10,9,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Sales Order Report 1.xlsx,Sheet1,Posting Date,2024-10-29,2024-11-14,15,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Sales Order Report 1.xlsx,Sheet1,Posting Date,2024-11-30,2024-12-12,11,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Sales Order Report 1.xlsx,Sheet1,Posting Date,2025-01-01,2025-01-13,11,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Sales Order Report 1.xlsx,Sheet1,Posting Date,2025-02-02,2025-02-13,10,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Sales Order Report 1.xlsx,Sheet1,Posting Date,2025-03-03,2025-03-13,9,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Sales Order Report 1.xlsx,Sheet1,Posting Date,2025-04-04,2025-04-14,9,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Sales Order Report 1.xlsx,Sheet1,Posting Date,2025-04-29,2025-05-13,13,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Sales Order Report 1.xlsx,Sheet1,Posting Date,2025-06-29,2025-07-07,7,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Sales Order Report 1.xlsx,Sheet1,Posting Date,2025-07-30,2025-08-16,16,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Sales Order Report 1.xlsx,Sheet1,Posting Date,2025-08-30,2025-09-09,9,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Sales Order Report 1.xlsx,Sheet1,Posting Date,2025-09-30,2025-10-10,9,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Sales Order Report 1.xlsx,Sheet1,Posting Date,2025-10-30,2025-11-11,11,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Sales Order Report 1.xlsx,Sheet1,Posting Date,2025-11-30,2025-12-14,13,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Sales Order Report 1.xlsx,Sheet1,Posting Date,2026-01-01,2026-01-13,11,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Sales Order Report 1.xlsx,Sheet1,Posting Date,2026-02-02,2026-02-15,12,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Sales Order Report 1.xlsx,Sheet1,Posting Date,2026-03-03,2026-03-13,9,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Sales Order Report 1.xlsx,Sheet1,Posting Date,2026-03-29,2026-04-13,14,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Sales Order Report 1.xlsx,Sheet1,Posting Date,2026-05-05,2026-05-13,7,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Sales Order Report 1.xlsx,Sheet1,Posting Date,2026-07-30,2026-08-13,13,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Sales Order Report 1.xlsx,Sheet1,Posting Date,2026-08-31,2026-09-09,8,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Sales Order Report 1.xlsx,Sheet1,Delivery Date,2024-05-05,2024-05-13,7,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Sales Order Report 1.xlsx,Sheet1,Delivery Date,2024-06-06,2024-06-14,7,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Sales Order Report 1.xlsx,Sheet1,Delivery Date,2024-07-31,2024-08-08,7,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Sales Order Report 1.xlsx,Sheet1,Delivery Date,2024-08-31,2024-09-17,16,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Sales Order Report 1.xlsx,Sheet1,Delivery Date,2024-09-28,2024-10-17,18,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Sales Order Report 1.xlsx,Sheet1,Delivery Date,2024-10-30,2024-11-15,15,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Sales Order Report 1.xlsx,Sheet1,Delivery Date,2024-11-27,2024-12-13,15,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Sales Order Report 1.xlsx,Sheet1,Delivery Date,2024-12-31,2025-01-13,12,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Sales Order Report 1.xlsx,Sheet1,Delivery Date,2025-01-31,2025-02-17,16,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Sales Order Report 1.xlsx,Sheet1,Delivery Date,2025-03-03,2025-03-13,9,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Sales Order Report 1.xlsx,Sheet1,Delivery Date,2025-04-04,2025-04-15,10,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Sales Order Report 1.xlsx,Sheet1,Delivery Date,2025-04-28,2025-05-13,14,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Sales Order Report 1.xlsx,Sheet1,Delivery Date,2025-06-06,2025-06-14,7,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Sales Order Report 1.xlsx,Sheet1,Delivery Date,2025-07-07,2025-07-15,7,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Sales Order Report 1.xlsx,Sheet1,Delivery Date,2025-07-31,2025-08-08,7,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Sales Order Report 1.xlsx,Sheet1,Delivery Date,2025-08-08,2025-08-16,7,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Sales Order Report 1.xlsx,Sheet1,Delivery Date,2025-08-31,2025-09-16,15,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Sales Order Report 1.xlsx,Sheet1,Delivery Date,2025-09-30,2025-10-10,9,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Sales Order Report 1.xlsx,Sheet1,Delivery Date,2025-10-30,2025-11-13,13,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Sales Order Report 1.xlsx,Sheet1,Delivery Date,2025-11-30,2025-12-12,11,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Sales Order Report 1.xlsx,Sheet1,Delivery Date,2025-12-30,2026-01-13,13,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Sales Order Report 1.xlsx,Sheet1,Delivery Date,2026-01-31,2026-02-14,13,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Sales Order Report 1.xlsx,Sheet1,Delivery Date,2026-02-27,2026-03-13,13,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Sales Order Report 1.xlsx,Sheet1,Delivery Date,2026-04-04,2026-04-15,10,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Sales Order Report 1.xlsx,Sheet1,Delivery Date,2026-05-05,2026-05-13,7,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Sales Order Report 1.xlsx,Sheet1,Delivery Date,2026-06-06,2026-06-14,7,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Sales Order Report 1.xlsx,Sheet1,Delivery Date,2026-07-31,2026-08-08,7,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Sales Order Report 1.xlsx,Sheet1,Delivery Date,2026-08-14,2026-08-22,7,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Sales Order Report 1.xlsx,Sheet1,Delivery Date,2026-08-31,2026-09-13,12,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Sales Order Report 1.xlsx,Sheet1,Delivery Date,2026-09-27,2026-10-14,16,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Sales Order Report 2.xlsx,Sheet1,Posting Date  ,2026-08-31,2026-09-14,13,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Sales Order Report 2.xlsx,Sheet1,Delivery Date,2026-08-30,2026-09-10,10,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Sales Order Report 2.xlsx,Sheet1,Delivery Date,2027-03-31,2028-03-15,349,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.
+Sales Order Report 2.xlsx,Sheet1,Delivery Date,2028-03-15,2028-04-30,45,Partial unambiguous-value coverage only; not proof of missing transactions or expected business cadence.

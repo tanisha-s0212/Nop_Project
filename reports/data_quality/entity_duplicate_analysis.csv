@@ -1,0 +1,18 @@
+﻿file,worksheet,column,comparison,duplicate_groups,rows_in_groups,groups_with_differing_attributes,identity_confirmed
+Customer Master Report 1.xlsx,Sheet1,CUSTOMER CODE,exact code,0,0,0,False
+Customer Master Report 1.xlsx,Sheet1,CUSTOMER NAME,diagnostic name case/whitespace comparison,0,0,0,False
+Customer Master Report 2.xlsx,Sheet1,CUSTOMER CODE,exact code,15,30,0,False
+Customer Master Report 2.xlsx,Sheet1,CUSTOMER NAME  ,diagnostic name case/whitespace comparison,15,30,0,False
+Item Master Lists 1.xlsx,Item Lists,Item No.,exact code,0,0,0,False
+Item Master Lists 1.xlsx,Item Lists,Item Description,diagnostic name case/whitespace comparison,0,0,0,False
+Item Master Lists 2.xlsx,Item Lists,Item No.,exact code,12,24,0,False
+Item Master Lists 2.xlsx,Item Lists,Item Description  ,diagnostic name case/whitespace comparison,12,24,0,False
+Sales_Order_Data_202609.xlsx,Customer list,Customer Code,exact code,0,0,0,False
+Sales_Order_Data_202609.xlsx,Customer list,Customer Name,diagnostic name case/whitespace comparison,0,0,0,False
+Sales_Order_Data_202609.xlsx,Customer list,BP_CODE,exact code,0,0,0,False
+Sales_Order_Data_202609.xlsx,Country master,Code,exact code,0,0,0,False
+Sales_Order_Data_202609.xlsx,Country master,Country Name,diagnostic name case/whitespace comparison,0,0,0,False
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Product code,exact code,0,0,0,False
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Product name,diagnostic name case/whitespace comparison,0,0,0,False
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,Product code,exact code,0,0,0,False
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,Product name,diagnostic name case/whitespace comparison,0,0,0,False

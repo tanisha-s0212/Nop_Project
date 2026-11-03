@@ -1,0 +1,84 @@
+name: Python verification
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      verify_actual_artifacts:
+        description: Run read-only actual-source delivery checks; requires the original data and saved artifacts.
+        required: false
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: verification-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  PYTHONPATH: src
+  PYTHONDONTWRITEBYTECODE: '1'
+
+jobs:
+  core-tests:
+    name: Core tests (${{ matrix.os }})
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 15
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version-file: .python-version
+          cache: pip
+          cache-dependency-path: |
+            requirements-ml.txt
+            requirements-dev.txt
+      - name: Install verified dependencies and reusable packages
+        run: |
+          python -m pip install -r requirements-dev.txt
+          python -m pip install --no-deps --no-build-isolation -e .
+      - name: Run source-independent contract, discovery and aggregation tests
+        run: >-
+          python -m unittest -v
+          tests.test_contracts
+          tests.test_discovery
+          tests.test_time_series_aggregation_operator
+
+  actual-artifacts:
+    name: Actual-source artifact checks (manual)
+    if: github.event_name == 'workflow_dispatch' && inputs.verify_actual_artifacts
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version-file: .python-version
+          cache: pip
+          cache-dependency-path: |
+            requirements-ml.txt
+            requirements-dev.txt
+      - name: Install verified dependencies
+        run: python -m pip install -r requirements-dev.txt
+      - name: Verify the delivered data and artifacts without training
+        run: >-
+          python -m unittest -v
+          tests.test_ml_assessment_v2.MLAssessmentV2Tests.test_all_original_sources_prepared_data_models_and_source_modules_preserved
+          tests.test_ml_assessment_v2.MLAssessmentV2Tests.test_csv_semantics_are_source_verified_not_inferred_from_column_names
+          tests.test_ml_assessment_v2.MLAssessmentV2Tests.test_rolling_validation_never_contains_the_old_test_partition
+          tests.test_ml_assessment_v2.MLAssessmentV2Tests.test_fitted_baseline_exactly_reproduces_the_existing_reference_comparator
+          tests.test_ml_assessment_v2.MLAssessmentV2Tests.test_previously_seen_test_audit_is_never_marked_as_new_independent_validation
+          tests.test_ml_assessment_v2.MLAssessmentV2Tests.test_monthly_baselines_use_identical_fixed_cutoff_and_test_periods
+          tests.test_ml_assessment_v2.MLAssessmentV2Tests.test_all_catalogued_artifacts_have_one_compatible_adapter_and_fresh_process_evidence
+          tests.test_ml_assessment_v2.MLAssessmentV2Tests.test_custom_estimator_loads_without_the_training_orchestration_modules

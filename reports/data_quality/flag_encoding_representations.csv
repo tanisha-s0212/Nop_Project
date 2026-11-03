@@ -1,0 +1,28 @@
+﻿file,worksheet,column,representation_family,raw_values_and_counts,count,equivalence_approved
+Customer Master Report 1.xlsx,Sheet1,ACTIVE,yes/no text,"{""YES"": 40}",40,False
+Customer Master Report 1.xlsx,Sheet1,INACTIVE,yes/no text,"{""NO"": 40}",40,False
+Customer Master Report 2.xlsx,Sheet1,ACTIVE,yes/no text,"{""YES"": 3161, ""yes"": 281, ""Yes"": 317, ""NO"": 80, ""no"": 11, ""No"": 9}",3859,False
+Customer Master Report 2.xlsx,Sheet1,ACTIVE,native boolean,"{""True"": 282, ""False"": 8}",290,False
+Customer Master Report 2.xlsx,Sheet1,ACTIVE,boolean text,"{""FALSE"": 8, ""TRUE"": 288}",296,False
+Customer Master Report 2.xlsx,Sheet1,ACTIVE,numeric text flag,"{""1"": 280, ""0"": 9}",289,False
+Customer Master Report 2.xlsx,Sheet1,ACTIVE,Y/N text,"{""Y"": 271, ""N"": 7}",278,False
+Customer Master Report 2.xlsx,Sheet1,INACTIVE,yes/no text,"{""NO"": 3905, ""YES"": 100, ""No"": 133, ""no"": 141, ""yes"": 7, ""Yes"": 5}",4291,False
+Customer Master Report 2.xlsx,Sheet1,INACTIVE,numeric text flag,"{""0"": 167, ""1"": 5}",172,False
+Customer Master Report 2.xlsx,Sheet1,INACTIVE,boolean text,"{""FALSE"": 172, ""TRUE"": 2}",174,False
+Customer Master Report 2.xlsx,Sheet1,INACTIVE,Y/N text,"{""N"": 174, ""Y"": 6}",180,False
+Customer Master Report 2.xlsx,Sheet1,INACTIVE,native boolean,"{""False"": 188, ""True"": 7}",195,False
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),Flag_Reverse_Charge,Y/N text,"{""N"": 6}",6,False
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),Stock_Impact,Y/N text,"{""Y"": 6}",6,False
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),Tax_Liable,Y/N text,"{""Y"": 6}",6,False
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Flag_Reverse_Charge,Y/N text,"{""N"": 276}",276,False
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Stock_Impact,Y/N text,"{""Y"": 260, ""N"": 16}",276,False
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Tax_Liable,Y/N text,"{""Y"": 276}",276,False
+GSTR1_Invoice.csv,(CSV table),Flag_Reverse_Charge,Y/N text,"{""N"": 337}",337,False
+GSTR1_Invoice.csv,(CSV table),Stock_Impact,Y/N text,"{""Y"": 323, ""N"": 14}",337,False
+GSTR1_Invoice.csv,(CSV table),Tax_Liable,Y/N text,"{""Y"": 337}",337,False
+Item Master Lists 1.xlsx,Item Lists,Active,yes/no text,"{""Yes"": 146, ""No"": 4}",150,False
+Item Master Lists 2.xlsx,Item Lists,Active,yes/no text,"{""Yes"": 355, ""yes"": 275, ""No"": 11, ""YES"": 3074, ""NO"": 61, ""no"": 5}",3781,False
+Item Master Lists 2.xlsx,Item Lists,Active,numeric text flag,"{""1"": 320, ""0"": 7}",327,False
+Item Master Lists 2.xlsx,Item Lists,Active,native boolean,"{""True"": 293, ""False"": 6}",299,False
+Item Master Lists 2.xlsx,Item Lists,Active,Y/N text,"{""Y"": 290, ""N"": 4}",294,False
+Item Master Lists 2.xlsx,Item Lists,Active,boolean text,"{""TRUE"": 305, ""FALSE"": 6}",311,False

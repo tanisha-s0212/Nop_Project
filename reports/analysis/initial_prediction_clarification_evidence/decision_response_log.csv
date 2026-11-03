@@ -1,0 +1,18 @@
+﻿decision_id,original_business_rule_ids,relevance,decision_status,responsible_owner_role,owner_answer,supporting_evidence_reference,approved_scope_version,confirmed_by,confirmation_date,review_notes,business_approval_recorded
+D01,BR-005; BR-034,Core,Unresolved,ERP/source owner; business owner,,,,,,,False
+D02,BR-006,Core,Unresolved,NOP sales/process owner,,,,,,,False
+D03,BR-010; BR-025,Core,Unresolved,ERP/document owner,,,,,,,False
+D04,BR-010; BR-023,Core,Unresolved,ERP/report owner; data owner,,,,,,,False
+D05,BR-016; BR-018,Core,Unresolved,ERP/process owner,,,,,,,False
+D06,BR-007,Core,Unresolved,Sales/process owner; finance owner for lifecycle scope,,,,,,,False
+D07,BR-019; BR-032,Core,Unresolved,ERP/data operations owner,,,,,,,False
+D08,BR-018; BR-020,Core,Unresolved,Reporting/business owner; data operations owner,,,,,,,False
+D09,BR-005; BR-024,Core,Unresolved,ERP/data owner,,,,,,,False
+D10,BR-006; BR-032,Core,Unresolved,NOP process/decision owner,,,,,,,False
+D11,BR-020; BR-033,Core,Unresolved,ERP/data owner; business owner,,,,,,,False
+D12,BR-033,Core,Proposed,NOP process owner; ML/data owner,,,,,,,False
+D13,BR-002; BR-012; BR-036,Core,Unresolved,Project/business owner; ERP/data owner,,,,,,,False
+D14,BR-008; BR-009; BR-030,Conditional,Unresolved,Master data owner; requesting business owner,,,,,,,False
+D15,BR-013; BR-014; BR-015; BR-021; BR-022; BR-029,Conditional,Unresolved,Finance/product-unit owner; requesting business owner,,,,,,,False
+D16,BR-028; BR-029; BR-030,Conditional,Unresolved,ERP/finance source owner,,,,,,,False
+D17,BR-016; BR-017; BR-019,Conditional,Unresolved,ERP/source owner,,,,,,,False

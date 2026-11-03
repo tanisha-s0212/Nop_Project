@@ -1,0 +1,19 @@
+﻿contract_field,required_definition,status
+Outcome intent,Observed retrieval versus future/unknown outcome; do not relabel analytics,Required design field; no production target contract approved
+Business measure,"Approved equation, source fields, dimensional units and aggregation",Required design field; no production target contract approved
+Entity and record grain,"Observation entity, scoped IDs and stable event/line identity",Required design field; no production target contract approved
+Population,"Eligibility, exposure, entry/exit and censoring",Required design field; no production target contract approved
+Event clock,"Business date/time role, timezone/calendar and effective scope",Required design field; no production target contract approved
+Availability clock,When each input/outcome was actually knowable; extraction watermark,Required design field; no production target contract approved
+Decision cutoff,Explicit t and data snapshot/version available at t,Required design field; no production target contract approved
+Prediction horizon,Business-supplied H and usable decision lead time,Required design field; no production target contract approved
+Observation / label window,"Outcome interval, reporting delay and maturity",Required design field; no production target contract approved
+Lookback and granularity,"Allowed past interval, bucket, frequency and hierarchy",Required design field; no production target contract approved
+Outcome positivity/negativity,"Event, non-event, missing and censored definitions",Required design field; no production target contract approved
+Additivity and unit policy,"Quantity/unit, currency, signs, tax/freight/discount/returns",Required design field; no production target contract approved
+Coverage / zero policy,"Missing, out of scope, no activity, partial and complete periods distinguished",Required design field; no production target contract approved
+Authority and provenance,"Source version, production status and extraction filters",Required design field; no production target contract approved
+Join contract,"Approved semantic/temporal cardinality, coverage, null and expansion rules",Required design field; no production target contract approved
+Validation protocol,"Chronological folds, label maturity, baseline, leakage checks and final holdout",Required design field; no production target contract approved
+Decision utility,"Appropriate evaluation metrics, business error costs and acceptance rules",Required design field; no production target contract approved
+Permissions / limitations,"Authorized bindings, unsupported scope, new entity and extrapolation policy",Required design field; no production target contract approved

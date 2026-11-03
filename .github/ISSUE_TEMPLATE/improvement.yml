@@ -1,0 +1,17 @@
+name: Improvement
+description: Propose a focused change supported by existing evidence.
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: Problem or missing capability
+      description: Identify the user need and relevant existing implementation.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence and proposed scope
+      description: Link relevant reports and describe the smallest useful change, validation and owner dependencies.
+    validations:
+      required: true

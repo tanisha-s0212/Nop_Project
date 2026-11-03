@@ -1,0 +1,14 @@
+{
+  "modules": [
+    "tests.test_ml_assessment_v2",
+    "tests.test_tabular_ml",
+    "tests.test_actual_data_ml_exploratory",
+    "tests.test_invoice_volume_model",
+    "tests.test_discovery"
+  ],
+  "tests_run": 50,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "successful": true
+}

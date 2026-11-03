@@ -1,0 +1,395 @@
+﻿file,worksheet,column,category_candidate,text_values,raw_types,outer_space_values,repeated_internal_space_values,diagnostic_representation_collision_groups,case_variant_groups,domain_status
+Customer Master Report 1.xlsx,Sheet1,CUSTOMER CODE,False,40,"{""text"": 40}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Customer Master Report 1.xlsx,Sheet1,CUSTOMER NAME,False,40,"{""text"": 40}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Customer Master Report 1.xlsx,Sheet1,CUSTOMER GROUP,True,40,"{""text"": 40}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Customer Master Report 1.xlsx,Sheet1,MOBILE PHONE,False,40,"{""text"": 40}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Customer Master Report 1.xlsx,Sheet1,E-MAIL,False,40,"{""text"": 40}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Customer Master Report 1.xlsx,Sheet1,SHIPPING TYPE,True,0,{},0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Customer Master Report 1.xlsx,Sheet1,TYPE OF BUSINESS,True,40,"{""text"": 40}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Customer Master Report 1.xlsx,Sheet1,ACTIVE,True,40,"{""text"": 40}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Customer Master Report 1.xlsx,Sheet1,INACTIVE,True,40,"{""text"": 40}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Customer Master Report 1.xlsx,Sheet1,ADDRESS 2,False,40,"{""text"": 40}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Customer Master Report 1.xlsx,Sheet1,Bill-to City,False,40,"{""text"": 40}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Customer Master Report 1.xlsx,Sheet1,ZIP CODE,False,40,"{""text"": 40}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Customer Master Report 1.xlsx,Sheet1,STATE,False,32,"{""text"": 32}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Customer Master Report 1.xlsx,Sheet1,Bill-to Country,True,40,"{""text"": 40}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Customer Master Report 1.xlsx,Sheet1,BUILDING/FLOOR/ROOM,False,40,"{""text"": 40}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Customer Master Report 1.xlsx,Sheet1,GSTIN,False,32,"{""text"": 32}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Customer Master Report 1.xlsx,Sheet1,GST TYPE,True,32,"{""text"": 32}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Customer Master Report 1.xlsx,Sheet1,BANK CODE,False,40,"{""text"": 40}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Customer Master Report 1.xlsx,Sheet1,PAN NO.,False,32,"{""text"": 32}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Customer Master Report 1.xlsx,Sheet1,ACCOUNTS RECEIVABLE,False,40,"{""text"": 40}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Customer Master Report 2.xlsx,Sheet1,CUSTOMER CODE,False,5012,"{""text"": 5012}",161,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Customer Master Report 2.xlsx,Sheet1,CUSTOMER NAME  ,False,5012,"{""text"": 5012}",56,104,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Customer Master Report 2.xlsx,Sheet1,CUSTOMER GROUP,True,5012,"{""text"": 5012}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Customer Master Report 2.xlsx,Sheet1,MOBILE PHONE,False,5012,"{""text"": 5012}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Customer Master Report 2.xlsx,Sheet1,E-MAIL,False,4965,"{""text"": 4965}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Customer Master Report 2.xlsx,Sheet1,SHIPPING TYPE,True,0,{},0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Customer Master Report 2.xlsx,Sheet1,TYPE OF BUSINESS,True,5012,"{""text"": 5012}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Customer Master Report 2.xlsx,Sheet1,ACTIVE,True,4722,"{""text"": 4722, ""boolean"": 290}",0,0,2,2,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Customer Master Report 2.xlsx,Sheet1,INACTIVE,True,4817,"{""text"": 4817, ""boolean"": 195}",0,0,2,2,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Customer Master Report 2.xlsx,Sheet1,ADDRESS 2,False,5012,"{""text"": 5012}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Customer Master Report 2.xlsx,Sheet1,Bill-to City  ,False,5012,"{""text"": 5012}",135,12,27,1,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Customer Master Report 2.xlsx,Sheet1,ZIP CODE,False,3483,"{""text"": 3483, ""number"": 1529}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Customer Master Report 2.xlsx,Sheet1,STATE,False,4125,"{""text"": 4125}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Customer Master Report 2.xlsx,Sheet1,Bill-to Country,True,5012,"{""text"": 5012}",0,0,10,10,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Customer Master Report 2.xlsx,Sheet1,BUILDING/FLOOR/ROOM,False,5012,"{""text"": 5012}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Customer Master Report 2.xlsx,Sheet1,GSTIN,False,4286,"{""text"": 4286}",167,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Customer Master Report 2.xlsx,Sheet1,GST TYPE,True,4125,"{""text"": 4125}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Customer Master Report 2.xlsx,Sheet1,BANK CODE,False,5012,"{""text"": 5012}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Customer Master Report 2.xlsx,Sheet1,PAN NO.,False,4125,"{""text"": 4125}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Customer Master Report 2.xlsx,Sheet1,ACCOUNTS RECEIVABLE,False,5012,"{""text"": 5012}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Exchange Rate 1.xlsx,INR to JPY,Rate Month  ,False,7,"{""text"": 7}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Exchange Rate 1.xlsx,INR to JPY,Start Date,False,3,"{""datetime"": 2, ""text"": 3, ""number"": 2}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Exchange Rate 1.xlsx,INR to JPY,End Date,False,4,"{""text"": 4, ""datetime"": 2, ""number"": 1}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Exchange Rate 1.xlsx,INR to JPY,From Currency,True,7,"{""text"": 7}",0,0,1,1,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Exchange Rate 1.xlsx,INR to JPY,To Currency,True,7,"{""text"": 7}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Exchange Rate 1.xlsx,INR to JPY,Exchange Rate (1 INR = ? JPY),False,1,"{""number"": 6, ""text"": 1}",1,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Exchange Rate.xlsx,INR to JPY,Rate Month,False,22,"{""text"": 22}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Exchange Rate.xlsx,INR to JPY,From Currency,True,22,"{""text"": 22}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Exchange Rate.xlsx,INR to JPY,To Currency,True,22,"{""text"": 22}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Exchange Rate.xlsx,INR to JPY,Remarks,False,12,"{""text"": 12}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),CreditDebitNote_Date,False,6,"{""text"": 6}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),CreditDebitNote_Number,False,6,"{""text"": 6}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),Type_Credit_or_Debit,True,6,"{""text"": 6}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),Invoice_Date,False,6,"{""text"": 6}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),Invoice_Number,False,6,"{""text"": 6}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),Customer_Billing_Name,False,6,"{""text"": 6}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),Customer_Shipping/Billing_GSTIN,False,6,"{""text"": 6}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),State_Place_of_Supply,False,6,"{""text"": 6}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),State_POS_GSTCode,False,6,"{""text"": 6}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),Item_Type_G_or_S,True,6,"{""text"": 6}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),Item_Description,False,6,"{""text"": 6}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),HSN_SAC_code,False,6,"{""text"": 6}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),Item_Quantity,False,6,"{""text"": 6}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),Item_UoMCode,False,6,"{""text"": 6}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),Item_UoMName,False,6,"{""text"": 6}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),Item_Unit_Price,False,6,"{""text"": 6}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),Item_Rate,False,6,"{""text"": 6}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),Item_Taxable_Value,False,6,"{""text"": 6}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),IGST_Rate,False,6,"{""text"": 6}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),IGST_Amount,False,6,"{""text"": 6}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),CGST_Rate,False,6,"{""text"": 6}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),CGST_Amount,False,6,"{""text"": 6}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),SGST_Rate,False,6,"{""text"": 6}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),SGST_Amount,False,6,"{""text"": 6}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),CESS_Rate,False,6,"{""text"": 6}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),CESS_Amount,False,6,"{""text"": 6}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),Flag_Reverse_Charge,True,6,"{""text"": 6}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),Original_Customer_Billing_GSTIN,False,6,"{""text"": 6}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),Supplier_GSTIN,False,6,"{""text"": 6}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),Customer_Billing_Address,False,6,"{""text"": 6}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),Customer_Billing_City,False,6,"{""text"": 6}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),Customer_Billing_State,False,6,"{""text"": 6}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),Customer_Billing_State_GSTCode,False,6,"{""text"": 6}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),Line_Total_Include_GST,False,6,"{""text"": 6}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),Non_GST_Taxes,False,6,"{""text"": 6}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),Item_GST_Type,True,6,"{""text"": 6}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),Location_Name,False,6,"{""text"": 6}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),Location_State_Code,False,6,"{""text"": 6}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),Location_State_GSTCode,False,6,"{""text"": 6}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),Customer_Shipping_Address,False,6,"{""text"": 6}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),Customer_Shipping_City,False,6,"{""text"": 6}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),Customer_Shipping_State,False,6,"{""text"": 6}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),Customer_Shipping_State_GSTCode,False,6,"{""text"": 6}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),Credit_Debit_Note_Value,False,6,"{""text"": 6}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),Revision_Month,False,6,"{""text"": 6}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),Duty_Status,True,6,"{""text"": 6}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),BP_Type,True,6,"{""text"": 6}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),Doc_Series,False,6,"{""text"": 6}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),Doc_Series_Prefix,False,6,"{""text"": 6}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),Doc_Series_Suffix,False,6,"{""text"": 6}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),Issue_Reason,True,6,"{""text"": 6}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),Pre_GST,False,6,"{""text"": 6}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),GSTIN_As_per_Billing_Address,False,6,"{""text"": 6}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),Customer_Bill_To_GSTIN,False,6,"{""text"": 6}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),Tax_Only,False,6,"{""text"": 6}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),Stock_Impact,True,6,"{""text"": 6}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),Rounding_Doc_Level,False,6,"{""text"": 6}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),Inter_Intra_State,False,6,"{""text"": 6}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 1.csv,(CSV table),Tax_Liable,True,6,"{""text"": 6}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),CreditDebitNote_Date,False,276,"{""text"": 276}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),CreditDebitNote_Number,False,276,"{""text"": 276}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Type_Credit_or_Debit,True,276,"{""text"": 276}",35,0,2,2,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Invoice_Date,False,276,"{""text"": 276}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Invoice_Number,False,276,"{""text"": 276}",17,0,10,6,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Customer_Billing_Name,False,276,"{""text"": 276}",1,2,3,2,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Customer_Shipping/Billing_GSTIN,False,230,"{""text"": 230}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),State_Place_of_Supply,False,231,"{""text"": 231}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),State_POS_GSTCode,False,231,"{""text"": 231}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Item_Type_G_or_S,True,276,"{""text"": 276}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Item_Description,False,276,"{""text"": 276}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),HSN_SAC_code,False,276,"{""text"": 276}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Item_Quantity,False,276,"{""text"": 276}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Item_UoMCode,False,276,"{""text"": 276}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Item_UoMName,False,276,"{""text"": 276}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Item_Unit_Price,False,276,"{""text"": 276}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Item_Rate,False,276,"{""text"": 276}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 2.csv,(CSV table), Item_Taxable_Value,False,276,"{""text"": 276}",5,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),IGST_Rate,False,276,"{""text"": 276}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),IGST_Amount,False,276,"{""text"": 276}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),CGST_Rate,False,276,"{""text"": 276}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),CGST_Amount,False,276,"{""text"": 276}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),SGST_Rate,False,276,"{""text"": 276}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),SGST_Amount,False,276,"{""text"": 276}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),CESS_Rate,False,276,"{""text"": 276}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),CESS_Amount,False,276,"{""text"": 276}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Flag_Reverse_Charge,True,276,"{""text"": 276}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Original_Customer_Billing_GSTIN,False,230,"{""text"": 230}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Supplier_GSTIN,False,276,"{""text"": 276}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Customer_Billing_Address,False,276,"{""text"": 276}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Customer_Billing_City,False,276,"{""text"": 276}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Customer_Billing_State,False,231,"{""text"": 231}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Customer_Billing_State_GSTCode,False,231,"{""text"": 231}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Line_Total_Include_GST,False,276,"{""text"": 276}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Non_GST_Taxes,False,276,"{""text"": 276}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Item_GST_Type,True,276,"{""text"": 276}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Location_Name,False,276,"{""text"": 276}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Location_State_Code,False,276,"{""text"": 276}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Location_State_GSTCode,False,276,"{""text"": 276}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Customer_Shipping_Address,False,276,"{""text"": 276}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Customer_Shipping_City,False,276,"{""text"": 276}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Customer_Shipping_State,False,231,"{""text"": 231}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Customer_Shipping_State_GSTCode,False,231,"{""text"": 231}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Credit_Debit_Note_Value,False,276,"{""text"": 276}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Revision_Month,False,276,"{""text"": 276}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Duty_Status,True,276,"{""text"": 276}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),BP_Type,True,276,"{""text"": 276}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Doc_Series,False,276,"{""text"": 276}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Doc_Series_Prefix,False,276,"{""text"": 276}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Doc_Series_Suffix,False,276,"{""text"": 276}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Issue_Reason,True,276,"{""text"": 276}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Pre_GST,False,276,"{""text"": 276}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),GSTIN_As_per_Billing_Address,False,276,"{""text"": 276}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Customer_Bill_To_GSTIN,False,230,"{""text"": 230}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Tax_Only,False,276,"{""text"": 276}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Stock_Impact,True,276,"{""text"": 276}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Rounding_Doc_Level,False,276,"{""text"": 276}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Inter_Intra_State,False,276,"{""text"": 276}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Credit_Debit_Note 2.csv,(CSV table),Tax_Liable,True,276,"{""text"": 276}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Invoice.csv,(CSV table),Invoice_Date,False,337,"{""text"": 337}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Invoice.csv,(CSV table),Invoice_Number,False,337,"{""text"": 337}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Invoice.csv,(CSV table),Trans_Type,True,337,"{""text"": 337}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Invoice.csv,(CSV table),Customer_Billing_Name,False,337,"{""text"": 337}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Invoice.csv,(CSV table),Customer_Shipping/Billing_GSTIN,False,278,"{""text"": 278}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Invoice.csv,(CSV table),State_Place_of_Supply,False,337,"{""text"": 337}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Invoice.csv,(CSV table),State_POS_GSTCode,False,337,"{""text"": 337}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Invoice.csv,(CSV table),Item_Type_G_or_S,True,337,"{""text"": 337}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Invoice.csv,(CSV table),Item_Description,False,337,"{""text"": 337}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Invoice.csv,(CSV table),HSN_SAC_code,False,337,"{""text"": 337}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Invoice.csv,(CSV table),Item_Quantity,False,337,"{""text"": 337}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Invoice.csv,(CSV table),Item_UoMCode,False,323,"{""text"": 323}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Invoice.csv,(CSV table),Item_UoMName,False,323,"{""text"": 323}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Invoice.csv,(CSV table),Item_Unit_Price,False,337,"{""text"": 337}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Invoice.csv,(CSV table),Item_Rate,False,337,"{""text"": 337}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Invoice.csv,(CSV table),Item_Taxable_Value,False,337,"{""text"": 337}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Invoice.csv,(CSV table),IGST_Rate,False,337,"{""text"": 337}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Invoice.csv,(CSV table),IGST_Amount,False,337,"{""text"": 337}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Invoice.csv,(CSV table),CGST_Rate,False,337,"{""text"": 337}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Invoice.csv,(CSV table),CGST_Amount,False,337,"{""text"": 337}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Invoice.csv,(CSV table),SGST_Rate,False,337,"{""text"": 337}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Invoice.csv,(CSV table),SGST_Amount,False,337,"{""text"": 337}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Invoice.csv,(CSV table),CESS_Rate,False,337,"{""text"": 337}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Invoice.csv,(CSV table),CESS_Amount,False,337,"{""text"": 337}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Invoice.csv,(CSV table),Non_GST_Taxes,False,337,"{""text"": 337}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Invoice.csv,(CSV table),Flag_Reverse_Charge,True,337,"{""text"": 337}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Invoice.csv,(CSV table),Original_Customer_Billing_GSTIN,False,278,"{""text"": 278}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Invoice.csv,(CSV table),Flag_Export_Invoice,False,337,"{""text"": 337}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Invoice.csv,(CSV table),Type_Export_SEZ_Deemed,True,59,"{""text"": 59}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Invoice.csv,(CSV table),Supplier_GSTIN,False,337,"{""text"": 337}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Invoice.csv,(CSV table),Customer_Billing_Address,False,337,"{""text"": 337}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Invoice.csv,(CSV table),Customer_Billing_City,False,337,"{""text"": 337}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Invoice.csv,(CSV table),Customer_Billing_State,False,278,"{""text"": 278}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Invoice.csv,(CSV table),Customer_Billing_State_GSTCode,False,278,"{""text"": 278}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Invoice.csv,(CSV table),Item_GST_Type,True,337,"{""text"": 337}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Invoice.csv,(CSV table),Location_Name,False,337,"{""text"": 337}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Invoice.csv,(CSV table),Location_State_Code,False,337,"{""text"": 337}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Invoice.csv,(CSV table),Location_State_GSTCode,False,337,"{""text"": 337}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Invoice.csv,(CSV table),Customer_Shipping_Address,False,337,"{""text"": 337}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Invoice.csv,(CSV table),Customer_Shipping_City,False,337,"{""text"": 337}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Invoice.csv,(CSV table),Customer_Shipping_State,False,278,"{""text"": 278}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Invoice.csv,(CSV table),Customer_Shipping_State_GSTCode,False,278,"{""text"": 278}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Invoice.csv,(CSV table),Invoice_Value,False,337,"{""text"": 337}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Invoice.csv,(CSV table),Duty_Status,True,337,"{""text"": 337}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Invoice.csv,(CSV table),BP_Type,True,278,"{""text"": 278}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Invoice.csv,(CSV table),Line_Total_Include_GST,False,337,"{""text"": 337}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Invoice.csv,(CSV table),Doc_Series,False,337,"{""text"": 337}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Invoice.csv,(CSV table),Doc_Series_Prefix,False,337,"{""text"": 337}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Invoice.csv,(CSV table),GSTIN_As_per_Billing_Address,False,337,"{""text"": 337}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Invoice.csv,(CSV table),Customer_Bill_To_GSTIN,False,278,"{""text"": 278}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Invoice.csv,(CSV table),Tax_Only,False,337,"{""text"": 337}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Invoice.csv,(CSV table),Stock_Impact,True,337,"{""text"": 337}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Invoice.csv,(CSV table),Rounding_Doc_Level,False,337,"{""text"": 337}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Invoice.csv,(CSV table),Inter_Intra_State,False,337,"{""text"": 337}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Invoice.csv,(CSV table),Tax_Liable,True,337,"{""text"": 337}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+GSTR1_Invoice.csv,(CSV table),Issue_Reason,True,337,"{""text"": 337}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Inventory Audit Report as on 200327.xlsx,Sheet1, Item No. ,False,5010,"{""text"": 5010}",164,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Inventory Audit Report as on 200327.xlsx,Sheet1,Description,False,5010,"{""text"": 5010}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Inventory Audit Report as on 200327.xlsx,Sheet1,System Date,False,94086,"{""text"": 94086, ""datetime"": 2023, ""number"": 1995}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Inventory Audit Report as on 200327.xlsx,Sheet1,Posting Date,False,94192,"{""text"": 94192, ""datetime"": 1997, ""number"": 1915}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Inventory Audit Report as on 200327.xlsx,Sheet1,Document,False,103114,"{""text"": 103114}",0,0,369,369,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Inventory Audit Report as on 200327.xlsx,Sheet1,Whse,False,98104,"{""text"": 98104}",2868,0,2,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Inventory Audit Report as on 200327.xlsx,Sheet1,Cost,False,7728,"{""number"": 100396, ""text"": 7728}",1301,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Inventory Audit Report as on 200327.xlsx,Sheet1,Trans. Value,False,7794,"{""number"": 100330, ""text"": 7794}",1915,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Inventory Audit Report as on 200327.xlsx,Sheet1,Cumulative Value  ,False,8456,"{""number"": 99668, ""text"": 8456}",1420,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Inventory Audit Report as on 200926 1.xlsx,Sheet1,Item No.,False,52,"{""text"": 52}",9,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Inventory Audit Report as on 200926 1.xlsx,Sheet1,Description,False,52,"{""text"": 52}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Inventory Audit Report as on 200926 1.xlsx,Sheet1,System Date,False,51,"{""text"": 51, ""datetime"": 5, ""number"": 2}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Inventory Audit Report as on 200926 1.xlsx,Sheet1,Posting Date,False,50,"{""text"": 50, ""datetime"": 2, ""number"": 6}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Inventory Audit Report as on 200926 1.xlsx,Sheet1,Document,False,110,"{""text"": 110}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Inventory Audit Report as on 200926 1.xlsx,Sheet1,Whse,False,58,"{""text"": 58}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Inventory Audit Report as on 200926 1.xlsx,Sheet1,Cost,False,29,"{""text"": 29, ""number"": 133}",3,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Inventory Audit Report as on 200926 1.xlsx,Sheet1,Trans. Value,False,35,"{""number"": 127, ""text"": 35}",12,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Inventory Audit Report as on 200926 1.xlsx,Sheet1,Cumulative Value,False,37,"{""number"": 125, ""text"": 37}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Inventory Audit Report as on 200926.xlsx,Sheet1,Item No.,False,52,"{""text"": 52}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Inventory Audit Report as on 200926.xlsx,Sheet1,Description,False,52,"{""text"": 52}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Inventory Audit Report as on 200926.xlsx,Sheet1,System Date,False,58,"{""text"": 58}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Inventory Audit Report as on 200926.xlsx,Sheet1,Posting Date,False,58,"{""text"": 58}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Inventory Audit Report as on 200926.xlsx,Sheet1,Document,False,110,"{""text"": 110}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Inventory Audit Report as on 200926.xlsx,Sheet1,Whse,False,58,"{""text"": 58}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Item Master Lists 1.xlsx,Item Lists,Item No.,False,150,"{""text"": 150}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Item Master Lists 1.xlsx,Item Lists,Item Description,False,150,"{""text"": 150}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Item Master Lists 1.xlsx,Item Lists,foreign Code,False,103,"{""text"": 103}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Item Master Lists 1.xlsx,Item Lists,Active,True,150,"{""text"": 150}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Item Master Lists 1.xlsx,Item Lists,HSN Code,False,150,"{""text"": 150}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Item Master Lists 1.xlsx,Item Lists,Segment,True,120,"{""text"": 120}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Item Master Lists 1.xlsx,Item Lists,Product Segment,True,120,"{""text"": 120}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Item Master Lists 1.xlsx,Item Lists,Lead Time,False,66,"{""text"": 66}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Item Master Lists 1.xlsx,Item Lists,Item Group,True,150,"{""text"": 150}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Item Master Lists 1.xlsx,Item Lists,GL A/c,False,150,"{""text"": 150}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Item Master Lists 1.xlsx,Item Lists,Pricing unit,True,150,"{""text"": 150}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Item Master Lists 1.xlsx,Item Lists,Date of Udate,False,150,"{""text"": 150}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Item Master Lists 2.xlsx,Item Lists,Item No.,False,5012,"{""text"": 5012}",195,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Item Master Lists 2.xlsx,Item Lists,Item Description  ,False,5012,"{""text"": 5012}",59,103,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Item Master Lists 2.xlsx,Item Lists,foreign Code,False,2943,"{""text"": 2943}",109,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Item Master Lists 2.xlsx,Item Lists,Active,True,4713,"{""text"": 4713, ""boolean"": 299}",0,0,2,2,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Item Master Lists 2.xlsx,Item Lists, Amount ,False,523,"{""number"": 4489, ""text"": 523}",86,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Item Master Lists 2.xlsx,Item Lists,HSN Code,False,5012,"{""text"": 5012}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Item Master Lists 2.xlsx,Item Lists,Segment,True,4129,"{""text"": 4129}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Item Master Lists 2.xlsx,Item Lists,Product Segment,True,4129,"{""text"": 4129}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Item Master Lists 2.xlsx,Item Lists,Lead Time,False,3290,"{""text"": 3290, ""number"": 877}",918,0,1,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Item Master Lists 2.xlsx,Item Lists,Item Group,True,5012,"{""text"": 5012}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Item Master Lists 2.xlsx,Item Lists,GL A/c,False,5012,"{""text"": 5012}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Item Master Lists 2.xlsx,Item Lists,Pricing unit,True,5012,"{""text"": 5012}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Item Master Lists 2.xlsx,Item Lists,Date of Udate,False,4608,"{""text"": 4608, ""number"": 205, ""datetime"": 199}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Invoice Details 1.xlsx,Sheet1,TransType,False,100183,"{""text"": 100183}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Invoice Details 1.xlsx,Sheet1,SO Date,False,95365,"{""text"": 95365, ""number"": 2397, ""datetime"": 2421}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Invoice Details 1.xlsx,Sheet1,Customer Ref. No.,False,100183,"{""text"": 100183}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Invoice Details 1.xlsx,Sheet1,Customer Type,True,58762,"{""text"": 58762}",7376,0,2,2,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Invoice Details 1.xlsx,Sheet1,Invoice Num,False,100183,"{""text"": 100183}",2267,0,2637,1336,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Invoice Details 1.xlsx,Sheet1, Invoice Date ,False,94193,"{""text"": 94193, ""datetime"": 2994, ""number"": 2996}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Invoice Details 1.xlsx,Sheet1,Customer Billing Name  ,False,100183,"{""text"": 100183}",1181,1775,1236,856,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Invoice Details 1.xlsx,Sheet1,Customer Billing City,False,100183,"{""text"": 100183}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Invoice Details 1.xlsx,Sheet1,State Place of Supply,False,83220,"{""text"": 83220}",1834,0,7,7,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Invoice Details 1.xlsx,Sheet1,Country,True,100183,"{""text"": 100183}",0,0,11,11,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Invoice Details 1.xlsx,Sheet1,Item Type G or S,True,100183,"{""text"": 100183}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Invoice Details 1.xlsx,Sheet1,Part Code SAP Code,False,99242,"{""text"": 99242}",3012,0,2044,1292,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Invoice Details 1.xlsx,Sheet1,Item Foreign Code,False,69492,"{""text"": 69492}",1561,0,1224,736,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Invoice Details 1.xlsx,Sheet1,Item Description,False,100183,"{""text"": 100183}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Invoice Details 1.xlsx,Sheet1,HSN Code,False,99398,"{""text"": 99398}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Invoice Details 1.xlsx,Sheet1,SAC Code,False,941,"{""text"": 941}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Invoice Details 1.xlsx,Sheet1,UOM,True,99242,"{""text"": 99242}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Invoice Details 1.xlsx,Sheet1,Unit Price,False,6091,"{""number"": 94092, ""text"": 6091}",1034,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Invoice Details 1.xlsx,Sheet1, Taxable Value ,False,7974,"{""number"": 92209, ""text"": 7974}",1343,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Invoice Details 1.xlsx,Sheet1,FreightAmt,False,5062,"{""number"": 95121, ""text"": 5062}",796,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Invoice Details 1.xlsx,Sheet1,FreightDetail,False,3822,"{""text"": 3822}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Invoice Details 1.xlsx,Sheet1,FreightSACCode,False,3822,"{""text"": 3822}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Invoice Details 1.xlsx,Sheet1,Total Value,False,7980,"{""text"": 7980, ""number"": 92203}",1377,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Invoice Details 1.xlsx,Sheet1,Type Export/Domestic,True,100183,"{""text"": 100183}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Invoice Details 1.xlsx,Sheet1,Customer Billing Address,False,100183,"{""text"": 100183}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Invoice Details 1.xlsx,Sheet1,Customer Shiping Address,False,100183,"{""text"": 100183}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Invoice Details 1.xlsx,Sheet1,Invoice Total Include GST,False,4854,"{""text"": 4854, ""number"": 95329}",835,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Invoice Details 1.xlsx,Sheet1,Customer Shipping GSTIN,False,82869,"{""text"": 82869}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Invoice Details 1.xlsx,Sheet1,Customer Billing GSTIN,False,82869,"{""text"": 82869}",1865,0,1045,668,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Invoice Details 1.xlsx,Sheet1,Sales Employee,False,99848,"{""text"": 99848}",0,2062,60,60,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Invoice Details 1.xlsx,Sheet1,Territory,False,100183,"{""text"": 100183}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Invoice Details 1.xlsx,Sheet1,Remarks,False,100183,"{""text"": 100183}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Invoice Details.xlsx,Sheet1,TransType,False,337,"{""text"": 337}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Invoice Details.xlsx,Sheet1,SO Date,False,337,"{""text"": 337}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Invoice Details.xlsx,Sheet1,Customer Ref. No.,False,337,"{""text"": 337}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Invoice Details.xlsx,Sheet1,Customer Type,True,74,"{""text"": 74}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Invoice Details.xlsx,Sheet1,Invoice Num,False,337,"{""text"": 337}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Invoice Details.xlsx,Sheet1,Invoice Date,False,337,"{""text"": 337}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Invoice Details.xlsx,Sheet1,Customer Billing Name,False,337,"{""text"": 337}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Invoice Details.xlsx,Sheet1,Customer Billing City,False,337,"{""text"": 337}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Invoice Details.xlsx,Sheet1,State Place of Supply,False,278,"{""text"": 278}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Invoice Details.xlsx,Sheet1,Country,True,337,"{""text"": 337}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Invoice Details.xlsx,Sheet1,Item Type G or S,True,337,"{""text"": 337}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Invoice Details.xlsx,Sheet1,Part Code SAP Code,False,323,"{""text"": 323}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Invoice Details.xlsx,Sheet1,Item Foreign Code,False,278,"{""text"": 278}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Invoice Details.xlsx,Sheet1,Item Description,False,337,"{""text"": 337}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Invoice Details.xlsx,Sheet1,HSN Code,False,323,"{""text"": 323}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Invoice Details.xlsx,Sheet1,SAC Code,False,14,"{""text"": 14}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Invoice Details.xlsx,Sheet1,UOM,True,323,"{""text"": 323}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Invoice Details.xlsx,Sheet1,FreightDetail,False,50,"{""text"": 50}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Invoice Details.xlsx,Sheet1,FreightSACCode,False,50,"{""text"": 50}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Invoice Details.xlsx,Sheet1,Type Export/Domestic,True,337,"{""text"": 337}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Invoice Details.xlsx,Sheet1,Customer Billing Address,False,337,"{""text"": 337}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Invoice Details.xlsx,Sheet1,Customer Shiping Address,False,337,"{""text"": 337}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Invoice Details.xlsx,Sheet1,Customer Shipping GSTIN,False,278,"{""text"": 278}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Invoice Details.xlsx,Sheet1,Customer Billing GSTIN,False,278,"{""text"": 278}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Invoice Details.xlsx,Sheet1,Sales Employee,False,337,"{""text"": 337}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Invoice Details.xlsx,Sheet1,Territory,False,337,"{""text"": 337}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Invoice Details.xlsx,Sheet1,Remarks,False,337,"{""text"": 337}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Order Report 1.xlsx,Sheet1,Customer Code,False,1098,"{""text"": 1098}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Order Report 1.xlsx,Sheet1,Customer Name,False,1098,"{""text"": 1098}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Order Report 1.xlsx,Sheet1,Contact Person,False,1098,"{""text"": 1098}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Order Report 1.xlsx,Sheet1,Contact Number,False,1098,"{""text"": 1098}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Order Report 1.xlsx,Sheet1,Customer Ref No,False,1098,"{""text"": 1098}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Order Report 1.xlsx,Sheet1,Status,True,1098,"{""text"": 1098}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Order Report 1.xlsx,Sheet1,Posting Date,False,1098,"{""text"": 1098}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Order Report 1.xlsx,Sheet1,Delivery Date,False,1098,"{""text"": 1098}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Order Report 1.xlsx,Sheet1,Item No,False,1062,"{""text"": 1062}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Order Report 1.xlsx,Sheet1,Item Description,False,1062,"{""text"": 1062}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Order Report 1.xlsx,Sheet1,HSN,False,1062,"{""text"": 1062}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Order Report 1.xlsx,Sheet1,Bill To,False,1098,"{""text"": 1098}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Order Report 1.xlsx,Sheet1,Ship To,False,1098,"{""text"": 1098}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Order Report 1.xlsx,Sheet1,Payment Terms,True,1098,"{""text"": 1098}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Order Report 1.xlsx,Sheet1,TAX Information,False,1098,"{""text"": 1098}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Order Report 1.xlsx,Sheet1,Sales Employee,False,1098,"{""text"": 1098}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Order Report 1.xlsx,Sheet1,Remarks,False,1098,"{""text"": 1098}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Order Report 2.xlsx,Sheet1, Customer Code ,False,100280,"{""text"": 100280}",3061,0,1577,1053,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Order Report 2.xlsx,Sheet1,Customer Name,False,100280,"{""text"": 100280}",1178,1816,1254,910,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Order Report 2.xlsx,Sheet1,Contact Person,False,100113,"{""text"": 100113}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Order Report 2.xlsx,Sheet1,Contact Number,False,99956,"{""text"": 99956}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Order Report 2.xlsx,Sheet1,Customer Ref No,False,100280,"{""text"": 100280}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Order Report 2.xlsx,Sheet1,Status,True,100280,"{""text"": 100280}",3245,0,4,4,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Order Report 2.xlsx,Sheet1,Posting Date  ,False,94248,"{""text"": 94248, ""number"": 2975, ""datetime"": 3057}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Order Report 2.xlsx,Sheet1,Delivery Date,False,95436,"{""text"": 95436, ""datetime"": 2380, ""number"": 2455}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Order Report 2.xlsx,Sheet1,Item No,False,99259,"{""text"": 99259}",3082,0,2085,1316,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Order Report 2.xlsx,Sheet1,Item Description,False,99259,"{""text"": 99259}",1208,1818,1697,1183,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Order Report 2.xlsx,Sheet1,Quantity,False,2986,"{""number"": 97294, ""text"": 2986}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Order Report 2.xlsx,Sheet1,Unit Price,False,7993,"{""number"": 92287, ""text"": 7993}",1325,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Order Report 2.xlsx,Sheet1, Total (LC) ,False,8010,"{""number"": 92270, ""text"": 8010}",1378,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Order Report 2.xlsx,Sheet1,Tax Total,False,8199,"{""text"": 8199, ""number"": 92081}",1393,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Order Report 2.xlsx,Sheet1,HSN,False,99259,"{""text"": 99259}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Order Report 2.xlsx,Sheet1,Bill To,False,100280,"{""text"": 100280}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Order Report 2.xlsx,Sheet1,Ship To,False,100280,"{""text"": 100280}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Order Report 2.xlsx,Sheet1,Payment Terms,True,100280,"{""text"": 100280}",0,0,4,4,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Order Report 2.xlsx,Sheet1,TAX Information,False,100280,"{""text"": 100280}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Order Report 2.xlsx,Sheet1,Sales Employee,False,99942,"{""text"": 99942}",0,1936,60,60,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales Order Report 2.xlsx,Sheet1,Remarks,False,100280,"{""text"": 100280}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales_Order_Data_202609.xlsx,Customer list,Customer Name,False,43,"{""text"": 43}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales_Order_Data_202609.xlsx,Customer list,BP_CODE,False,37,"{""text"": 37}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales_Order_Data_202609.xlsx,Country master,Code,False,11,"{""text"": 11}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales_Order_Data_202609.xlsx,Country master,Country Name,True,11,"{""text"": 11}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales_Order_Data_202609.xlsx,Country master,Japanese country name,True,11,"{""text"": 11}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales_Order_Data_202609.xlsx,Country master,通称,False,11,"{""text"": 11}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales_Order_Data_202609.xlsx,Country master,国セグメント,False,11,"{""text"": 11}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Sales agency,False,60,"{""text"": 60}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Product code,False,60,"{""text"": 60}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Product name,False,60,"{""text"": 60}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Category,True,60,"{""text"": 60}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Product segment CD,True,60,"{""text"": 60}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Product segment,True,60,"{""text"": 60}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Middle segment CD,True,60,"{""text"": 60}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales_Order_Data_202609.xlsx,PTC_NOPI,Middle segment,True,60,"{""text"": 60}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,<blank column 1>,False,33,"{""text"": 33}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,Product code,False,33,"{""text"": 33}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,Product name,False,33,"{""text"": 33}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,Category,True,33,"{""text"": 33}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,Product segment CD,True,33,"{""text"": 33}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,Product segment,True,33,"{""text"": 33}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,Middle segment CD,True,33,"{""text"": 33}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,Middle segment ,True,33,"{""text"": 33}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain
+Sales_Order_Data_202609.xlsx,PCT_NOPJ,セグメント,False,33,"{""text"": 33}",0,0,0,0,Allowed business values unconfirmed; observed values alone do not define a valid domain

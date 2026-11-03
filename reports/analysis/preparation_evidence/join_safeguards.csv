@@ -1,0 +1,11 @@
+﻿safeguard,required_check,approval_state
+Identity,Keys must identify the same business entity/event and scope; column names or matching values alone insufficient.,Proposed technical control; no business join approved
+Nulls,Missing key components do not match missing target values; preserve source rows in diagnostics and record unresolved references.,Proposed technical control; no business join approved
+Time,Reference rows effective at event/decision time and actually available at decision cutoff; intervals must not overlap where uniqueness is expected.,Proposed technical control; no business join approved
+Cardinality,Many-to-one lookup requires unique eligible target key at the relevant time; reject arbitrary first/last record deduplication.,Proposed technical control; no business join approved
+Coverage,"Report row and distinct-key coverage both ways; approved unmatched policy, no silent inner join loss.",Proposed technical control; no business join approved
+Fanout,Frequency-based expected rows independently checked against actual joins in later approved work; no sampled-only assurance.,Proposed technical control; no business join approved
+Mass conservation,"At declared grain/unit/currency, reconcile counts, signed and absolute quantities/amounts; repeated header and cumulative totals handled separately.",Proposed technical control; no business join approved
+Grain changes,"One-to-many/many-to-many relationships need an approved allocation/aggregation/event model, never an accidental expanded training row.",Proposed technical control; no business join approved
+Representations,GST/invoice alternate exports must not be stacked as separate events; approved reconciliation links retain each source lineage.,Proposed technical control; no business join approved
+Evolution,"Revalidate uniqueness, temporal scope and conservation on every source/schema/version; current row preservation is not a future guarantee.",Proposed technical control; no business join approved

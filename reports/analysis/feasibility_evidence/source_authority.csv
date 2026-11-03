@@ -1,0 +1,8 @@
+﻿domain,candidate_source,evidence,decision
+Customers,Customer Master Reports; Customer list only as candidate BP crosswalk,Customer attributes and business codes; complete and partial overlaps measured,No authoritative source confirmed; versions conflict and reference list is explicitly synthetic
+Products,Item Master Lists; PTC_NOPI/PCT_NOPJ classifications,SAP item and foreign product namespaces; classifications are separate reference lists,No authoritative version/crosswalk confirmed; large master has repeated codes
+Orders,Sales Order Report exports,"SO references, customer/product, quantities and line values","Potential order detail fact sources; scope, history, stable line ID and extract precedence required"
+Sales/invoices,Sales Invoice Details; GST invoice as reconciliation source,Invoice line measures and scoped GST document identifiers with observed overlap,Keep sources separate; do not stack overlapping invoice/GST rows as additional sales
+GST/adjustments,GSTR1 Invoice and Credit/Debit Note CSVs,"Reporting fields, series, tax amounts and original invoice references","Candidate tax/adjustment evidence only; filing version, acceptance status and sign basis unknown"
+Inventory,Three inventory audit exports,"Grouped item labels, opening balances, document movements and cumulative measures",Require approved grouped-layout reconstruction and snapshot scope before movement fact construction
+Currency/country/service,Synthetic rate periods; country reference; G/S invoice lines,Two explicit synthetic rate titles; multilingual country list; goods/service flag,No production FX authority or independent service master established; approve aliases and service definition

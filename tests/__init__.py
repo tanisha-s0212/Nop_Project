@@ -1,0 +1,1 @@
+"""Synthetic-only foundation tests."""

@@ -1,0 +1,21 @@
+﻿file,worksheet,actual_column_name,column_number,existing_types,nonblank_values_from_prior_evidence,missing_values_from_prior_evidence,meaning_approved
+Sales Invoice Details.xlsx,Sheet1,Invoice Num,7,"{""text"": 337}",337,0,False
+Sales Invoice Details.xlsx,Sheet1,Invoice Date,8,"{""text"": 337}",337,0,False
+Sales Invoice Details.xlsx,Sheet1,TransType,2,"{""text"": 337}",337,0,False
+Sales Invoice Details 1.xlsx,Sheet1,Invoice Num,7,"{""text"": 100183}",100183,5,False
+Sales Invoice Details 1.xlsx,Sheet1, Invoice Date ,8,"{""text"": 94193, ""datetime"": 2994, ""number"": 2996}",100183,5,False
+Sales Invoice Details.xlsx,Sheet1,Customer Billing Name,9,"{""text"": 337}",337,0,False
+Sales Invoice Details.xlsx,Sheet1,Invoice Total Include GST,37,"{""number"": 337}",337,0,False
+Sales Invoice Details.xlsx,Sheet1,Customer Billing GSTIN,40,"{""text"": 278}",278,59,False
+Sales Invoice Details.xlsx,Sheet1,Part Code SAP Code,14,"{""text"": 323}",323,14,False
+Sales Invoice Details.xlsx,Sheet1,Item Foreign Code,15,"{""text"": 278}",278,59,False
+Sales Invoice Details.xlsx,Sheet1,Taxable Value,22,"{""number"": 337}",337,0,False
+Sales Invoice Details.xlsx,Sheet1,Total Value,32,"{""number"": 337}",337,0,False
+Sales Invoice Details.xlsx,Sheet1,Quantity,19,"{""number"": 337}",337,0,False
+Sales Invoice Details.xlsx,Sheet1,UOM,20,"{""text"": 323}",323,14,False
+Sales Invoice Details.xlsx,Sheet1,Item Type G or S,13,"{""text"": 337}",337,0,False
+GSTR1_Invoice.csv,(CSV table),Invoice_Date,1,"{""text"": 337}",337,0,False
+GSTR1_Invoice.csv,(CSV table),Invoice_Number,2,"{""text"": 337}",337,0,False
+GSTR1_Invoice.csv,(CSV table),Doc_Series,57,"{""text"": 337}",337,0,False
+GSTR1_Invoice.csv,(CSV table),Doc_Series_Prefix,58,"{""text"": 337}",337,0,False
+GSTR1_Invoice.csv,(CSV table),Doc_Series_Suffix,59,{},0,337,False

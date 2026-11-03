@@ -1,0 +1,3 @@
+﻿table,check,series_suffix_disagreements,type_series_disagreements_diagnostic,interpretation
+GSTR1_Credit_Debit_Note 1.csv :: (CSV table),Note series versus suffix / C-D type,0,0,Slash wrappers and trim/uppercase used explicitly for comparison only; original tokens retained
+GSTR1_Credit_Debit_Note 2.csv :: (CSV table),Note series versus suffix / C-D type,0,0,Slash wrappers and trim/uppercase used explicitly for comparison only; original tokens retained

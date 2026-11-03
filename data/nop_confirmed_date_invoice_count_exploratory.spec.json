@@ -1,0 +1,12 @@
+{
+  "objective_id": "nop-confirmed-date-invoice-count-exploratory",
+  "objective_name": "Confirmed-date invoice references per observed month (exploratory subset)",
+  "target_definition": "Count distinct Invoice Num references in the source workbook whose every detail row has one consistent, unambiguously day-first Invoice Date, grouped by observed calendar month.",
+  "period_column": "period",
+  "target_column": "target_count",
+  "eligibility_column": "calendar_boundary_status",
+  "eligible_values": [
+    "interior_calendar_month"
+  ],
+  "data_mode": "actual_nop_exploratory_subset"
+}

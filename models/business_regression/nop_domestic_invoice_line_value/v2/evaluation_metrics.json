@@ -1,0 +1,330 @@
+{
+  "evaluation_plan": {
+    "plan_version": "2.0.0",
+    "dataset_id": "nop-domestic-confirmed-date-line-value",
+    "dataset_sha256": "c177d1d76b8695ea41c88995b0782ad2a37545321df419ed30e758341fb8dd8e",
+    "source_sha256": "e36c7b8338e80353e6ccf5b452fd9c9be0834fc3a3890841c60fd3fe644fad56",
+    "original_test_source_rows": [
+      266,
+      273,
+      274,
+      275,
+      269,
+      282,
+      284,
+      297,
+      279,
+      280,
+      281,
+      303,
+      285,
+      305,
+      294,
+      295,
+      296,
+      298,
+      299,
+      292,
+      293,
+      311,
+      290,
+      325,
+      309,
+      319,
+      320,
+      326,
+      328,
+      335
+    ],
+    "original_test_previously_inspected": true,
+    "development_rows": 135,
+    "development_groups": 90,
+    "folds": [
+      {
+        "fold": 1,
+        "training_dates": [
+          "2025-12-22",
+          "2026-02-28"
+        ],
+        "validation_dates": [
+          "2026-03-18",
+          "2026-04-17"
+        ],
+        "training_rows": 56,
+        "training_groups": 38,
+        "validation_rows": 27,
+        "validation_groups": 16
+      },
+      {
+        "fold": 2,
+        "training_dates": [
+          "2025-12-22",
+          "2026-04-17"
+        ],
+        "validation_dates": [
+          "2026-04-18",
+          "2026-05-26"
+        ],
+        "training_rows": 83,
+        "training_groups": 54,
+        "validation_rows": 28,
+        "validation_groups": 17
+      },
+      {
+        "fold": 3,
+        "training_dates": [
+          "2025-12-22",
+          "2026-05-26"
+        ],
+        "validation_dates": [
+          "2026-05-28",
+          "2026-06-25"
+        ],
+        "training_rows": 111,
+        "training_groups": 71,
+        "validation_rows": 24,
+        "validation_groups": 19
+      }
+    ],
+    "candidates": [
+      "quantity_scaled_item_median_baseline",
+      "quantity_normalized_ridge_alpha_1",
+      "quantity_normalized_ridge_alpha_10"
+    ],
+    "primary_selection_metric": "pooled development rolling-origin document_macro_mae",
+    "target_transform": "fit stored target_value / supplied positive quantity, then multiply the fitted estimate by supplied quantity; no unit-price input",
+    "prespecified_final_fit": "development rows only, excluding all original test rows",
+    "test_role": "retrospective audit on previously inspected test period, not independent evidence for the new experiment",
+    "business_champion_permitted": false,
+    "monthly_baseline": "serialize the existing last-observed comparator; no new monthly model tuning"
+  },
+  "folds": [
+    {
+      "fold": 1,
+      "training_dates": [
+        "2025-12-22",
+        "2026-02-28"
+      ],
+      "validation_dates": [
+        "2026-03-18",
+        "2026-04-17"
+      ],
+      "training_rows": 56,
+      "training_groups": 38,
+      "validation_rows": 27,
+      "validation_groups": 16,
+      "metrics": {
+        "item_quantity_median_baseline": {
+          "mae": 113915.0,
+          "rmse": 191005.91794448363,
+          "r2": 0.05923219381307476,
+          "smape_percent": 70.66319408080082,
+          "observations": 27,
+          "independent_groups": 16,
+          "document_macro_mae": 124359.68750000001
+        },
+        "quantity_normalized_ridge_alpha_1": {
+          "mae": 223016.48916039628,
+          "rmse": 341735.7062335878,
+          "r2": -2.0114074289848842,
+          "smape_percent": 102.29160432155287,
+          "observations": 27,
+          "independent_groups": 16,
+          "document_macro_mae": 222771.0303208156
+        },
+        "quantity_normalized_ridge_alpha_10": {
+          "mae": 232469.81492881072,
+          "rmse": 331545.80648938636,
+          "r2": -1.8344961992563147,
+          "smape_percent": 107.8125573455233,
+          "observations": 27,
+          "independent_groups": 16,
+          "document_macro_mae": 233533.64318659442
+        }
+      }
+    },
+    {
+      "fold": 2,
+      "training_dates": [
+        "2025-12-22",
+        "2026-04-17"
+      ],
+      "validation_dates": [
+        "2026-04-18",
+        "2026-05-26"
+      ],
+      "training_rows": 83,
+      "training_groups": 54,
+      "validation_rows": 28,
+      "validation_groups": 17,
+      "metrics": {
+        "item_quantity_median_baseline": {
+          "mae": 106396.25,
+          "rmse": 360596.0084768885,
+          "r2": 0.25912718217690944,
+          "smape_percent": 55.11567337815374,
+          "observations": 28,
+          "independent_groups": 17,
+          "document_macro_mae": 73210.14705882352
+        },
+        "quantity_normalized_ridge_alpha_1": {
+          "mae": 138576.04614622766,
+          "rmse": 311583.8807764015,
+          "r2": 0.4468386916444994,
+          "smape_percent": 74.1359189420798,
+          "observations": 28,
+          "independent_groups": 17,
+          "document_macro_mae": 120038.6562117981
+        },
+        "quantity_normalized_ridge_alpha_10": {
+          "mae": 156704.76669641086,
+          "rmse": 333888.314089505,
+          "r2": 0.3648090974048406,
+          "smape_percent": 80.0007524134779,
+          "observations": 28,
+          "independent_groups": 17,
+          "document_macro_mae": 140954.8721843505
+        }
+      }
+    },
+    {
+      "fold": 3,
+      "training_dates": [
+        "2025-12-22",
+        "2026-05-26"
+      ],
+      "validation_dates": [
+        "2026-05-28",
+        "2026-06-25"
+      ],
+      "training_rows": 111,
+      "training_groups": 71,
+      "validation_rows": 24,
+      "validation_groups": 19,
+      "metrics": {
+        "item_quantity_median_baseline": {
+          "mae": 36270.625,
+          "rmse": 64305.77503712245,
+          "r2": 0.961902485852655,
+          "smape_percent": 40.89337466477489,
+          "observations": 24,
+          "independent_groups": 19,
+          "document_macro_mae": 40880.26315789474
+        },
+        "quantity_normalized_ridge_alpha_1": {
+          "mae": 94766.37506313715,
+          "rmse": 141538.27848833436,
+          "r2": 0.8154370584518704,
+          "smape_percent": 70.76196910609461,
+          "observations": 24,
+          "independent_groups": 19,
+          "document_macro_mae": 86249.4370465279
+        },
+        "quantity_normalized_ridge_alpha_10": {
+          "mae": 124051.73073559324,
+          "rmse": 189960.27578177996,
+          "r2": 0.6675531149452101,
+          "smape_percent": 83.53496377139867,
+          "observations": 24,
+          "independent_groups": 19,
+          "document_macro_mae": 110387.35939133164
+        }
+      }
+    }
+  ],
+  "pooled_rolling_origin": {
+    "item_quantity_median_baseline": {
+      "mae": 87661.96202531646,
+      "rmse": 244564.17191893092,
+      "r2": 0.4536639489376574,
+      "smape_percent": 56.108684642082565,
+      "observations": 79,
+      "independent_groups": 52,
+      "document_macro_mae": 77135.62500000001
+    },
+    "quantity_normalized_ridge_alpha_1": {
+      "mae": 154126.17089797932,
+      "rmse": 283564.7704599399,
+      "r2": 0.2655220898154309,
+      "smape_percent": 82.73375070387891,
+      "observations": 79,
+      "independent_groups": 52,
+      "document_macro_mae": 139302.55662726247
+    },
+    "quantity_normalized_ridge_alpha_10": {
+      "mae": 172679.240610527,
+      "rmse": 296721.0665966042,
+      "r2": 0.19578725087035742,
+      "smape_percent": 90.5797372964567,
+      "observations": 79,
+      "independent_groups": 52,
+      "document_macro_mae": 158271.74897220713
+    }
+  },
+  "selected_normalized_candidate": "quantity_normalized_ridge_alpha_1",
+  "models": {
+    "item_quantity_median_baseline": {
+      "algorithm": "item_quantity_median_baseline",
+      "selected_candidate": "item_quantity_median_baseline",
+      "rolling_origin": {
+        "mae": 87661.96202531646,
+        "rmse": 244564.17191893092,
+        "r2": 0.4536639489376574,
+        "smape_percent": 56.108684642082565,
+        "observations": 79,
+        "independent_groups": 52,
+        "document_macro_mae": 77135.62500000001
+      },
+      "test": {
+        "mae": 72255.5,
+        "rmse": 190675.2915987019,
+        "r2": 0.3871013301491346,
+        "smape_percent": 31.287140173289295,
+        "observations": 30,
+        "independent_groups": 21,
+        "document_macro_mae": 56477.4007936508
+      },
+      "test_evaluation_role": "retrospective audit; labels and v1 results were previously inspected",
+      "independent_new_test": false,
+      "cv_fold_wins_against_baseline": 0,
+      "parameters": {
+        "group_statistic": "median target/quantity",
+        "fallback": "global median target/quantity"
+      },
+      "artifact_path": "models/business_regression/nop_domestic_invoice_line_value/v2/item_quantity_median_baseline.joblib"
+    },
+    "quantity_normalized_ridge": {
+      "algorithm": "quantity_normalized_ridge",
+      "selected_candidate": "quantity_normalized_ridge_alpha_1",
+      "rolling_origin": {
+        "mae": 154126.17089797932,
+        "rmse": 283564.7704599399,
+        "r2": 0.2655220898154309,
+        "smape_percent": 82.73375070387891,
+        "observations": 79,
+        "independent_groups": 52,
+        "document_macro_mae": 139302.55662726247
+      },
+      "test": {
+        "mae": 131795.20140250114,
+        "rmse": 238800.7091574908,
+        "r2": 0.03867316701133161,
+        "smape_percent": 58.786331011197795,
+        "observations": 30,
+        "independent_groups": 21,
+        "document_macro_mae": 117245.4008421613
+      },
+      "test_evaluation_role": "retrospective audit; labels and v1 results were previously inspected",
+      "independent_new_test": false,
+      "cv_fold_wins_against_baseline": 0,
+      "parameters": {
+        "alpha": 1.0
+      },
+      "artifact_path": "models/business_regression/nop_domestic_invoice_line_value/v2/quantity_normalized_ridge.joblib"
+    }
+  },
+  "business_champion": null,
+  "new_independent_test_available": false,
+  "original_test_used_for_tuning": false,
+  "dataset_sha256": "c177d1d76b8695ea41c88995b0782ad2a37545321df419ed30e758341fb8dd8e"
+}

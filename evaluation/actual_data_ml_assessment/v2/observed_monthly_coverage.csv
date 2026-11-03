@@ -1,0 +1,11 @@
+event_date,observed_rows,observed_raw_references,observed_item_codes,period_completeness,missing_period_policy
+2025-12,14,9,14,unknown,no zero filling
+2026-01,26,17,24,unknown,no zero filling
+2026-02,16,12,15,unknown,no zero filling
+2026-03,23,14,23,unknown,no zero filling
+2026-04,16,10,15,unknown,no zero filling
+2026-05,23,15,21,unknown,no zero filling
+2026-06,23,17,18,unknown,no zero filling
+2026-07,17,11,16,unknown,no zero filling
+2026-08,6,5,5,unknown,no zero filling
+2026-09,1,1,1,unknown,no zero filling

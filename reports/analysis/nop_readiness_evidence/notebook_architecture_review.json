@@ -1,0 +1,122 @@
+[
+  {
+    "path": "notebooks/01_data_inventory.ipynb",
+    "sha256": "a56f2859b2c71de0632f1948da16aa7c6628fbe8556f0ebcd57b5d2b54b505d1",
+    "code_cells": 7,
+    "markdown_headings": [
+      "# Excel dataset inventory",
+      "## Additional validation review ? 2026-10-30"
+    ],
+    "existing_error_outputs": 0,
+    "execution_in_this_task": false
+  },
+  {
+    "path": "notebooks/02_data_quality_analysis.ipynb",
+    "sha256": "4ec800307a544ffc4877ae177743f9139d7ccab63a79e2e5672d6b5f18fef710",
+    "code_cells": 5,
+    "markdown_headings": [
+      "# data quality assessment ? Comprehensive data quality assessment",
+      "## Review boundary"
+    ],
+    "existing_error_outputs": 0,
+    "execution_in_this_task": false
+  },
+  {
+    "path": "notebooks/03_dataset_relationship_analysis.ipynb",
+    "sha256": "b843f6e6ee89173f0ed473205c524e348eeb576218a4f4d131e0c5a23528655b",
+    "code_cells": 11,
+    "markdown_headings": [
+      "# Dataset relationship and business structure analysis",
+      "## Scope, evidence and execution",
+      "## Table meaning and record grain",
+      "## Complete identifier and composite-key investigation",
+      "## Relationship coverage and cardinality",
+      "## Controlled joins and financial impact",
+      "## Provenance, overlapping extracts and source authority",
+      "## Unresolved quality issues carried forward",
+      "## Logical business model",
+      "## Conclusions, readiness and validation"
+    ],
+    "existing_error_outputs": 0,
+    "execution_in_this_task": false
+  },
+  {
+    "path": "notebooks/04_business_prediction_feasibility.ipynb",
+    "sha256": "6e8f3c5454e7cc7683b26fff8730c66c1116c459f43c37d9d7200b449d02e2e0",
+    "code_cells": 11,
+    "markdown_headings": [
+      "# Business prediction requirements and target feasibility",
+      "## Evidence, task boundary and assessment cutoff",
+      "## Source meanings, identifiers and granularity",
+      "## Historical coverage and observation suitability",
+      "## Requested use cases and explicit target proposals",
+      "## Reusable predictive capability families and unseen requests",
+      "## Propensity outcomes, join risks and temporal leakage",
+      "## Data requirements and unresolved findings",
+      "## Technology-independent architecture requirements",
+      "## Recommendation and validation"
+    ],
+    "existing_error_outputs": 0,
+    "execution_in_this_task": false
+  },
+  {
+    "path": "docs/architecture/business_prediction_framework_architecture.md",
+    "sha256": "c2f2be80bc472619c5b96f5fd0792580e5e8b9546b73bc758476ce4fd13dc73d",
+    "section_headings": [
+      "# Business prediction framework architecture",
+      "## 1. Repository baseline and evidence",
+      "### Existing implemented capabilities",
+      "### Evidence that constrains the architecture",
+      "## 2. Design decisions and system boundaries",
+      "## 3. Components, interfaces and dependencies",
+      "## 4. Source onboarding and schema intelligence",
+      "## 5. Requirement grounding, target discovery and readiness",
+      "## 6. Rules, approvals and reusable preparation",
+      "## 7. Feature engineering and leakage controls",
+      "## 8. Task classification, algorithm selection and evaluation",
+      "## 9. Proposed technology-neutral contracts",
+      "### Shared reference and envelope conventions",
+      "## 10. End-to-end lifecycle and integration boundary",
+      "### Design-to-development lifecycle, after separate approval",
+      "### Serving lifecycle",
+      "### Ownership and transport independence",
+      "## 11. Model lifecycle, errors and explanations",
+      "## 12. Audit, monitoring, security and reproducibility",
+      "## 13. Extensibility and future implementation requirements",
+      "## 14. Risks and unresolved architectural decisions",
+      "## 15. Design validation and preservation"
+    ],
+    "implementation_changed": false
+  },
+  {
+    "path": "docs/architecture/semantic_binding_and_approval_design.md",
+    "sha256": "8051c3986c6757f1280eebe5ab8be365f6cfd69deba5f1fd3b9c169b4d6541b2",
+    "section_headings": [
+      "# Trusted semantic bindings and business approval contracts",
+      "## 1. Existing foundation: reuse and gaps",
+      "## 2. Design decisions",
+      "## 3. Responsibilities and trust boundary",
+      "## 4. Shared contract and reference conventions",
+      "### Physical and evidence references",
+      "### Purpose, scope, time and conditions",
+      "## 5. Proposed contract definitions",
+      "### 5.1 `SemanticBinding`",
+      "### 5.2 `BusinessReviewRequest`",
+      "### 5.3 `AuthorityVerificationRecord`",
+      "### 5.4 `BusinessReviewDecision`",
+      "### 5.5 `ApprovalRecord`",
+      "### 5.6 `SupportingEvidenceRecord`",
+      "### 5.7 `BindingChangeAssessment`",
+      "### 5.8 `BindingUseAssessment`",
+      "## 6. Review, approval and revocation lifecycle",
+      "### Immutable review records and projected state",
+      "### Approval-use lifecycle",
+      "## 7. Validation rules and trusted acceptance",
+      "## 8. Source, schema, evidence and dependency changes",
+      "## 9. Integration interfaces and security",
+      "## 10. Unresolved implementation decisions",
+      "## 11. Design validation and next boundary"
+    ],
+    "implementation_changed": false
+  }
+]

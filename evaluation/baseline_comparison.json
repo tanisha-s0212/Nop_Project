@@ -1,0 +1,11 @@
+{
+  "baseline": "previous_period_naive_recursive",
+  "definition": "First forecast repeats the final training count; each later forecast repeats the previous baseline prediction.",
+  "evaluation_mode": "recursive multi-step chronological holdout",
+  "mae": 11.555555555555555,
+  "rmse": 14.100827398891646,
+  "model_mae": 4.353029609279621,
+  "model_rmse": 5.230049911905837,
+  "mae_change_vs_baseline": -7.202525946275935,
+  "rmse_change_vs_baseline": -8.870777486985808
+}

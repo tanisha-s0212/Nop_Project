@@ -1,0 +1,8 @@
+{
+  "tests_run": 32,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "successful": true,
+  "command": "python -m unittest -v tests.test_dynamic_business_query tests.test_actual_data_ml_exploratory"
+}

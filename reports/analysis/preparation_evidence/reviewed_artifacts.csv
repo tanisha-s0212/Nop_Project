@@ -1,0 +1,128 @@
+﻿path,format,review_method_and_scope,sha256,read_only
+reports/analysis/analysis_validation.json,.json,Parsed dict,34a07f3905597fb49a88a7bf6829aeb5ca621f29282719326295163295557b2c,True
+reports/analysis/attribute_conflicts.csv,.csv,33 rows; 14 columns; parsed all rows,e105be6cda00772808e9aa41bb783011184542e5d860b70edf10c3867286da87,True
+reports/analysis/authority_assessment.csv,.csv,7 rows; 4 columns; parsed all rows,3a2ad66de71c100b7a26e1aeb518464cef79ee60cc2bfe99079d53efc8a1489b,True
+reports/analysis/business_prediction_feasibility_report.md,.md,38281 characters reviewed,5c9c8880895d364bbb7d15ae7e86f54a132410faa50c00e490604c9cd3ccfde2,True
+reports/analysis/composite_keys.csv,.csv,38 rows; 16 columns; parsed all rows,b43fe022a1156e645cf5be2e5fd937c02b2faf0b5cbd3f306101945e48367dad,True
+reports/analysis/controlled_join_expansion.png,.png,Image integrity verified,c26f853ad92c599bc7d137334b4338bcccff212a24f1fd3107855a5147595515,True
+reports/analysis/controlled_join_validation.csv,.csv,69 rows; 22 columns; parsed all rows,80fa3ae55fc51242661539d52a99d80e3ec416b9804257346635ed9b3b319ec5,True
+reports/analysis/dataset_granularity.csv,.csv,20 rows; 11 columns; parsed all rows,a7f1ff6709eef3c349c30ff83839b97e5e8765f3d3bbf29f997b10c6b35ae938,True
+reports/analysis/dataset_granularity_report.xlsx,.xlsx,"{""dataset_granularity"": 21, ""document_context"": 28, ""inventory_row_shapes"": 13, ""service_indicators"": 5}",87f88aae0c2ccbc39c2a681c703cb127e0475bdba00686c356f265fc8b216db1,True
+reports/analysis/dataset_relationship_report.md,.md,40070 characters reviewed,0e458e81492cd1a0a4e242f6a03d543f0bb4128db2a271570073d46a0953db7a,True
+reports/analysis/document_context.csv,.csv,27 rows; 7 columns; parsed all rows,3c13fe22db6d6e59a9d5a8b9e8b4667dc5e069667b18cfc2a229d258bd6d4c1d,True
+reports/analysis/export_validation.csv,.csv,23 rows; 5 columns; parsed all rows,f0108a619bb6eb943b0e764d7dcb9f3ed7b3e6e7cf5ad49d082ebac52a8154f8,True
+reports/analysis/feasibility_notebook_validation.json,.json,Parsed dict,e5a9f5eee6da25aa3b7fdaaed2e7fd775ffabe42efab5e809eef1685489379b4,True
+reports/analysis/feasibility_validation.json,.json,Parsed dict,14a0560cf86f402a71cb16a6b103a56b0d9f58a620008533a20222052c4434d8,True
+reports/analysis/identifier_formats.csv,.csv,145 rows; 4 columns; parsed all rows,9b362a6b8e8a91f71dd76cac92d64123a12cdaef637676cca21584e2668dfca8,True
+reports/analysis/identifier_match_detail.csv,.csv,312 rows; 10 columns; parsed all rows,4e2d45f69f9b935894e6d5e09d3a9f1d19900b5e30f2e42e226bea8bba319e56,True
+reports/analysis/identifier_profiles.csv,.csv,135 rows; 26 columns; parsed all rows,72f75dbf7cb5884eb7c60a56de756e9c08b1c4c15ec4b30b7299d1d685c6972b,True
+reports/analysis/identifier_relationship_matrix.xlsx,.xlsx,"{""identifier_profiles"": 136, ""identifier_formats"": 146, ""composite_keys"": 39, ""key_derivation_rules"": 6, ""key_scope_checks"": 3, ""relationship_candidates"": 149, ""identifier_match_detail"": 313, ""controlled_join_validation"": 70, ""join_financial_effects"": 531, ""source_overlap"": 10, ""attribute_conflicts"": 34, ""source_authenticity"": 6, ""authority_assessment"": 8, ""quality_carry_forward"": 10, ""prior_issue_register"": 425, ""prior_matching_coverage"": 102, ""prior_duplicate_analysis"": 48, ""prior_financial_exceptions"": 36, ""protected_file_integrity"": 75}",1c32e47ee4f6171ee7cb8056bfda10fea8b04fd7cf2029e90a34924c5f1f9686,True
+reports/analysis/inventory_row_shapes.csv,.csv,12 rows; 5 columns; parsed all rows,6bb49677cb2063e10ded8279efb5ca7bdb16d909fe6e1024376455836644db92,True
+reports/analysis/join_financial_effects.csv,.csv,530 rows; 17 columns; parsed all rows,6845f9c58f07014c5b315be46abef0a64cd1089959ba7fa1e36f64fefb53d62a,True
+reports/analysis/key_derivation_rules.csv,.csv,5 rows; 4 columns; parsed all rows,1608138a8f75c9b0cb71eabae0d3005f5230d55f28a0a2019706fce89b61ce8a,True
+reports/analysis/key_scope_checks.csv,.csv,2 rows; 5 columns; parsed all rows,4a4b1cc0c8ed144887cdbbe66749404d843b1815c415b454dc95de7a87a8d18f,True
+reports/analysis/notebook_execution_validation.json,.json,Parsed dict,ef2e9102e26d7db3bde9001187b577df64d860ec6e433af7e67c072fa9ad679f,True
+reports/analysis/prediction_data_requirements.xlsx,.xlsx,"{""data_requirements"": 30, ""outcome_availability_audit"": 9, ""architecture_requirements"": 11, ""target_contract_requirements"": 19, ""propensity_outcome_audit"": 7, ""leakage_and_validation_controls"": 12, ""unresolved_issue_dependencies"": 425, ""unresolved_issue_summary"": 10, ""source_authority"": 8, ""source_authenticity"": 6, ""preserved_input_integrity"": 116, ""schema_evidence"": 522, ""date_coverage_diagnostics"": 144}",4f8dba9061e50bd3d6efa970c842f4d134daca0076333cfbde77c9ffb549b03c,True
+reports/analysis/prediction_target_mapping.xlsx,.xlsx,"{""assessment_examples"": 14, ""target_source_bindings"": 119, ""historical_date_coverage"": 38, ""reusable_capability_assessment"": 11, ""source_grain_evidence"": 21, ""independent_grain_probes"": 9, ""measure_evidence"": 115, ""identifier_evidence"": 136, ""relationship_dependency_evidenc"": 149, ""financial_rule_evidence"": 36, ""categorical_evidence"": 903, ""document_context_evidence"": 28}",441d5e7e9348f0df50cd849fbf0c4162dd0f8a071adfd9f4a5df53888970b4a6,True
+reports/analysis/prior_duplicate_analysis.csv,.csv,47 rows; 9 columns; parsed all rows,37d628841e978b71ae334d9e96c3aedc34414ec304772f2d0ed5bd32e896cdb9,True
+reports/analysis/prior_financial_exceptions.csv,.csv,35 rows; 15 columns; parsed all rows,6b99147d8391350eff4c677f2ba815aa25da0b490e5c59b5b119bcbbe10f46e1,True
+reports/analysis/prior_issue_register.csv,.csv,424 rows; 14 columns; parsed all rows,aa32f0e07d62554f09a0b59dff7bf5a51fd81ec4a7cfb5c4474fd88418df1c91,True
+reports/analysis/prior_matching_coverage.csv,.csv,101 rows; 21 columns; parsed all rows,3bfd503143a6307506ff2c8d38a95be6fdd3b8b77e94a67425850ffbe7de23cc,True
+reports/analysis/protected_file_integrity.csv,.csv,74 rows; 4 columns; parsed all rows,073946fb99f7ff14b123fab221150638dc7006a1f234cb50f3d289df98d227c8,True
+reports/analysis/quality_carry_forward.csv,.csv,9 rows; 5 columns; parsed all rows,6206b773a6738b55a29771736cf31570ebf6c8ca6e386ddafa2f818c823ccd89,True
+reports/analysis/relationship_candidates.csv,.csv,148 rows; 37 columns; parsed all rows,d08dc828a1f9273ab970285234586b4e352454a82a279f30bda0b860e666371c,True
+reports/analysis/service_indicators.csv,.csv,4 rows; 7 columns; parsed all rows,fc31a3f79ef4cdacbd7ad311e7763630b92a1a8d81476be274b39693a9569b20,True
+reports/analysis/source_authenticity.csv,.csv,5 rows; 6 columns; parsed all rows,781fe34ee13645b043c4040a833b093db65c477138e9c4b70ffe9c80bc582c39,True
+reports/analysis/source_overlap.csv,.csv,9 rows; 11 columns; parsed all rows,47068cf1c3d7b2d60a6ad21c0018362d782d6af60d48f08346d5ee74ca43db72,True
+reports/data_inventory/column_metadata.xlsx,.xlsx,"{""Columns"": 326}",faea9fdc131eb3197157e0d3ea3cffc524dfc6352759a35d621e7bd65a03271d,True
+reports/data_inventory/date_coverage.png,.png,Image integrity verified,61b9ca9bb6ea75e5b525e3d7a592bcbfc17f4ab7040e4d613910223f22179f63,True
+reports/data_inventory/date_coverage.xlsx,.xlsx,"{""Date coverage"": 23}",1555aed47917d90e6054fa7230c2eb8cec8c93bb16f14c3965fecdff33f539bd,True
+reports/data_inventory/excel_file_inventory.xlsx,.xlsx,"{""Files"": 15, ""Failures"": 1}",bdd33c34f5d97c68d4eb6e49597b4623b6b34a3134b02e13e1455fca3c59bee7,True
+reports/data_inventory/inventory_validation_report.md,.md,22740 characters reviewed,605ef948d5e349a1257517c307130106dcb130c22acea543b768ec2d260a30ba,True
+reports/data_inventory/sample_data.xlsx,.xlsx,"{""Samples"": 171}",f07d705943d801dc29cd3e298a0f1ad451d693dd77a8f23a12761f148bfb1db1,True
+reports/data_inventory/worksheet_inventory.xlsx,.xlsx,"{""Worksheets"": 18, ""Failures"": 1}",97c9298010f6a85ade5187da63c42aab6640dc3729c3817ed408c26d9efcef33,True
+reports/data_inventory/worksheet_structure.png,.png,Image integrity verified,0e3773337c9b02b146b1ae5826cbc0ae4f2ea458fbf86a789d8b122538b79b7d,True
+reports/data_quality/assessment_validation.json,.json,Parsed dict,b971d706c44d0fc62b7665758321b22ff58fc94103e56e17e3cb93c8011d8574,True
+reports/data_quality/categorical_consistency.csv,.csv,394 rows; 11 columns; parsed all rows,c97c518cb35eb3902a66c532fc943a4fb018bc134afa8fc89bb27495ce92a653,True
+reports/data_quality/categorical_values.csv,.csv,902 rows; 6 columns; parsed all rows,1cdf8e69986fed6c8a1d766facbdda7c1b1f7add98d802097dd9ec8399f7e16a,True
+reports/data_quality/categorical_variants.csv,.csv,15378 rows; 7 columns; parsed all rows,c3641676b6d5deeca90a81b6c12c737d54c99c884161befad2eee44c7e7caf44,True
+reports/data_quality/chronology_checks.csv,.csv,6 rows; 9 columns; parsed all rows,b3f948031f0fd3db3335401e2cf50e4bb16ba086606240058427ccf062331539,True
+reports/data_quality/cross_source_duplicate_coverage.csv,.csv,6 rows; 8 columns; parsed all rows,acb9684d6410728f06a8633c5c8df24c7b9c77b4f3650c073b38cc65e864d867,True
+reports/data_quality/dataset_specific.csv,.csv,9 rows; 8 columns; parsed all rows,e88b77ff7fbfa3ab5f7a4ed320a757e68675483ae976a3f21df8df431be20473,True
+reports/data_quality/data_quality_evidence.xlsx,.xlsx,"{""source_tables"": 21, ""duplicate_analysis"": 48, ""missing_values"": 522, ""identifier_quality"": 136, ""entity_duplicate_analysis"": 18, ""categorical_consistency"": 395, ""flag_encoding_representations"": 28, ""dataset_specific"": 10, ""date_quality"": 38, ""date_coverage_gaps"": 202, ""numerical_quality"": 115, ""chronology_checks"": 7, ""numerical_context"": 609, ""financial_consistency"": 36, ""identifier_matching_coverage"": 102, ""cross_source_duplicate_coverage"": 7, ""source_integrity"": 18, ""inventory_integrity"": 24, ""issue_register"": 425}",3f35a7e070d39ff57f3ed12ab1d8ecd068bba266b185cac58ab20ba1b1590ae5,True
+reports/data_quality/data_quality_report.md,.md,28417 characters reviewed,a7bd20af0e5215c05a0744e3f17503dab324395e482efa4fc07ca8b3b50a45fb,True
+reports/data_quality/date_cell_exceptions.csv,.csv,15270 rows; 10 columns; parsed all rows,7c45498944fa136bbbb0acba57da719e0e6a8e22de3f69fdf36f14a989e0e671,True
+reports/data_quality/date_coverage_gaps.csv,.csv,201 rows; 7 columns; parsed all rows,24032fe7776714f932a011f794762e5508538843a88e710522048b18838b2015,True
+reports/data_quality/date_quality.csv,.csv,37 rows; 20 columns; parsed all rows,f3a3ac2718d9f514c2a3926413e1b1333cb86ab7abe90af1c73a4090993cfd53,True
+reports/data_quality/date_value_evidence.csv,.csv,10359 rows; 12 columns; parsed all rows,d81405d9ab23047f7789e6c464cbb5f6b3ebe1d5b0f3cd6ee3a80e3bcc8d895b,True
+reports/data_quality/duplicate_analysis.csv,.csv,47 rows; 9 columns; parsed all rows,4c939c8faf21842a93264e703dae7adddbc8ce38b010896ad3ec74f9f341be6b,True
+reports/data_quality/duplicate_groups.csv,.csv,696 rows; 8 columns; parsed all rows,001e4092ed8024db6144f5ff71f4954484631c1541e07518d1f76dc58d648c51,True
+reports/data_quality/entity_duplicate_analysis.csv,.csv,17 rows; 8 columns; parsed all rows,607f0097791d364e8d41ae515e726af760ecf45e52b5b26071108022002fbbc5,True
+reports/data_quality/entity_duplicate_groups.csv,.csv,54 rows; 7 columns; parsed all rows,a37fb37919b09d84128f65f58a342382a6e2e2927f96b7a8e7a831b647090e04,True
+reports/data_quality/export_validation.csv,.csv,27 rows; 5 columns; parsed all rows,dce806d6f43f2f5cb6453e3a76ed065eab0de9c910497da7d61b2ed18026c70e,True
+reports/data_quality/financial_consistency.csv,.csv,35 rows; 15 columns; parsed all rows,c8835fa89e6fdb56f37d06e3f5e9a92daa5c1d442172b986d0021e9835cd8e98,True
+reports/data_quality/flag_encoding_representations.csv,.csv,27 rows; 7 columns; parsed all rows,d7cb31153af09d0ebfae8a8f6ee19eb8c4ef777a5a1fa32012c6e35d0d711a80,True
+reports/data_quality/identifier_matching_coverage.csv,.csv,101 rows; 21 columns; parsed all rows,8a0065ff5a618e5cec2cfd0f91d671541705d034ef0c05d52a2f7b4867441e0c,True
+reports/data_quality/identifier_quality.csv,.csv,135 rows; 27 columns; parsed all rows,73303a7dfe3e3bd11e9c3ecc9d0a120e0d65a5a9f3e1e47fc2e6abdc6b518c46,True
+reports/data_quality/inventory_integrity.csv,.csv,23 rows; 8 columns; parsed all rows,20b2c77edbbbb3cdc368dffb5e5905333926ee3a857d832ae64fd457eee18b7a,True
+reports/data_quality/issue_register.csv,.csv,424 rows; 14 columns; parsed all rows,89d1860dfb28dc946875ba63d5e1461af1a462c9634e9b516a4ad823ccf13a7d,True
+reports/data_quality/issue_severity.png,.png,Image integrity verified,e2d1a99e7114152610939d044424ee4cd5f6f22ad8cb24ac1fe28dc23f3deedc,True
+reports/data_quality/missingness_by_table.png,.png,Image integrity verified,f8785309d0809f744604fe4aa4756a624a3efc001b32c9fea20b85a6d1d9c856,True
+reports/data_quality/missing_values.csv,.csv,521 rows; 17 columns; parsed all rows,e50cc005a8dc818100325b0d2a4802ee4b72fbb2e8e85843bc6eb9289bdcc3ad,True
+reports/data_quality/notebook_execution_validation.json,.json,Parsed dict,08f85735edf1a7f7b79e7dfbdc1d85ab09f67ce70e71b6ee3dc4c4c6dca9e434,True
+reports/data_quality/numerical_context.csv,.csv,608 rows; 11 columns; parsed all rows,d57e810a0ce1df89ad28bf5c2a3b4b50f3baf4a5f16a6e1f727702876732d4ea,True
+reports/data_quality/numerical_quality.csv,.csv,114 rows; 26 columns; parsed all rows,26792578285b3774cb4dbc77c42e68d3ae1940fd002b505ab7686652da27ad9a,True
+reports/data_quality/numerical_token_issues.csv,.csv,12 rows; 6 columns; parsed all rows,7ad344311259b7481716ce117330e0da94e4693b5394bd9914266f0c124b4267,True
+reports/data_quality/source_integrity.csv,.csv,17 rows; 5 columns; parsed all rows,4f2d0a0e0adfbb79d6c4dd22e74b0947f2b228105ee10403d1f0da91f297ec9c,True
+reports/data_quality/source_tables.csv,.csv,20 rows; 12 columns; parsed all rows,4361cfa8847d19d79998ac14254c53b86f3415322ba5e2245b2296cd38d52bc2,True
+reports/data_quality/spelling_candidates.csv,.csv,7 rows; 8 columns; parsed all rows,7a48b49a210b74a1e0f9936008738dfcb2341c57d751d7c92a80eebddb38d804,True
+reports/analysis/data_model_diagram/logical_business_model.mmd,.mmd,1353 characters reviewed,547461b577ed55ccee05baafa130e70b446d93f5365012f7a95458b9a449f654,True
+reports/analysis/data_model_diagram/logical_business_model.png,.png,Image integrity verified,877da461692201af69cb593b827c6ed258834ba1dd8f727dd84c34f5e79220f2,True
+reports/analysis/data_model_diagram/logical_business_model.svg,.svg,XML logical diagram parsed,1015a17a0598f27cb156239b9b13883740bdd510d1b9ab925350d4983e1980dd,True
+reports/analysis/data_model_diagram/README.md,.md,534 characters reviewed,f99b1ecb59a2a2fa96d074f67192e601196ef7bcebf5df55b64960f9c89761a4,True
+reports/analysis/feasibility_evidence/architecture_requirements.csv,.csv,10 rows; 5 columns; parsed all rows,8f31256beb02f9fa07b3eb8bc6a49c02a20f672c73e15f9b0b588929caa68885,True
+reports/analysis/feasibility_evidence/assessment_examples.csv,.csv,13 rows; 23 columns; parsed all rows,43b606529467d94fa833a2454533c3ac0eb245c5971c3ca9048c181fc416e9b4,True
+reports/analysis/feasibility_evidence/categorical_evidence.csv,.csv,902 rows; 6 columns; parsed all rows,1cdf8e69986fed6c8a1d766facbdda7c1b1f7add98d802097dd9ec8399f7e16a,True
+reports/analysis/feasibility_evidence/data_requirements.csv,.csv,29 rows; 7 columns; parsed all rows,ac27612d4eda8dffb9e2af980cf30edf837ef102ab1224d6c6427b6180040c83,True
+reports/analysis/feasibility_evidence/date_coverage_diagnostics.csv,.csv,143 rows; 6 columns; parsed all rows,b5dc5f37552f4b4eca7bc97b8eedb8e8134a18d44f8951d1c5b685dff33f4661,True
+reports/analysis/feasibility_evidence/date_interpretation_coverage.png,.png,Image integrity verified,f878d510e9c128040b2e03db39faed0dd26d86845bf7e19bd5f4d9d13e99c17a,True
+reports/analysis/feasibility_evidence/document_context_evidence.csv,.csv,27 rows; 7 columns; parsed all rows,5f0974217ded0d6869e626c83b960443d5e898dad66ebeb045adea96b807f34d,True
+reports/analysis/feasibility_evidence/financial_rule_evidence.csv,.csv,35 rows; 15 columns; parsed all rows,c8835fa89e6fdb56f37d06e3f5e9a92daa5c1d442172b986d0021e9835cd8e98,True
+reports/analysis/feasibility_evidence/historical_date_coverage.csv,.csv,37 rows; 31 columns; parsed all rows,50d463c0a223b376e1638d3c9de5fc4ebdf33cfdbb23df4a1cbb7aae0cf41db4,True
+reports/analysis/feasibility_evidence/identifier_evidence.csv,.csv,135 rows; 26 columns; parsed all rows,3c0c3afcd1bf63fb7d39b60c7211b00a9284eeb9b29ef59b00714e2bc8c866a8,True
+reports/analysis/feasibility_evidence/independent_grain_probes.csv,.csv,8 rows; 8 columns; parsed all rows,791afbc795415ffbd6cad8a2517b337d354ef6b386204c7d710589213dd8fd7f,True
+reports/analysis/feasibility_evidence/input_manifest.json,.json,Parsed dict,03354cd8ecbe7fd0fe475c3884578ab67361935eacd603c15be9eed82891d846,True
+reports/analysis/feasibility_evidence/leakage_and_validation_controls.csv,.csv,11 rows; 5 columns; parsed all rows,9c05fdc7c9627747ded365e8ddc2f4d17211ae734cd886d29bd913362ec39964,True
+reports/analysis/feasibility_evidence/measure_evidence.csv,.csv,114 rows; 26 columns; parsed all rows,7669a572ad906b7b08ae7b457180694deed1cd08abda6bfcfdcc5025ac752608,True
+reports/analysis/feasibility_evidence/outcome_availability_audit.csv,.csv,8 rows; 5 columns; parsed all rows,a4adaa2bdec9ce0a01e7b61b8d42051721b1147e080a0682dcbcf8f15f9f0366,True
+reports/analysis/feasibility_evidence/preserved_input_integrity.csv,.csv,115 rows; 4 columns; parsed all rows,093fd05d905020c69119d9a17fe0ce87da3429b63a182d637a8fa6091dad31c6,True
+reports/analysis/feasibility_evidence/propensity_outcome_audit.csv,.csv,6 rows; 4 columns; parsed all rows,6b460f2e705523555e51557770a21b9c49071d00be9f945ffaa43f443524bc98,True
+reports/analysis/feasibility_evidence/relationship_dependency_evidence.csv,.csv,148 rows; 38 columns; parsed all rows,bee2c7ddb18e87e94a5d48e2a820ceade1a92dd02e4b66321e26ad0e99de231d,True
+reports/analysis/feasibility_evidence/reusable_capability_assessment.csv,.csv,10 rows; 5 columns; parsed all rows,e5b5497f9f5376bb69e801e2ae7f892beffdacb675954bfafb655415054a9cac,True
+reports/analysis/feasibility_evidence/schema_evidence.csv,.csv,521 rows; 9 columns; parsed all rows,b446d6efe7574001bbe17a038acf43879af50f89c574fa5a1cf1a13de349bc9b,True
+reports/analysis/feasibility_evidence/source_authenticity.csv,.csv,5 rows; 6 columns; parsed all rows,4d310a88129258d1ab5152fe3226da122768dfcead5d9cab1f6c7bfec3376e34,True
+reports/analysis/feasibility_evidence/source_authority.csv,.csv,7 rows; 4 columns; parsed all rows,818e6f08a97ecb382dcde8eac5e8bb3618d6a1a2a9dabe29b924a46d91730af4,True
+reports/analysis/feasibility_evidence/source_grain_evidence.csv,.csv,20 rows; 11 columns; parsed all rows,fa5dba5858e4f35e4a8cf089d4c76bd99f35d4c8621d7f81f8a5d01d5560ceb3,True
+reports/analysis/feasibility_evidence/target_contract_requirements.csv,.csv,18 rows; 3 columns; parsed all rows,cc5c9bdc1184a4b46293075786b89a20a0f0e0378ff49e93a77fc39c202b1cf6,True
+reports/analysis/feasibility_evidence/target_source_bindings.csv,.csv,118 rows; 19 columns; parsed all rows,f815914dc5f2e7f1b007a8c3a3273ff3e11fd1ccdef47543460c8a93d7c1bbe0,True
+reports/analysis/feasibility_evidence/unresolved_issue_dependencies.csv,.csv,424 rows; 15 columns; parsed all rows,b97abe780df7b4cf4133e3749ad337119c70c1d0dc2dcf47094163c1a0037f86,True
+reports/analysis/feasibility_evidence/unresolved_issue_summary.csv,.csv,9 rows; 6 columns; parsed all rows,828c8ea145d3cdc4f7c0217a26e31462dbd2904ad16b9b0adf9f572e3c95684e,True
+reports/data_inventory/validation/audit_summary.json,.json,Parsed dict,5995d9ac93d5065067a9811856b073d7f83c094533e731f2e2d5d4fd3b9697c8,True
+reports/data_inventory/validation/column_validation.csv,.csv,521 rows; 9 columns; parsed all rows,b446d6efe7574001bbe17a038acf43879af50f89c574fa5a1cf1a13de349bc9b,True
+reports/data_inventory/validation/date_token_issues.csv,.csv,5611 rows; 13 columns; parsed all rows,337fee759870c55f88cb59755a6392875172a8064d0d7cc1df34c367214bca2b,True
+reports/data_inventory/validation/date_validation.csv,.csv,37 rows; 23 columns; parsed all rows,dc8ae4b515e0f40a8f30fe58ccf70f69f0190b66bbde8963111baf866d1a5f6b,True
+reports/data_inventory/validation/export_verification.csv,.csv,12 rows; 6 columns; parsed all rows,19ccb9754811f8808b0c0bb9325e65eed95b7728fe5d8c348bdd8dfb169eb597,True
+reports/data_inventory/validation/formula_cells.csv,.csv,1 rows; 1 columns; parsed all rows,7afa490bd40a5aa48266d5c1f85caa7b23a0f9fbcdedc35e7244e52ea23f231a,True
+reports/data_inventory/validation/formula_validation.csv,.csv,17 rows; 13 columns; parsed all rows,2a403bf7aad27632db997266acb0aa4174ac4fa5d8271debbfbc7de44e44a1d4,True
+reports/data_inventory/validation/header_validation.csv,.csv,20 rows; 14 columns; parsed all rows,274ff043c8c8f01f4bda488010b7f9533a22e21be1a3c4c47366024c03b61fb5,True
+reports/data_inventory/validation/identifier_matching_coverage.csv,.csv,101 rows; 18 columns; parsed all rows,3c28d50bce9297f5f39d2108759f67baced40c2aefc8b292bcaea3e60af4aba3,True
+reports/data_inventory/validation/identifier_validation.csv,.csv,135 rows; 19 columns; parsed all rows,fed0777ea79fbcc5ebc7aac6152c0da836067e90c4a618c6849ef63ea1df42e2,True
+reports/data_inventory/validation/inventory_validation_evidence.xlsx,.xlsx,"{""source_completeness"": 18, ""header_validation"": 21, ""table_counts"": 21, ""column_validation"": 522, ""date_validation"": 38, ""date_token_issues"": 5612, ""identifier_validation"": 136, ""identifier_matching_coverage"": 102, ""formula_validation"": 18, ""formula_cells"": 2, ""report_consistency"": 1918, ""validation_failures"": 2}",81dd83136915a9cbc35917e5ea78ac7452cf91e8706a5fb41d794786041be4ad,True
+reports/data_inventory/validation/report_consistency.csv,.csv,1917 rows; 6 columns; parsed all rows,1f602e7216d4c04fb89b925f85f2c7b7ceadacb551baa7245eb36ba84ab28cc0,True
+reports/data_inventory/validation/source_completeness.csv,.csv,17 rows; 13 columns; parsed all rows,17fbaaa658a3fc9ce6e5ff189f58c8856fbd478ca1afadac5ee26001de4eae7b,True
+reports/data_inventory/validation/table_counts.csv,.csv,20 rows; 11 columns; parsed all rows,fe8e842e49fddeeb46f46fee7f82efd865cd4ecb05c150ee214ba782c612ae7a,True
+reports/data_inventory/validation/validation_failures.csv,.csv,1 rows; 1 columns; parsed all rows,7afa490bd40a5aa48266d5c1f85caa7b23a0f9fbcdedc35e7244e52ea23f231a,True
+notebooks/01_data_inventory.ipynb,.ipynb,"{""code_cells"": 7, ""executed_cells"": 7, ""stored_errors"": 0, ""rerun"": false}",a56f2859b2c71de0632f1948da16aa7c6628fbe8556f0ebcd57b5d2b54b505d1,True
+notebooks/02_data_quality_analysis.ipynb,.ipynb,"{""code_cells"": 5, ""executed_cells"": 5, ""stored_errors"": 0, ""rerun"": false}",4ec800307a544ffc4877ae177743f9139d7ccab63a79e2e5672d6b5f18fef710,True
+notebooks/03_dataset_relationship_analysis.ipynb,.ipynb,"{""code_cells"": 11, ""executed_cells"": 11, ""stored_errors"": 0, ""rerun"": false}",b843f6e6ee89173f0ed473205c524e348eeb576218a4f4d131e0c5a23528655b,True
+notebooks/04_business_prediction_feasibility.ipynb,.ipynb,"{""code_cells"": 11, ""executed_cells"": 11, ""stored_errors"": 0, ""rerun"": false}",6e8f3c5454e7cc7683b26fff8730c66c1116c459f43c37d9d7200b449d02e2e0,True
